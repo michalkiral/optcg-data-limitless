@@ -1,0 +1,386 @@
+#!/usr/bin/env node
+// Test pipeline: build the catalog + prices entirely from Limitless TCG,
+// organised exactly as Limitless organises it (Products grouped by category,
+// then Promos). No vegapull, no Bandai cardlist.
+//
+//   node scripts/build.mjs --taxonomy   # just the product list (2 fetches)
+//   node scripts/build.mjs --only <slug,slug>   # those products' cards
+//   node scripts/build.mjs              # full crawl (heavy)
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+
+const HISTORY_DAYS = 120;
+
+const SITE = "https://onepiece.limitlesstcg.com";
+const UA = "optcg-data-limitless (research)";
+const DELAY_MS = 300;
+const OUT = "data";
+
+// --- HTML helpers ---
+const decode = (s) =>
+  (s || "")
+    .replace(/&amp;/g, "&")
+    .replace(/&#0?39;|&#x27;|&apos;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&[a-z]+;/g, " ");
+const strip = (s) =>
+  decode((s || "").replace(/<[^>]*>/g, " "))
+    .replace(/\s+/g, " ")
+    .trim();
+const grab = (s, re) => (s.match(re) || [])[1] || "";
+const numOf = (s) => {
+  const m = (s || "").replace(/,/g, "").match(/-?\d+/);
+  return m ? Number(m[0]) : null;
+};
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+const MONTHS = { Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06", Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12" };
+function parseDate(s) {
+  const m = (s || "").trim().match(/(\d{1,2})\s+([A-Za-z]{3})\s+(\d{2})/);
+  return m ? `20${m[3]}-${MONTHS[m[2]]}-${m[1].padStart(2, "0")}` : null;
+}
+
+async function get(path) {
+  const backoffs = [0, 2000, 6000];
+  let last = 0;
+  for (const wait of backoffs) {
+    await sleep(wait || DELAY_MS);
+    const res = await fetch(`${SITE}${path}`, { headers: { "user-agent": UA } });
+    if (res.ok) return res.text();
+    last = res.status;
+    if (res.status === 404) break;
+  }
+  throw new Error(`${path} -> HTTP ${last}`);
+}
+
+// --- Taxonomy: Products (grouped by category) + Promos ---
+async function scrapeProducts() {
+  const html = await get("/cards");
+  const table = grab(html, /<table class="data-table sets-table striped">([\s\S]*?)<\/table>/);
+  const out = [];
+  let category = null;
+  for (const row of table.split(/<tr/).slice(1)) {
+    const sub = grab(row, /class="sub-heading"[^>]*>([\s\S]*?)<\/th>/);
+    if (sub) {
+      category = strip(sub);
+      continue;
+    }
+    const cells = [...row.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((m) => m[1]);
+    if (cells.length < 4) continue;
+    out.push({
+      category,
+      code: strip(cells[0]),
+      name: strip(cells[1]),
+      releaseDate: parseDate(strip(cells[2])),
+      cardCount: numOf(strip(cells[3])),
+      slug: grab(cells[0], /href="\/cards\/([^"]+)"/),
+    });
+  }
+  return out;
+}
+
+async function scrapePromos() {
+  const html = await get("/cards/promos");
+  const out = [];
+  for (const m of html.matchAll(
+    /<tr data-name="([^"]*)" data-release="([^"]*)" data-cards="([^"]*)"[^>]*>([\s\S]*?)<\/tr>/g,
+  )) {
+    out.push({
+      category: "Promos",
+      code: null,
+      name: decode(m[1]),
+      releaseDate: m[2] || null,
+      cardCount: Number(m[3]),
+      slug: grab(m[4], /href="\/cards\/([^"]+)"/),
+    });
+  }
+  return out;
+}
+
+// --- Card page parsing (data + base price), proven in the spike ---
+function parsePrice(text) {
+  const v = Number.parseFloat((text || "").replace(/[^0-9.,]/g, "").replace(/,/g, ""));
+  return Number.isFinite(v) ? v : null;
+}
+
+function parseCard(html) {
+  const text = grab(html, /<div class="card-text">([\s\S]*?)<div class="card-legality"/);
+  const typeLine = grab(text, /card-text-type">([\s\S]*?)<\/p>/);
+  const powerSec = grab(text, /<p class="card-text-section">([\s\S]*?)<\/p>/);
+  const colorRaw = strip(grab(typeLine, /data-tooltip="Color">([\s\S]*?)<\/span>/));
+  const attrRaw = strip(grab(powerSec, /data-tooltip="Attribute">([\s\S]*?)<\/span>/));
+  const typeRaw = strip(grab(text, /data-tooltip="Type">([\s\S]*?)<\/span>/));
+  const costM = typeLine.match(/([\d,]+)\s*(?:Cost|Life)/i);
+  const powerM = powerSec.match(/([\d,]+)\s*Power/i);
+  const counterM = powerSec.match(/\+?([\d,]+)\s*Counter/i);
+
+  const body = text.replace(/<div class="card-text-section card-text-artist">[\s\S]*?<\/div>/, "");
+  let full = "";
+  for (const m of body.matchAll(/<div class="card-text-section">([\s\S]*?)<\/div>/g)) {
+    if (!/data-tooltip|card-text-title/.test(m[1])) {
+      full = strip(m[1]);
+      break;
+    }
+  }
+  // Split [Trigger] out of the rules text, as our schema keeps it separate.
+  const trig = full.match(/\[Trigger\][\s\S]*/i);
+  const trigger = trig ? strip(trig[0]) : null;
+  const effect = trigger ? strip(full.slice(0, full.toLowerCase().indexOf("[trigger]"))) : full;
+
+  const spans = [
+    ...grab(html, /prints-current-details">([\s\S]*?)<\/div>/).matchAll(/<span[^>]*>([\s\S]*?)<\/span>/g),
+  ].map((m) => strip(m[1]));
+
+  // Base price: the page's current print row.
+  const cur = grab(html, /<tr\s+class="current"\s*>([\s\S]*?)<\/tr>/);
+  return {
+    name: strip(grab(text, /card-text-name"><a[^>]*>([\s\S]*?)<\/a>/)),
+    rarity: spans[1] || null,
+    category: strip(grab(typeLine, /data-tooltip="Category">([\s\S]*?)<\/span>/)),
+    colors: colorRaw ? colorRaw.split("/").map((x) => x.trim()).filter(Boolean) : [],
+    cost: costM ? Number(costM[1].replace(/,/g, "")) : null,
+    power: powerM ? numOf(powerM[1]) : null,
+    counter: counterM ? numOf(counterM[1]) : null,
+    block: numOf(strip(grab(html, /regulation-mark">([\s\S]*?)<\/div>/))),
+    attributes: attrRaw ? attrRaw.split("/").map((x) => x.trim()).filter(Boolean) : [],
+    types: typeRaw ? typeRaw.split("/").map((x) => x.trim()).filter(Boolean) : [],
+    effect: effect && effect !== "-" ? effect : "",
+    trigger,
+    image: grab(html, /(https:\/\/limitlesstcg[^"' ]*\/one-piece\/[^"' ]*_EN\.webp)/) || null,
+    eur: parsePrice(grab(cur, /card-price eur"[^>]*>([^<]*)</)),
+    usd: parsePrice(grab(cur, /card-price usd"[^>]*>([^<]*)</)),
+  };
+}
+
+// --- Variant resolution (alt arts / reprints) via version pages ---
+// Limitless lists every printing in the base page's versions table; each links
+// to ?v=N whose image filename carries the printing's id and set folder. Ids
+// come from Limitless, so there is nothing to map.
+function parsePrintsTable(html) {
+  const table = (html.match(/<table class="card-prints-versions"[\s\S]*?<\/table>/) || [])[0];
+  if (!table) return [];
+  const rows = [];
+  for (const chunk of table.split(/<tr\b/).slice(1)) {
+    if (/<th[\s>]/.test(chunk)) continue;
+    const eur = grab(chunk, /class="card-price eur"\s+href="[^"]*"[^>]*>\s*([^<]*)</);
+    const usd = grab(chunk, /class="card-price usd"\s+href="[^"]*"[^>]*>\s*([^<]*)</);
+    const v = grab(chunk, /href="\/cards\/[^"]*\?v=(\d+)"/);
+    rows.push({ v: v ? Number(v) : null, eur: parsePrice(eur), usd: parsePrice(usd) });
+  }
+  return rows;
+}
+
+function versionPrintId(html, baseId) {
+  const esc = baseId.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return grab(html, new RegExp(`/one-piece/[^/]+/(${esc}(?:_[a-z0-9]+)?)_[A-Z]{2}\\.webp`)) || null;
+}
+const setFromImage = (html, id) =>
+  grab(html, new RegExp(`/one-piece/([^/]+)/${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}_`)) || null;
+
+async function resolveVariants(baseId, baseHtml, baseCard) {
+  const out = [];
+  for (const row of parsePrintsTable(baseHtml).filter((r) => r.v !== null)) {
+    let vp;
+    try {
+      vp = await get(`/cards/${encodeURIComponent(baseId)}?v=${row.v}`);
+    } catch {
+      continue;
+    }
+    const id = versionPrintId(vp, baseId);
+    if (!id || id === baseId) continue;
+    const spans = [
+      ...grab(vp, /prints-current-details">([\s\S]*?)<\/div>/).matchAll(/<span[^>]*>([\s\S]*?)<\/span>/g),
+    ].map((m) => strip(m[1]));
+    out.push({
+      ...baseCard,
+      id,
+      set: setFromImage(vp, id),
+      rarity: spans[1] || baseCard.rarity,
+      image: grab(vp, /(https:\/\/limitlesstcg[^"' ]*\/one-piece\/[^"' ]*_EN\.webp)/) || baseCard.image,
+      eur: row.eur,
+      usd: row.usd,
+    });
+  }
+  return out;
+}
+
+async function enumerateCards(slug) {
+  const html = await get(`/cards/${slug}`);
+  const ids = [];
+  for (const m of html.matchAll(/<a href="\/cards\/([A-Za-z0-9-]+)"><img[^>]*class="card shadow"/g))
+    ids.push(m[1]);
+  return [...new Set(ids)];
+}
+
+// Rolling 120-day EUR history + d7/d30, mirroring the original prices pipeline.
+function buildPriceOutputs(prices) {
+  const today = new Date().toISOString().slice(0, 10);
+  const path = join(OUT, "prices", "history.json");
+  const history = existsSync(path)
+    ? JSON.parse(readFileSync(path, "utf8"))
+    : { dates: [], cards: {} };
+  const ids = new Set([...Object.keys(history.cards), ...Object.keys(prices)]);
+  const last = history.dates.length - 1;
+  if (history.dates[last] === today) {
+    for (const id of ids) {
+      const s = history.cards[id] ?? new Array(history.dates.length).fill(null);
+      while (s.length < history.dates.length) s.push(null);
+      s[last] = prices[id]?.eur ?? null;
+      history.cards[id] = s;
+    }
+  } else {
+    history.dates.push(today);
+    for (const id of ids) {
+      const s = history.cards[id] ?? new Array(history.dates.length - 1).fill(null);
+      while (s.length < history.dates.length - 1) s.push(null);
+      s.push(prices[id]?.eur ?? null);
+      history.cards[id] = s;
+    }
+    const cutoff = Date.parse(today) - HISTORY_DAYS * 86400000;
+    let drop = 0;
+    while (drop < history.dates.length - 1 && Date.parse(history.dates[drop]) < cutoff) drop++;
+    if (drop > 0) {
+      history.dates = history.dates.slice(drop);
+      for (const id of Object.keys(history.cards)) history.cards[id] = history.cards[id].slice(drop);
+    }
+  }
+  const pct = (t, p) => (t == null || p == null || p === 0 ? null : Math.round(((t - p) / p) * 1000) / 10);
+  const agoIdx = (d) => {
+    const tgt = Date.parse(today) - d * 86400000;
+    for (let j = history.dates.length - 1; j >= 0; j--)
+      if (Date.parse(history.dates[j]) <= tgt) return j;
+    return -1;
+  };
+  const i7 = agoIdx(7);
+  const i30 = agoIdx(30);
+  const cards = {};
+  for (const [id, p] of Object.entries(prices)) {
+    const s = history.cards[id] ?? [];
+    cards[id] = {
+      eur: p.eur,
+      usd: p.usd,
+      d7: i7 >= 0 ? pct(p.eur, s[i7] ?? null) : null,
+      d30: i30 >= 0 ? pct(p.eur, s[i30] ?? null) : null,
+    };
+  }
+  writeFileSync(path, `${JSON.stringify(history)}\n`);
+  writeFileSync(
+    join(OUT, "prices", "summary.json"),
+    `${JSON.stringify({ updatedAt: today, source: "limitlesstcg.com", cardCount: Object.keys(cards).length, cards })}\n`,
+  );
+}
+
+async function main() {
+  if (process.argv.includes("--reprice")) {
+    const s = JSON.parse(readFileSync(join(OUT, "prices", "summary.json"), "utf8"));
+    buildPriceOutputs(s.cards);
+    console.log("repriced: rebuilt history.json + d7/d30 summary from existing prices");
+    return;
+  }
+
+  const cardArg = process.argv.indexOf("--card");
+  if (cardArg !== -1) {
+    const id = process.argv[cardArg + 1];
+    const html = await get(`/cards/${encodeURIComponent(id)}`);
+    const base = parseCard(html);
+    console.log("BASE", JSON.stringify({ id, ...base }, null, 1));
+    const variants = await resolveVariants(id, html, base);
+    console.log(`\nVARIANTS (${variants.length}):`);
+    for (const v of variants)
+      console.log(`  ${v.id}  set=${v.set}  rarity=${v.rarity}  eur=${v.eur}`);
+    return;
+  }
+
+  mkdirSync(OUT, { recursive: true });
+  const products = [...(await scrapeProducts()), ...(await scrapePromos())];
+  writeFileSync(join(OUT, "products.json"), `${JSON.stringify(products, null, 2)}\n`);
+  console.log(`taxonomy: ${products.length} products`);
+  if (process.argv.includes("--taxonomy")) return;
+
+  const onlyArg = process.argv.indexOf("--only");
+  const only = onlyArg !== -1 ? new Set(process.argv[onlyArg + 1].split(",")) : null;
+  const targets = products.filter((p) => p.slug && (!only || only.has(p.slug)));
+
+  // Enumerate each product's cards; first product a card appears in owns its set.
+  const setByCard = new Map();
+  const cardsByProduct = new Map();
+  for (const p of targets) {
+    const key = p.code || p.slug;
+    const ids = await enumerateCards(p.slug);
+    cardsByProduct.set(key, ids);
+    for (const id of ids) if (!setByCard.has(id)) setByCard.set(id, key);
+    console.log(`  ${key}: ${ids.length} cards`);
+  }
+
+  const allIds = [...setByCard.keys()];
+  console.log(`crawling ${allIds.length} unique cards...`);
+  const byId = {};
+  const prices = {};
+  let done = 0;
+  let failed = 0;
+  const queue = [...allIds];
+  let variantCount = 0;
+  async function worker() {
+    for (;;) {
+      const id = queue.shift();
+      if (!id) return;
+      const setKey = setByCard.get(id);
+      try {
+        const html = await get(`/cards/${encodeURIComponent(id)}`);
+        const { eur, usd, ...card } = parseCard(html);
+        byId[id] = { id, set: setKey, ...card };
+        if (eur != null || usd != null) prices[id] = { eur, usd };
+        // Alt arts / reprints — grouped under the base set, as Limitless does.
+        for (const v of await resolveVariants(id, html, card)) {
+          const { eur: ve, usd: vu, set: _drop, id: vid, ...vcard } = v;
+          if (byId[vid]) continue;
+          byId[vid] = { id: vid, set: setKey, ...vcard };
+          variantCount++;
+          if (ve != null || vu != null) prices[vid] = { eur: ve, usd: vu };
+        }
+      } catch {
+        failed++;
+      }
+      if (++done % 200 === 0)
+        console.log(`  ${done}/${allIds.length} base (failed ${failed}, ${variantCount} variants)`);
+    }
+  }
+  await Promise.all([worker(), worker()]);
+
+  // Write outputs, grouped by set (base + variants together), like Limitless.
+  mkdirSync(join(OUT, "cards"), { recursive: true });
+  mkdirSync(join(OUT, "index"), { recursive: true });
+  mkdirSync(join(OUT, "prices"), { recursive: true });
+  const bySet = {};
+  for (const card of Object.values(byId)) (bySet[card.set] ??= []).push(card);
+  for (const [set, cards] of Object.entries(bySet))
+    writeFileSync(join(OUT, "cards", `${set}.json`), `${JSON.stringify(cards, null, 2)}\n`);
+  writeFileSync(join(OUT, "index", "cards_by_id.json"), `${JSON.stringify(byId)}\n`);
+  writeFileSync(
+    join(OUT, "packs.json"),
+    `${JSON.stringify(
+      products.map((p) => {
+        const code = p.code || p.slug;
+        return {
+          code,
+          name: p.name,
+          category: p.category,
+          releaseDate: p.releaseDate,
+          cardCount: (bySet[code] ?? []).length,
+          listedCount: p.cardCount,
+          slug: p.slug,
+        };
+      }),
+      null,
+      2,
+    )}\n`,
+  );
+  buildPriceOutputs(prices);
+  console.log(
+    `DONE: ${Object.keys(byId).length} cards, ${Object.keys(prices).length} priced, ${failed} failed`,
+  );
+}
+
+main();

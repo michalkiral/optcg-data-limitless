@@ -1,0 +1,73 @@
+name: crawl
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily 03:30 UTC. One crawl produces both catalog and prices (~30 min at
+    # concurrency 2 — Limitless throttles the GH Actions IP).
+    - cron: "30 3 * * *"
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Crawl Limitless (catalog + prices)
+        run: node scripts/build.mjs
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no changes"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "data: crawl $(date -u +%Y-%m-%d)"
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # jsDelivr caches @main 12 h at the edge. Purge the index/packs/prices the
+      # app reads first; per-set files refresh when the app sees packs.json's
+      # cardCount change (its existing set-cache invalidation).
+      - name: Purge jsDelivr cache
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          purge() {
+            curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/$1" > /dev/null \
+              || echo "warn: purge failed for $1"
+          }
+          expected=$(sha1sum data/packs.json | cut -d' ' -f1)
+          for attempt in 1 2 3 4 5 6; do
+            sleep 60
+            purge "data/packs.json"
+            sleep 5
+            actual=$(curl -fsS "https://cdn.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/data/packs.json" | sha1sum | cut -d' ' -f1)
+            if [ "$actual" = "$expected" ]; then
+              echo "CDN serves fresh packs.json after $attempt attempt(s)"
+              break
+            fi
+            echo "CDN still stale (attempt $attempt)"
+          done
+          for f in index/cards_by_id.json prices/summary.json prices/history.json products.json; do
+            purge "data/$f"
+          done
