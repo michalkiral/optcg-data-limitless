@@ -1,5 +1,99 @@
 [
   {
+    "id": "OP06-119_p2",
+    "set": "OP11",
+    "name": "Sanji",
+    "rarity": "Special Card",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 9,
+    "power": 9000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-119_p2_EN.webp"
+  },
+  {
+    "id": "OP09-005_p1",
+    "set": "OP11",
+    "name": "Silvers Rayleigh",
+    "rarity": "Special Card",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Roger Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If your opponent has 2 or more Characters with a base power of 5000 or more, draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-005_p1_EN.webp"
+  },
+  {
+    "id": "ST16-004_p1",
+    "set": "OP11",
+    "name": "Shanks",
+    "rarity": "Special Card",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 9,
+    "power": 11000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST16/ST16-004_p1_EN.webp"
+  },
+  {
+    "id": "EB01-057_p2",
+    "set": "OP11",
+    "name": "Shirahoshi",
+    "rarity": "Special Card",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 0,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Merfolk"
+    ],
+    "effect": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-057_p2_EN.webp"
+  },
+  {
     "id": "OP11-001",
     "set": "OP11",
     "name": "Koby",
@@ -192,30 +286,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-004_p1_EN.webp"
   },
   {
-    "id": "OP11-004_p2",
-    "set": "OP11",
-    "name": "Kujyaku",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy",
-      "SWORD"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Kujyaku] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] You may trash this Character: Up to 1 of your Characters gains +1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-004_p2_EN.webp"
-  },
-  {
     "id": "OP11-007",
     "set": "OP11",
     "name": "Tashigi",
@@ -378,30 +448,6 @@
     "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn. [When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-010_p1_EN.webp"
-  },
-  {
-    "id": "OP11-010_p2",
-    "set": "OP11",
-    "name": "Hibari",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Navy",
-      "SWORD"
-    ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn. [When Attacking] This Character gains +1000 power during this turn. Then, up to 1 of your {Navy} type Leader can also attack active Characters during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-010_p2_EN.webp"
   },
   {
     "id": "OP11-012",
@@ -1331,54 +1377,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-041_p1_EN.webp"
   },
   {
-    "id": "OP11-041_p2",
-    "set": "OP11",
-    "name": "Nami",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Blue",
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Your Turn] [Once Per Turn] This effect can be activated when a card is removed from your or your opponent's Life cards. If you have 7 or less cards in your hand, draw 1 card. [DON!! x1] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: This Leader gains +2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-041_p2_EN.webp"
-  },
-  {
-    "id": "OP11-041_p3",
-    "set": "OP11",
-    "name": "Nami",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Blue",
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Your Turn] [Once Per Turn] This effect can be activated when a card is removed from your or your opponent's Life cards. If you have 7 or less cards in your hand, draw 1 card. [DON!! x1] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: This Leader gains +2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-041_p3_EN.webp"
-  },
-  {
     "id": "OP11-045",
     "set": "OP11",
     "name": "Vinsmoke Niji",
@@ -1758,29 +1756,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-054_p1_EN.webp"
   },
   {
-    "id": "OP11-054_p2",
-    "set": "OP11",
-    "name": "Nami",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If your Leader is multicolored, draw 3 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-054_p2_EN.webp"
-  },
-  {
     "id": "OP11-057",
     "set": "OP11",
     "name": "Pedro",
@@ -1848,29 +1823,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-058_EN.webp"
   },
   {
-    "id": "OP11-058_p1",
-    "set": "OP11",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Treasure Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 7000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "If you have 5 or more cards in your hand, this Character cannot attack. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-058_p1_EN.webp"
-  },
-  {
     "id": "OP11-060",
     "set": "OP11",
     "name": "Let's Crash This Wedding!!!",
@@ -1890,27 +1842,6 @@
     "effect": "[Main] If your Leader is multicolored, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Let's Crash This Wedding!!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "[Trigger] Activate this card's [Main] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-060_EN.webp"
-  },
-  {
-    "id": "OP11-060_p1",
-    "set": "OP11",
-    "name": "Let's Crash This Wedding!!!",
-    "rarity": "Alternate Art",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] If your Leader is multicolored, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Let's Crash This Wedding!!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-060_p1_EN.webp"
   },
   {
     "id": "OP11-061",
@@ -2210,52 +2141,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-067_p1_EN.webp"
   },
   {
-    "id": "OP11-067_p2",
-    "set": "OP11",
-    "name": "Charlotte Katakuri",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 8,
-    "power": 8000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Big Mom Pirates"
-    ],
-    "effect": "[Blocker] [End of Your Turn] Set up to 2 of your {Big Mom Pirates} type Characters with a cost of 3 or more as active. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-067_p2_EN.webp"
-  },
-  {
-    "id": "OP11-067_p3",
-    "set": "OP11",
-    "name": "Charlotte Katakuri",
-    "rarity": "Special Card",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 8,
-    "power": 8000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Big Mom Pirates"
-    ],
-    "effect": "[Blocker] [End of Your Turn] Set up to 2 of your {Big Mom Pirates} type Characters with a cost of 3 or more as active. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-067_p3_EN.webp"
-  },
-  {
     "id": "OP11-071",
     "set": "OP11",
     "name": "Charlotte Perospero",
@@ -2396,30 +2281,6 @@
     "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush]. [On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-073_p1_EN.webp"
-  },
-  {
-    "id": "OP11-073_p2",
-    "set": "OP11",
-    "name": "Charlotte Linlin",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 10,
-    "power": 12000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Four Emperors",
-      "Big Mom Pirates"
-    ],
-    "effect": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush]. [On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-073_EN.webp"
   },
   {
     "id": "OP11-076",
@@ -3371,54 +3232,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-106_p1_EN.webp"
   },
   {
-    "id": "OP11-106_p2",
-    "set": "OP11",
-    "name": "Zeus",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Homies",
-      "Big Mom Pirates"
-    ],
-    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-106_p2_EN.webp"
-  },
-  {
-    "id": "OP11-106_p3",
-    "set": "OP11",
-    "name": "Zeus",
-    "rarity": "Special Card",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Homies",
-      "Big Mom Pirates"
-    ],
-    "effect": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-106_p3_EN.webp"
-  },
-  {
     "id": "OP11-111",
     "set": "OP11",
     "name": "Mamboshi",
@@ -3715,27 +3528,120 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-119_p1_EN.webp"
   },
   {
-    "id": "OP11-119_p2",
+    "id": "OP09-015_p1",
     "set": "OP11",
-    "name": "Koby",
-    "rarity": "Alternate Art",
+    "name": "Lucky.Roux",
+    "rarity": "Treasure Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-015_p1_EN.webp"
+  },
+  {
+    "id": "OP05-119_p5",
+    "set": "OP11",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Special Card",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one. [Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP05/OP05-119_p5_EN.webp"
+  },
+  {
+    "id": "OP05-119_p6",
+    "set": "OP11",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Special Card",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one. [Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP05/OP05-119_p6_EN.webp"
+  },
+  {
+    "id": "OP07-085_p2",
+    "set": "OP11",
+    "name": "Stussy",
+    "rarity": "Special Card",
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 8,
+    "cost": 9,
     "power": 9000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "CP0"
+    ],
+    "effect": "[On Play] You may trash 1 of your Characters: K.O. up to 1 of your opponent's Characters.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP07/OP07-085_p2_EN.webp"
+  },
+  {
+    "id": "ST18-005_p1",
+    "set": "OP11",
+    "name": "Luffy-Tarou",
+    "rarity": "Special Card",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 7,
+    "power": 8000,
     "counter": null,
     "block": 3,
     "attributes": [
       "Strike"
     ],
     "types": [
-      "Navy",
-      "SWORD"
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] Up to 1 of your Characters can also attack active Characters during this turn. [When Attacking] You may place 2 cards from your trash at the bottom of your deck in any order: Up to 1 of your Leader or Character cards gains +1000 power until the end of your opponent's next turn.",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-119_p2_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST18/ST18-005_p1_EN.webp"
   }
 ]

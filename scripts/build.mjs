@@ -223,15 +223,20 @@ const setOfImage = (url) => (url || "").match(/\/one-piece\/([^/]+)\//)?.[1] ?? 
 
 const basePrintId = (id) => id.replace(/_[prc]\d+$/, "");
 
-// Shared writer: recompute each card's set from its image folder (Limitless's
-// canonical set), then write per-product card files — boosters/starters by set
-// (base + variants live there), promos by membership (they curate alt arts that
-// also live under a base set) — plus the index and packs.json. membersByKey maps
-// a product key to ids enumerated from its page (used only for promos).
+// Shared writer. Each printing's set = the first product (taxonomy order) whose
+// page LISTS it — so reprints land under the product they were printed in (e.g.
+// PRB01's 319, like Limitless), not where their image is filed. Cards no product
+// lists (in-set alt arts only reachable via a base card's version pages) fall
+// back to the set their base card debuted in, keeping them with their set.
 function writeOutputs(byId, products, membersByKey) {
+  const setOf = {};
+  for (const p of products) {
+    const key = p.code || p.slug;
+    for (const id of membersByKey.get(key) ?? []) if (setOf[id] === undefined) setOf[id] = key;
+  }
   for (const c of Object.values(byId)) {
-    const s = setOfImage(c.image);
-    if (s) c.set = s;
+    const fallback = setOfImage((byId[basePrintId(c.id)] ?? c).image);
+    c.set = setOf[c.id] ?? fallback ?? c.set;
   }
   const bySet = {};
   for (const c of Object.values(byId)) (bySet[c.set] ??= []).push(c);
@@ -242,9 +247,7 @@ function writeOutputs(byId, products, membersByKey) {
   const packs = [];
   for (const p of products) {
     const key = p.code || p.slug;
-    const cards = bySet[key]?.length
-      ? bySet[key]
-      : (membersByKey.get(key) ?? []).map((id) => byId[id]).filter(Boolean);
+    const cards = bySet[key] ?? [];
     if (!cards.length) continue;
     writeFileSync(join(OUT, "cards", `${key}.json`), `${JSON.stringify(cards, null, 2)}\n`);
     packs.push({
@@ -257,7 +260,7 @@ function writeOutputs(byId, products, membersByKey) {
       slug: p.slug,
     });
   }
-  // Canonical sets with cards but no Limitless product (e.g. bare promos "P").
+  // Sets with cards but no Limitless product (e.g. bare promos "P").
   const covered = new Set(packs.map((p) => p.code));
   for (const [set, cards] of Object.entries(bySet)) {
     if (covered.has(set)) continue;
@@ -270,16 +273,13 @@ function writeOutputs(byId, products, membersByKey) {
 }
 
 // Rebuild files from an existing crawl without re-fetching every card: reuse the
-// index for data; only re-enumerate promo products (those with no own set) for
-// their membership.
+// index for card data, re-enumerate every product for membership (cheap).
 async function rebuild() {
   const byId = JSON.parse(readFileSync(join(OUT, "index", "cards_by_id.json"), "utf8"));
-  const sets = new Set(Object.values(byId).map((c) => setOfImage(c.image)));
   const products = [...(await scrapeProducts()), ...(await scrapePromos())];
   const membersByKey = new Map();
   for (const p of products) {
-    const key = p.code || p.slug;
-    if (p.slug && !sets.has(key)) membersByKey.set(key, await enumerateCards(p.slug));
+    if (p.slug) membersByKey.set(p.code || p.slug, await enumerateCards(p.slug));
   }
   const n = writeOutputs(byId, products, membersByKey);
   console.log(`rebuilt: ${n} product files, ${Object.keys(byId).length} cards`);

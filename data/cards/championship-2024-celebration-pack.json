@@ -1,79 +1,77 @@
 [
   {
-    "id": "ST01-012_p6",
-    "set": "ST01",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST01/ST01-012_p6_EN.webp"
-  },
-  {
-    "id": "ST02-013_p3",
-    "set": "ST02",
-    "name": "Eustass\"Captain\"Kid",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 7,
-    "power": 7000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Supernovas",
-      "Kid Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this card as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-013_p3_EN.webp"
-  },
-  {
-    "id": "ST03-003_p3",
-    "set": "ST03",
-    "name": "Crocodile",
-    "rarity": "Super Rare",
+    "id": "OP03-044_p3",
+    "set": "championship-2024-celebration-pack",
+    "name": "Kaya",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 5,
-    "power": 6000,
-    "counter": null,
-    "block": 1,
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
+    "block": 4,
     "attributes": [
-      "Special"
+      "Wisdom"
     ],
     "types": [
-      "The Seven Warlords of the Sea",
-      "Baroque Works"
+      "East Blue"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-003_p3_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-044_p3_EN.webp"
+  },
+  {
+    "id": "OP01-041_p3",
+    "set": "championship-2024-celebration-pack",
+    "name": "Kouzuki Momonosuke",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-041_p3_EN.webp"
+  },
+  {
+    "id": "OP03-116_p4",
+    "set": "championship-2024-celebration-pack",
+    "name": "Shirahoshi",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 5,
+    "power": 0,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Merfolk"
+    ],
+    "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-116_p4_EN.webp"
   },
   {
     "id": "ST04-003_p5",
-    "set": "ST04",
+    "set": "championship-2024-celebration-pack",
     "name": "Kaido",
     "rarity": "Super Rare",
     "category": "Character",
@@ -96,8 +94,32 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-003_p5_EN.webp"
   },
   {
+    "id": "OP05-106_p3",
+    "set": "championship-2024-celebration-pack",
+    "name": "Shura",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Sky Island",
+      "Vassals"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card other than [Shura] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP05/OP05-106_p3_EN.webp"
+  },
+  {
     "id": "OP03-033_p3",
-    "set": "OP03",
+    "set": "championship-2024-celebration-pack",
     "name": "Hatchan",
     "rarity": "Uncommon",
     "category": "Character",
@@ -121,31 +143,8 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-033_p3_EN.webp"
   },
   {
-    "id": "OP03-044_p3",
-    "set": "OP03",
-    "name": "Kaya",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "East Blue"
-    ],
-    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-044_p3_EN.webp"
-  },
-  {
     "id": "OP03-088_p3",
-    "set": "OP03",
+    "set": "championship-2024-celebration-pack",
     "name": "Fukurou",
     "rarity": "Uncommon",
     "category": "Character",
@@ -167,79 +166,80 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-088_p3_EN.webp"
   },
   {
-    "id": "OP03-116_p4",
-    "set": "OP03",
-    "name": "Shirahoshi",
-    "rarity": "Uncommon",
+    "id": "ST03-003_p3",
+    "set": "championship-2024-celebration-pack",
+    "name": "Crocodile",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
-      "Yellow"
+      "Blue"
     ],
     "cost": 5,
-    "power": 0,
-    "counter": 1000,
+    "power": 6000,
+    "counter": null,
     "block": 1,
     "attributes": [
-      "Wisdom"
+      "Special"
     ],
     "types": [
-      "Merfolk"
+      "The Seven Warlords of the Sea",
+      "Baroque Works"
     ],
-    "effect": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
-    "trigger": "[Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-116_p4_EN.webp"
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-003_p3_EN.webp"
   },
   {
-    "id": "OP01-041_p3",
-    "set": "OP01",
-    "name": "Kouzuki Momonosuke",
-    "rarity": "Rare",
+    "id": "ST02-013_p3",
+    "set": "championship-2024-celebration-pack",
+    "name": "Eustass\"Captain\"Kid",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 1,
-    "power": 0,
-    "counter": 1000,
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
     "block": 1,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
-      "Land of Wano",
-      "Kouzuki Clan"
+      "Supernovas",
+      "Kid Pirates"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this card as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-041_p3_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-013_p3_EN.webp"
   },
   {
-    "id": "OP05-106_p3",
-    "set": "OP05",
-    "name": "Shura",
-    "rarity": "Rare",
+    "id": "ST01-012_p6",
+    "set": "championship-2024-celebration-pack",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
-      "Yellow"
+      "Red"
     ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
-    "block": 2,
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "block": 1,
     "attributes": [
-      "Slash"
+      "Strike"
     ],
     "types": [
-      "Sky Island",
-      "Vassals"
+      "Supernovas",
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Sky Island} type card other than [Shura] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP05/OP05-106_p3_EN.webp"
+    "effect": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST01/ST01-012_p6_EN.webp"
   },
   {
     "id": "P-017_p3",
-    "set": "P",
+    "set": "championship-2024-celebration-pack",
     "name": "Trafalgar Law",
     "rarity": null,
     "category": "Character",
@@ -264,7 +264,7 @@
   },
   {
     "id": "P-019_p3",
-    "set": "P",
+    "set": "championship-2024-celebration-pack",
     "name": "Bepo",
     "rarity": null,
     "category": "Character",

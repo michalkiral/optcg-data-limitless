@@ -1,7 +1,7 @@
 [
   {
     "id": "OP13-019_p1",
-    "set": "OP13",
+    "set": "3rd-anniversary-treasure-campaign-pack",
     "name": "But Ace Here Said You Deserved It!!",
     "rarity": "Rare",
     "category": "Event",
@@ -23,7 +23,7 @@
   },
   {
     "id": "OP13-040_p1",
-    "set": "OP13",
+    "set": "3rd-anniversary-treasure-campaign-pack",
     "name": "I Know You're Strong... So I'll Go All Out from the Very Start!!!",
     "rarity": "Rare",
     "category": "Event",
@@ -45,7 +45,7 @@
   },
   {
     "id": "OP13-057_p1",
-    "set": "OP13",
+    "set": "3rd-anniversary-treasure-campaign-pack",
     "name": "If I Bowed Down to Power, What's the Point in Living?",
     "rarity": "Rare",
     "category": "Event",
@@ -65,31 +65,32 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-057_p1_EN.webp"
   },
   {
-    "id": "ST10-006_p5",
-    "set": "ST10",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Super Rare",
+    "id": "OP10-049_p1",
+    "set": "3rd-anniversary-treasure-campaign-pack",
+    "name": "Sabo",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
-      "Red"
+      "Blue"
     ],
-    "cost": 10,
-    "power": 11000,
-    "counter": null,
-    "block": 1,
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "block": 3,
     "attributes": [
-      "Strike"
+      "Special"
     ],
     "types": [
-      "Straw Hat Crew"
+      "Dressrosa",
+      "Revolutionary Army"
     ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.) [Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
+    "effect": "If your Character with a base cost of 7 or less other than [Sabo] would be removed from the field by your opponent's effect, you may return this Character to the owner's hand instead.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-006_p5_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-049_p1_EN.webp"
   },
   {
     "id": "OP07-033_p1",
-    "set": "OP07",
+    "set": "3rd-anniversary-treasure-campaign-pack",
     "name": "Monkey.D.Luffy",
     "rarity": "Uncommon",
     "category": "Character",
@@ -113,7 +114,7 @@
   },
   {
     "id": "OP07-053_p6",
-    "set": "OP07",
+    "set": "3rd-anniversary-treasure-campaign-pack",
     "name": "Portgas.D.Ace",
     "rarity": "Rare",
     "category": "Character",
@@ -135,32 +136,8 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP07/OP07-053_p6_EN.webp"
   },
   {
-    "id": "OP10-049_p1",
-    "set": "OP10",
-    "name": "Sabo",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa",
-      "Revolutionary Army"
-    ],
-    "effect": "If your Character with a base cost of 7 or less other than [Sabo] would be removed from the field by your opponent's effect, you may return this Character to the owner's hand instead.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-049_p1_EN.webp"
-  },
-  {
     "id": "ST21-014_p2",
-    "set": "ST21",
+    "set": "3rd-anniversary-treasure-campaign-pack",
     "name": "Monkey.D.Luffy",
     "rarity": "Serial Card",
     "category": "Character",
@@ -181,5 +158,28 @@
     "effect": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-014_p2_EN.webp"
+  },
+  {
+    "id": "ST10-006_p5",
+    "set": "3rd-anniversary-treasure-campaign-pack",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 10,
+    "power": 11000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush] (This card can attack on the turn in which it is played.) [Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-006_p5_EN.webp"
   }
 ]
