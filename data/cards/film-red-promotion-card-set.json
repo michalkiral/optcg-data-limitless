@@ -1,7 +1,7 @@
 [
   {
     "id": "P-011",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Uta",
     "rarity": null,
     "category": "Leader",
@@ -24,7 +24,7 @@
   },
   {
     "id": "P-012",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Jellyfish Pirates",
     "rarity": null,
     "category": "Character",
@@ -47,31 +47,55 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-012_EN.webp"
   },
   {
-    "id": "P-011_p1",
-    "set": "film-red-promotion-card-set",
-    "name": "Uta",
-    "rarity": "Alternate Art",
-    "category": "Leader",
+    "id": "P-013",
+    "set": "P",
+    "name": "Gordon",
+    "rarity": null,
+    "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 5,
-    "power": 5000,
+    "cost": 1,
+    "power": 2000,
     "counter": null,
     "block": 1,
     "attributes": [
-      "Special"
+      "Wisdom"
     ],
     "types": [
       "FILM"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] ① (You may rest the specified number of DON!! cards in your cost area.) : Up to 1 of your Characters with no base effect gains +2000 power during this turn.",
+    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-011_p1_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-013_EN.webp"
+  },
+  {
+    "id": "P-014",
+    "set": "P",
+    "name": "Koby",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "FILM",
+      "Navy"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-014_EN.webp"
   },
   {
     "id": "P-015",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Sunny-Kun",
     "rarity": null,
     "category": "Character",
@@ -94,31 +118,8 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-015_EN.webp"
   },
   {
-    "id": "P-013",
-    "set": "film-red-promotion-card-set",
-    "name": "Gordon",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "FILM"
-    ],
-    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-013_EN.webp"
-  },
-  {
     "id": "P-016",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Shanks",
     "rarity": null,
     "category": "Character",
@@ -143,7 +144,7 @@
   },
   {
     "id": "P-017",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Trafalgar Law",
     "rarity": null,
     "category": "Character",
@@ -167,33 +168,8 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-017_EN.webp"
   },
   {
-    "id": "P-016_p1",
-    "set": "film-red-promotion-card-set",
-    "name": "Shanks",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 8,
-    "power": 10000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "FILM",
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-016_p1_EN.webp"
-  },
-  {
     "id": "P-018",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Bartolomeo",
     "rarity": null,
     "category": "Character",
@@ -217,83 +193,8 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-018_EN.webp"
   },
   {
-    "id": "P-017_p1",
-    "set": "film-red-promotion-card-set",
-    "name": "Trafalgar Law",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "FILM",
-      "Supernovas",
-      "Heart Pirates"
-    ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-017_p1_EN.webp"
-  },
-  {
-    "id": "P-017_p2",
-    "set": "film-red-promotion-card-set",
-    "name": "Trafalgar Law",
-    "rarity": "Full Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "FILM",
-      "Supernovas",
-      "Heart Pirates"
-    ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-017_p2_EN.webp"
-  },
-  {
-    "id": "P-017_p3",
-    "set": "film-red-promotion-card-set",
-    "name": "Trafalgar Law",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "FILM",
-      "Supernovas",
-      "Heart Pirates"
-    ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-017_p3_EN.webp"
-  },
-  {
     "id": "P-019",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Bepo",
     "rarity": null,
     "category": "Character",
@@ -318,7 +219,7 @@
   },
   {
     "id": "P-020",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Helmeppo",
     "rarity": null,
     "category": "Character",
@@ -342,7 +243,7 @@
   },
   {
     "id": "P-021",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Benn.Beckman",
     "rarity": null,
     "category": "Character",
@@ -366,7 +267,7 @@
   },
   {
     "id": "P-022",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Monkey.D.Luffy",
     "rarity": null,
     "category": "Character",
@@ -390,108 +291,8 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-022_EN.webp"
   },
   {
-    "id": "P-019_p1",
-    "set": "film-red-promotion-card-set",
-    "name": "Bepo",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 2000,
-    "counter": 2000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "Minks",
-      "Heart Pirates"
-    ],
-    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-019_p1_EN.webp"
-  },
-  {
-    "id": "P-019_p2",
-    "set": "film-red-promotion-card-set",
-    "name": "Bepo",
-    "rarity": "Full Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 2000,
-    "counter": 2000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "Minks",
-      "Heart Pirates"
-    ],
-    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-019_p2_EN.webp"
-  },
-  {
-    "id": "P-019_p3",
-    "set": "film-red-promotion-card-set",
-    "name": "Bepo",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 2000,
-    "counter": 2000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "Minks",
-      "Heart Pirates"
-    ],
-    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-019_p3_EN.webp"
-  },
-  {
-    "id": "P-022_p1",
-    "set": "film-red-promotion-card-set",
-    "name": "Monkey.D.Luffy",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-022_p1_EN.webp"
-  },
-  {
     "id": "P-023",
-    "set": "film-red-promotion-card-set",
+    "set": "P",
     "name": "Yasopp",
     "rarity": null,
     "category": "Character",

@@ -1,7 +1,77 @@
 [
   {
+    "id": "OP01-052_p1",
+    "set": "OP01",
+    "name": "Raizo",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-052_p1_EN.webp"
+  },
+  {
+    "id": "OP01-101_p1",
+    "set": "OP01",
+    "name": "Sasaki",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-101_p1_EN.webp"
+  },
+  {
+    "id": "OP02-106_p1",
+    "set": "OP02",
+    "name": "Tsuru",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
+    "block": 1,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-106_p1_EN.webp"
+  },
+  {
     "id": "P-027",
-    "set": "event-pack-02",
+    "set": "P",
     "name": "General Franky",
     "rarity": null,
     "category": "Character",
@@ -23,31 +93,8 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-027_EN.webp"
   },
   {
-    "id": "P-027_p1",
-    "set": "event-pack-02",
-    "name": "General Franky",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": 4000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "Also treat this card's name as [Franky] according to the rules. [Opponent's Turn] All of your Characters with a base power of 3000 or less gain +1000 Power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-027_p1_EN.webp"
-  },
-  {
     "id": "P-033",
-    "set": "event-pack-02",
+    "set": "P",
     "name": "Monkey.D.Luffy",
     "rarity": null,
     "category": "Character",
@@ -70,7 +117,7 @@
   },
   {
     "id": "P-034",
-    "set": "event-pack-02",
+    "set": "P",
     "name": "Sanji",
     "rarity": null,
     "category": "Character",
@@ -90,51 +137,5 @@
     "effect": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-034_EN.webp"
-  },
-  {
-    "id": "P-033_p1",
-    "set": "event-pack-02",
-    "name": "Monkey.D.Luffy",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-033_p1_EN.webp"
-  },
-  {
-    "id": "P-034_p1",
-    "set": "event-pack-02",
-    "name": "Sanji",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "The Vinsmoke Family"
-    ],
-    "effect": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-034_p1_EN.webp"
   }
 ]

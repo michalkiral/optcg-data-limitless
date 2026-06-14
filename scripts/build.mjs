@@ -6,7 +6,7 @@
 //   node scripts/build.mjs --taxonomy   # just the product list (2 fetches)
 //   node scripts/build.mjs --only <slug,slug>   # those products' cards
 //   node scripts/build.mjs              # full crawl (heavy)
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const HISTORY_DAYS = 120;
@@ -14,7 +14,7 @@ const HISTORY_DAYS = 120;
 const SITE = "https://onepiece.limitlesstcg.com";
 const UA = "optcg-data-limitless (research)";
 const DELAY_MS = 300;
-const OUT = "data";
+const OUT = process.env.OUT_DIR ?? "data";
 
 // --- HTML helpers ---
 const decode = (s) =>
@@ -206,12 +206,83 @@ async function resolveVariants(baseId, baseHtml, baseCard) {
   return out;
 }
 
+// Read each printing's id from its thumbnail image filename, so we catch both
+// base links (/cards/OP16-001) and version links (/cards/OP10-111?v=4 → the
+// promo alt art OP10-111_p4). The href alone misses the latter.
 async function enumerateCards(slug) {
   const html = await get(`/cards/${slug}`);
   const ids = [];
-  for (const m of html.matchAll(/<a href="\/cards\/([A-Za-z0-9-]+)"><img[^>]*class="card shadow"/g))
+  for (const m of html.matchAll(
+    /class="card shadow" src="[^"]*\/one-piece\/[^/]+\/([A-Za-z0-9-]+(?:_[a-z0-9]+)?)_[A-Z]{2}\.webp"/g,
+  ))
     ids.push(m[1]);
   return [...new Set(ids)];
+}
+
+const setOfImage = (url) => (url || "").match(/\/one-piece\/([^/]+)\//)?.[1] ?? null;
+
+const basePrintId = (id) => id.replace(/_[prc]\d+$/, "");
+
+// Shared writer: recompute each card's set from its image folder (Limitless's
+// canonical set), then write per-product card files — boosters/starters by set
+// (base + variants live there), promos by membership (they curate alt arts that
+// also live under a base set) — plus the index and packs.json. membersByKey maps
+// a product key to ids enumerated from its page (used only for promos).
+function writeOutputs(byId, products, membersByKey) {
+  for (const c of Object.values(byId)) {
+    const s = setOfImage(c.image);
+    if (s) c.set = s;
+  }
+  const bySet = {};
+  for (const c of Object.values(byId)) (bySet[c.set] ??= []).push(c);
+
+  rmSync(join(OUT, "cards"), { recursive: true, force: true });
+  mkdirSync(join(OUT, "cards"), { recursive: true });
+  mkdirSync(join(OUT, "index"), { recursive: true });
+  const packs = [];
+  for (const p of products) {
+    const key = p.code || p.slug;
+    const cards = bySet[key]?.length
+      ? bySet[key]
+      : (membersByKey.get(key) ?? []).map((id) => byId[id]).filter(Boolean);
+    if (!cards.length) continue;
+    writeFileSync(join(OUT, "cards", `${key}.json`), `${JSON.stringify(cards, null, 2)}\n`);
+    packs.push({
+      code: key,
+      name: p.name,
+      category: p.category,
+      releaseDate: p.releaseDate,
+      cardCount: cards.length,
+      listedCount: p.cardCount,
+      slug: p.slug,
+    });
+  }
+  // Canonical sets with cards but no Limitless product (e.g. bare promos "P").
+  const covered = new Set(packs.map((p) => p.code));
+  for (const [set, cards] of Object.entries(bySet)) {
+    if (covered.has(set)) continue;
+    writeFileSync(join(OUT, "cards", `${set}.json`), `${JSON.stringify(cards, null, 2)}\n`);
+    packs.push({ code: set, name: set, category: "Other", releaseDate: null, cardCount: cards.length, listedCount: null, slug: null });
+  }
+  writeFileSync(join(OUT, "index", "cards_by_id.json"), `${JSON.stringify(byId)}\n`);
+  writeFileSync(join(OUT, "packs.json"), `${JSON.stringify(packs, null, 2)}\n`);
+  return packs.length;
+}
+
+// Rebuild files from an existing crawl without re-fetching every card: reuse the
+// index for data; only re-enumerate promo products (those with no own set) for
+// their membership.
+async function rebuild() {
+  const byId = JSON.parse(readFileSync(join(OUT, "index", "cards_by_id.json"), "utf8"));
+  const sets = new Set(Object.values(byId).map((c) => setOfImage(c.image)));
+  const products = [...(await scrapeProducts()), ...(await scrapePromos())];
+  const membersByKey = new Map();
+  for (const p of products) {
+    const key = p.code || p.slug;
+    if (p.slug && !sets.has(key)) membersByKey.set(key, await enumerateCards(p.slug));
+  }
+  const n = writeOutputs(byId, products, membersByKey);
+  console.log(`rebuilt: ${n} product files, ${Object.keys(byId).length} cards`);
 }
 
 // Rolling 120-day EUR history + d7/d30, mirroring the original prices pipeline.
@@ -279,6 +350,10 @@ async function main() {
     console.log("repriced: rebuilt history.json + d7/d30 summary from existing prices");
     return;
   }
+  if (process.argv.includes("--rebuild")) {
+    await rebuild();
+    return;
+  }
 
   const cardArg = process.argv.indexOf("--card");
   if (cardArg !== -1) {
@@ -303,40 +378,38 @@ async function main() {
   const only = onlyArg !== -1 ? new Set(process.argv[onlyArg + 1].split(",")) : null;
   const targets = products.filter((p) => p.slug && (!only || only.has(p.slug)));
 
-  // Enumerate each product's cards; first product a card appears in owns its set.
-  const setByCard = new Map();
-  const cardsByProduct = new Map();
+  // Enumerate each product's membership (base + variant ids from image names).
+  // Crawl only base pages; resolveVariants expands their alt arts/reprints.
+  const membersByKey = new Map();
+  const baseIds = new Set();
   for (const p of targets) {
     const key = p.code || p.slug;
     const ids = await enumerateCards(p.slug);
-    cardsByProduct.set(key, ids);
-    for (const id of ids) if (!setByCard.has(id)) setByCard.set(id, key);
+    membersByKey.set(key, ids);
+    for (const id of ids) baseIds.add(basePrintId(id));
     console.log(`  ${key}: ${ids.length} cards`);
   }
 
-  const allIds = [...setByCard.keys()];
-  console.log(`crawling ${allIds.length} unique cards...`);
+  const queue = [...baseIds];
+  console.log(`crawling ${queue.length} base cards...`);
   const byId = {};
   const prices = {};
   let done = 0;
   let failed = 0;
-  const queue = [...allIds];
   let variantCount = 0;
   async function worker() {
     for (;;) {
       const id = queue.shift();
       if (!id) return;
-      const setKey = setByCard.get(id);
       try {
         const html = await get(`/cards/${encodeURIComponent(id)}`);
         const { eur, usd, ...card } = parseCard(html);
-        byId[id] = { id, set: setKey, ...card };
+        byId[id] = { id, set: setOfImage(card.image), ...card };
         if (eur != null || usd != null) prices[id] = { eur, usd };
-        // Alt arts / reprints — grouped under the base set, as Limitless does.
         for (const v of await resolveVariants(id, html, card)) {
-          const { eur: ve, usd: vu, set: _drop, id: vid, ...vcard } = v;
+          const { eur: ve, usd: vu, id: vid, ...vcard } = v;
           if (byId[vid]) continue;
-          byId[vid] = { id: vid, set: setKey, ...vcard };
+          byId[vid] = { id: vid, ...vcard };
           variantCount++;
           if (ve != null || vu != null) prices[vid] = { eur: ve, usd: vu };
         }
@@ -344,42 +417,16 @@ async function main() {
         failed++;
       }
       if (++done % 200 === 0)
-        console.log(`  ${done}/${allIds.length} base (failed ${failed}, ${variantCount} variants)`);
+        console.log(`  ${done}/${baseIds.size} base (failed ${failed}, ${variantCount} variants)`);
     }
   }
   await Promise.all([worker(), worker()]);
 
-  // Write outputs, grouped by set (base + variants together), like Limitless.
-  mkdirSync(join(OUT, "cards"), { recursive: true });
-  mkdirSync(join(OUT, "index"), { recursive: true });
   mkdirSync(join(OUT, "prices"), { recursive: true });
-  const bySet = {};
-  for (const card of Object.values(byId)) (bySet[card.set] ??= []).push(card);
-  for (const [set, cards] of Object.entries(bySet))
-    writeFileSync(join(OUT, "cards", `${set}.json`), `${JSON.stringify(cards, null, 2)}\n`);
-  writeFileSync(join(OUT, "index", "cards_by_id.json"), `${JSON.stringify(byId)}\n`);
-  writeFileSync(
-    join(OUT, "packs.json"),
-    `${JSON.stringify(
-      products.map((p) => {
-        const code = p.code || p.slug;
-        return {
-          code,
-          name: p.name,
-          category: p.category,
-          releaseDate: p.releaseDate,
-          cardCount: (bySet[code] ?? []).length,
-          listedCount: p.cardCount,
-          slug: p.slug,
-        };
-      }),
-      null,
-      2,
-    )}\n`,
-  );
+  const n = writeOutputs(byId, products, membersByKey);
   buildPriceOutputs(prices);
   console.log(
-    `DONE: ${Object.keys(byId).length} cards, ${Object.keys(prices).length} priced, ${failed} failed`,
+    `DONE: ${Object.keys(byId).length} cards, ${Object.keys(prices).length} priced, ${failed} failed, ${n} products`,
   );
 }
 
