@@ -1,9 +1,9 @@
 [
   {
-    "id": "ST03-004",
+    "id": "ST17-002",
     "set": "ST17",
-    "name": "Gecko Moria",
-    "rarity": "Common",
+    "name": "Trafalgar Law",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Blue"
@@ -11,17 +11,65 @@
     "cost": 4,
     "power": 5000,
     "counter": 1000,
-    "block": 1,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] You may return 1 of your Characters to the owner's hand: If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST17/ST17-002_EN.webp"
+  },
+  {
+    "id": "ST17-003",
+    "set": "ST17",
+    "name": "Buggy",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Buggy's Delivery"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST17/ST17-003_EN.webp"
+  },
+  {
+    "id": "ST17-005",
+    "set": "ST17",
+    "name": "Marshall.D.Teach",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 3,
     "attributes": [
       "Special"
     ],
     "types": [
       "The Seven Warlords of the Sea",
-      "Thriller Bark Pirates"
+      "Blackbeard Pirates"
     ],
-    "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+    "effect": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-004_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST17/ST17-005_EN.webp"
   },
   {
     "id": "OP01-060_p2",
@@ -96,7 +144,148 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST17/ST17-004_EN.webp"
   },
   {
-    "id": "P-030",
+    "id": "ST03-005_r1",
+    "set": "ST17",
+    "name": "Dracule Mihawk",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-005_EN.webp"
+  },
+  {
+    "id": "ST03-008_r1",
+    "set": "ST17",
+    "name": "Trafalgar Law",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Heart Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-008_EN.webp"
+  },
+  {
+    "id": "OP02-054_r1",
+    "set": "ST17",
+    "name": "Gecko Moria",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-054_EN.webp"
+  },
+  {
+    "id": "OP02-057_r1",
+    "set": "ST17",
+    "name": "Bartholomew Kuma",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-057_EN.webp"
+  },
+  {
+    "id": "OP01-073_r1",
+    "set": "ST17",
+    "name": "Donquixote Doflamingo",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-073_EN.webp"
+  },
+  {
+    "id": "OP01-086_r1",
+    "set": "ST17",
+    "name": "Overheat",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
+    "trigger": "[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-086_EN.webp"
+  },
+  {
+    "id": "P-030_r1",
     "set": "ST17",
     "name": "Jinbe",
     "rarity": null,
@@ -121,7 +310,7 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-030_EN.webp"
   },
   {
-    "id": "ST03-002",
+    "id": "ST03-002_r1",
     "set": "ST17",
     "name": "Edward Weevil",
     "rarity": "Common",
@@ -142,5 +331,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-002_EN.webp"
+  },
+  {
+    "id": "ST03-004_r1",
+    "set": "ST17",
+    "name": "Gecko Moria",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-004_EN.webp"
   }
 ]

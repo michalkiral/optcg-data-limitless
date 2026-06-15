@@ -24,6 +24,52 @@
     "set": "ST23"
   },
   {
+    "id": "ST23-001",
+    "set": "ST23",
+    "name": "Uta",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 6,
+    "power": 4000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "FILM"
+    ],
+    "effect": "If you have a Character with 10000 power or more, give this card in your hand −4 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST23/ST23-001_EN.webp"
+  },
+  {
+    "id": "ST23-003",
+    "set": "ST23",
+    "name": "Benn.Beckman",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with 4000 base power or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST23/ST23-003_EN.webp"
+  },
+  {
     "id": "ST23-002",
     "set": "ST23",
     "name": "Shanks",
@@ -46,29 +92,6 @@
     "effect": "If your opponent has a Character with 8000 base power or more, give this card in your hand −3 cost. [On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST23/ST23-002_EN.webp"
-  },
-  {
-    "id": "ST23-001",
-    "set": "ST23",
-    "name": "Uta",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": 4000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "FILM"
-    ],
-    "effect": "If you have a Character with 10000 power or more, give this card in your hand −4 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST23/ST23-001_EN.webp"
   },
   {
     "id": "ST23-004",
@@ -96,29 +119,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST23/ST23-004_EN.webp"
   },
   {
-    "id": "ST23-003",
-    "set": "ST23",
-    "name": "Benn.Beckman",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Red-Haired Pirates"
-    ],
-    "effect": "[On Play] You may trash 1 card from your hand: If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with 4000 base power or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST23/ST23-003_EN.webp"
-  },
-  {
     "id": "ST23-005",
     "set": "ST23",
     "name": "Yasopp",
@@ -140,5 +140,212 @@
     "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST23/ST23-005_EN.webp"
+  },
+  {
+    "id": "OP09-014_r1",
+    "set": "ST23",
+    "name": "Limejuice",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-014_EN.webp"
+  },
+  {
+    "id": "OP09-020_r1",
+    "set": "ST23",
+    "name": "Come On!! We'll Fight You!!",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Draw 1 card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-020_EN.webp"
+  },
+  {
+    "id": "OP09-006_r1",
+    "set": "ST23",
+    "name": "Howling Gab",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-006_EN.webp"
+  },
+  {
+    "id": "OP09-010_r1",
+    "set": "ST23",
+    "name": "Bonk Punch",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Play up to 1 [Monster] from your hand. [DON!! x1] [When Attacking] This Character gains +2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-010_EN.webp"
+  },
+  {
+    "id": "OP09-011_r1",
+    "set": "ST23",
+    "name": "Hongo",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-011_EN.webp"
+  },
+  {
+    "id": "OP09-012_r1",
+    "set": "ST23",
+    "name": "Monster",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Animal",
+      "Red-Haired Pirates"
+    ],
+    "effect": "If your Character [Bonk Punch] would be K.O.'d by an effect, you may trash this Character instead.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-012_EN.webp"
+  },
+  {
+    "id": "OP09-013_r1",
+    "set": "ST23",
+    "name": "Yasopp",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn. [DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-013_EN.webp"
+  },
+  {
+    "id": "OP09-015_r1",
+    "set": "ST23",
+    "name": "Lucky.Roux",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-015_EN.webp"
+  },
+  {
+    "id": "OP09-016_r1",
+    "set": "ST23",
+    "name": "Rockstar",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-016_EN.webp"
   }
 ]

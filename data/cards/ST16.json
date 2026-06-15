@@ -1,5 +1,79 @@
 [
   {
+    "id": "ST16-003",
+    "set": "ST16",
+    "name": "Charlotte Katakuri",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "FILM",
+      "Big Mom Pirates"
+    ],
+    "effect": "If your Leader has the {FILM} type and you have 6 or more rested cards, this Character gains +2000 power.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST16/ST16-003_EN.webp"
+  },
+  {
+    "id": "ST16-004",
+    "set": "ST16",
+    "name": "Shanks",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 9,
+    "power": 11000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST16/ST16-004_EN.webp"
+  },
+  {
+    "id": "ST16-005",
+    "set": "ST16",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "If you have a rested [Uta], this Character gains +1000 power.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST16/ST16-005_EN.webp"
+  },
+  {
     "id": "ST11-001_p1",
     "name": "Uta",
     "rarity": "Leader",
@@ -113,28 +187,6 @@
     "set": "ST16"
   },
   {
-    "id": "P-057_p1",
-    "name": "Fleeting Lullaby",
-    "rarity": null,
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Music",
-      "FILM"
-    ],
-    "effect": "[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-057_p1_EN.webp",
-    "set": "ST16"
-  },
-  {
     "id": "ST11-005_p2",
     "name": "I'm invincible",
     "rarity": "Common",
@@ -154,6 +206,28 @@
     "effect": "[Main] Set up to 1 of your [Uta] Leader as active.",
     "trigger": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST11/ST11-005_p2_EN.webp",
+    "set": "ST16"
+  },
+  {
+    "id": "P-057_p1",
+    "name": "Fleeting Lullaby",
+    "rarity": null,
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Music",
+      "FILM"
+    ],
+    "effect": "[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-057_p1_EN.webp",
     "set": "ST16"
   },
   {
@@ -201,7 +275,54 @@
     "set": "ST16"
   },
   {
-    "id": "P-061",
+    "id": "P-060_p1",
+    "name": "Tot Musica",
+    "rarity": null,
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Music",
+      "FILM"
+    ],
+    "effect": "[Main] You may rest 1 of your [Uta] cards: Rest up to 2 of your opponent's DON!! cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-060_p1_EN.webp",
+    "set": "ST16"
+  },
+  {
+    "id": "P-029_r1",
+    "set": "ST16",
+    "name": "Bartolomeo",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effect": "[End of Your Turn] You may rest this Character: Set up to 1 of your {FILM} type Characters other than [Bartolomeo] as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-029_EN.webp"
+  },
+  {
+    "id": "P-061_r1",
     "set": "ST16",
     "name": "Monkey.D.Luffy",
     "rarity": null,
@@ -223,27 +344,5 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-061_EN.webp"
-  },
-  {
-    "id": "P-060_p1",
-    "name": "Tot Musica",
-    "rarity": null,
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Music",
-      "FILM"
-    ],
-    "effect": "[Main] You may rest 1 of your [Uta] cards: Rest up to 2 of your opponent's DON!! cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-060_p1_EN.webp",
-    "set": "ST16"
   }
 ]
