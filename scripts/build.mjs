@@ -223,20 +223,52 @@ const setOfImage = (url) => (url || "").match(/\/one-piece\/([^/]+)\//)?.[1] ?? 
 
 const basePrintId = (id) => id.replace(/_[prc]\d+$/, "");
 
-// Shared writer. Each printing's set = the first product (taxonomy order) whose
-// page LISTS it — so reprints land under the product they were printed in (e.g.
-// PRB01's 319, like Limitless), not where their image is filed. Cards no product
-// lists (in-set alt arts only reachable via a base card's version pages) fall
-// back to the set their base card debuted in, keeping them with their set.
+// Shared writer. Each printing is canonical in the set that DEBUTED it (the
+// earliest-released product whose page lists its thumbnail). Every OTHER product
+// listing the same id reprinted it — we mint a distinct `${id}_r${n}` clone in
+// that set with no own price, so the app's `_r` fallback inherits the base
+// print's price. This makes each reprint individually trackable and every set's
+// count match the thumbnails Limitless shows (e.g. OP09-078 → OP09, plus
+// OP09-078_r1 in PRB02 and OP09-078_r2 in ST26). Numbering is deterministic (by
+// release date, then set code) so a card's reprint ids stay stable across
+// crawls. Ids no product lists (in-set alt arts reachable only via a base card's
+// version pages) fall back to their image folder.
 function writeOutputs(byId, products, membersByKey) {
-  const setOf = {};
+  // Drop reprints minted by a previous run so they regenerate from current
+  // membership (keeps --rebuild idempotent; Limitless never emits _rN ids).
+  for (const id of Object.keys(byId)) if (/_r\d+$/.test(id)) delete byId[id];
+
+  const rankOf = new Map(); // set key -> release date (undated sorts last)
+  for (const p of products)
+    rankOf.set(p.code || p.slug, p.releaseDate ? Date.parse(p.releaseDate) : Number.POSITIVE_INFINITY);
+  const rank = (key) => rankOf.get(key) ?? Number.POSITIVE_INFINITY;
+
+  // id -> set keys that list it, debut first (release date, then code tiebreak).
+  const listedBy = new Map();
   for (const p of products) {
     const key = p.code || p.slug;
-    for (const id of membersByKey.get(key) ?? []) if (setOf[id] === undefined) setOf[id] = key;
+    for (const id of membersByKey.get(key) ?? []) {
+      const arr = listedBy.get(id) ?? [];
+      if (!arr.includes(key)) arr.push(key);
+      listedBy.set(id, arr);
+    }
   }
+  for (const arr of listedBy.values())
+    arr.sort((a, b) => rank(a) - rank(b) || (a < b ? -1 : a > b ? 1 : 0));
+
+  // Canonical set per existing id: its debut, else its image folder.
   for (const c of Object.values(byId)) {
     const fallback = setOfImage((byId[basePrintId(c.id)] ?? c).image);
-    c.set = setOf[c.id] ?? fallback ?? c.set;
+    c.set = listedBy.get(c.id)?.[0] ?? fallback ?? c.set;
+  }
+  // Mint a reprint clone for every non-debut set that lists an id.
+  for (const [id, listers] of listedBy) {
+    const base = byId[id];
+    if (!base) continue;
+    listers.slice(1).forEach((set, i) => {
+      const rid = `${id}_r${i + 1}`;
+      if (!byId[rid]) byId[rid] = { ...base, id: rid, set };
+    });
   }
   const bySet = {};
   for (const c of Object.values(byId)) (bySet[c.set] ??= []).push(c);
