@@ -1,7 +1,6 @@
 [
   {
     "id": "OP01-016_p3",
-    "set": "ST10",
     "name": "Nami",
     "rarity": "Rare",
     "category": "Character",
@@ -20,11 +19,11 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-016_p3_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-016_p3_EN.webp",
+    "set": "ST10"
   },
   {
     "id": "OP01-025_p3",
-    "set": "ST10",
     "name": "Roronoa Zoro",
     "rarity": "Super Rare",
     "category": "Character",
@@ -44,7 +43,8 @@
     ],
     "effect": "[Rush] (This card can attack on the turn in which it is played.)",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-025_p3_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-025_p3_EN.webp",
+    "set": "ST10"
   },
   {
     "id": "ST10-001",
@@ -119,29 +119,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-003_EN.webp"
   },
   {
-    "id": "ST10-004",
-    "set": "ST10",
-    "name": "Sanji",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": 6000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] If your opponent has a Character with 5000 or more power, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-004_EN.webp"
-  },
-  {
     "id": "ST10-006",
     "set": "ST10",
     "name": "Monkey.D.Luffy",
@@ -163,6 +140,29 @@
     "effect": "[Rush] (This card can attack on the turn in which it is played.) [Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-006_EN.webp"
+  },
+  {
+    "id": "ST10-004",
+    "set": "ST10",
+    "name": "Sanji",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If your opponent has a Character with 5000 or more power, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-004_EN.webp"
   },
   {
     "id": "ST10-007",
@@ -325,27 +325,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-015_EN.webp"
   },
   {
-    "id": "ST10-017",
-    "set": "ST10",
-    "name": "Punk Vise",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Kid Pirates"
-    ],
-    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 2 or less, and add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-017_EN.webp"
-  },
-  {
     "id": "ST10-016",
     "set": "ST10",
     "name": "Gum-Gum Kong Gatling",
@@ -365,5 +344,26 @@
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with 7000 power or less.",
     "trigger": "[Trigger] Up to 1 of your Leader gains +1000 power until the end of your next turn.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-016_EN.webp"
+  },
+  {
+    "id": "ST10-017",
+    "set": "ST10",
+    "name": "Punk Vise",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 2 or less, and add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST10/ST10-017_EN.webp"
   }
 ]

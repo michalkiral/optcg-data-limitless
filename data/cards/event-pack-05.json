@@ -1,30 +1,29 @@
 [
   {
-    "id": "OP06-101_p3",
+    "id": "P-069",
     "set": "event-pack-05",
-    "name": "O-Nami",
-    "rarity": "Rare",
+    "name": "Koala",
+    "rarity": null,
     "category": "Character",
     "colors": [
-      "Yellow"
+      "Red"
     ],
-    "cost": 2,
-    "power": 3000,
+    "cost": 1,
+    "power": 1000,
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Special"
+      "Strike"
     ],
     "types": [
-      "Straw Hat Crew"
+      "Revolutionary Army"
     ],
-    "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-101_p3_EN.webp"
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-069_EN.webp"
   },
   {
     "id": "OP05-067_p2",
-    "set": "event-pack-05",
     "name": "Zoro-Juurou",
     "rarity": "Rare",
     "category": "Character",
@@ -43,7 +42,31 @@
     ],
     "effect": "[When Attacking] If you have 3 or less Life cards, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP05/OP05-067_p2_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP05/OP05-067_p2_EN.webp",
+    "set": "event-pack-05"
+  },
+  {
+    "id": "OP06-101_p3",
+    "name": "O-Nami",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader or Character cards gains [Banish] during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-101_p3_EN.webp",
+    "set": "event-pack-05"
   },
   {
     "id": "P-065",
@@ -68,28 +91,5 @@
     "effect": "[When Attacking] If your opponent has a Character with a cost of 0, this Character gains +2000 power until the start of your next turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-065_EN.webp"
-  },
-  {
-    "id": "P-069",
-    "set": "event-pack-05",
-    "name": "Koala",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Revolutionary Army"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-069_EN.webp"
   }
 ]

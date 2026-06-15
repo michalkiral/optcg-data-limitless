@@ -1,7 +1,29 @@
 [
   {
-    "id": "OP09-061_p2",
+    "id": "ST26-005",
     "set": "ST26",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your {Straw Hat Crew} type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST26/ST26-005_EN.webp"
+  },
+  {
+    "id": "OP09-061_p2",
     "name": "Monkey.D.Luffy",
     "rarity": "Leader",
     "category": "Leader",
@@ -22,7 +44,8 @@
     ],
     "effect": "[DON!! x1] All of your Characters gain +1 cost. [Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-061_p2_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-061_p2_EN.webp",
+    "set": "ST26"
   },
   {
     "id": "ST26-001",
@@ -46,29 +69,6 @@
     "effect": "If you have a [San-Gorou] or [Sanji] Character with 7000 base power or more, give this card in your hand −5 cost. [On Play] Return all of your [San-Gorou] and [Sanji] Characters to the owner's hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST26/ST26-001_EN.webp"
-  },
-  {
-    "id": "ST26-003",
-    "set": "ST26",
-    "name": "Nico Robin",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST26/ST26-003_EN.webp"
   },
   {
     "id": "ST26-002",
@@ -95,6 +95,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST26/ST26-002_EN.webp"
   },
   {
+    "id": "ST26-003",
+    "set": "ST26",
+    "name": "Nico Robin",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST26/ST26-003_EN.webp"
+  },
+  {
     "id": "ST26-004",
     "set": "ST26",
     "name": "General Franky",
@@ -116,28 +139,5 @@
     "effect": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST26/ST26-004_EN.webp"
-  },
-  {
-    "id": "ST26-005",
-    "set": "ST26",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play]/[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your {Straw Hat Crew} type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST26/ST26-005_EN.webp"
   }
 ]

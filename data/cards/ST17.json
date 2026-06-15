@@ -1,7 +1,30 @@
 [
   {
-    "id": "OP01-060_p2",
+    "id": "ST03-004",
     "set": "ST17",
+    "name": "Gecko Moria",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-004_EN.webp"
+  },
+  {
+    "id": "OP01-060_p2",
     "name": "Donquixote Doflamingo",
     "rarity": "Leader",
     "category": "Leader",
@@ -21,7 +44,8 @@
     ],
     "effect": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.) : Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-060_p2_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-060_p2_EN.webp",
+    "set": "ST17"
   },
   {
     "id": "ST17-001",
@@ -118,29 +142,5 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-002_EN.webp"
-  },
-  {
-    "id": "ST03-004",
-    "set": "ST17",
-    "name": "Gecko Moria",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST03/ST03-004_EN.webp"
   }
 ]
