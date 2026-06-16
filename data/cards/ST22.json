@@ -48,6 +48,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-002_EN.webp"
   },
   {
+    "id": "ST22-001_p1",
+    "name": "Ace & Newgate",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-001_p1_EN.webp",
+    "set": "ST22"
+  },
+  {
     "id": "ST22-002_p1",
     "name": "Izo",
     "rarity": "Super Rare",
@@ -72,28 +96,27 @@
     "set": "ST22"
   },
   {
-    "id": "ST22-001_p1",
-    "name": "Ace & Newgate",
-    "rarity": "Leader",
-    "category": "Leader",
+    "id": "ST22-004",
+    "set": "ST22",
+    "name": "Elmy",
+    "rarity": "Common",
+    "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 5,
+    "cost": 3,
     "power": 5000,
-    "counter": null,
+    "counter": 1000,
     "block": 3,
     "attributes": [
-      "Special"
+      "Strike"
     ],
     "types": [
-      "The Four Emperors",
-      "Whitebeard Pirates"
+      "Whitebeard Pirates Allies"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
+    "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-001_p1_EN.webp",
-    "set": "ST22"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-004_EN.webp"
   },
   {
     "id": "ST22-003",
@@ -120,29 +143,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-003_EN.webp"
   },
   {
-    "id": "ST22-004",
-    "set": "ST22",
-    "name": "Elmy",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Whitebeard Pirates Allies"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-004_EN.webp"
-  },
-  {
     "id": "ST22-004_p1",
     "name": "Elmy",
     "rarity": "Common",
@@ -163,30 +163,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-004_p1_EN.webp",
-    "set": "ST22"
-  },
-  {
-    "id": "ST22-003_p1",
-    "name": "Edward.Newgate",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 9,
-    "power": 10000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Four Emperors",
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Double Attack] (This card deals 2 damage.) [On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-003_p1_EN.webp",
     "set": "ST22"
   },
   {
@@ -213,6 +189,30 @@
     "effect": "If this Character would be removed from the field by your opponent's effect, you may trash 2 cards from your hand instead. [Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards and return 1 of your Characters other than this Character to the owner's hand: Set this Character as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-005_EN.webp"
+  },
+  {
+    "id": "ST22-003_p1",
+    "name": "Edward.Newgate",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Double Attack] (This card deals 2 damage.) [On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-003_p1_EN.webp",
+    "set": "ST22"
   },
   {
     "id": "ST22-006",
@@ -355,29 +355,6 @@
     "set": "ST22"
   },
   {
-    "id": "ST22-008_p1",
-    "name": "Decalvan Brothers",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 4000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Whitebeard Pirates Allies"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-008_p1_EN.webp",
-    "set": "ST22"
-  },
-  {
     "id": "ST22-009",
     "set": "ST22",
     "name": "Vista",
@@ -399,6 +376,29 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-009_EN.webp"
+  },
+  {
+    "id": "ST22-008_p1",
+    "name": "Decalvan Brothers",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-008_p1_EN.webp",
+    "set": "ST22"
   },
   {
     "id": "ST22-009_p1",
@@ -493,29 +493,6 @@
     "set": "ST22"
   },
   {
-    "id": "ST22-012",
-    "set": "ST22",
-    "name": "Marco",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Once Per Turn] If this Character would be K.O.'d by your opponent's effect, you may trash 1 card from your hand instead. [When Attacking] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", this Character gains +1000 power until the end of your opponent's next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-012_EN.webp"
-  },
-  {
     "id": "ST22-011_p1",
     "name": "Whitey Bay",
     "rarity": "Common",
@@ -537,6 +514,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-011_p1_EN.webp",
     "set": "ST22"
+  },
+  {
+    "id": "ST22-012",
+    "set": "ST22",
+    "name": "Marco",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Once Per Turn] If this Character would be K.O.'d by your opponent's effect, you may trash 1 card from your hand instead. [When Attacking] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", this Character gains +1000 power until the end of your opponent's next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-012_EN.webp"
   },
   {
     "id": "ST22-012_p1",
@@ -633,28 +633,6 @@
     "set": "ST22"
   },
   {
-    "id": "ST22-015",
-    "set": "ST22",
-    "name": "I Am Whitebeard!!",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 8,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", play up to 1 [Edward.Newgate] from your hand. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-015_EN.webp"
-  },
-  {
     "id": "ST22-014_p1",
     "name": "A.O.",
     "rarity": "Common",
@@ -678,25 +656,26 @@
     "set": "ST22"
   },
   {
-    "id": "ST22-016",
+    "id": "ST22-015",
     "set": "ST22",
-    "name": "Take That Back!! Take Back What You Said!!",
+    "name": "I Am Whitebeard!!",
     "rarity": "Common",
     "category": "Event",
     "colors": [
       "Blue"
     ],
-    "cost": 1,
+    "cost": 8,
     "power": null,
     "counter": null,
     "block": 3,
     "attributes": [],
     "types": [
+      "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[Counter] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "[Trigger] Draw 1 card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-016_EN.webp"
+    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", play up to 1 [Edward.Newgate] from your hand. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-015_EN.webp"
   },
   {
     "id": "ST22-017",
@@ -718,5 +697,26 @@
     "effect": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card. Then, place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
     "trigger": "[Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-017_EN.webp"
+  },
+  {
+    "id": "ST22-016",
+    "set": "ST22",
+    "name": "Take That Back!! Take Back What You Said!!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Counter] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "trigger": "[Trigger] Draw 1 card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-016_EN.webp"
   }
 ]
