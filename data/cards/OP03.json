@@ -182,27 +182,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-055_EN.webp"
   },
   {
-    "id": "OP03-056",
-    "set": "OP03",
-    "name": "Sanji's Pilaf",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "East Blue"
-    ],
-    "effect": "[Main] Draw 2 cards.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-056_EN.webp"
-  },
-  {
     "id": "OP03-057",
     "set": "OP03",
     "name": "Three Thousand Worlds",
@@ -223,6 +202,27 @@
     "effect": "[Main] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
     "trigger": "[Trigger] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-057_EN.webp"
+  },
+  {
+    "id": "OP03-056",
+    "set": "OP03",
+    "name": "Sanji's Pilaf",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[Main] Draw 2 cards.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-056_EN.webp"
   },
   {
     "id": "OP03-060",
@@ -1149,6 +1149,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-015_EN.webp"
   },
   {
+    "id": "OP03-016",
+    "set": "OP03",
+    "name": "Flame Emperor",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 7,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Main] If your Leader is [Portgas.D.Ace], K.O. up to 1 of your opponent's Characters with 8000 power or less, and your Leader gains [Double Attack] and +3000 power during this turn. (This card deals 2 damage.)",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-016_EN.webp"
+  },
+  {
     "id": "OP03-013_p1",
     "name": "Marco",
     "rarity": "Alternate Art",
@@ -1170,27 +1191,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-013_p1_EN.webp",
     "set": "OP03"
-  },
-  {
-    "id": "OP03-016",
-    "set": "OP03",
-    "name": "Flame Emperor",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 7,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Main] If your Leader is [Portgas.D.Ace], K.O. up to 1 of your opponent's Characters with 8000 power or less, and your Leader gains [Double Attack] and +3000 power during this turn. (This card deals 2 damage.)",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-016_EN.webp"
   },
   {
     "id": "OP03-017",
@@ -1235,27 +1235,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-018_EN.webp"
   },
   {
-    "id": "OP03-019",
-    "set": "OP03",
-    "name": "Fiery Doll",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Main] Your Leader gains +4000 power during this turn.",
-    "trigger": "[Trigger] Give up to 1 of your opponent's Leader or Character cards -10000 power during this turn.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-019_EN.webp"
-  },
-  {
     "id": "OP03-018_p1",
     "name": "Fire Fist",
     "rarity": "Alternate Art",
@@ -1277,15 +1256,15 @@
     "set": "OP03"
   },
   {
-    "id": "OP03-020",
+    "id": "OP03-019",
     "set": "OP03",
-    "name": "Striker",
+    "name": "Fiery Doll",
     "rarity": "Common",
-    "category": "Stage",
+    "category": "Event",
     "colors": [
       "Red"
     ],
-    "cost": 1,
+    "cost": 2,
     "power": null,
     "counter": null,
     "block": 1,
@@ -1293,9 +1272,9 @@
     "types": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Activate: Main] ② (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-020_EN.webp"
+    "effect": "[Main] Your Leader gains +4000 power during this turn.",
+    "trigger": "[Trigger] Give up to 1 of your opponent's Leader or Character cards -10000 power during this turn.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-019_EN.webp"
   },
   {
     "id": "OP03-021",
@@ -1320,6 +1299,51 @@
     "effect": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-021_EN.webp"
+  },
+  {
+    "id": "OP03-020",
+    "set": "OP03",
+    "name": "Striker",
+    "rarity": "Common",
+    "category": "Stage",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate: Main] ② (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-020_EN.webp"
+  },
+  {
+    "id": "OP03-021_p1",
+    "name": "Kuro",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "East Blue",
+      "Black Cat Pirates"
+    ],
+    "effect": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-021_p1_EN.webp",
+    "set": "OP03"
   },
   {
     "id": "OP03-022",
@@ -1348,28 +1372,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-022_EN.webp"
   },
   {
-    "id": "OP03-021_p1",
-    "name": "Kuro",
-    "rarity": "Alternate Art",
-    "category": "Leader",
+    "id": "OP03-023",
+    "set": "OP03",
+    "name": "Alvida",
+    "rarity": "Common",
+    "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
     "block": 1,
     "attributes": [
-      "Slash"
+      "Strike"
     ],
     "types": [
       "East Blue",
-      "Black Cat Pirates"
+      "Alvida Pirates"
     ],
-    "effect": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-021_p1_EN.webp",
-    "set": "OP03"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-023_EN.webp"
   },
   {
     "id": "OP03-022_p1",
@@ -1396,30 +1420,6 @@
     "trigger": "[Trigger] from your hand.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-022_p1_EN.webp",
     "set": "OP03"
-  },
-  {
-    "id": "OP03-023",
-    "set": "OP03",
-    "name": "Alvida",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 3000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "East Blue",
-      "Alvida Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-023_EN.webp"
   },
   {
     "id": "OP03-024",
@@ -1470,30 +1470,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-025_EN.webp"
   },
   {
-    "id": "OP03-024_p1",
-    "name": "Gin",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "East Blue",
-      "Krieg Pirates"
-    ],
-    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 2 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-024_p1_EN.webp",
-    "set": "OP03"
-  },
-  {
     "id": "OP03-025_p1",
     "name": "Krieg",
     "rarity": "Alternate Art",
@@ -1515,6 +1491,30 @@
     "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 2 of your opponent's rested Characters with a cost of 4 or less. [DON!! x1] This Character gains [Double Attack]. (This card deals 2 damage.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-025_p1_EN.webp",
+    "set": "OP03"
+  },
+  {
+    "id": "OP03-024_p1",
+    "name": "Gin",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {East Blue} type, rest up to 2 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-024_p1_EN.webp",
     "set": "OP03"
   },
   {
@@ -1640,30 +1640,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-030_EN.webp"
   },
   {
-    "id": "OP03-032",
-    "set": "OP03",
-    "name": "Buggy",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "East Blue",
-      "Buggy Pirates"
-    ],
-    "effect": "This Character cannot be K.O.'d in battle by <Slash> attribute cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-032_EN.webp"
-  },
-  {
     "id": "OP03-031",
     "set": "OP03",
     "name": "Pearl",
@@ -1686,6 +1662,30 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-031_EN.webp"
+  },
+  {
+    "id": "OP03-032",
+    "set": "OP03",
+    "name": "Buggy",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "East Blue",
+      "Buggy Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d in battle by <Slash> attribute cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-032_EN.webp"
   },
   {
     "id": "OP03-033",
@@ -1806,28 +1806,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-037_EN.webp"
   },
   {
-    "id": "OP03-038",
-    "set": "OP03",
-    "name": "Deathly Poison Gas Bomb MH5",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "East Blue",
-      "Krieg Pirates"
-    ],
-    "effect": "[Main] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-038_EN.webp"
-  },
-  {
     "id": "OP03-039",
     "set": "OP03",
     "name": "One, Two, Jango",
@@ -1848,6 +1826,28 @@
     "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 1 or less. Then, up to 1 of your Characters gains +1000 power during this turn.",
     "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-039_EN.webp"
+  },
+  {
+    "id": "OP03-038",
+    "set": "OP03",
+    "name": "Deathly Poison Gas Bomb MH5",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[Main] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-038_EN.webp"
   },
   {
     "id": "OP03-040",
@@ -1942,29 +1942,6 @@
     "set": "OP03"
   },
   {
-    "id": "OP03-042",
-    "set": "OP03",
-    "name": "Usopp's Pirate Crew",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "East Blue"
-    ],
-    "effect": "[On Play] Add up to 1 blue [Usopp] from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-042_EN.webp"
-  },
-  {
     "id": "OP03-043",
     "set": "OP03",
     "name": "Gaimon",
@@ -1986,6 +1963,29 @@
     "effect": "When you deal damage to your opponent's Life, you may trash 3 cards from the top of your deck. If you do, trash this Character.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-043_EN.webp"
+  },
+  {
+    "id": "OP03-042",
+    "set": "OP03",
+    "name": "Usopp's Pirate Crew",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[On Play] Add up to 1 blue [Usopp] from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-042_EN.webp"
   },
   {
     "id": "OP03-045",
@@ -2080,29 +2080,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-049_EN.webp"
   },
   {
-    "id": "OP03-047_p1",
-    "name": "Zeff",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "East Blue"
-    ],
-    "effect": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck. [On Play] You may return up to 1 Character with a cost of 3 or less to the owner's hand, and you may trash 2 cards from the top of your deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-047_p1_EN.webp",
-    "set": "OP03"
-  },
-  {
     "id": "OP03-050",
     "set": "OP03",
     "name": "Boodle",
@@ -2124,6 +2101,29 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 card from the top of your deck.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-050_EN.webp"
+  },
+  {
+    "id": "OP03-047_p1",
+    "name": "Zeff",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck. [On Play] You may return up to 1 Character with a cost of 3 or less to the owner's hand, and you may trash 2 cards from the top of your deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-047_p1_EN.webp",
+    "set": "OP03"
   },
   {
     "id": "OP03-051",
@@ -2622,6 +2622,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-074_EN.webp"
   },
   {
+    "id": "OP03-076",
+    "set": "OP03",
+    "name": "Rob Lucci",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] You may trash 2 cards from your hand: When your opponent's Character is K.O.'d, set this Leader as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-076_EN.webp"
+  },
+  {
     "id": "OP03-075",
     "set": "OP03",
     "name": "Galley-La Company",
@@ -2644,10 +2667,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-075_EN.webp"
   },
   {
-    "id": "OP03-076",
-    "set": "OP03",
+    "id": "OP03-076_p1",
     "name": "Rob Lucci",
-    "rarity": "Leader",
+    "rarity": "Alternate Art",
     "category": "Leader",
     "colors": [
       "Black"
@@ -2664,7 +2686,8 @@
     ],
     "effect": "[Your Turn] [Once Per Turn] You may trash 2 cards from your hand: When your opponent's Character is K.O.'d, set this Leader as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-076_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-076_p1_EN.webp",
+    "set": "OP03"
   },
   {
     "id": "OP03-077",
@@ -2692,27 +2715,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-077_EN.webp"
   },
   {
-    "id": "OP03-076_p1",
-    "name": "Rob Lucci",
-    "rarity": "Alternate Art",
-    "category": "Leader",
+    "id": "OP03-080",
+    "set": "OP03",
+    "name": "Kaku",
+    "rarity": "Super Rare",
+    "category": "Character",
     "colors": [
       "Black"
     ],
     "cost": 5,
-    "power": 5000,
-    "counter": null,
+    "power": 6000,
+    "counter": 1000,
     "block": 1,
     "attributes": [
-      "Strike"
+      "Slash"
     ],
     "types": [
       "CP9"
     ],
-    "effect": "[Your Turn] [Once Per Turn] You may trash 2 cards from your hand: When your opponent's Character is K.O.'d, set this Leader as active.",
+    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-076_p1_EN.webp",
-    "set": "OP03"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-080_EN.webp"
   },
   {
     "id": "OP03-077_p1",
@@ -2738,29 +2761,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-077_p1_EN.webp",
     "set": "OP03"
-  },
-  {
-    "id": "OP03-080",
-    "set": "OP03",
-    "name": "Kaku",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "CP9"
-    ],
-    "effect": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-080_EN.webp"
   },
   {
     "id": "OP03-080_p1",
@@ -3449,6 +3449,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-115_EN.webp"
   },
   {
+    "id": "OP03-118",
+    "set": "OP03",
+    "name": "Ikoku Sovereignty",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle.",
+    "trigger": "[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-118_EN.webp"
+  },
+  {
     "id": "OP03-117",
     "set": "OP03",
     "name": "Napoleon",
@@ -3473,26 +3495,25 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-117_EN.webp"
   },
   {
-    "id": "OP03-118",
+    "id": "OP03-120",
     "set": "OP03",
-    "name": "Ikoku Sovereignty",
-    "rarity": "Uncommon",
+    "name": "Tropical Torment",
+    "rarity": "Common",
     "category": "Event",
     "colors": [
       "Yellow"
     ],
-    "cost": 2,
+    "cost": 3,
     "power": null,
     "counter": null,
     "block": 1,
     "attributes": [],
     "types": [
-      "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle.",
-    "trigger": "[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-118_EN.webp"
+    "effect": "[Main] If your opponent has 4 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-120_EN.webp"
   },
   {
     "id": "OP03-119",
@@ -3514,27 +3535,6 @@
     "effect": "[Main] If you have less Life cards than your opponent, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": "[Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-119_EN.webp"
-  },
-  {
-    "id": "OP03-120",
-    "set": "OP03",
-    "name": "Tropical Torment",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Big Mom Pirates"
-    ],
-    "effect": "[Main] If your opponent has 4 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP03/OP03-120_EN.webp"
   },
   {
     "id": "ST03-009_p1",
