@@ -841,6 +841,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-010_EN.webp"
   },
   {
+    "id": "EB01-011",
+    "set": "EB01",
+    "name": "Mini-Merry",
+    "rarity": "Common",
+    "category": "Stage",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-011_EN.webp"
+  },
+  {
     "id": "EB01-013",
     "set": "EB01",
     "name": "Kouzuki Hiyori",
@@ -865,25 +886,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-013_EN.webp"
   },
   {
-    "id": "EB01-011",
+    "id": "EB01-014",
     "set": "EB01",
-    "name": "Mini-Merry",
-    "rarity": "Common",
-    "category": "Stage",
+    "name": "Sanji",
+    "rarity": "Rare",
+    "category": "Character",
     "colors": [
-      "Red"
+      "Green"
     ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
     "block": 2,
-    "attributes": [],
+    "attributes": [
+      "Strike"
+    ],
     "types": [
+      "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
+    "effect": "[DON!! x1] [Your Turn] This Character gains +1000 power for every 3 of your rested DON!! cards.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-011_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-014_EN.webp"
   },
   {
     "id": "EB01-013_p1",
@@ -908,30 +932,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-013_p1_EN.webp",
     "set": "EB01"
-  },
-  {
-    "id": "EB01-014",
-    "set": "EB01",
-    "name": "Sanji",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x1] [Your Turn] This Character gains +1000 power for every 3 of your rested DON!! cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-014_EN.webp"
   },
   {
     "id": "EB01-016",
@@ -1073,30 +1073,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
   },
   {
-    "id": "EB01-022_p1",
-    "name": "Inazuma",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down",
-      "Revolutionary Army"
-    ],
-    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
-    "set": "EB01"
-  },
-  {
     "id": "EB01-025",
     "set": "EB01",
     "name": "Fourtricks",
@@ -1121,27 +1097,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-025_EN.webp"
   },
   {
-    "id": "EB01-026",
-    "set": "EB01",
-    "name": "Prince Bellett",
-    "rarity": "Common",
+    "id": "EB01-022_p1",
+    "name": "Inazuma",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 2000,
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
     "block": 2,
     "attributes": [
-      "Ranged"
+      "Slash"
     ],
     "types": [
-      "Impel Down"
+      "Impel Down",
+      "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-026_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-027",
@@ -1165,6 +1142,29 @@
     "effect": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash. [On Play] Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-027_EN.webp"
+  },
+  {
+    "id": "EB01-026",
+    "set": "EB01",
+    "name": "Prince Bellett",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-026_EN.webp"
   },
   {
     "id": "EB01-028",
@@ -1212,28 +1212,6 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-029",
-    "set": "EB01",
-    "name": "Sorry. I'm a Goner.",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "East Blue",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
-    "trigger": "[Trigger] Return up to 1 Character with a cost of 8 or less to the owner's hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-029_EN.webp"
-  },
-  {
     "id": "EB01-030",
     "set": "EB01",
     "name": "Loguetown",
@@ -1255,28 +1233,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-030_EN.webp"
   },
   {
-    "id": "EB01-031",
+    "id": "EB01-029",
     "set": "EB01",
-    "name": "Kalifa",
-    "rarity": "Rare",
-    "category": "Character",
+    "name": "Sorry. I'm a Goner.",
+    "rarity": "Common",
+    "category": "Event",
     "colors": [
-      "Purple"
+      "Blue"
     ],
-    "cost": 5,
-    "power": 5000,
-    "counter": 1000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Water Seven",
-      "Galley-La Company"
+      "East Blue",
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_EN.webp"
+    "effect": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
+    "trigger": "[Trigger] Return up to 1 Character with a cost of 8 or less to the owner's hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-029_EN.webp"
   },
   {
     "id": "EB01-032",
@@ -1301,6 +1277,30 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-032_EN.webp"
+  },
+  {
+    "id": "EB01-031",
+    "set": "EB01",
+    "name": "Kalifa",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_EN.webp"
   },
   {
     "id": "EB01-031_p1",
@@ -1350,29 +1350,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-033_EN.webp"
   },
   {
-    "id": "EB01-034",
-    "set": "EB01",
-    "name": "Ms. Wednesday",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_EN.webp"
-  },
-  {
     "id": "EB01-035",
     "set": "EB01",
     "name": "Ms. Monday",
@@ -1396,9 +1373,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-035_EN.webp"
   },
   {
-    "id": "EB01-034_p1",
+    "id": "EB01-034",
+    "set": "EB01",
     "name": "Ms. Wednesday",
-    "rarity": "Alternate Art",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Purple"
@@ -1415,8 +1393,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_p1_EN.webp",
-    "set": "EB01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_EN.webp"
   },
   {
     "id": "EB01-036",
@@ -1441,6 +1418,29 @@
     "effect": "[Rush] (This card can attack on the turn in which it is played.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-036_EN.webp"
+  },
+  {
+    "id": "EB01-034_p1",
+    "name": "Ms. Wednesday",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-037",
