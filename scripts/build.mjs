@@ -34,6 +34,13 @@ const numOf = (s) => {
   const m = (s || "").replace(/,/g, "").match(/-?\d+/);
   return m ? Number(m[0]) : null;
 };
+// Limitless links each EUR price to the exact Cardmarket product page. Keep that
+// URL (minus tracking params) so the app can deep-link a printing; drop anything
+// that is not a Cardmarket link.
+const cmUrl = (href) => {
+  const base = (href || "").split("?")[0];
+  return base.includes("cardmarket.com") ? base : null;
+};
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const MONTHS = { Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06", Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12" };
@@ -151,6 +158,7 @@ function parseCard(html) {
     image: grab(html, /(https:\/\/limitlesstcg[^"' ]*\/one-piece\/[^"' ]*_EN\.webp)/) || null,
     eur: parsePrice(grab(cur, /card-price eur"[^>]*>([^<]*)</)),
     usd: parsePrice(grab(cur, /card-price usd"[^>]*>([^<]*)</)),
+    cm: cmUrl(grab(cur, /card-price eur"\s+href="([^"]*)"/)),
   };
 }
 
@@ -166,8 +174,9 @@ function parsePrintsTable(html) {
     if (/<th[\s>]/.test(chunk)) continue;
     const eur = grab(chunk, /class="card-price eur"\s+href="[^"]*"[^>]*>\s*([^<]*)</);
     const usd = grab(chunk, /class="card-price usd"\s+href="[^"]*"[^>]*>\s*([^<]*)</);
+    const cm = cmUrl(grab(chunk, /class="card-price eur"\s+href="([^"]*)"/));
     const v = grab(chunk, /href="\/cards\/[^"]*\?v=(\d+)"/);
-    rows.push({ v: v ? Number(v) : null, eur: parsePrice(eur), usd: parsePrice(usd) });
+    rows.push({ v: v ? Number(v) : null, eur: parsePrice(eur), usd: parsePrice(usd), cm });
   }
   return rows;
 }
@@ -201,6 +210,7 @@ async function resolveVariants(baseId, baseHtml, baseCard) {
       image: grab(vp, /(https:\/\/limitlesstcg[^"' ]*\/one-piece\/[^"' ]*_EN\.webp)/) || baseCard.image,
       eur: row.eur,
       usd: row.usd,
+      cm: row.cm,
     });
   }
   return out;
@@ -366,6 +376,7 @@ function buildPriceOutputs(prices) {
       usd: p.usd,
       d7: i7 >= 0 ? pct(p.eur, s[i7] ?? null) : null,
       d30: i30 >= 0 ? pct(p.eur, s[i30] ?? null) : null,
+      ...(p.cm ? { cm: p.cm } : {}),
     };
   }
   writeFileSync(path, `${JSON.stringify(history)}\n`);
@@ -435,15 +446,15 @@ async function main() {
       if (!id) return;
       try {
         const html = await get(`/cards/${encodeURIComponent(id)}`);
-        const { eur, usd, ...card } = parseCard(html);
+        const { eur, usd, cm, ...card } = parseCard(html);
         byId[id] = { id, set: setOfImage(card.image), ...card };
-        if (eur != null || usd != null) prices[id] = { eur, usd };
+        if (eur != null || usd != null || cm) prices[id] = { eur, usd, cm };
         for (const v of await resolveVariants(id, html, card)) {
-          const { eur: ve, usd: vu, id: vid, ...vcard } = v;
+          const { eur: ve, usd: vu, cm: vcm, id: vid, ...vcard } = v;
           if (byId[vid]) continue;
           byId[vid] = { id: vid, ...vcard };
           variantCount++;
-          if (ve != null || vu != null) prices[vid] = { eur: ve, usd: vu };
+          if (ve != null || vu != null || vcm) prices[vid] = { eur: ve, usd: vu, cm: vcm };
         }
       } catch {
         failed++;
