@@ -590,6 +590,30 @@
     "set": "OP11"
   },
   {
+    "id": "OP11-014",
+    "set": "OP11",
+    "name": "Borsalino",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "FILM",
+      "Navy"
+    ],
+    "effect": "[Blocker] [Activate: Main] You may rest this Character: Up to 1 of your {Navy} type Leader or Character cards can also attack active Characters during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-014_EN.webp"
+  },
+  {
     "id": "OP11-013",
     "set": "OP11",
     "name": "Prince Grus",
@@ -614,28 +638,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-013_EN.webp"
   },
   {
-    "id": "OP11-014",
+    "id": "OP11-016",
     "set": "OP11",
-    "name": "Borsalino",
-    "rarity": "Rare",
+    "name": "Roronoa Zoro",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 3,
-    "power": 3000,
+    "cost": 5,
+    "power": 6000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
-      "FILM",
-      "Navy"
+      "Straw Hat Crew"
     ],
-    "effect": "[Blocker] [Activate: Main] You may rest this Character: Up to 1 of your {Navy} type Leader or Character cards can also attack active Characters during this turn.",
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-014_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-016_EN.webp"
   },
   {
     "id": "OP11-015",
@@ -661,27 +684,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-015_EN.webp"
   },
   {
-    "id": "OP11-016",
+    "id": "OP11-018",
     "set": "OP11",
-    "name": "Roronoa Zoro",
-    "rarity": "Uncommon",
-    "category": "Character",
+    "name": "Honesty Impact",
+    "rarity": "Rare",
+    "category": "Event",
     "colors": [
       "Red"
     ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
+    "cost": 6,
+    "power": null,
+    "counter": null,
     "block": 3,
-    "attributes": [
-      "Slash"
-    ],
+    "attributes": [],
     "types": [
-      "Straw Hat Crew"
+      "Navy",
+      "SWORD"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-016_EN.webp"
+    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-018_EN.webp"
   },
   {
     "id": "OP11-017",
@@ -709,10 +731,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-017_EN.webp"
   },
   {
-    "id": "OP11-018",
-    "set": "OP11",
+    "id": "OP11-018_p1",
     "name": "Honesty Impact",
-    "rarity": "Rare",
+    "rarity": "Alternate Art",
     "category": "Event",
     "colors": [
       "Red"
@@ -728,7 +749,8 @@
     ],
     "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
     "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-018_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-018_p1_EN.webp",
+    "set": "OP11"
   },
   {
     "id": "OP11-019",
@@ -751,28 +773,6 @@
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has a Character with 6000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "trigger": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-019_EN.webp"
-  },
-  {
-    "id": "OP11-018_p1",
-    "name": "Honesty Impact",
-    "rarity": "Alternate Art",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Navy",
-      "SWORD"
-    ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −4000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-018_p1_EN.webp",
-    "set": "OP11"
   },
   {
     "id": "OP11-020",
@@ -822,6 +822,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-021_EN.webp"
   },
   {
+    "id": "OP11-021_p1",
+    "name": "Jinbe",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[End of Your Turn] If you have 6 or less cards in your hand, set up to 1 of your {Fish-Man} or {Merfolk} type Characters and up to 1 of your DON!! cards as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-021_p1_EN.webp",
+    "set": "OP11"
+  },
+  {
     "id": "OP11-022",
     "set": "OP11",
     "name": "Shirahoshi",
@@ -845,30 +869,6 @@
     "effect": "This Leader cannot attack. [Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards and turn 1 card from the top of your Life cards face-up: Play up to 1 {Neptunian} type Character card or [Megalo] with a cost equal to or less than the number of DON!! cards on your field from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-022_EN.webp"
-  },
-  {
-    "id": "OP11-021_p1",
-    "name": "Jinbe",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Fish-Man",
-      "Straw Hat Crew"
-    ],
-    "effect": "[End of Your Turn] If you have 6 or less cards in your hand, set up to 1 of your {Fish-Man} or {Merfolk} type Characters and up to 1 of your DON!! cards as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-021_p1_EN.webp",
-    "set": "OP11"
   },
   {
     "id": "OP11-022_p1",
@@ -921,31 +921,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-023_EN.webp"
   },
   {
-    "id": "OP11-024",
-    "set": "OP11",
-    "name": "Aladine",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Merfolk",
-      "Fish-Man Island",
-      "The Sun Pirates"
-    ],
-    "effect": "When this Character is K.O.'d by your opponent's effect, you may trash 1 card from your hand and rest 1 of your DON!! cards. If you do, play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 6 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-024_EN.webp"
-  },
-  {
     "id": "OP11-023_p1",
     "name": "Arlong",
     "rarity": "Alternate Art",
@@ -969,6 +944,31 @@
     "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-023_p1_EN.webp",
     "set": "OP11"
+  },
+  {
+    "id": "OP11-024",
+    "set": "OP11",
+    "name": "Aladine",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Merfolk",
+      "Fish-Man Island",
+      "The Sun Pirates"
+    ],
+    "effect": "When this Character is K.O.'d by your opponent's effect, you may trash 1 card from your hand and rest 1 of your DON!! cards. If you do, play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 6 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-024_EN.webp"
   },
   {
     "id": "OP11-025",
@@ -1065,6 +1065,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-028_EN.webp"
   },
   {
+    "id": "OP11-030",
+    "set": "OP11",
+    "name": "Shirahoshi",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Merfolk",
+      "Fish-Man Island"
+    ],
+    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Neptunian} or {Fish-Man Island} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-030_EN.webp"
+  },
+  {
     "id": "OP11-029",
     "set": "OP11",
     "name": "Charlotte Praline",
@@ -1088,30 +1112,6 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Rest up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-029_EN.webp"
-  },
-  {
-    "id": "OP11-030",
-    "set": "OP11",
-    "name": "Shirahoshi",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Merfolk",
-      "Fish-Man Island"
-    ],
-    "effect": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Neptunian} or {Fish-Man Island} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-030_EN.webp"
   },
   {
     "id": "OP11-031",
@@ -1163,6 +1163,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-032_EN.webp"
   },
   {
+    "id": "OP11-033",
+    "set": "OP11",
+    "name": "Bird Neptunian",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Neptunian"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-033_EN.webp"
+  },
+  {
     "id": "OP11-031_p1",
     "name": "Jinbe",
     "rarity": "Alternate Art",
@@ -1186,29 +1209,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-031_p1_EN.webp",
     "set": "OP11"
-  },
-  {
-    "id": "OP11-033",
-    "set": "OP11",
-    "name": "Bird Neptunian",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Neptunian"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-033_EN.webp"
   },
   {
     "id": "OP11-034",
@@ -1446,30 +1446,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-042_EN.webp"
   },
   {
-    "id": "OP11-043",
-    "set": "OP11",
-    "name": "Vinsmoke Ichiji",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 7,
-    "power": 7000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "The Vinsmoke Family",
-      "GERMA 66"
-    ],
-    "effect": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] This effect can be activated when you only have Characters with a type including \"GERMA\". Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, trash 2 cards from the top of your deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-043_EN.webp"
-  },
-  {
     "id": "OP11-041_p1",
     "name": "Nami",
     "rarity": "Alternate Art",
@@ -1492,6 +1468,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-041_p1_EN.webp",
     "set": "OP11"
+  },
+  {
+    "id": "OP11-043",
+    "set": "OP11",
+    "name": "Vinsmoke Ichiji",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "The Vinsmoke Family",
+      "GERMA 66"
+    ],
+    "effect": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] This effect can be activated when you only have Characters with a type including \"GERMA\". Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, trash 2 cards from the top of your deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-043_EN.webp"
   },
   {
     "id": "OP11-044",
@@ -2051,29 +2051,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-064_EN.webp"
   },
   {
-    "id": "OP11-065",
-    "set": "OP11",
-    "name": "Charlotte Anana",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Big Mom Pirates"
-    ],
-    "effect": "If you have a purple {Big Mom Pirates} type Character other than [Charlotte Anana], this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-065_EN.webp"
-  },
-  {
     "id": "OP11-066",
     "set": "OP11",
     "name": "Charlotte Oven",
@@ -2097,27 +2074,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-066_EN.webp"
   },
   {
-    "id": "OP11-068",
+    "id": "OP11-065",
     "set": "OP11",
-    "name": "Charlotte Daifuku",
+    "name": "Charlotte Anana",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 2000,
+    "cost": 1,
+    "power": 1000,
+    "counter": 1000,
     "block": 3,
     "attributes": [
-      "Slash"
+      "Wisdom"
     ],
     "types": [
       "Big Mom Pirates"
     ],
-    "effect": "",
+    "effect": "If you have a purple {Big Mom Pirates} type Character other than [Charlotte Anana], this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-068_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-065_EN.webp"
   },
   {
     "id": "OP11-069",
@@ -2143,27 +2120,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-069_EN.webp"
   },
   {
-    "id": "OP11-070",
+    "id": "OP11-068",
     "set": "OP11",
-    "name": "Charlotte Pudding",
-    "rarity": "Super Rare",
+    "name": "Charlotte Daifuku",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 1,
-    "power": 0,
-    "counter": 1000,
+    "cost": 6,
+    "power": 7000,
+    "counter": 2000,
     "block": 3,
     "attributes": [
-      "Wisdom"
+      "Slash"
     ],
     "types": [
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+    "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-070_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-068_EN.webp"
   },
   {
     "id": "OP11-071",
@@ -2189,9 +2166,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-071_EN.webp"
   },
   {
-    "id": "OP11-070_p1",
+    "id": "OP11-070",
+    "set": "OP11",
     "name": "Charlotte Pudding",
-    "rarity": "Alternate Art",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Purple"
@@ -2208,8 +2186,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-070_p1_EN.webp",
-    "set": "OP11"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-070_EN.webp"
   },
   {
     "id": "OP11-072",
@@ -2233,6 +2210,29 @@
     "effect": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-072_EN.webp"
+  },
+  {
+    "id": "OP11-070_p1",
+    "name": "Charlotte Pudding",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-070_p1_EN.webp",
+    "set": "OP11"
   },
   {
     "id": "OP11-073",
@@ -2354,6 +2354,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-076_EN.webp"
   },
   {
+    "id": "OP11-078",
+    "set": "OP11",
+    "name": "Decuplets",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-078_EN.webp"
+  },
+  {
     "id": "OP11-077",
     "set": "OP11",
     "name": "Randolph",
@@ -2378,27 +2401,25 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-077_EN.webp"
   },
   {
-    "id": "OP11-078",
+    "id": "OP11-080",
     "set": "OP11",
-    "name": "Decuplets",
-    "rarity": "Uncommon",
-    "category": "Character",
+    "name": "Gear Two",
+    "rarity": "Rare",
+    "category": "Event",
     "colors": [
       "Purple"
     ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Big Mom Pirates"
+      "Straw Hat Crew"
     ],
-    "effect": "",
+    "effect": "[Main] You may rest 2 of your DON!! cards: If your Leader's colors include blue, add up to 1 DON!! card from your DON!! deck and rest it. [Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-078_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-080_EN.webp"
   },
   {
     "id": "OP11-079",
@@ -2422,10 +2443,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-079_EN.webp"
   },
   {
-    "id": "OP11-080",
-    "set": "OP11",
+    "id": "OP11-080_p1",
     "name": "Gear Two",
-    "rarity": "Rare",
+    "rarity": "Alternate Art",
     "category": "Event",
     "colors": [
       "Purple"
@@ -2440,7 +2460,8 @@
     ],
     "effect": "[Main] You may rest 2 of your DON!! cards: If your Leader's colors include blue, add up to 1 DON!! card from your DON!! deck and rest it. [Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-080_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-080_p1_EN.webp",
+    "set": "OP11"
   },
   {
     "id": "OP11-081",
@@ -2463,27 +2484,6 @@
     "effect": "[Main] Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, K.O. up to 1 of your opponent's Characters with a base cost of 8 or less.",
     "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-081_EN.webp"
-  },
-  {
-    "id": "OP11-080_p1",
-    "name": "Gear Two",
-    "rarity": "Alternate Art",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] You may rest 2 of your DON!! cards: If your Leader's colors include blue, add up to 1 DON!! card from your DON!! deck and rest it. [Counter] Up to 1 of your Leader gains +3000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-080_p1_EN.webp",
-    "set": "OP11"
   },
   {
     "id": "OP11-082",
@@ -2532,29 +2532,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-083_EN.webp"
   },
   {
-    "id": "OP11-084",
-    "set": "OP11",
-    "name": "Kuzan",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[On Play] Trash 3 cards from the top of your deck. [When Attacking] Up to 1 of your {Navy} type Leader or Character cards can also attack active Characters during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-084_EN.webp"
-  },
-  {
     "id": "OP11-085",
     "set": "OP11",
     "name": "Kurozumi Orochi",
@@ -2577,6 +2554,29 @@
     "effect": "[On Play] Add up to 1 {SMILE} type card with a cost of 5 or less from your trash to your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-085_EN.webp"
+  },
+  {
+    "id": "OP11-084",
+    "set": "OP11",
+    "name": "Kuzan",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Trash 3 cards from the top of your deck. [When Attacking] Up to 1 of your {Navy} type Leader or Character cards can also attack active Characters during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-084_EN.webp"
   },
   {
     "id": "OP11-084_p1",
@@ -2625,6 +2625,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-086_EN.webp"
   },
   {
+    "id": "OP11-088",
+    "set": "OP11",
+    "name": "Shu",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Once Per Turn] This effect can be activated when your opponent's Character attacks. If that Character has the <Slash> attribute, this Character gains +5000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-088_EN.webp"
+  },
+  {
     "id": "OP11-087",
     "set": "OP11",
     "name": "Miss Sarahebi",
@@ -2647,29 +2670,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-087_EN.webp"
-  },
-  {
-    "id": "OP11-088",
-    "set": "OP11",
-    "name": "Shu",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Once Per Turn] This effect can be activated when your opponent's Character attacks. If that Character has the <Slash> attribute, this Character gains +5000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-088_EN.webp"
   },
   {
     "id": "OP11-089",
@@ -2719,29 +2719,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-090_EN.webp"
   },
   {
-    "id": "OP11-091",
-    "set": "OP11",
-    "name": "Berry Good",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[On Play] Your opponent places 3 Events from their trash at the bottom of their deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-091_EN.webp"
-  },
-  {
     "id": "OP11-092",
     "set": "OP11",
     "name": "Helmeppo",
@@ -2766,27 +2743,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-092_EN.webp"
   },
   {
-    "id": "OP11-093",
+    "id": "OP11-091",
     "set": "OP11",
-    "name": "Bogard",
+    "name": "Berry Good",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 6,
-    "power": 7000,
+    "cost": 4,
+    "power": 5000,
     "counter": 2000,
     "block": 3,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
       "Navy"
     ],
-    "effect": "",
+    "effect": "[On Play] Your opponent places 3 Events from their trash at the bottom of their deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-093_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-091_EN.webp"
   },
   {
     "id": "OP11-092_p1",
@@ -2811,6 +2788,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-092_p1_EN.webp",
     "set": "OP11"
+  },
+  {
+    "id": "OP11-093",
+    "set": "OP11",
+    "name": "Bogard",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-093_EN.webp"
   },
   {
     "id": "OP11-094",
@@ -3042,30 +3042,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-102_EN.webp"
   },
   {
-    "id": "OP11-101_p1",
-    "name": "Capone\"Gang\"Bege",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 1000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Supernovas",
-      "Firetank Pirates"
-    ],
-    "effect": "[Blocker] [Once Per Turn] If your {Supernovas} type Character other than [Capone\"Gang\"Bege] would be removed from the field by your opponent's effect, you may add it to the top of your Life cards face-down instead.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-101_p1_EN.webp",
-    "set": "OP11"
-  },
-  {
     "id": "OP11-103",
     "set": "OP11",
     "name": "Long-Jaw Neptunian",
@@ -3089,28 +3065,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-103_EN.webp"
   },
   {
-    "id": "OP11-104",
-    "set": "OP11",
-    "name": "Shirley",
-    "rarity": "Rare",
+    "id": "OP11-101_p1",
+    "name": "Capone\"Gang\"Bege",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 3,
-    "power": 4000,
+    "cost": 2,
+    "power": 1000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Wisdom"
+      "Ranged"
     ],
     "types": [
-      "Merfolk",
-      "Fish-Man Island"
+      "Supernovas",
+      "Firetank Pirates"
     ],
-    "effect": "[Blocker] [On Play] You may turn 1 card from the top of your Life cards face-down: Look at 3 cards from the top of your deck; reveal up to 1 {Fish-Man Island} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "effect": "[Blocker] [Once Per Turn] If your {Supernovas} type Character other than [Capone\"Gang\"Bege] would be removed from the field by your opponent's effect, you may add it to the top of your Life cards face-down instead.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-104_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-101_p1_EN.webp",
+    "set": "OP11"
   },
   {
     "id": "OP11-105",
@@ -3137,27 +3113,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-105_EN.webp"
   },
   {
-    "id": "OP11-107",
+    "id": "OP11-104",
     "set": "OP11",
-    "name": "Topknot Neptunian",
-    "rarity": "Common",
+    "name": "Shirley",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 5,
-    "power": 6000,
+    "cost": 3,
+    "power": 4000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Strike"
+      "Wisdom"
     ],
     "types": [
-      "Neptunian"
+      "Merfolk",
+      "Fish-Man Island"
     ],
-    "effect": "[Blocker] [Activate: Main] [Once Per Turn] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-down: Set this Character as active at the end of this turn.",
+    "effect": "[Blocker] [On Play] You may turn 1 card from the top of your Life cards face-down: Look at 3 cards from the top of your deck; reveal up to 1 {Fish-Man Island} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-107_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-104_EN.webp"
   },
   {
     "id": "OP11-108",
@@ -3184,28 +3161,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-108_EN.webp"
   },
   {
-    "id": "OP11-109",
+    "id": "OP11-107",
     "set": "OP11",
-    "name": "Pappag",
+    "name": "Topknot Neptunian",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 1,
-    "power": 0,
+    "cost": 5,
+    "power": 6000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Wisdom"
+      "Strike"
     ],
     "types": [
-      "Animal",
-      "Fish-Man Island"
+      "Neptunian"
     ],
-    "effect": "[On Play] If you have [Camie], draw 2 cards and trash 2 cards from your hand.",
+    "effect": "[Blocker] [Activate: Main] [Once Per Turn] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-down: Set this Character as active at the end of this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-109_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-107_EN.webp"
   },
   {
     "id": "OP11-110",
@@ -3230,6 +3206,30 @@
     "effect": "If this Character would be K.O.'d, you may rest 1 of your [Fish-Man Island] or your [Shirahoshi] Leader instead. [On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-110_EN.webp"
+  },
+  {
+    "id": "OP11-109",
+    "set": "OP11",
+    "name": "Pappag",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Animal",
+      "Fish-Man Island"
+    ],
+    "effect": "[On Play] If you have [Camie], draw 2 cards and trash 2 cards from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-109_EN.webp"
   },
   {
     "id": "OP11-112",
@@ -3325,27 +3325,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-114_EN.webp"
   },
   {
-    "id": "OP11-114_p1",
-    "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
-    "rarity": "Alternate Art",
-    "category": "Event",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] You may rest 3 of your DON!! cards: If you and your opponent have a total of 5 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less. [Counter] Up to 1 of your Leader gains +3000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-114_p1_EN.webp",
-    "set": "OP11"
-  },
-  {
     "id": "OP11-115",
     "set": "OP11",
     "name": "You're Just Not My Type!",
@@ -3368,26 +3347,25 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-115_EN.webp"
   },
   {
-    "id": "OP11-116",
-    "set": "OP11",
-    "name": "Merman Combat Ultramarine",
-    "rarity": "Common",
+    "id": "OP11-114_p1",
+    "name": "Gum-Gum Fire-Fist Pistol Red Hawk",
+    "rarity": "Alternate Art",
     "category": "Event",
     "colors": [
       "Yellow"
     ],
-    "cost": 6,
+    "cost": 1,
     "power": null,
     "counter": null,
     "block": 3,
     "attributes": [],
     "types": [
-      "Merfolk",
-      "Fish-Man Island"
+      "Straw Hat Crew"
     ],
-    "effect": "[Main] Add up to 1 Character with a cost of 6 or less to the top or bottom of the owner's Life cards face-up.",
-    "trigger": "[Trigger] Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-116_EN.webp"
+    "effect": "[Main] You may rest 3 of your DON!! cards: If you and your opponent have a total of 5 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less. [Counter] Up to 1 of your Leader gains +3000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-114_p1_EN.webp",
+    "set": "OP11"
   },
   {
     "id": "OP11-117",
@@ -3409,6 +3387,28 @@
     "effect": "[Activate: Main] [Once Per Turn] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-up: Up to 1 of your {Neptunian} , {Fish-Man} , or {Merfolk} type Characters gains +1000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-117_EN.webp"
+  },
+  {
+    "id": "OP11-116",
+    "set": "OP11",
+    "name": "Merman Combat Ultramarine",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 6,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "Merfolk",
+      "Fish-Man Island"
+    ],
+    "effect": "[Main] Add up to 1 Character with a cost of 6 or less to the top or bottom of the owner's Life cards face-up.",
+    "trigger": "[Trigger] Add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP11/OP11-116_EN.webp"
   },
   {
     "id": "OP11-118",
