@@ -424,29 +424,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-010_EN.webp"
   },
   {
-    "id": "ST22-009_p1",
-    "name": "Vista",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-009_p1_EN.webp",
-    "set": "ST22"
-  },
-  {
     "id": "ST22-010_p1",
     "name": "Portgas.D.Ace",
     "rarity": "Common",
@@ -470,9 +447,8 @@
     "set": "ST22"
   },
   {
-    "id": "ST22-011",
-    "set": "ST22",
-    "name": "Whitey Bay",
+    "id": "ST22-009_p1",
+    "name": "Vista",
     "rarity": "Common",
     "category": "Character",
     "colors": [
@@ -480,7 +456,7 @@
     ],
     "cost": 1,
     "power": 1000,
-    "counter": 2000,
+    "counter": null,
     "block": 3,
     "attributes": [
       "Slash"
@@ -488,9 +464,10 @@
     "types": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Your Turn] [On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Up to 1 of your Leader with a type including \"Whitebeard Pirates\" gains +2000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-011_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-009_p1_EN.webp",
+    "set": "ST22"
   },
   {
     "id": "ST22-012",
@@ -514,6 +491,29 @@
     "effect": "[Once Per Turn] If this Character would be K.O.'d by your opponent's effect, you may trash 1 card from your hand instead. [When Attacking] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", this Character gains +1000 power until the end of your opponent's next turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-012_EN.webp"
+  },
+  {
+    "id": "ST22-011",
+    "set": "ST22",
+    "name": "Whitey Bay",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] [On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Up to 1 of your Leader with a type including \"Whitebeard Pirates\" gains +2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-011_EN.webp"
   },
   {
     "id": "ST22-011_p1",
