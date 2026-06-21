@@ -512,30 +512,6 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-040",
-    "set": "EB01",
-    "name": "Kyros",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Black",
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-040_EN.webp"
-  },
-  {
     "id": "EB01-021_p1",
     "name": "Hannyabal",
     "rarity": "Alternate Art",
@@ -558,6 +534,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-040",
+    "set": "EB01",
+    "name": "Kyros",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Black",
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Dressrosa"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-040_EN.webp"
   },
   {
     "id": "EB01-040_p1",
@@ -1626,6 +1626,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-047_EN.webp"
   },
   {
+    "id": "EB01-050",
+    "set": "EB01",
+    "name": "...I Want to Live!!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
+  },
+  {
     "id": "EB01-049",
     "set": "EB01",
     "name": "T-Bone",
@@ -1650,25 +1671,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_EN.webp"
   },
   {
-    "id": "EB01-050",
+    "id": "EB01-052",
     "set": "EB01",
-    "name": "...I Want to Live!!",
-    "rarity": "Common",
-    "category": "Event",
+    "name": "Viola",
+    "rarity": "Super Rare",
+    "category": "Character",
     "colors": [
-      "Black"
+      "Yellow"
     ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
+    "cost": 2,
+    "power": 0,
+    "counter": 1000,
     "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
+    "attributes": [
+      "Special"
     ],
-    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "types": [
+      "Dressrosa"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_EN.webp"
   },
   {
     "id": "EB01-049_p1",
@@ -1695,10 +1718,9 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-052",
-    "set": "EB01",
+    "id": "EB01-052_p1",
     "name": "Viola",
-    "rarity": "Super Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Yellow"
@@ -1715,7 +1737,8 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-053",
@@ -1739,29 +1762,6 @@
     "effect": "[On Play] Place up to 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up.",
     "trigger": "[Trigger] Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-053_EN.webp"
-  },
-  {
-    "id": "EB01-052_p1",
-    "name": "Viola",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 0,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_p1_EN.webp",
-    "set": "EB01"
   },
   {
     "id": "EB01-054",
