@@ -512,30 +512,6 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-021_p1",
-    "name": "Hannyabal",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Blue",
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down"
-    ],
-    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_p1_EN.webp",
-    "set": "EB01"
-  },
-  {
     "id": "EB01-040",
     "set": "EB01",
     "name": "Kyros",
@@ -558,6 +534,30 @@
     "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-040_EN.webp"
+  },
+  {
+    "id": "EB01-021_p1",
+    "name": "Hannyabal",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Blue",
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-040_p1",
@@ -819,28 +819,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-008_EN.webp"
   },
   {
-    "id": "EB01-010",
-    "set": "EB01",
-    "name": "There's No Way You Could Defeat Me!!",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Water Seven",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] K.O. up to 1 of your opponent's Characters with 6000 base power or less.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 base power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-010_EN.webp"
-  },
-  {
     "id": "EB01-011",
     "set": "EB01",
     "name": "Mini-Merry",
@@ -862,28 +840,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-011_EN.webp"
   },
   {
-    "id": "EB01-013",
+    "id": "EB01-010",
     "set": "EB01",
-    "name": "Kouzuki Hiyori",
+    "name": "There's No Way You Could Defeat Me!!",
     "rarity": "Rare",
-    "category": "Character",
+    "category": "Event",
     "colors": [
-      "Green"
+      "Red"
     ],
-    "cost": 4,
-    "power": 0,
-    "counter": 1000,
+    "cost": 3,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Land of Wano",
-      "Kouzuki Clan"
+      "Water Seven",
+      "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-013_EN.webp"
+    "effect": "[Counter] K.O. up to 1 of your opponent's Characters with 6000 base power or less.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 base power or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-010_EN.webp"
   },
   {
     "id": "EB01-014",
@@ -908,6 +884,30 @@
     "effect": "[DON!! x1] [Your Turn] This Character gains +1000 power for every 3 of your rested DON!! cards.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-014_EN.webp"
+  },
+  {
+    "id": "EB01-013",
+    "set": "EB01",
+    "name": "Kouzuki Hiyori",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 0,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-013_EN.webp"
   },
   {
     "id": "EB01-013_p1",
@@ -981,28 +981,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-017_EN.webp"
   },
   {
-    "id": "EB01-019",
-    "set": "EB01",
-    "name": "Off-White",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Donquixote Pirates"
-    ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at 3 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-019_EN.webp"
-  },
-  {
     "id": "EB01-020",
     "set": "EB01",
     "name": "Chambres",
@@ -1023,6 +1001,28 @@
     "effect": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
     "trigger": "[Trigger] Activate this card's [Main] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-020_EN.webp"
+  },
+  {
+    "id": "EB01-019",
+    "set": "EB01",
+    "name": "Off-White",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at 3 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-019_EN.webp"
   },
   {
     "id": "EB01-022",
@@ -1073,30 +1073,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
   },
   {
-    "id": "EB01-022_p1",
-    "name": "Inazuma",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down",
-      "Revolutionary Army"
-    ],
-    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
-    "set": "EB01"
-  },
-  {
     "id": "EB01-025",
     "set": "EB01",
     "name": "Fourtricks",
@@ -1119,6 +1095,30 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-025_EN.webp"
+  },
+  {
+    "id": "EB01-022_p1",
+    "name": "Inazuma",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-026",
@@ -1255,30 +1255,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-030_EN.webp"
   },
   {
-    "id": "EB01-031",
-    "set": "EB01",
-    "name": "Kalifa",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Water Seven",
-      "Galley-La Company"
-    ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_EN.webp"
-  },
-  {
     "id": "EB01-032",
     "set": "EB01",
     "name": "Army Wolves",
@@ -1303,9 +1279,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-032_EN.webp"
   },
   {
-    "id": "EB01-031_p1",
+    "id": "EB01-031",
+    "set": "EB01",
     "name": "Kalifa",
-    "rarity": "Alternate Art",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Purple"
@@ -1323,8 +1300,7 @@
     ],
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_p1_EN.webp",
-    "set": "EB01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_EN.webp"
   },
   {
     "id": "EB01-033",
@@ -1348,6 +1324,30 @@
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, play up to 1 {Water Seven} type Character card with a cost of 5 other than [Blueno] from your hand or trash.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-033_EN.webp"
+  },
+  {
+    "id": "EB01-031_p1",
+    "name": "Kalifa",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-034",
@@ -1488,29 +1488,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-039_EN.webp"
   },
   {
-    "id": "EB01-041",
-    "set": "EB01",
-    "name": "Crocus",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 6,
-    "power": 8000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Former Roger Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-041_EN.webp"
-  },
-  {
     "id": "EB01-042",
     "set": "EB01",
     "name": "Scarlet",
@@ -1532,6 +1509,29 @@
     "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Dressrosa} type Character card with a cost of 3 or less other than [Scarlet] from your hand rested. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-042_EN.webp"
+  },
+  {
+    "id": "EB01-041",
+    "set": "EB01",
+    "name": "Crocus",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Former Roger Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-041_EN.webp"
   },
   {
     "id": "EB01-043",
@@ -1603,6 +1603,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-045_EN.webp"
   },
   {
+    "id": "EB01-049",
+    "set": "EB01",
+    "name": "T-Bone",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Water Seven",
+      "Navy"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_EN.webp"
+  },
+  {
     "id": "EB01-047",
     "set": "EB01",
     "name": "Laboon",
@@ -1647,10 +1671,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
   },
   {
-    "id": "EB01-049",
-    "set": "EB01",
+    "id": "EB01-049_p1",
     "name": "T-Bone",
-    "rarity": "Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Black"
@@ -1668,7 +1691,8 @@
     ],
     "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-052",
@@ -1694,28 +1718,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_EN.webp"
   },
   {
-    "id": "EB01-049_p1",
-    "name": "T-Bone",
-    "rarity": "Alternate Art",
+    "id": "EB01-053",
+    "set": "EB01",
+    "name": "Gastino",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
-      "Black"
+      "Yellow"
     ],
-    "cost": 5,
+    "cost": 3,
     "power": 5000,
-    "counter": 2000,
+    "counter": null,
     "block": 2,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
-      "Water Seven",
-      "Navy"
+      "Scientist"
     ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_p1_EN.webp",
-    "set": "EB01"
+    "effect": "[On Play] Place up to 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up.",
+    "trigger": "[Trigger] Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-053_EN.webp"
   },
   {
     "id": "EB01-052_p1",
@@ -1739,29 +1762,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_p1_EN.webp",
     "set": "EB01"
-  },
-  {
-    "id": "EB01-053",
-    "set": "EB01",
-    "name": "Gastino",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Scientist"
-    ],
-    "effect": "[On Play] Place up to 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up.",
-    "trigger": "[Trigger] Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-053_EN.webp"
   },
   {
     "id": "EB01-054",

@@ -221,31 +221,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-004_EN.webp"
   },
   {
-    "id": "OP13-004_p1",
-    "name": "Sabo",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Red",
-      "Black"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa",
-      "Revolutionary Army"
-    ],
-    "effect": "If you have 4 or more Life cards, give this Leader −1000 power. [DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-004_p1_EN.webp",
-    "set": "OP13"
-  },
-  {
     "id": "OP13-003_p1",
     "name": "Gol.D.Roger",
     "rarity": "Alternate Art",
@@ -271,27 +246,29 @@
     "set": "OP13"
   },
   {
-    "id": "OP13-006",
-    "set": "OP13",
-    "name": "Woop Slap",
-    "rarity": "Common",
-    "category": "Character",
+    "id": "OP13-004_p1",
+    "name": "Sabo",
+    "rarity": "Alternate Art",
+    "category": "Leader",
     "colors": [
-      "Red"
+      "Red",
+      "Black"
     ],
-    "cost": 1,
-    "power": 0,
-    "counter": 1000,
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
     "block": 4,
     "attributes": [
-      "Wisdom"
+      "Special"
     ],
     "types": [
-      "Windmill Village"
+      "Dressrosa",
+      "Revolutionary Army"
     ],
-    "effect": "[On Play] Give up to 2 rested DON!! cards to 1 of your [Monkey.D.Luffy] cards.",
+    "effect": "If you have 4 or more Life cards, give this Leader −1000 power. [DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-006_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-004_p1_EN.webp",
+    "set": "OP13"
   },
   {
     "id": "OP13-005",
@@ -315,6 +292,29 @@
     "effect": "[On Play] Give up to 1 rested DON!! card to your Leader.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-005_EN.webp"
+  },
+  {
+    "id": "OP13-006",
+    "set": "OP13",
+    "name": "Woop Slap",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Windmill Village"
+    ],
+    "effect": "[On Play] Give up to 2 rested DON!! cards to 1 of your [Monkey.D.Luffy] cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-006_EN.webp"
   },
   {
     "id": "OP13-007",
@@ -1062,6 +1062,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-034_EN.webp"
   },
   {
+    "id": "OP13-036",
+    "set": "OP13",
+    "name": "Helmeppo",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "FILM",
+      "Navy"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-036_EN.webp"
+  },
+  {
     "id": "OP13-035",
     "set": "OP13",
     "name": "Bepo",
@@ -1087,28 +1111,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-035_EN.webp"
   },
   {
-    "id": "OP13-036",
+    "id": "OP13-038",
     "set": "OP13",
-    "name": "Helmeppo",
+    "name": "Gum-Gum Elephant Gun",
     "rarity": "Uncommon",
-    "category": "Character",
+    "category": "Event",
     "colors": [
       "Green"
     ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
+    "cost": 2,
+    "power": null,
+    "counter": null,
     "block": 4,
-    "attributes": [
-      "Slash"
-    ],
+    "attributes": [],
     "types": [
-      "FILM",
-      "Navy"
+      "Supernovas",
+      "Straw Hat Crew"
     ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-036_EN.webp"
+    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 2 of your DON!! cards as active at the end of this turn.",
+    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-038_EN.webp"
   },
   {
     "id": "OP13-037",
@@ -1134,28 +1156,6 @@
     "effect": "[On Play] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 2 of your DON!! cards as active. [End of Your Turn] Set this Character as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-037_EN.webp"
-  },
-  {
-    "id": "OP13-038",
-    "set": "OP13",
-    "name": "Gum-Gum Elephant Gun",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 2 of your DON!! cards as active at the end of this turn.",
-    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-038_EN.webp"
   },
   {
     "id": "OP13-039",
@@ -1227,29 +1227,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-041_EN.webp"
   },
   {
-    "id": "OP13-043",
-    "set": "OP13",
-    "name": "Otama",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "[On Play] If you have 3 or less Life cards, draw 2 cards and trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-043_EN.webp"
-  },
-  {
     "id": "OP13-044",
     "set": "OP13",
     "name": "Curiel",
@@ -1271,6 +1248,29 @@
     "effect": "[When Attacking] Give up to 1 rested DON!! card to your Leader with a type including \"Whitebeard Pirates\" or 1 Character with a type including \"Whitebeard Pirates\". [On K.O.] Draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-044_EN.webp"
+  },
+  {
+    "id": "OP13-043",
+    "set": "OP13",
+    "name": "Otama",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[On Play] If you have 3 or less Life cards, draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-043_EN.webp"
   },
   {
     "id": "OP13-045",

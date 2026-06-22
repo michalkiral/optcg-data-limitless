@@ -162,6 +162,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-006_EN.webp"
   },
   {
+    "id": "ST04-008",
+    "set": "ST04",
+    "name": "Jack",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-008_EN.webp"
+  },
+  {
     "id": "ST04-007",
     "set": "ST04",
     "name": "Sheepshead",
@@ -184,29 +207,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-007_EN.webp"
-  },
-  {
-    "id": "ST04-008",
-    "set": "ST04",
-    "name": "Jack",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-008_EN.webp"
   },
   {
     "id": "ST04-009",
@@ -348,27 +348,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-014_EN.webp"
   },
   {
-    "id": "ST04-017",
-    "set": "ST04",
-    "name": "Onigashima Island",
-    "rarity": "Common",
-    "category": "Stage",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-017_EN.webp"
-  },
-  {
     "id": "ST04-015",
     "set": "ST04",
     "name": "Brachio Bomber",
@@ -388,5 +367,26 @@
     "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-015_EN.webp"
+  },
+  {
+    "id": "ST04-017",
+    "set": "ST04",
+    "name": "Onigashima Island",
+    "rarity": "Common",
+    "category": "Stage",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST04/ST04-017_EN.webp"
   }
 ]
