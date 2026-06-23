@@ -221,31 +221,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-004_EN.webp"
   },
   {
-    "id": "OP13-003_p1",
-    "name": "Gol.D.Roger",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Red",
-      "Purple"
-    ],
-    "cost": 5,
-    "power": 7000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "King of the Pirates",
-      "Roger Pirates"
-    ],
-    "effect": "If you have any DON!! cards on your field, 1 DON!! card placed during your DON!! Phase is given to your Leader. If you have 9 or less DON!! cards on your field, give this Leader −2000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-003_p1_EN.webp",
-    "set": "OP13"
-  },
-  {
     "id": "OP13-004_p1",
     "name": "Sabo",
     "rarity": "Alternate Art",
@@ -268,6 +243,31 @@
     "effect": "If you have 4 or more Life cards, give this Leader −1000 power. [DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-004_p1_EN.webp",
+    "set": "OP13"
+  },
+  {
+    "id": "OP13-003_p1",
+    "name": "Gol.D.Roger",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Red",
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "King of the Pirates",
+      "Roger Pirates"
+    ],
+    "effect": "If you have any DON!! cards on your field, 1 DON!! card placed during your DON!! Phase is given to your Leader. If you have 9 or less DON!! cards on your field, give this Leader −2000 power.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-003_p1_EN.webp",
     "set": "OP13"
   },
   {
@@ -409,6 +409,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-009_EN.webp"
   },
   {
+    "id": "OP13-011",
+    "set": "OP13",
+    "name": "Nefeltari Cobra",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Alabasta"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-011_EN.webp"
+  },
+  {
     "id": "OP13-010",
     "set": "OP13",
     "name": "Lord of the Coast",
@@ -431,29 +454,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-010_EN.webp"
-  },
-  {
-    "id": "OP13-011",
-    "set": "OP13",
-    "name": "Nefeltari Cobra",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Alabasta"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-011_EN.webp"
   },
   {
     "id": "OP13-012",
@@ -502,29 +502,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-013_EN.webp"
   },
   {
-    "id": "OP13-014",
-    "set": "OP13",
-    "name": "Portgas.D.Rouge",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Baterilla"
-    ],
-    "effect": "",
-    "trigger": "[Trigger] Up to 1 of your [Portgas.D.Ace] cards gains +3000 power during this turn.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-014_EN.webp"
-  },
-  {
     "id": "OP13-015",
     "set": "OP13",
     "name": "Makino",
@@ -548,27 +525,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-015_EN.webp"
   },
   {
-    "id": "OP13-016",
+    "id": "OP13-014",
     "set": "OP13",
-    "name": "Monkey.D.Garp",
-    "rarity": "Rare",
+    "name": "Portgas.D.Rouge",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Red"
     ],
     "cost": 1,
-    "power": 2000,
-    "counter": 1000,
+    "power": 0,
+    "counter": 2000,
     "block": 4,
     "attributes": [
-      "Strike"
+      "Wisdom"
     ],
     "types": [
-      "Navy"
+      "Baterilla"
     ],
-    "effect": "[On Play] If your Leader is [Sabo], [Portgas.D.Ace] or [Monkey.D.Luffy], look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-016_EN.webp"
+    "effect": "",
+    "trigger": "[Trigger] Up to 1 of your [Portgas.D.Ace] cards gains +3000 power during this turn.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-014_EN.webp"
   },
   {
     "id": "OP13-017",
@@ -594,6 +571,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-017_EN.webp"
   },
   {
+    "id": "OP13-016",
+    "set": "OP13",
+    "name": "Monkey.D.Garp",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] If your Leader is [Sabo], [Portgas.D.Ace] or [Monkey.D.Luffy], look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-016_EN.webp"
+  },
+  {
     "id": "OP13-018",
     "set": "OP13",
     "name": "Wapol",
@@ -615,6 +615,28 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-018_EN.webp"
+  },
+  {
+    "id": "OP13-019",
+    "set": "OP13",
+    "name": "But Ace Here Said You Deserved It!!",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "[Main] You may rest 4 of your DON!! cards: Give up to 1 of your opponent's Characters −3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less. [Counter] Your Leader gains +3000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-019_EN.webp"
   },
   {
     "id": "OP13-016_p1",
@@ -640,28 +662,6 @@
     "set": "OP13"
   },
   {
-    "id": "OP13-019",
-    "set": "OP13",
-    "name": "But Ace Here Said You Deserved It!!",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Dressrosa",
-      "Revolutionary Army"
-    ],
-    "effect": "[Main] You may rest 4 of your DON!! cards: Give up to 1 of your opponent's Characters −3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less. [Counter] Your Leader gains +3000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-019_EN.webp"
-  },
-  {
     "id": "OP13-020",
     "set": "OP13",
     "name": "Meteor Fist",
@@ -683,27 +683,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-020_EN.webp"
   },
   {
-    "id": "OP13-021",
-    "set": "OP13",
-    "name": "Gum-Gum Gatling Gun",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "trigger": "[Trigger] Give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-021_EN.webp"
-  },
-  {
     "id": "OP13-022",
     "set": "OP13",
     "name": "Windmill Village",
@@ -723,6 +702,27 @@
     "effect": "[Activate: Main] You may rest this Stage: Up to 1 of your Characters with 2000 base power or less gains +1000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-022_EN.webp"
+  },
+  {
+    "id": "OP13-021",
+    "set": "OP13",
+    "name": "Gum-Gum Gatling Gun",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "trigger": "[Trigger] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-021_EN.webp"
   },
   {
     "id": "OP13-023",
@@ -771,6 +771,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-024_EN.webp"
   },
   {
+    "id": "OP13-025",
+    "set": "OP13",
+    "name": "Koby",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "FILM",
+      "Navy"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If your Leader has the {FILM} type or the <Strike> attribute, set up to 1 of your DON!! cards as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-025_EN.webp"
+  },
+  {
     "id": "OP13-023_p1",
     "name": "Uta",
     "rarity": "Alternate Art",
@@ -794,28 +818,28 @@
     "set": "OP13"
   },
   {
-    "id": "OP13-025",
+    "id": "OP13-027",
     "set": "OP13",
-    "name": "Koby",
-    "rarity": "Common",
+    "name": "Sanji",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Green"
     ],
     "cost": 5,
-    "power": 6000,
-    "counter": 1000,
+    "power": 7000,
+    "counter": null,
     "block": 4,
     "attributes": [
       "Strike"
     ],
     "types": [
       "FILM",
-      "Navy"
+      "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If your Leader has the {FILM} type or the <Strike> attribute, set up to 1 of your DON!! cards as active.",
+    "effect": "[On Play] Set up to 2 of your DON!! cards as active. [End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-025_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-027_EN.webp"
   },
   {
     "id": "OP13-026",
@@ -842,10 +866,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-026_EN.webp"
   },
   {
-    "id": "OP13-027",
-    "set": "OP13",
+    "id": "OP13-027_p1",
     "name": "Sanji",
-    "rarity": "Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Green"
@@ -863,7 +886,8 @@
     ],
     "effect": "[On Play] Set up to 2 of your DON!! cards as active. [End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-027_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-027_p1_EN.webp",
+    "set": "OP13"
   },
   {
     "id": "OP13-028",
@@ -891,28 +915,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-028_EN.webp"
   },
   {
-    "id": "OP13-027_p1",
-    "name": "Sanji",
-    "rarity": "Alternate Art",
+    "id": "OP13-029",
+    "set": "OP13",
+    "name": "Jinbe",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 5,
+    "cost": 6,
     "power": 7000,
-    "counter": null,
+    "counter": 2000,
     "block": 4,
     "attributes": [
       "Strike"
     ],
     "types": [
+      "Fish-Man",
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "[On Play] Set up to 2 of your DON!! cards as active. [End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
+    "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-027_p1_EN.webp",
-    "set": "OP13"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-029_EN.webp"
   },
   {
     "id": "OP13-028_p1",
@@ -940,29 +965,29 @@
     "set": "OP13"
   },
   {
-    "id": "OP13-029",
+    "id": "OP13-030",
     "set": "OP13",
-    "name": "Jinbe",
+    "name": "Tony Tony.Chopper",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 2000,
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
     "block": 4,
     "attributes": [
       "Strike"
     ],
     "types": [
-      "Fish-Man",
+      "Animal",
       "FILM",
       "Straw Hat Crew"
     ],
-    "effect": "",
+    "effect": "[On Play] Set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-029_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-030_EN.webp"
   },
   {
     "id": "OP13-032",
@@ -987,31 +1012,6 @@
     "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 8 or less cannot be rested until the end of your opponent's next End Phase.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-032_EN.webp"
-  },
-  {
-    "id": "OP13-030",
-    "set": "OP13",
-    "name": "Tony Tony.Chopper",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal",
-      "FILM",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Set up to 2 of your DON!! cards as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-030_EN.webp"
   },
   {
     "id": "OP13-033",
@@ -1062,30 +1062,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-034_EN.webp"
   },
   {
-    "id": "OP13-036",
-    "set": "OP13",
-    "name": "Helmeppo",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "FILM",
-      "Navy"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-036_EN.webp"
-  },
-  {
     "id": "OP13-035",
     "set": "OP13",
     "name": "Bepo",
@@ -1111,26 +1087,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-035_EN.webp"
   },
   {
-    "id": "OP13-038",
+    "id": "OP13-036",
     "set": "OP13",
-    "name": "Gum-Gum Elephant Gun",
+    "name": "Helmeppo",
     "rarity": "Uncommon",
-    "category": "Event",
+    "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
     "block": 4,
-    "attributes": [],
-    "types": [
-      "Supernovas",
-      "Straw Hat Crew"
+    "attributes": [
+      "Slash"
     ],
-    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 2 of your DON!! cards as active at the end of this turn.",
-    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-038_EN.webp"
+    "types": [
+      "FILM",
+      "Navy"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-036_EN.webp"
   },
   {
     "id": "OP13-037",
@@ -1156,6 +1134,28 @@
     "effect": "[On Play] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 2 of your DON!! cards as active. [End of Your Turn] Set this Character as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-037_EN.webp"
+  },
+  {
+    "id": "OP13-038",
+    "set": "OP13",
+    "name": "Gum-Gum Elephant Gun",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 2 of your DON!! cards as active at the end of this turn.",
+    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-038_EN.webp"
   },
   {
     "id": "OP13-039",
@@ -1227,29 +1227,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-041_EN.webp"
   },
   {
-    "id": "OP13-044",
-    "set": "OP13",
-    "name": "Curiel",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[When Attacking] Give up to 1 rested DON!! card to your Leader with a type including \"Whitebeard Pirates\" or 1 Character with a type including \"Whitebeard Pirates\". [On K.O.] Draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-044_EN.webp"
-  },
-  {
     "id": "OP13-043",
     "set": "OP13",
     "name": "Otama",
@@ -1271,6 +1248,29 @@
     "effect": "[On Play] If you have 3 or less Life cards, draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-043_EN.webp"
+  },
+  {
+    "id": "OP13-044",
+    "set": "OP13",
+    "name": "Curiel",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[When Attacking] Give up to 1 rested DON!! card to your Leader with a type including \"Whitebeard Pirates\" or 1 Character with a type including \"Whitebeard Pirates\". [On K.O.] Draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-044_EN.webp"
   },
   {
     "id": "OP13-045",
