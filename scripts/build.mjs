@@ -327,6 +327,20 @@ async function rebuild() {
   console.log(`rebuilt: ${n} product files, ${Object.keys(byId).length} cards`);
 }
 
+// Write only when the content actually differs from what is on disk. Lets the
+// 12-hourly crawl re-run within a day without churning the price files: a new
+// day always appends a history column (so every day is logged), but a same-day
+// re-run with no price change leaves history.json/summary.json byte-identical
+// and produces no commit.
+function writeIfChanged(path, content) {
+  const next = `${content}\n`;
+  if (existsSync(path) && readFileSync(path, "utf8") === next) {
+    return false;
+  }
+  writeFileSync(path, next);
+  return true;
+}
+
 // Rolling 120-day EUR history + d7/d30, mirroring the original prices pipeline.
 function buildPriceOutputs(prices) {
   const today = new Date().toISOString().slice(0, 10);
@@ -379,11 +393,19 @@ function buildPriceOutputs(prices) {
       ...(p.cm ? { cm: p.cm } : {}),
     };
   }
-  writeFileSync(path, `${JSON.stringify(history)}\n`);
-  writeFileSync(
+  const historyChanged = writeIfChanged(path, JSON.stringify(history));
+  const summaryChanged = writeIfChanged(
     join(OUT, "prices", "summary.json"),
-    `${JSON.stringify({ updatedAt: today, source: "limitlesstcg.com", cardCount: Object.keys(cards).length, cards })}\n`,
+    JSON.stringify({
+      updatedAt: today,
+      source: "limitlesstcg.com",
+      cardCount: Object.keys(cards).length,
+      cards,
+    }),
   );
+  if (!historyChanged && !summaryChanged) {
+    console.log("prices: no change since the last crawl — files left untouched");
+  }
 }
 
 async function main() {

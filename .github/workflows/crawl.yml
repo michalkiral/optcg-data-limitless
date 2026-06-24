@@ -3,9 +3,14 @@ name: crawl
 on:
   workflow_dispatch:
   schedule:
-    # Daily 03:30 UTC. One crawl produces both catalog and prices (~30 min at
-    # concurrency 2 — Limitless throttles the GH Actions IP).
-    - cron: "30 3 * * *"
+    # Every 12 h: 08:00 / 20:00 Europe/Bratislava (06:00 / 18:00 UTC in summer;
+    # GitHub cron is UTC and ignores DST, so it shifts to 07:00 / 19:00 local in
+    # winter). One crawl produces both catalog and prices (~30 min at concurrency
+    # 2 — Limitless throttles the GH Actions IP). History stays one column per day
+    # (the same-day re-run overwrites it); the extra run catches the source's
+    # irregular price updates ~12 h sooner. A run with no price change leaves the
+    # price files untouched, so it produces no commit.
+    - cron: "0 6,18 * * *"
 
 permissions:
   contents: write
