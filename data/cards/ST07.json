@@ -140,29 +140,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-003_EN.webp"
   },
   {
-    "id": "ST07-006",
-    "set": "ST07",
-    "name": "Charlotte Flampe",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 4000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Big Mom Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-006_EN.webp"
-  },
-  {
     "id": "ST07-004",
     "set": "ST07",
     "name": "Charlotte Snack",
@@ -186,27 +163,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-004_EN.webp"
   },
   {
-    "id": "ST07-009",
+    "id": "ST07-006",
     "set": "ST07",
-    "name": "Charlotte Mont-d'or",
+    "name": "Charlotte Flampe",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 3,
+    "cost": 2,
     "power": 4000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Special"
+      "Ranged"
     ],
     "types": [
       "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "[Trigger] You may trash 1 card from your hand: Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-009_EN.webp"
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-006_EN.webp"
   },
   {
     "id": "ST07-008",
@@ -230,6 +207,29 @@
     "effect": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-008_EN.webp"
+  },
+  {
+    "id": "ST07-009",
+    "set": "ST07",
+    "name": "Charlotte Mont-d'or",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": "[Trigger] You may trash 1 card from your hand: Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-009_EN.webp"
   },
   {
     "id": "ST07-010",
@@ -280,6 +280,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-011_EN.webp"
   },
   {
+    "id": "ST07-012",
+    "set": "ST07",
+    "name": "Baron Tamago",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-012_EN.webp"
+  },
+  {
     "id": "ST07-013",
     "set": "ST07",
     "name": "Prometheus",
@@ -304,27 +327,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-013_EN.webp"
   },
   {
-    "id": "ST07-012",
+    "id": "ST07-015",
     "set": "ST07",
-    "name": "Baron Tamago",
+    "name": "Soul Pocus",
     "rarity": "Common",
-    "category": "Character",
+    "category": "Event",
     "colors": [
       "Yellow"
     ],
-    "cost": 4,
-    "power": 6000,
-    "counter": 1000,
+    "cost": 5,
+    "power": null,
+    "counter": null,
     "block": 1,
-    "attributes": [
-      "Strike"
-    ],
+    "attributes": [],
     "types": [
+      "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-012_EN.webp"
+    "effect": "[Main] Your opponent chooses one: - Trash 1 card from the top of your opponent's Life cards. - Add 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-015_EN.webp"
   },
   {
     "id": "ST07-016",
@@ -346,28 +368,6 @@
     "effect": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "trigger": "[Trigger] Draw 1 card, look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-016_EN.webp"
-  },
-  {
-    "id": "ST07-015",
-    "set": "ST07",
-    "name": "Soul Pocus",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 5,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Big Mom Pirates"
-    ],
-    "effect": "[Main] Your opponent chooses one: - Trash 1 card from the top of your opponent's Life cards. - Add 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST07/ST07-015_EN.webp"
   },
   {
     "id": "ST07-017",
