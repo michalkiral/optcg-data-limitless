@@ -157,29 +157,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-001_EN.webp"
   },
   {
-    "id": "ST14-002",
-    "set": "ST14",
-    "name": "Usopp",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-002_EN.webp"
-  },
-  {
     "id": "ST14-004",
     "set": "ST14",
     "name": "Jinbe",
@@ -202,6 +179,29 @@
     "effect": "[Activate: Main] [Once Per Turn] Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-004_EN.webp"
+  },
+  {
+    "id": "ST14-002",
+    "set": "ST14",
+    "name": "Usopp",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-002_EN.webp"
   },
   {
     "id": "ST14-005",
@@ -297,29 +297,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-009_EN.webp"
   },
   {
-    "id": "ST14-011",
-    "set": "ST14",
-    "name": "Heracles",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Bowin Island"
-    ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-011_EN.webp"
-  },
-  {
     "id": "ST14-012",
     "set": "ST14",
     "name": "Monkey.D.Luffy",
@@ -343,25 +320,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-012_EN.webp"
   },
   {
-    "id": "ST14-014",
+    "id": "ST14-011",
     "set": "ST14",
-    "name": "Gum-Gum Giant Rifle",
+    "name": "Heracles",
     "rarity": "Common",
-    "category": "Event",
+    "category": "Character",
     "colors": [
       "Black"
     ],
     "cost": 1,
-    "power": null,
-    "counter": null,
+    "power": 2000,
+    "counter": 2000,
     "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
+    "attributes": [
+      "Wisdom"
     ],
-    "effect": "[Counter] If you have a Character with a cost of 8 or more, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "[Trigger] Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-014_EN.webp"
+    "types": [
+      "Bowin Island"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-011_EN.webp"
   },
   {
     "id": "ST14-015",
@@ -383,5 +362,26 @@
     "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": "[Trigger] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-015_EN.webp"
+  },
+  {
+    "id": "ST14-014",
+    "set": "ST14",
+    "name": "Gum-Gum Giant Rifle",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] If you have a Character with a cost of 8 or more, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "trigger": "[Trigger] Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-014_EN.webp"
   }
 ]

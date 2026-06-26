@@ -167,6 +167,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-007_EN.webp"
   },
   {
+    "id": "ST05-008",
+    "set": "ST05",
+    "name": "Shiki",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effect": "If you have 8 or more DON!! cards on your field, this Character cannot be K.O.'d in battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-008_EN.webp"
+  },
+  {
     "id": "ST05-009",
     "set": "ST05",
     "name": "Scarlet",
@@ -190,30 +214,6 @@
     "effect": "",
     "trigger": "[Trigger] Play this card.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-009_EN.webp"
-  },
-  {
-    "id": "ST05-008",
-    "set": "ST05",
-    "name": "Shiki",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "FILM",
-      "Golden Lion Pirates"
-    ],
-    "effect": "If you have 8 or more DON!! cards on your field, this Character cannot be K.O.'d in battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-008_EN.webp"
   },
   {
     "id": "ST05-010",
@@ -240,30 +240,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-010_EN.webp"
   },
   {
-    "id": "ST05-012",
-    "set": "ST05",
-    "name": "Baccarat",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "FILM",
-      "Grantesoro"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-012_EN.webp"
-  },
-  {
     "id": "ST05-011",
     "set": "ST05",
     "name": "Douglas Bullet",
@@ -286,6 +262,30 @@
     "effect": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Rest up to 2 of your opponent's Characters with a cost of 6 or less. Then, this Character gains [Double Attack] during this turn. (This card deals 2 damage.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-011_EN.webp"
+  },
+  {
+    "id": "ST05-012",
+    "set": "ST05",
+    "name": "Baccarat",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-012_EN.webp"
   },
   {
     "id": "ST05-013",
@@ -361,28 +361,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-015_EN.webp"
   },
   {
-    "id": "ST05-017",
-    "set": "ST05",
-    "name": "Union Armada",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "FILM",
-      "The Pirates Fest"
-    ],
-    "effect": "[Counter] Up to 1 of your {FILM} type Leader or Character cards gains +4000 power during this battle. If that card is a Character, that Character cannot be K.O.'d during this turn.",
-    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-017_EN.webp"
-  },
-  {
     "id": "ST05-016",
     "set": "ST05",
     "name": "Lion's Threat Imperial Earth Bind",
@@ -403,5 +381,27 @@
     "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-016_EN.webp"
+  },
+  {
+    "id": "ST05-017",
+    "set": "ST05",
+    "name": "Union Armada",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effect": "[Counter] Up to 1 of your {FILM} type Leader or Character cards gains +4000 power during this battle. If that card is a Character, that Character cannot be K.O.'d during this turn.",
+    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST05/ST05-017_EN.webp"
   }
 ]
