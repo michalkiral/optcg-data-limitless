@@ -235,29 +235,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-046_EN.webp"
   },
   {
-    "id": "EB01-048",
-    "set": "EB01",
-    "name": "Laboon",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal"
-    ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-048_EN.webp"
-  },
-  {
     "id": "EB01-046_p1",
     "name": "Brook",
     "rarity": "Alternate Art",
@@ -279,6 +256,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-046_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-048",
+    "set": "EB01",
+    "name": "Laboon",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Animal"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-048_EN.webp"
   },
   {
     "id": "EB01-051",
@@ -463,30 +463,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-001_EN.webp"
   },
   {
-    "id": "EB01-021",
-    "set": "EB01",
-    "name": "Hannyabal",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Blue",
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down"
-    ],
-    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_EN.webp"
-  },
-  {
     "id": "EB01-001_p1",
     "name": "Kouzuki Oden",
     "rarity": "Alternate Art",
@@ -510,6 +486,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-001_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-021",
+    "set": "EB01",
+    "name": "Hannyabal",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Blue",
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_EN.webp"
   },
   {
     "id": "EB01-040",
@@ -1003,6 +1003,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-019_EN.webp"
   },
   {
+    "id": "EB01-020",
+    "set": "EB01",
+    "name": "Chambres",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Supernovas",
+      "Heart Pirates"
+    ],
+    "effect": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-020_EN.webp"
+  },
+  {
     "id": "EB01-022",
     "set": "EB01",
     "name": "Inazuma",
@@ -1027,26 +1049,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_EN.webp"
   },
   {
-    "id": "EB01-020",
+    "id": "EB01-024",
     "set": "EB01",
-    "name": "Chambres",
+    "name": "Hamlet",
     "rarity": "Common",
-    "category": "Event",
+    "category": "Character",
     "colors": [
-      "Green"
+      "Blue"
     ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
     "block": 2,
-    "attributes": [],
-    "types": [
-      "Supernovas",
-      "Heart Pirates"
+    "attributes": [
+      "Slash"
     ],
-    "effect": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-020_EN.webp"
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
   },
   {
     "id": "EB01-022_p1",
@@ -1071,30 +1095,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
     "set": "EB01"
-  },
-  {
-    "id": "EB01-024",
-    "set": "EB01",
-    "name": "Hamlet",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Animal Kingdom Pirates",
-      "SMILE"
-    ],
-    "effect": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
   },
   {
     "id": "EB01-025",
@@ -1671,29 +1671,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
   },
   {
-    "id": "EB01-052",
-    "set": "EB01",
-    "name": "Viola",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 0,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_EN.webp"
-  },
-  {
     "id": "EB01-049_p1",
     "name": "T-Bone",
     "rarity": "Alternate Art",
@@ -1718,9 +1695,10 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-052_p1",
+    "id": "EB01-052",
+    "set": "EB01",
     "name": "Viola",
-    "rarity": "Alternate Art",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Yellow"
@@ -1737,8 +1715,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_p1_EN.webp",
-    "set": "EB01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_EN.webp"
   },
   {
     "id": "EB01-053",
@@ -1764,27 +1741,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-053_EN.webp"
   },
   {
-    "id": "EB01-055",
-    "set": "EB01",
-    "name": "Charlotte Compote",
-    "rarity": "Common",
+    "id": "EB01-052_p1",
+    "name": "Viola",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 7,
-    "power": 9000,
+    "cost": 2,
+    "power": 0,
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Wisdom"
+      "Special"
     ],
     "types": [
-      "Big Mom Pirates"
+      "Dressrosa"
     ],
-    "effect": "",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-055_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-054",
@@ -1810,25 +1787,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-054_EN.webp"
   },
   {
-    "id": "EB01-059",
+    "id": "EB01-055",
     "set": "EB01",
-    "name": "Kingdom Come",
-    "rarity": "Rare",
-    "category": "Event",
+    "name": "Charlotte Compote",
+    "rarity": "Common",
+    "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 6,
-    "power": null,
-    "counter": null,
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
     "block": 2,
-    "attributes": [],
-    "types": [
-      "Sky Island"
+    "attributes": [
+      "Wisdom"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters. Then, trash cards from the top of your Life cards until you have 1 Life card.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-059_EN.webp"
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-055_EN.webp"
   },
   {
     "id": "EB01-058",
@@ -1852,5 +1831,26 @@
     "effect": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-058_EN.webp"
+  },
+  {
+    "id": "EB01-059",
+    "set": "EB01",
+    "name": "Kingdom Come",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 6,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Sky Island"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters. Then, trash cards from the top of your Life cards until you have 1 Life card.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-059_EN.webp"
   }
 ]
