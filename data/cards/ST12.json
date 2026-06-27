@@ -303,29 +303,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST12/ST12-010_EN.webp"
   },
   {
-    "id": "ST12-011",
-    "set": "ST12",
-    "name": "Sanji",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST12/ST12-011_EN.webp"
-  },
-  {
     "id": "ST12-013",
     "set": "ST12",
     "name": "Zeff",
@@ -349,25 +326,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST12/ST12-013_EN.webp"
   },
   {
-    "id": "ST12-016",
+    "id": "ST12-011",
     "set": "ST12",
-    "name": "Lion Strike",
+    "name": "Sanji",
     "rarity": "Common",
-    "category": "Event",
+    "category": "Character",
     "colors": [
-      "Green"
+      "Blue"
     ],
     "cost": 2,
-    "power": null,
+    "power": 3000,
     "counter": null,
     "block": 2,
-    "attributes": [],
+    "attributes": [
+      "Strike"
+    ],
     "types": [
       "Straw Hat Crew"
     ],
-    "effect": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST12/ST12-016_EN.webp"
+    "effect": "[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST12/ST12-011_EN.webp"
   },
   {
     "id": "ST12-015",
@@ -391,5 +370,26 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST12/ST12-015_EN.webp"
+  },
+  {
+    "id": "ST12-016",
+    "set": "ST12",
+    "name": "Lion Strike",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST12/ST12-016_EN.webp"
   }
 ]
