@@ -263,29 +263,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-004_EN.webp"
   },
   {
-    "id": "EB02-006",
-    "set": "EB02",
-    "name": "Yamato",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Land of Wano} type or is [Portgas.D.Ace], give up to 1 rested DON!! card to 1 of your Leader. Then, this Character gains [Rush] during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-006_EN.webp"
-  },
-  {
     "id": "EB02-005",
     "set": "EB02",
     "name": "Fake Straw Hat Crew",
@@ -307,6 +284,29 @@
     "effect": "[Your Turn] This Character gains +2000 power. [Opponent's Turn] Give this Character −2000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-005_EN.webp"
+  },
+  {
+    "id": "EB02-006",
+    "set": "EB02",
+    "name": "Yamato",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Land of Wano} type or is [Portgas.D.Ace], give up to 1 rested DON!! card to 1 of your Leader. Then, this Character gains [Rush] during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-006_EN.webp"
   },
   {
     "id": "EB02-007",
@@ -353,6 +353,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-008_EN.webp"
   },
   {
+    "id": "EB02-009",
+    "set": "EB02",
+    "name": "Thousand Sunny",
+    "rarity": "Common",
+    "category": "Stage",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: Give up to 1 of your currently given DON!! cards to 1 of your {Straw Hat Crew} type Characters.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-009_EN.webp"
+  },
+  {
     "id": "EB02-006_p1",
     "name": "Yamato",
     "rarity": "Alternate Art",
@@ -374,27 +395,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-006_p1_EN.webp",
     "set": "EB02"
-  },
-  {
-    "id": "EB02-009",
-    "set": "EB02",
-    "name": "Thousand Sunny",
-    "rarity": "Common",
-    "category": "Stage",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Activate: Main] You may rest this Stage: Give up to 1 of your currently given DON!! cards to 1 of your {Straw Hat Crew} type Characters.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-009_EN.webp"
   },
   {
     "id": "EB02-010",
@@ -612,30 +612,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-016_EN.webp"
   },
   {
-    "id": "EB02-017",
-    "set": "EB02",
-    "name": "Nami",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "East Blue",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-017_EN.webp"
-  },
-  {
     "id": "EB02-015_p1",
     "name": "Jewelry Bonney",
     "rarity": "Alternate Art",
@@ -660,9 +636,10 @@
     "set": "EB02"
   },
   {
-    "id": "EB02-017_p1",
+    "id": "EB02-017",
+    "set": "EB02",
     "name": "Nami",
-    "rarity": "Alternate Art",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Green"
@@ -680,8 +657,7 @@
     ],
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-017_p1_EN.webp",
-    "set": "EB02"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-017_EN.webp"
   },
   {
     "id": "EB02-018",
@@ -706,6 +682,30 @@
     "effect": "[On Play] If you have no other [Buggy] Characters, up to 1 of your Leader gains [Double Attack] during this turn.",
     "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-018_EN.webp"
+  },
+  {
+    "id": "EB02-017_p1",
+    "name": "Nami",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "East Blue",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-017_p1_EN.webp",
+    "set": "EB02"
   },
   {
     "id": "EB02-019",
@@ -1149,29 +1149,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-036_EN.webp"
   },
   {
-    "id": "EB02-036_p1",
-    "name": "Nico Robin",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Blocker] [On K.O.] DON!! −1: Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-036_p1_EN.webp",
-    "set": "EB02"
-  },
-  {
     "id": "EB02-035_p1",
     "name": "Sanji & Pudding",
     "rarity": "Alternate Art",
@@ -1197,27 +1174,27 @@
     "set": "EB02"
   },
   {
-    "id": "EB02-038",
-    "set": "EB02",
-    "name": "Magellan",
-    "rarity": "Common",
+    "id": "EB02-036_p1",
+    "name": "Nico Robin",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Purple"
     ],
     "cost": 3,
-    "power": 4000,
+    "power": 2000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Special"
+      "Strike"
     ],
     "types": [
-      "Impel Down"
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] Play up to 1 {Impel Down} type Character card with a cost of 2 or less from your hand.",
+    "effect": "[Blocker] [On K.O.] DON!! −1: Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-038_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-036_p1_EN.webp",
+    "set": "EB02"
   },
   {
     "id": "EB02-037",
@@ -1242,6 +1219,29 @@
     "effect": "[On Play]/[When Attacking] If your Leader has the {Straw Hat Crew} type and the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-037_EN.webp"
+  },
+  {
+    "id": "EB02-038",
+    "set": "EB02",
+    "name": "Magellan",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[On Play] Play up to 1 {Impel Down} type Character card with a cost of 2 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-038_EN.webp"
   },
   {
     "id": "EB02-039",
@@ -1450,29 +1450,6 @@
     "set": "EB02"
   },
   {
-    "id": "EB02-047",
-    "set": "EB02",
-    "name": "Blueno",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "CP9"
-    ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and trash this Character: Play up to 1 Character card with a type including \"CP\" and a cost of 5 or less other than [Blueno] from your trash.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-047_EN.webp"
-  },
-  {
     "id": "EB02-046",
     "set": "EB02",
     "name": "Hildon",
@@ -1496,27 +1473,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-046_EN.webp"
   },
   {
-    "id": "EB02-049",
+    "id": "EB02-047",
     "set": "EB02",
-    "name": "Monkey.D.Garp",
-    "rarity": "Rare",
+    "name": "Blueno",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Black"
     ],
     "cost": 5,
     "power": 6000,
-    "counter": null,
+    "counter": 1000,
     "block": 3,
     "attributes": [
       "Strike"
     ],
     "types": [
-      "Navy"
+      "CP9"
     ],
-    "effect": "[On Play] Give up to 2 rested DON!! cards to 1 of your Leader. [Activate: Main] You may rest this Character: If your Leader is [Monkey.D.Garp], K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "effect": "[Activate: Main] You may trash 1 card from your hand and trash this Character: Play up to 1 Character card with a type including \"CP\" and a cost of 5 or less other than [Blueno] from your trash.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-049_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-047_EN.webp"
   },
   {
     "id": "EB02-048",
@@ -1542,25 +1519,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-048_EN.webp"
   },
   {
-    "id": "EB02-050",
+    "id": "EB02-049",
     "set": "EB02",
-    "name": "Kokoro no Chizu",
+    "name": "Monkey.D.Garp",
     "rarity": "Rare",
-    "category": "Event",
+    "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 2,
-    "power": null,
+    "cost": 5,
+    "power": 6000,
     "counter": null,
     "block": 3,
-    "attributes": [],
-    "types": [
-      "Music"
+    "attributes": [
+      "Strike"
     ],
-    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 4 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-050_EN.webp"
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Give up to 2 rested DON!! cards to 1 of your Leader. [Activate: Main] You may rest this Character: If your Leader is [Monkey.D.Garp], K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-049_EN.webp"
   },
   {
     "id": "EB02-048_p1",
@@ -1586,27 +1565,25 @@
     "set": "EB02"
   },
   {
-    "id": "EB02-053",
+    "id": "EB02-050",
     "set": "EB02",
-    "name": "Myskina Olga",
-    "rarity": "Common",
-    "category": "Character",
+    "name": "Kokoro no Chizu",
+    "rarity": "Rare",
+    "category": "Event",
     "colors": [
-      "Yellow"
+      "Black"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
+    "cost": 2,
+    "power": null,
+    "counter": null,
     "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Alchemi"
+      "Music"
     ],
-    "effect": "[On Play]/[On K.O.] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-053_EN.webp"
+    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 4 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-050_EN.webp"
   },
   {
     "id": "EB02-051",
@@ -1628,6 +1605,29 @@
     "effect": "[Main] Choose one: • K.O. up to 1 of your opponent's Characters with a cost of 2 or less. • Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-051_EN.webp"
+  },
+  {
+    "id": "EB02-053",
+    "set": "EB02",
+    "name": "Myskina Olga",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Alchemi"
+    ],
+    "effect": "[On Play]/[On K.O.] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-053_EN.webp"
   },
   {
     "id": "EB02-054",

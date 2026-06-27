@@ -328,29 +328,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-031_EN.webp"
   },
   {
-    "id": "OP04-032",
-    "set": "OP04",
-    "name": "Baby 5",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": 2000,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Donquixote Pirates"
-    ],
-    "effect": "[End of Your Turn] You may trash this Character: Set up to 2 of your DON!! cards as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-032_EN.webp"
-  },
-  {
     "id": "OP04-031_p1",
     "name": "Donquixote Doflamingo",
     "rarity": "Alternate Art",
@@ -373,6 +350,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-031_p1_EN.webp",
     "set": "OP04"
+  },
+  {
+    "id": "OP04-032",
+    "set": "OP04",
+    "name": "Baby 5",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[End of Your Turn] You may trash this Character: Set up to 2 of your DON!! cards as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-032_EN.webp"
   },
   {
     "id": "OP04-036",
@@ -1073,6 +1073,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-013_EN.webp"
   },
   {
+    "id": "OP04-013_p1",
+    "name": "Pell",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Alabasta"
+    ],
+    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-013_p1_EN.webp",
+    "set": "OP04"
+  },
+  {
     "id": "OP04-014",
     "set": "OP04",
     "name": "Monkey.D.Luffy",
@@ -1097,51 +1120,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-014_EN.webp"
   },
   {
-    "id": "OP04-013_p1",
-    "name": "Pell",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Alabasta"
-    ],
-    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-013_p1_EN.webp",
-    "set": "OP04"
-  },
-  {
-    "id": "OP04-017",
-    "set": "OP04",
-    "name": "Happiness Punch",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Alabasta",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn. Then, if your Leader is active, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-017_EN.webp"
-  },
-  {
     "id": "OP04-015",
     "set": "OP04",
     "name": "Roronoa Zoro",
@@ -1164,6 +1142,28 @@
     "effect": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-015_EN.webp"
+  },
+  {
+    "id": "OP04-017",
+    "set": "OP04",
+    "name": "Happiness Punch",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Alabasta",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn. Then, if your Leader is active, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-017_EN.webp"
   },
   {
     "id": "OP04-018",
@@ -1212,6 +1212,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-019_EN.webp"
   },
   {
+    "id": "OP04-020",
+    "set": "OP04",
+    "name": "Issho",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Green",
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost. [End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.) : Set up to 1 of your Characters with a cost of 5 or less as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-020_EN.webp"
+  },
+  {
     "id": "OP04-019_p1",
     "name": "Donquixote Doflamingo",
     "rarity": "Alternate Art",
@@ -1235,30 +1259,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-019_p1_EN.webp",
     "set": "OP04"
-  },
-  {
-    "id": "OP04-020",
-    "set": "OP04",
-    "name": "Issho",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Green",
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost. [End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.) : Set up to 1 of your Characters with a cost of 5 or less as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-020_EN.webp"
   },
   {
     "id": "OP04-020_p1",
@@ -1448,29 +1448,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-028_EN.webp"
   },
   {
-    "id": "OP04-028_p1",
-    "name": "Diamante",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Donquixote Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] If you have 2 or more active DON!! cards, set this Character as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-028_p1_EN.webp",
-    "set": "OP04"
-  },
-  {
     "id": "OP04-030",
     "set": "OP04",
     "name": "Trebol",
@@ -1494,27 +1471,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-030_EN.webp"
   },
   {
-    "id": "OP04-033",
-    "set": "OP04",
-    "name": "Machvise",
-    "rarity": "Uncommon",
+    "id": "OP04-028_p1",
+    "name": "Diamante",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 4,
-    "power": 5000,
+    "cost": 5,
+    "power": 6000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Strike"
+      "Slash"
     ],
     "types": [
       "Donquixote Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] If you have 2 or more active DON!! cards, set this Character as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-033_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-028_p1_EN.webp",
+    "set": "OP04"
   },
   {
     "id": "OP04-030_p1",
@@ -1538,6 +1515,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-030_p1_EN.webp",
     "set": "OP04"
+  },
+  {
+    "id": "OP04-033",
+    "set": "OP04",
+    "name": "Machvise",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-033_EN.webp"
   },
   {
     "id": "OP04-034",
@@ -1629,30 +1629,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-038_EN.webp"
   },
   {
-    "id": "OP04-040",
-    "set": "OP04",
-    "name": "Queen",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Blue",
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "[DON!! x1] [When Attacking] If you have a total of 4 or less cards in your Life area and hand, draw 1 card. If you have a Character with a cost of 8 or more, you may add up to 1 card from the top of your deck to the top of your Life cards instead of drawing 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-040_EN.webp"
-  },
-  {
     "id": "OP04-039",
     "set": "OP04",
     "name": "Rebecca",
@@ -1675,6 +1651,30 @@
     "effect": "This Leader cannot attack. [Activate: Main] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.) : If you have 6 or less cards in your hand, look at 2 cards from the top of your deck; reveal up to 1 {Dressrosa} type card and add it to your hand. Then, trash the rest.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-039_EN.webp"
+  },
+  {
+    "id": "OP04-040",
+    "set": "OP04",
+    "name": "Queen",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Blue",
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have a total of 4 or less cards in your Life area and hand, draw 1 card. If you have a Character with a cost of 8 or more, you may add up to 1 card from the top of your deck to the top of your Life cards instead of drawing 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-040_EN.webp"
   },
   {
     "id": "OP04-039_p1",
@@ -1725,29 +1725,6 @@
     "set": "OP04"
   },
   {
-    "id": "OP04-042",
-    "set": "OP04",
-    "name": "Ipponmatsu",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 1000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "East Blue"
-    ],
-    "effect": "[On Play] Up to 1 of your <Slash> attribute Characters gains +3000 power during this turn. Then, trash 1 card from the top of your deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-042_EN.webp"
-  },
-  {
     "id": "OP04-041",
     "set": "OP04",
     "name": "Apis",
@@ -1771,27 +1748,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-041_EN.webp"
   },
   {
-    "id": "OP04-043",
+    "id": "OP04-042",
     "set": "OP04",
-    "name": "Ulti",
-    "rarity": "Rare",
+    "name": "Ipponmatsu",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 3,
-    "power": 4000,
+    "cost": 2,
+    "power": 1000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Strike"
+      "Wisdom"
     ],
     "types": [
-      "Animal Kingdom Pirates"
+      "East Blue"
     ],
-    "effect": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 2 or less to the owner's hand or the bottom of their deck.",
+    "effect": "[On Play] Up to 1 of your <Slash> attribute Characters gains +3000 power during this turn. Then, trash 1 card from the top of your deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-043_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-042_EN.webp"
   },
   {
     "id": "OP04-045",
@@ -1817,16 +1794,16 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-045_EN.webp"
   },
   {
-    "id": "OP04-046",
+    "id": "OP04-043",
     "set": "OP04",
-    "name": "Queen",
-    "rarity": "Uncommon",
+    "name": "Ulti",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 4,
-    "power": 5000,
+    "cost": 3,
+    "power": 4000,
     "counter": 1000,
     "block": 1,
     "attributes": [
@@ -1835,9 +1812,9 @@
     "types": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Animal Kingdom Pirates} type, look at 7 cards from the top of your deck; reveal a total of up to 2 [Plague Rounds] or [Ice Oni] cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 2 or less to the owner's hand or the bottom of their deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-046_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-043_EN.webp"
   },
   {
     "id": "OP04-047",
@@ -1864,17 +1841,17 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-047_EN.webp"
   },
   {
-    "id": "OP04-048",
+    "id": "OP04-046",
     "set": "OP04",
-    "name": "Sasaki",
+    "name": "Queen",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 2000,
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
     "block": 1,
     "attributes": [
       "Strike"
@@ -1882,9 +1859,9 @@
     "types": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
+    "effect": "[On Play] If your Leader has the {Animal Kingdom Pirates} type, look at 7 cards from the top of your deck; reveal a total of up to 2 [Plague Rounds] or [Ice Oni] cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-048_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-046_EN.webp"
   },
   {
     "id": "OP04-049",
@@ -1910,27 +1887,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-049_EN.webp"
   },
   {
-    "id": "OP04-051",
+    "id": "OP04-048",
     "set": "OP04",
-    "name": "Who's.Who",
-    "rarity": "Rare",
+    "name": "Sasaki",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
     "block": 1,
     "attributes": [
-      "Slash"
+      "Strike"
     ],
     "types": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Who's.Who] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": "[On Play] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-051_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-048_EN.webp"
   },
   {
     "id": "OP04-050",
@@ -1956,27 +1933,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-050_EN.webp"
   },
   {
-    "id": "OP04-052",
+    "id": "OP04-051",
     "set": "OP04",
-    "name": "Black Maria",
-    "rarity": "Common",
+    "name": "Who's.Who",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 3,
-    "power": 3000,
+    "cost": 1,
+    "power": 2000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Draw 1 card.",
-    "trigger": "[Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-052_EN.webp"
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Who's.Who] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-051_EN.webp"
   },
   {
     "id": "OP04-051_p1",
@@ -2002,27 +1979,27 @@
     "set": "OP04"
   },
   {
-    "id": "OP04-053",
+    "id": "OP04-052",
     "set": "OP04",
-    "name": "Page One",
-    "rarity": "Uncommon",
+    "name": "Black Maria",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 4,
-    "power": 6000,
-    "counter": null,
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
     "block": 1,
     "attributes": [
-      "Strike"
+      "Special"
     ],
     "types": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[DON!! x1] [Once Per Turn] When you activate an Event, draw 1 card. Then, place 1 card from your hand at the bottom of your deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-053_EN.webp"
+    "effect": "[Activate: Main] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Draw 1 card.",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-052_EN.webp"
   },
   {
     "id": "OP04-054",
@@ -2049,26 +2026,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-054_EN.webp"
   },
   {
-    "id": "OP04-057",
+    "id": "OP04-053",
     "set": "OP04",
-    "name": "Dragon Twister Demolition Breath",
+    "name": "Page One",
     "rarity": "Uncommon",
-    "category": "Event",
+    "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
-    "power": null,
+    "cost": 4,
+    "power": 6000,
     "counter": null,
     "block": 1,
-    "attributes": [],
+    "attributes": [
+      "Strike"
+    ],
     "types": [
-      "The Four Emperors",
       "Animal Kingdom Pirates"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
-    "trigger": "[Trigger] Return up to 1 Character with a cost of 6 or less to the owner's hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-057_EN.webp"
+    "effect": "[DON!! x1] [Once Per Turn] When you activate an Event, draw 1 card. Then, place 1 card from your hand at the bottom of your deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-053_EN.webp"
   },
   {
     "id": "OP04-055",
@@ -2090,6 +2068,28 @@
     "effect": "[Main] You may trash 1 [Ice Oni] from your hand and place 1 Character with a cost of 4 or less at the bottom of the owner's deck: Play 1 [Ice Oni] from your trash.",
     "trigger": "[Trigger] Activate this card's [Main] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-055_EN.webp"
+  },
+  {
+    "id": "OP04-057",
+    "set": "OP04",
+    "name": "Dragon Twister Demolition Breath",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "The Four Emperors",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+    "trigger": "[Trigger] Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-057_EN.webp"
   },
   {
     "id": "OP04-059",
@@ -2190,30 +2190,6 @@
     "set": "OP04"
   },
   {
-    "id": "OP04-061",
-    "set": "OP04",
-    "name": "Tom",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Fish-Man",
-      "Water Seven"
-    ],
-    "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Water Seven} type, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-061_EN.webp"
-  },
-  {
     "id": "OP04-060_p1",
     "name": "Crocodile",
     "rarity": "Alternate Art",
@@ -2236,6 +2212,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-060_p1_EN.webp",
     "set": "OP04"
+  },
+  {
+    "id": "OP04-061",
+    "set": "OP04",
+    "name": "Tom",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Fish-Man",
+      "Water Seven"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Water Seven} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-061_EN.webp"
   },
   {
     "id": "OP04-062",
@@ -2470,29 +2470,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-072_EN.webp"
   },
   {
-    "id": "OP04-072_p1",
-    "name": "Mr.5(Gem)",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 7,
-    "power": 8000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-072_p1_EN.webp",
-    "set": "OP04"
-  },
-  {
     "id": "OP04-073",
     "set": "OP04",
     "name": "Mr.13 & Ms.Friday",
@@ -2517,25 +2494,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-073_EN.webp"
   },
   {
-    "id": "OP04-074",
-    "set": "OP04",
-    "name": "Colors Trap",
-    "rarity": "Rare",
-    "category": "Event",
+    "id": "OP04-072_p1",
+    "name": "Mr.5(Gem)",
+    "rarity": "Alternate Art",
+    "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 1,
-    "power": null,
+    "cost": 7,
+    "power": 8000,
     "counter": null,
     "block": 1,
-    "attributes": [],
+    "attributes": [
+      "Special"
+    ],
     "types": [
       "Baroque Works"
     ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-074_EN.webp"
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-072_p1_EN.webp",
+    "set": "OP04"
   },
   {
     "id": "OP04-075",
@@ -2559,10 +2538,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-075_EN.webp"
   },
   {
-    "id": "OP04-076",
+    "id": "OP04-074",
     "set": "OP04",
-    "name": "Weakness...Is an Unforgivable Sin.",
-    "rarity": "Common",
+    "name": "Colors Trap",
+    "rarity": "Rare",
     "category": "Event",
     "colors": [
       "Purple"
@@ -2573,12 +2552,11 @@
     "block": 1,
     "attributes": [],
     "types": [
-      "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-076_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-074_EN.webp"
   },
   {
     "id": "OP04-078",
@@ -2603,6 +2581,28 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-078_EN.webp"
+  },
+  {
+    "id": "OP04-076",
+    "set": "OP04",
+    "name": "Weakness...Is an Unforgivable Sin.",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Baroque Works"
+    ],
+    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-076_EN.webp"
   },
   {
     "id": "OP04-079",
@@ -2699,29 +2699,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-082_EN.webp"
   },
   {
-    "id": "OP04-082_p1",
-    "name": "Kyros",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "If this Character would be K.O.'d, you may rest your Leader or 1 [Corrida Coliseum] instead. [On Play] If your Leader is [Rebecca], K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 1 card from the top of your deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-082_p1_EN.webp",
-    "set": "OP04"
-  },
-  {
     "id": "OP04-084",
     "set": "OP04",
     "name": "Stussy",
@@ -2743,6 +2720,29 @@
     "effect": "[On Play] Look at 3 cards from the top of your deck and play up to 1 Character card with a type including \"CP\" other than [Stussy] and a cost of 2 or less. Then, trash the rest.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-084_EN.webp"
+  },
+  {
+    "id": "OP04-082_p1",
+    "name": "Kyros",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Dressrosa"
+    ],
+    "effect": "If this Character would be K.O.'d, you may rest your Leader or 1 [Corrida Coliseum] instead. [On Play] If your Leader is [Rebecca], K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 1 card from the top of your deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-082_p1_EN.webp",
+    "set": "OP04"
   },
   {
     "id": "OP04-085",
@@ -2889,6 +2889,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-091_EN.webp"
   },
   {
+    "id": "OP04-092",
+    "set": "OP04",
+    "name": "Rebecca",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Dressrosa"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Dressrosa} type card other than [Rebecca] and add it to your hand. Then, trash the rest.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-092_EN.webp"
+  },
+  {
     "id": "OP04-090_p1",
     "name": "Monkey.D.Luffy",
     "rarity": "Alternate Art",
@@ -2911,29 +2934,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-090_p1_EN.webp",
     "set": "OP04"
-  },
-  {
-    "id": "OP04-092",
-    "set": "OP04",
-    "name": "Rebecca",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Dressrosa} type card other than [Rebecca] and add it to your hand. Then, trash the rest.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-092_EN.webp"
   },
   {
     "id": "OP04-093",
