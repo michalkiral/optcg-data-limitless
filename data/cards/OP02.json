@@ -160,29 +160,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-089_EN.webp"
   },
   {
-    "id": "OP02-018_p1",
-    "name": "Marco",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-018_p1_EN.webp",
-    "set": "OP02"
-  },
-  {
     "id": "OP02-096",
     "set": "OP02",
     "name": "Kuzan",
@@ -204,6 +181,29 @@
     "effect": "[On Play] Draw 1 card. [When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-096_EN.webp"
+  },
+  {
+    "id": "OP02-018_p1",
+    "name": "Marco",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-018_p1_EN.webp",
+    "set": "OP02"
   },
   {
     "id": "OP02-099",
@@ -644,6 +644,29 @@
     "set": "OP02"
   },
   {
+    "id": "OP02-003",
+    "set": "OP02",
+    "name": "Atmos",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-003_EN.webp"
+  },
+  {
     "id": "OP02-001_p1",
     "name": "Edward.Newgate",
     "rarity": "Alternate Art",
@@ -668,27 +691,27 @@
     "set": "OP02"
   },
   {
-    "id": "OP02-003",
+    "id": "OP02-007",
     "set": "OP02",
-    "name": "Atmos",
+    "name": "Thatch",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 4,
-    "power": 6000,
+    "cost": 6,
+    "power": 8000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Slash"
+      "Wisdom"
     ],
     "types": [
       "Whitebeard Pirates"
     ],
     "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-003_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-007_EN.webp"
   },
   {
     "id": "OP02-006",
@@ -712,29 +735,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-006_EN.webp"
-  },
-  {
-    "id": "OP02-007",
-    "set": "OP02",
-    "name": "Thatch",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": 8000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-007_EN.webp"
   },
   {
     "id": "OP02-008",
@@ -1057,6 +1057,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-022_EN.webp"
   },
   {
+    "id": "OP02-024",
+    "set": "OP02",
+    "name": "Moby Dick",
+    "rarity": "Common",
+    "category": "Stage",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] If you have 1 or less Life cards, your [Edward.Newgate] and all your Characters with a type including \"Whitebeard Pirates\" gain +2000 power.",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-024_EN.webp"
+  },
+  {
     "id": "OP02-023",
     "set": "OP02",
     "name": "You May Be a Fool...but I Still Love You",
@@ -1077,27 +1098,6 @@
     "effect": "[Main] If you have 3 or less Life cards, you cannot add Life cards to your hand using your own effects during this turn.",
     "trigger": "[Trigger] Up to 1 of your Leader gains +1000 power during this turn.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-023_EN.webp"
-  },
-  {
-    "id": "OP02-024",
-    "set": "OP02",
-    "name": "Moby Dick",
-    "rarity": "Common",
-    "category": "Stage",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Your Turn] If you have 1 or less Life cards, your [Edward.Newgate] and all your Characters with a type including \"Whitebeard Pirates\" gain +2000 power.",
-    "trigger": "[Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-024_EN.webp"
   },
   {
     "id": "OP02-025",
@@ -1655,31 +1655,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-042_EN.webp"
   },
   {
-    "id": "OP02-041_p1",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 7,
-    "power": 7000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-041_p1_EN.webp",
-    "set": "OP02"
-  },
-  {
     "id": "OP02-043",
     "set": "OP02",
     "name": "Roronoa Zoro",
@@ -1703,6 +1678,31 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-043_EN.webp"
+  },
+  {
+    "id": "OP02-041_p1",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "FILM",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-041_p1_EN.webp",
+    "set": "OP02"
   },
   {
     "id": "OP02-044",
@@ -1751,28 +1751,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-045_EN.webp"
   },
   {
-    "id": "OP02-046",
-    "set": "OP02",
-    "name": "Diable Jambe Venaison Shoot",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "FILM",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
-    "trigger": "[Trigger] Play up to 1 Character card with a cost of 4 or less and no base effect from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-046_EN.webp"
-  },
-  {
     "id": "OP02-047",
     "set": "OP02",
     "name": "Paradise Totsuka",
@@ -1793,6 +1771,28 @@
     "effect": "[Main] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": "[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-047_EN.webp"
+  },
+  {
+    "id": "OP02-046",
+    "set": "OP02",
+    "name": "Diable Jambe Venaison Shoot",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "trigger": "[Trigger] Play up to 1 Character card with a cost of 4 or less and no base effect from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-046_EN.webp"
   },
   {
     "id": "OP02-048",
@@ -1888,30 +1888,6 @@
     "set": "OP02"
   },
   {
-    "id": "OP02-051",
-    "set": "OP02",
-    "name": "Emporio.Ivankov",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 7,
-    "power": 7000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Impel Down",
-      "Revolutionary Army"
-    ],
-    "effect": "[On Play] Draw card (s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-051_EN.webp"
-  },
-  {
     "id": "OP02-052",
     "set": "OP02",
     "name": "Cabaji",
@@ -1935,9 +1911,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-052_EN.webp"
   },
   {
-    "id": "OP02-051_p1",
+    "id": "OP02-051",
+    "set": "OP02",
     "name": "Emporio.Ivankov",
-    "rarity": "Alternate Art",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Blue"
@@ -1955,8 +1932,7 @@
     ],
     "effect": "[On Play] Draw card (s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-051_p1_EN.webp",
-    "set": "OP02"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-051_EN.webp"
   },
   {
     "id": "OP02-053",
@@ -1983,6 +1959,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-053_EN.webp"
   },
   {
+    "id": "OP02-051_p1",
+    "name": "Emporio.Ivankov",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Draw card (s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-051_p1_EN.webp",
+    "set": "OP02"
+  },
+  {
     "id": "OP02-054",
     "set": "OP02",
     "name": "Gecko Moria",
@@ -2007,29 +2007,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-054_EN.webp"
   },
   {
-    "id": "OP02-055",
-    "set": "OP02",
-    "name": "Dracule Mihawk",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 6,
-    "power": 8000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "The Seven Warlords of the Sea"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-055_EN.webp"
-  },
-  {
     "id": "OP02-056",
     "set": "OP02",
     "name": "Donquixote Doflamingo",
@@ -2052,6 +2029,29 @@
     "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-056_EN.webp"
+  },
+  {
+    "id": "OP02-055",
+    "set": "OP02",
+    "name": "Dracule Mihawk",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-055_EN.webp"
   },
   {
     "id": "OP02-057",
@@ -2174,6 +2174,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-060_EN.webp"
   },
   {
+    "id": "OP02-061",
+    "set": "OP02",
+    "name": "Morley",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Giant",
+      "Revolutionary Army"
+    ],
+    "effect": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-061_EN.webp"
+  },
+  {
     "id": "OP02-059_p1",
     "name": "Boa Hancock",
     "rarity": "Full Art",
@@ -2199,28 +2223,28 @@
     "set": "OP02"
   },
   {
-    "id": "OP02-061",
+    "id": "OP02-063",
     "set": "OP02",
-    "name": "Morley",
+    "name": "Mr.1(Daz.Bonez)",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 4,
-    "power": 5000,
+    "cost": 1,
+    "power": 1000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
-      "Giant",
-      "Revolutionary Army"
+      "Impel Down",
+      "Former Baroque Works"
     ],
-    "effect": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "effect": "[On Play] Add up to 1 blue Event card with a cost of 1 from your trash to your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-061_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-063_EN.webp"
   },
   {
     "id": "OP02-062",
@@ -2245,30 +2269,6 @@
     "effect": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn. (This card deals 2 damage.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-062_EN.webp"
-  },
-  {
-    "id": "OP02-063",
-    "set": "OP02",
-    "name": "Mr.1(Daz.Bonez)",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down",
-      "Former Baroque Works"
-    ],
-    "effect": "[On Play] Add up to 1 blue Event card with a cost of 1 from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-063_EN.webp"
   },
   {
     "id": "OP02-062_p1",
@@ -2902,6 +2902,27 @@
     "set": "OP02"
   },
   {
+    "id": "OP02-090",
+    "set": "OP02",
+    "name": "Hydra",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "trigger": "[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-090_EN.webp"
+  },
+  {
     "id": "OP02-088",
     "set": "OP02",
     "name": "Sphinx",
@@ -2924,27 +2945,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-088_EN.webp"
-  },
-  {
-    "id": "OP02-090",
-    "set": "OP02",
-    "name": "Hydra",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Impel Down"
-    ],
-    "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Give up to 1 of your opponent's Characters −3000 power during this turn.",
-    "trigger": "[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-090_EN.webp"
   },
   {
     "id": "OP02-091",
@@ -2989,29 +2989,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-092_EN.webp"
   },
   {
-    "id": "OP02-093",
-    "set": "OP02",
-    "name": "Smoker",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Black"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-093_EN.webp"
-  },
-  {
     "id": "OP02-094",
     "set": "OP02",
     "name": "Isuka",
@@ -3033,6 +3010,29 @@
     "effect": "[DON!! x1] [Once Per Turn] When this Character battles and K.O.'s your opponent's Character, set this Character as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-094_EN.webp"
+  },
+  {
+    "id": "OP02-093",
+    "set": "OP02",
+    "name": "Smoker",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-093_EN.webp"
   },
   {
     "id": "OP02-095",
@@ -3058,29 +3058,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-095_EN.webp"
   },
   {
-    "id": "OP02-093_p1",
-    "name": "Smoker",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Black"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-093_p1_EN.webp",
-    "set": "OP02"
-  },
-  {
     "id": "OP02-097",
     "set": "OP02",
     "name": "Komille",
@@ -3102,6 +3079,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-097_EN.webp"
+  },
+  {
+    "id": "OP02-093_p1",
+    "name": "Smoker",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-093_p1_EN.webp",
+    "set": "OP02"
   },
   {
     "id": "OP02-098",
