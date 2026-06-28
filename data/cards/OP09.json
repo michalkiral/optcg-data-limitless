@@ -471,6 +471,28 @@
     "set": "OP09"
   },
   {
+    "id": "OP09-020",
+    "set": "OP09",
+    "name": "Come On!! We'll Fight You!!",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Draw 1 card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-020_EN.webp"
+  },
+  {
     "id": "OP09-014",
     "set": "OP09",
     "name": "Limejuice",
@@ -492,28 +514,6 @@
     "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-014_EN.webp"
-  },
-  {
-    "id": "OP09-020",
-    "set": "OP09",
-    "name": "Come On!! We'll Fight You!!",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Draw 1 card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-020_EN.webp"
   },
   {
     "id": "OP09-027",
@@ -588,6 +588,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-046_EN.webp"
   },
   {
+    "id": "OP09-048",
+    "set": "OP09",
+    "name": "Dracule Mihawk",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-048_EN.webp"
+  },
+  {
     "id": "OP09-046_p1",
     "name": "Crocodile",
     "rarity": "Alternate Art",
@@ -612,10 +635,9 @@
     "set": "OP09"
   },
   {
-    "id": "OP09-048",
-    "set": "OP09",
+    "id": "OP09-048_p1",
     "name": "Dracule Mihawk",
-    "rarity": "Super Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Blue"
@@ -632,7 +654,8 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-048_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-048_p1_EN.webp",
+    "set": "OP09"
   },
   {
     "id": "OP09-056",
@@ -657,29 +680,6 @@
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Cross Guild} type card or card with a type including \"Baroque Works\" other than [Mr.3 (Galdino) ] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-056_EN.webp"
-  },
-  {
-    "id": "OP09-048_p1",
-    "name": "Dracule Mihawk",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Cross Guild"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-048_p1_EN.webp",
-    "set": "OP09"
   },
   {
     "id": "OP09-057",
@@ -772,29 +772,6 @@
     "set": "OP09"
   },
   {
-    "id": "OP09-072",
-    "set": "OP09",
-    "name": "Franky",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] DON!! −2, You may trash 1 card from your hand: Draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-072_EN.webp"
-  },
-  {
     "id": "OP09-069_p1",
     "name": "Trafalgar Law",
     "rarity": "Alternate Art",
@@ -816,6 +793,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-069_p1_EN.webp",
     "set": "OP09"
+  },
+  {
+    "id": "OP09-072",
+    "set": "OP09",
+    "name": "Franky",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] DON!! −2, You may trash 1 card from your hand: Draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-072_EN.webp"
   },
   {
     "id": "OP09-072_p1",
@@ -1640,6 +1640,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-023_EN.webp"
   },
   {
+    "id": "OP09-023_p1",
+    "name": "Adio",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 9,
+    "power": 9000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "ODYSSEY"
+    ],
+    "effect": "[On Play] If your Leader has the {ODYSSEY} type, set up to 3 of your DON!! cards as active. [On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-023_p1_EN.webp",
+    "set": "OP09"
+  },
+  {
     "id": "OP09-022_p1",
     "name": "Lim",
     "rarity": "Alternate Art",
@@ -1661,29 +1684,6 @@
     "effect": "Your Character cards are played rested. [Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and rest it, and play up to 1 {ODYSSEY} type Character card with a cost of 5 or less from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-022_p1_EN.webp",
-    "set": "OP09"
-  },
-  {
-    "id": "OP09-023_p1",
-    "name": "Adio",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 9,
-    "power": 9000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "ODYSSEY"
-    ],
-    "effect": "[On Play] If your Leader has the {ODYSSEY} type, set up to 3 of your DON!! cards as active. [On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-023_p1_EN.webp",
     "set": "OP09"
   },
   {
@@ -1859,6 +1859,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-031_EN.webp"
   },
   {
+    "id": "OP09-034",
+    "set": "OP09",
+    "name": "Perona",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Muggy Kingdom",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Dracule Mihawk] or {Thriller Bark Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-034_EN.webp"
+  },
+  {
     "id": "OP09-032",
     "set": "OP09",
     "name": "Donquixote Rosinante",
@@ -1882,30 +1906,6 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] Set this Character as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-032_EN.webp"
-  },
-  {
-    "id": "OP09-034",
-    "set": "OP09",
-    "name": "Perona",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Muggy Kingdom",
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Dracule Mihawk] or {Thriller Bark Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-034_EN.webp"
   },
   {
     "id": "OP09-035",
@@ -1957,30 +1957,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-036_EN.webp"
   },
   {
-    "id": "OP09-038",
-    "set": "OP09",
-    "name": "Rob Lucci",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "ODYSSEY",
-      "CP9"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-038_EN.webp"
-  },
-  {
     "id": "OP09-034_p1",
     "name": "Perona",
     "rarity": "Alternate Art",
@@ -2003,6 +1979,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-034_p1_EN.webp",
     "set": "OP09"
+  },
+  {
+    "id": "OP09-038",
+    "set": "OP09",
+    "name": "Rob Lucci",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "ODYSSEY",
+      "CP9"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-038_EN.webp"
   },
   {
     "id": "OP09-039",
@@ -2284,29 +2284,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-052_EN.webp"
   },
   {
-    "id": "OP09-053",
-    "set": "OP09",
-    "name": "Mohji",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Cross Guild"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Richie] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Richie] from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-053_EN.webp"
-  },
-  {
     "id": "OP09-050_p1",
     "name": "Nami",
     "rarity": "Alternate Art",
@@ -2330,28 +2307,27 @@
     "set": "OP09"
   },
   {
-    "id": "OP09-054",
+    "id": "OP09-053",
     "set": "OP09",
-    "name": "Richie",
-    "rarity": "Common",
+    "name": "Mohji",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
+    "cost": 5,
+    "power": 5000,
+    "counter": 2000,
     "block": 3,
     "attributes": [
-      "Strike"
+      "Wisdom"
     ],
     "types": [
-      "Animal",
       "Cross Guild"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Richie] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Richie] from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-054_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-053_EN.webp"
   },
   {
     "id": "OP09-055",
@@ -2376,6 +2352,30 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-055_EN.webp"
+  },
+  {
+    "id": "OP09-054",
+    "set": "OP09",
+    "name": "Richie",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Animal",
+      "Cross Guild"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-054_EN.webp"
   },
   {
     "id": "OP09-058",
@@ -2514,29 +2514,6 @@
     "set": "OP09"
   },
   {
-    "id": "OP09-063",
-    "set": "OP09",
-    "name": "Usopp",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-063_EN.webp"
-  },
-  {
     "id": "OP09-061_p1",
     "name": "Monkey.D.Luffy",
     "rarity": "Alternate Art",
@@ -2562,27 +2539,27 @@
     "set": "OP09"
   },
   {
-    "id": "OP09-064",
+    "id": "OP09-063",
     "set": "OP09",
-    "name": "Killer",
-    "rarity": "Uncommon",
+    "name": "Usopp",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 5,
-    "power": 5000,
+    "cost": 4,
+    "power": 6000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Slash"
+      "Ranged"
     ],
     "types": [
-      "Kid Pirates"
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Set up to 1 of your {Kid Pirates} type Leader as active.",
+    "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-064_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-063_EN.webp"
   },
   {
     "id": "OP09-066",
@@ -2608,28 +2585,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-066_EN.webp"
   },
   {
-    "id": "OP09-067",
+    "id": "OP09-064",
     "set": "OP09",
-    "name": "Jinbe",
-    "rarity": "Common",
+    "name": "Killer",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 7,
-    "power": 9000,
+    "cost": 5,
+    "power": 5000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Strike"
+      "Slash"
     ],
     "types": [
-      "Fish-Man",
-      "Straw Hat Crew"
+      "Kid Pirates"
     ],
-    "effect": "",
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Set up to 1 of your {Kid Pirates} type Leader as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-067_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-064_EN.webp"
   },
   {
     "id": "OP09-068",
@@ -2654,6 +2630,30 @@
     "effect": "[End of Your Turn] You may return 1 or more DON!! cards from your field to your DON!! deck: Set this Character as active. Then, this Character gains [Blocker] until the end of your opponent's next turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-068_EN.webp"
+  },
+  {
+    "id": "OP09-067",
+    "set": "OP09",
+    "name": "Jinbe",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-067_EN.webp"
   },
   {
     "id": "OP09-070",
@@ -2725,6 +2725,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-073_EN.webp"
   },
   {
+    "id": "OP09-075",
+    "set": "OP09",
+    "name": "Eustass\"Captain\"Kid",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "[On Play] You may add 1 card from the top of your Life cards to your hand: If your Leader has the {Kid Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-075_EN.webp"
+  },
+  {
     "id": "OP09-074",
     "set": "OP09",
     "name": "Bepo",
@@ -2747,29 +2770,6 @@
     "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-074_EN.webp"
-  },
-  {
-    "id": "OP09-075",
-    "set": "OP09",
-    "name": "Eustass\"Captain\"Kid",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Kid Pirates"
-    ],
-    "effect": "[On Play] You may add 1 card from the top of your Life cards to your hand: If your Leader has the {Kid Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-075_EN.webp"
   },
   {
     "id": "OP09-080",
@@ -2863,29 +2863,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-083_EN.webp"
   },
   {
-    "id": "OP09-085",
-    "set": "OP09",
-    "name": "Gecko Moria",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[On Play] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-085_EN.webp"
-  },
-  {
     "id": "OP09-081_p1",
     "name": "Marshall.D.Teach",
     "rarity": "Alternate Art",
@@ -2908,6 +2885,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-081_p1_EN.webp",
     "set": "OP09"
+  },
+  {
+    "id": "OP09-085",
+    "set": "OP09",
+    "name": "Gecko Moria",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-085_EN.webp"
   },
   {
     "id": "OP09-087",

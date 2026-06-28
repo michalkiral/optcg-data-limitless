@@ -644,29 +644,6 @@
     "set": "OP02"
   },
   {
-    "id": "OP02-003",
-    "set": "OP02",
-    "name": "Atmos",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-003_EN.webp"
-  },
-  {
     "id": "OP02-001_p1",
     "name": "Edward.Newgate",
     "rarity": "Alternate Art",
@@ -689,6 +666,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-001_p1_EN.webp",
     "set": "OP02"
+  },
+  {
+    "id": "OP02-003",
+    "set": "OP02",
+    "name": "Atmos",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-003_EN.webp"
   },
   {
     "id": "OP02-006",
@@ -967,6 +967,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-019_EN.webp"
   },
   {
+    "id": "OP02-017_p1",
+    "name": "Masked Deuce",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "block": 1,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Spade Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-017_p1_EN.webp",
+    "set": "OP02"
+  },
+  {
     "id": "OP02-020",
     "set": "OP02",
     "name": "LittleOars Jr.",
@@ -991,27 +1014,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-020_EN.webp"
   },
   {
-    "id": "OP02-017_p1",
-    "name": "Masked Deuce",
-    "rarity": "Alternate Art",
-    "category": "Character",
+    "id": "OP02-021",
+    "set": "OP02",
+    "name": "Seaquake",
+    "rarity": "Rare",
+    "category": "Event",
     "colors": [
       "Red"
     ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 2000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Spade Pirates"
+      "The Four Emperors",
+      "Whitebeard Pirates"
     ],
-    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-017_p1_EN.webp",
-    "set": "OP02"
+    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "trigger": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-021_EN.webp"
   },
   {
     "id": "OP02-022",
@@ -1033,28 +1055,6 @@
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "[Trigger] Activate this card's [Main] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-022_EN.webp"
-  },
-  {
-    "id": "OP02-021",
-    "set": "OP02",
-    "name": "Seaquake",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Main] If your Leader's type includes \"Whitebeard Pirates\", K.O. up to 1 of your opponent's Characters with 3000 power or less.",
-    "trigger": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-021_EN.webp"
   },
   {
     "id": "OP02-023",
