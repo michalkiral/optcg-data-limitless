@@ -25,6 +25,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-001_EN.webp"
   },
   {
+    "id": "ST29-002",
+    "set": "ST29",
+    "name": "Usopp",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-002_EN.webp"
+  },
+  {
     "id": "ST29-001_p1",
     "name": "Monkey.D.Luffy",
     "rarity": "Leader",
@@ -48,30 +72,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-001_p1_EN.webp",
     "set": "ST29"
-  },
-  {
-    "id": "ST29-002",
-    "set": "ST29",
-    "name": "Usopp",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Egghead",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play]/[When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-002_EN.webp"
   },
   {
     "id": "ST29-003",
@@ -364,6 +364,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-008_EN.webp"
   },
   {
+    "id": "ST29-008_p1",
+    "name": "Nami",
+    "rarity": "Full Art",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "If your {Egghead} type Character would be K.O.'d by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.",
+    "trigger": "[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-008_p1_EN.webp",
+    "set": "ST29"
+  },
+  {
     "id": "ST29-009",
     "set": "ST29",
     "name": "Nico Robin",
@@ -412,28 +436,28 @@
     "set": "ST29"
   },
   {
-    "id": "ST29-008_p1",
-    "name": "Nami",
-    "rarity": "Full Art",
+    "id": "ST29-010",
+    "set": "ST29",
+    "name": "Franky",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 3,
-    "power": 1000,
-    "counter": 1000,
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
     "block": 4,
     "attributes": [
-      "Special"
+      "Ranged"
     ],
     "types": [
       "Egghead",
       "Straw Hat Crew"
     ],
-    "effect": "If your {Egghead} type Character would be K.O.'d by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.",
-    "trigger": "[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-008_p1_EN.webp",
-    "set": "ST29"
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-010_EN.webp"
   },
   {
     "id": "ST29-011",
@@ -460,30 +484,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-011_EN.webp"
   },
   {
-    "id": "ST29-010",
-    "set": "ST29",
-    "name": "Franky",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Egghead",
-      "Straw Hat Crew"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-010_EN.webp"
-  },
-  {
     "id": "ST29-010_p1",
     "name": "Franky",
     "rarity": "Full Art",
@@ -505,30 +505,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-010_p1_EN.webp",
-    "set": "ST29"
-  },
-  {
-    "id": "ST29-011_p1",
-    "name": "Brook",
-    "rarity": "Full Art",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Egghead",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-011_p1_EN.webp",
     "set": "ST29"
   },
   {
@@ -557,51 +533,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-012_EN.webp"
   },
   {
-    "id": "ST29-013",
-    "set": "ST29",
-    "name": "Rob Lucci",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Egghead",
-      "CP0"
-    ],
-    "effect": "",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-013_EN.webp"
-  },
-  {
-    "id": "ST29-013_p1",
-    "name": "Rob Lucci",
+    "id": "ST29-011_p1",
+    "name": "Brook",
     "rarity": "Full Art",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 5,
-    "power": 6000,
+    "cost": 2,
+    "power": 2000,
     "counter": 1000,
     "block": 4,
     "attributes": [
-      "Strike"
+      "Slash"
     ],
     "types": [
       "Egghead",
-      "CP0"
+      "Straw Hat Crew"
     ],
-    "effect": "",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-013_p1_EN.webp",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-011_p1_EN.webp",
     "set": "ST29"
   },
   {
@@ -630,6 +582,30 @@
     "set": "ST29"
   },
   {
+    "id": "ST29-013",
+    "set": "ST29",
+    "name": "Rob Lucci",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Egghead",
+      "CP0"
+    ],
+    "effect": "",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-013_EN.webp"
+  },
+  {
     "id": "ST29-014",
     "set": "ST29",
     "name": "Roronoa Zoro",
@@ -654,26 +630,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-014_EN.webp"
   },
   {
-    "id": "ST29-015",
-    "set": "ST29",
-    "name": "Raw Heat Strike",
-    "rarity": "Common",
-    "category": "Event",
+    "id": "ST29-013_p1",
+    "name": "Rob Lucci",
+    "rarity": "Full Art",
+    "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
     "block": 4,
-    "attributes": [],
+    "attributes": [
+      "Strike"
+    ],
     "types": [
       "Egghead",
-      "Straw Hat Crew"
+      "CP0"
     ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 1 or less Life cards, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
-    "trigger": "[Trigger] Draw 1 card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-015_EN.webp"
+    "effect": "",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-013_p1_EN.webp",
+    "set": "ST29"
   },
   {
     "id": "ST29-014_p1",
@@ -698,6 +676,28 @@
     "trigger": "[Trigger] from your hand: Draw 1 card and give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-014_p1_EN.webp",
     "set": "ST29"
+  },
+  {
+    "id": "ST29-015",
+    "set": "ST29",
+    "name": "Raw Heat Strike",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Egghead",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 1 or less Life cards, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "trigger": "[Trigger] Draw 1 card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST29/ST29-015_EN.webp"
   },
   {
     "id": "ST29-016",
