@@ -213,6 +213,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-032_EN.webp"
   },
   {
+    "id": "OP10-046",
+    "set": "OP10",
+    "name": "Kyros",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Dressrosa"
+    ],
+    "effect": "[On Play] Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-046_EN.webp"
+  },
+  {
     "id": "OP10-032_p1",
     "name": "Tashigi",
     "rarity": "Alternate Art",
@@ -235,29 +258,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-032_p1_EN.webp",
     "set": "OP10"
-  },
-  {
-    "id": "OP10-046",
-    "set": "OP10",
-    "name": "Kyros",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 7,
-    "power": 9000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "[On Play] Return up to 1 Character with a cost of 5 or less to the owner's hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-046_EN.webp"
   },
   {
     "id": "OP10-079",
@@ -769,30 +769,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-003_EN.webp"
   },
   {
-    "id": "OP10-003_p1",
-    "name": "Sugar",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Red",
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Donquixote Pirates"
-    ],
-    "effect": "[End of Your Turn] If you have a {Donquixote Pirates} type Character with 6000 power or more, set up to 1 of your DON!! cards as active. [Opponent's Turn] [Once Per Turn] When you activate an Event, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-003_p1_EN.webp",
-    "set": "OP10"
-  },
-  {
     "id": "OP10-002_p1",
     "name": "Caesar Clown",
     "rarity": "Alternate Art",
@@ -815,6 +791,30 @@
     "effect": "[DON!! x2] [When Attacking] You may return 1 of your {Punk Hazard} type Characters with a cost of 2 or more to the owner's hand: K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-002_p1_EN.webp",
+    "set": "OP10"
+  },
+  {
+    "id": "OP10-003_p1",
+    "name": "Sugar",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Red",
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[End of Your Turn] If you have a {Donquixote Pirates} type Character with 6000 power or more, set up to 1 of your DON!! cards as active. [Opponent's Turn] [Once Per Turn] When you activate an Event, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-003_p1_EN.webp",
     "set": "OP10"
   },
   {
@@ -1129,29 +1129,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-016_EN.webp"
   },
   {
-    "id": "OP10-017",
-    "set": "OP10",
-    "name": "Rock",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Punk Hazard"
-    ],
-    "effect": "[On Play] If you don't have [Scotch], play up to 1 [Scotch] from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-017_EN.webp"
-  },
-  {
     "id": "OP10-016_p1",
     "name": "Monet",
     "rarity": "Alternate Art",
@@ -1176,26 +1153,27 @@
     "set": "OP10"
   },
   {
-    "id": "OP10-019",
+    "id": "OP10-017",
     "set": "OP10",
-    "name": "Divine Departure",
-    "rarity": "Rare",
-    "category": "Event",
+    "name": "Rock",
+    "rarity": "Common",
+    "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
     "block": 3,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Red-Haired Pirates"
+    "attributes": [
+      "Ranged"
     ],
-    "effect": "[Main] You may rest 5 of your DON!! cards: K.O. up to 1 of your opponent's Characters with 8000 power or less. [Counter] Up to 1 of your Leader gains +3000 power during this battle.",
+    "types": [
+      "Punk Hazard"
+    ],
+    "effect": "[On Play] If you don't have [Scotch], play up to 1 [Scotch] from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-019_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-017_EN.webp"
   },
   {
     "id": "OP10-020",
@@ -1220,9 +1198,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-020_EN.webp"
   },
   {
-    "id": "OP10-019_p1",
+    "id": "OP10-019",
+    "set": "OP10",
     "name": "Divine Departure",
-    "rarity": "Alternate Art",
+    "rarity": "Rare",
     "category": "Event",
     "colors": [
       "Red"
@@ -1238,8 +1217,7 @@
     ],
     "effect": "[Main] You may rest 5 of your DON!! cards: K.O. up to 1 of your opponent's Characters with 8000 power or less. [Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-019_p1_EN.webp",
-    "set": "OP10"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-019_EN.webp"
   },
   {
     "id": "OP10-021",
@@ -1263,28 +1241,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-021_EN.webp"
   },
   {
-    "id": "OP10-023",
-    "set": "OP10",
-    "name": "Issho",
-    "rarity": "Common",
-    "category": "Character",
+    "id": "OP10-019_p1",
+    "name": "Divine Departure",
+    "rarity": "Alternate Art",
+    "category": "Event",
     "colors": [
-      "Green"
+      "Red"
     ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 3,
-    "attributes": [
-      "Slash"
-    ],
+    "attributes": [],
     "types": [
-      "Dressrosa",
-      "Navy"
+      "The Four Emperors",
+      "Red-Haired Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Navy} type, rest up to 2 of your opponent's Characters with a cost of 5 or less.",
+    "effect": "[Main] You may rest 5 of your DON!! cards: K.O. up to 1 of your opponent's Characters with 8000 power or less. [Counter] Up to 1 of your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-023_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-019_p1_EN.webp",
+    "set": "OP10"
   },
   {
     "id": "OP10-022",
@@ -1313,9 +1289,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-022_EN.webp"
   },
   {
-    "id": "OP10-024",
+    "id": "OP10-023",
     "set": "OP10",
-    "name": "Edward.Newgate",
+    "name": "Issho",
     "rarity": "Common",
     "category": "Character",
     "colors": [
@@ -1326,16 +1302,15 @@
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
-      "ODYSSEY",
-      "The Four Emperors",
-      "Whitebeard Pirates"
+      "Dressrosa",
+      "Navy"
     ],
-    "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "effect": "[On Play] If your Leader has the {Navy} type, rest up to 2 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-024_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-023_EN.webp"
   },
   {
     "id": "OP10-022_p1",
@@ -1362,6 +1337,31 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-022_p1_EN.webp",
     "set": "OP10"
+  },
+  {
+    "id": "OP10-024",
+    "set": "OP10",
+    "name": "Edward.Newgate",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "ODYSSEY",
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] If you have 2 or more rested Characters, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-024_EN.webp"
   },
   {
     "id": "OP10-025",
@@ -1656,29 +1656,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-038_EN.webp"
   },
   {
-    "id": "OP10-039",
-    "set": "OP10",
-    "name": "Gum-Gum Dragon Fire Pistol Twister Star",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "ODYSSEY",
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] If your Leader has the {ODYSSEY} type, look at 5 cards from the top of your deck; reveal up to 2 {ODYSSEY} type Character cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-039_EN.webp"
-  },
-  {
     "id": "OP10-037_p1",
     "name": "Lim",
     "rarity": "Alternate Art",
@@ -1700,6 +1677,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-037_p1_EN.webp",
     "set": "OP10"
+  },
+  {
+    "id": "OP10-039",
+    "set": "OP10",
+    "name": "Gum-Gum Dragon Fire Pistol Twister Star",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "ODYSSEY",
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] If your Leader has the {ODYSSEY} type, look at 5 cards from the top of your deck; reveal up to 2 {ODYSSEY} type Character cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-039_EN.webp"
   },
   {
     "id": "OP10-040",
@@ -2133,6 +2133,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-058_EN.webp"
   },
   {
+    "id": "OP10-059",
+    "set": "OP10",
+    "name": "Fo...llow...Me...and...I...Will...Gui...de...You",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "Dressrosa",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Dressrosa} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-059_EN.webp"
+  },
+  {
     "id": "OP10-058_p1",
     "name": "Rebecca",
     "rarity": "Alternate Art",
@@ -2154,28 +2176,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-058_p1_EN.webp",
     "set": "OP10"
-  },
-  {
-    "id": "OP10-059",
-    "set": "OP10",
-    "name": "Fo...llow...Me...and...I...Will...Gui...de...You",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Dressrosa",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Dressrosa} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-059_EN.webp"
   },
   {
     "id": "OP10-060",
@@ -2268,29 +2268,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-064_EN.webp"
   },
   {
-    "id": "OP10-066",
-    "set": "OP10",
-    "name": "Giolla",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Donquixote Pirates"
-    ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] You may rest 2 of your DON!! cards: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-066_EN.webp"
-  },
-  {
     "id": "OP10-067",
     "set": "OP10",
     "name": "Senor Pink",
@@ -2312,6 +2289,29 @@
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Add up to 1 purple Event with a cost of 5 or less from your trash to your hand. Then, set up to 1 of your DON!! cards as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-067_EN.webp"
+  },
+  {
+    "id": "OP10-066",
+    "set": "OP10",
+    "name": "Giolla",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] You may rest 2 of your DON!! cards: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-066_EN.webp"
   },
   {
     "id": "OP10-068",
@@ -2360,6 +2360,29 @@
     "set": "OP10"
   },
   {
+    "id": "OP10-070",
+    "set": "OP10",
+    "name": "Trebol",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] All of your Characters with 1000 base power or less cannot be K.O.'d by your opponent's effects until the end of your opponent's next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-070_EN.webp"
+  },
+  {
     "id": "OP10-069",
     "set": "OP10",
     "name": "Fighting Fish",
@@ -2382,29 +2405,6 @@
     "effect": "[DON!! x1] [When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-069_EN.webp"
-  },
-  {
-    "id": "OP10-070",
-    "set": "OP10",
-    "name": "Trebol",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Donquixote Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] All of your Characters with 1000 base power or less cannot be K.O.'d by your opponent's effects until the end of your opponent's next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-070_EN.webp"
   },
   {
     "id": "OP10-071",

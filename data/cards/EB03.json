@@ -142,6 +142,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-005_EN.webp"
   },
   {
+    "id": "EB03-006",
+    "set": "EB03",
+    "name": "Nami",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Alabasta",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may give your active Leader −5000 power during this turn: Draw 1 card. [Activate: Main] [Once Per Turn] If your Leader has the {Alabasta} type, give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-006_EN.webp"
+  },
+  {
     "id": "EB03-003_p1",
     "name": "Uta",
     "rarity": "Alternate Art",
@@ -186,30 +210,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-003_p2_EN.webp",
     "set": "EB03"
-  },
-  {
-    "id": "EB03-006",
-    "set": "EB03",
-    "name": "Nami",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 7000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Alabasta",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] You may give your active Leader −5000 power during this turn: Draw 1 card. [Activate: Main] [Once Per Turn] If your Leader has the {Alabasta} type, give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-006_EN.webp"
   },
   {
     "id": "EB03-007",
@@ -352,6 +352,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-011_EN.webp"
   },
   {
+    "id": "EB03-013",
+    "set": "EB03",
+    "name": "Carrot",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Minks"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If this Character was played on this turn, K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less. Then, play up to 1 [Zou] from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-013_EN.webp"
+  },
+  {
     "id": "EB03-012",
     "set": "EB03",
     "name": "Otama",
@@ -375,10 +398,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-012_EN.webp"
   },
   {
-    "id": "EB03-013",
-    "set": "EB03",
+    "id": "EB03-013_p1",
     "name": "Carrot",
-    "rarity": "Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Green"
@@ -395,7 +417,8 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] If this Character was played on this turn, K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less. Then, play up to 1 [Zou] from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-013_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-013_p1_EN.webp",
+    "set": "EB03"
   },
   {
     "id": "EB03-014",
@@ -420,29 +443,6 @@
     "effect": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your <Slash> attribute Leader.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-014_EN.webp"
-  },
-  {
-    "id": "EB03-013_p1",
-    "name": "Carrot",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Minks"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] If this Character was played on this turn, K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less. Then, play up to 1 [Zou] from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-013_p1_EN.webp",
-    "set": "EB03"
   },
   {
     "id": "EB03-015",
@@ -493,6 +493,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-016_EN.webp"
   },
   {
+    "id": "EB03-018",
+    "set": "EB03",
+    "name": "Tashigi",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Opponent's Turn] This Character cannot be K.O.'d by your opponent's effects and gains [Blocker]. [End of Your Turn] You may rest 1 of your DON!! cards and trash 1 card from your hand: Set this Character as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-018_EN.webp"
+  },
+  {
     "id": "EB03-017",
     "set": "EB03",
     "name": "Jewelry Bonney",
@@ -517,29 +540,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-017_EN.webp"
   },
   {
-    "id": "EB03-018",
-    "set": "EB03",
-    "name": "Tashigi",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[Opponent's Turn] This Character cannot be K.O.'d by your opponent's effects and gains [Blocker]. [End of Your Turn] You may rest 1 of your DON!! cards and trash 1 card from your hand: Set this Character as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-018_EN.webp"
-  },
-  {
     "id": "EB03-019",
     "set": "EB03",
     "name": "Wanda",
@@ -561,27 +561,6 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-019_EN.webp"
-  },
-  {
-    "id": "EB03-020",
-    "set": "EB03",
-    "name": "There You Are, Sore Loser!",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "FILM"
-    ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or more {FILM} type Characters, that card gains an additional +2000 power during this battle.",
-    "trigger": "[Trigger] Set up to 1 of your Characters as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-020_EN.webp"
   },
   {
     "id": "EB03-018_p1",
@@ -628,6 +607,27 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-018_p2_EN.webp",
     "set": "EB03"
+  },
+  {
+    "id": "EB03-020",
+    "set": "EB03",
+    "name": "There You Are, Sore Loser!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "FILM"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or more {FILM} type Characters, that card gains an additional +2000 power during this battle.",
+    "trigger": "[Trigger] Set up to 1 of your Characters as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-020_EN.webp"
   },
   {
     "id": "EB03-021",
@@ -1562,27 +1562,6 @@
     "set": "EB03"
   },
   {
-    "id": "EB03-049",
-    "set": "EB03",
-    "name": "I Knew You People Were Behind This.",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[Main] You may rest 7 of your DON!! cards: If your Leader is [Perona], play up to 1 {Thriller Bark Pirates} type Character card with a cost of 6 or less and up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your hand or trash. [Counter] Your Leader gains +3000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-049_EN.webp"
-  },
-  {
     "id": "EB03-048",
     "set": "EB03",
     "name": "Rebecca",
@@ -1604,6 +1583,27 @@
     "effect": "[Blocker] [On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Dressrosa} type Stage card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 {Dressrosa} type Stage card with a cost of 1 from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-048_EN.webp"
+  },
+  {
+    "id": "EB03-049",
+    "set": "EB03",
+    "name": "I Knew You People Were Behind This.",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[Main] You may rest 7 of your DON!! cards: If your Leader is [Perona], play up to 1 {Thriller Bark Pirates} type Character card with a cost of 6 or less and up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your hand or trash. [Counter] Your Leader gains +3000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-049_EN.webp"
   },
   {
     "id": "EB03-050",
@@ -1975,29 +1975,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-060_EN.webp"
   },
   {
-    "id": "EB03-062",
-    "set": "EB03",
-    "name": "Trafalgar Law",
-    "rarity": "Secret Rare",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 8,
-    "power": 6000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Heart Pirates"
-    ],
-    "effect": "[Rush] [Activate: Main] You may trash 1 card from your hand and trash this Character: Add up to 1 card from the top of your deck to the top of your Life cards. Then, play up to 1 [Trafalgar Law] with a cost of 7 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-062_EN.webp"
-  },
-  {
     "id": "EB03-061",
     "set": "EB03",
     "name": "Uta",
@@ -2019,6 +1996,29 @@
     "effect": "[Activate: Main] [Once Per Turn] Set up to 1 of your DON!! cards as active. Then, rest up to 1 of your opponent's DON!! cards or Characters with a cost of 4 or less. [End of Your Turn] You may rest 1 of your DON!! cards: Set up to 1 of your {FILM} type Characters as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-061_EN.webp"
+  },
+  {
+    "id": "EB03-062",
+    "set": "EB03",
+    "name": "Trafalgar Law",
+    "rarity": "Secret Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 8,
+    "power": 6000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Heart Pirates"
+    ],
+    "effect": "[Rush] [Activate: Main] You may trash 1 card from your hand and trash this Character: Add up to 1 card from the top of your deck to the top of your Life cards. Then, play up to 1 [Trafalgar Law] with a cost of 7 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-062_EN.webp"
   },
   {
     "id": "EB03-062_p1",

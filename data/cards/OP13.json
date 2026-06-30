@@ -1296,29 +1296,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-045_EN.webp"
   },
   {
-    "id": "OP13-047",
-    "set": "OP13",
-    "name": "Fossa",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "If your Character with a type including \"Whitebeard Pirates\" would be K.O.'d by your opponent's effect, you may trash this Character instead.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-047_EN.webp"
-  },
-  {
     "id": "OP13-046",
     "set": "OP13",
     "name": "Vista",
@@ -1340,6 +1317,29 @@
     "effect": "[Double Attack] [Once Per Turn] If this Character would be K.O.'d or would be removed from the field by your opponent's effect, you may trash 1 card with a type including \"Whitebeard Pirates\" from your hand instead.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-046_EN.webp"
+  },
+  {
+    "id": "OP13-047",
+    "set": "OP13",
+    "name": "Fossa",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "If your Character with a type including \"Whitebeard Pirates\" would be K.O.'d by your opponent's effect, you may trash this Character instead.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-047_EN.webp"
   },
   {
     "id": "OP13-048",
@@ -1897,6 +1897,29 @@
     "set": "OP13"
   },
   {
+    "id": "OP13-067",
+    "set": "OP13",
+    "name": "Scopper Gaban",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Roger Pirates"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Roger Pirates\", draw 2 cards and trash 1 card from your hand. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-067_EN.webp"
+  },
+  {
     "id": "OP13-068",
     "set": "OP13",
     "name": "Douglas Bullet",
@@ -1921,27 +1944,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-068_EN.webp"
   },
   {
-    "id": "OP13-067",
+    "id": "OP13-069",
     "set": "OP13",
-    "name": "Scopper Gaban",
-    "rarity": "Rare",
+    "name": "Tom",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 6,
-    "power": 7000,
+    "cost": 2,
+    "power": 2000,
     "counter": 1000,
     "block": 4,
     "attributes": [
-      "Slash"
+      "Wisdom"
     ],
     "types": [
-      "Roger Pirates"
+      "Fish-Man",
+      "Water Seven"
     ],
-    "effect": "[On Play] If your Leader's type includes \"Roger Pirates\", draw 2 cards and trash 1 card from your hand. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": "[On Play] DON!! −1: Add up to 1 Stage card with a cost of 3 or less from your trash to your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-067_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-069_EN.webp"
   },
   {
     "id": "OP13-070",
@@ -1966,30 +1990,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-070_EN.webp"
-  },
-  {
-    "id": "OP13-069",
-    "set": "OP13",
-    "name": "Tom",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Fish-Man",
-      "Water Seven"
-    ],
-    "effect": "[On Play] DON!! −1: Add up to 1 Stage card with a cost of 3 or less from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-069_EN.webp"
   },
   {
     "id": "OP13-071",
@@ -2174,29 +2174,6 @@
     "set": "OP13"
   },
   {
-    "id": "OP13-079",
-    "set": "OP13",
-    "name": "Imu",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "card.attribute.?"
-    ],
-    "types": [
-      "?"
-    ],
-    "effect": "Under the rules of this game, you cannot include Events with a cost of 2 or more in your deck and at the start of the game, play up to 1 {Mary Geoise} type Stage card from your deck. [Activate: Main] [Once Per Turn] You may trash 1 of your {Celestial Dragons} type Characters or 1 card from your hand: Draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-079_EN.webp"
-  },
-  {
     "id": "OP13-078",
     "set": "OP13",
     "name": "Oro Jackson",
@@ -2218,9 +2195,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-078_EN.webp"
   },
   {
-    "id": "OP13-079_p1",
+    "id": "OP13-079",
+    "set": "OP13",
     "name": "Imu",
-    "rarity": "Alternate Art",
+    "rarity": "Leader",
     "category": "Leader",
     "colors": [
       "Black"
@@ -2237,8 +2215,7 @@
     ],
     "effect": "Under the rules of this game, you cannot include Events with a cost of 2 or more in your deck and at the start of the game, play up to 1 {Mary Geoise} type Stage card from your deck. [Activate: Main] [Once Per Turn] You may trash 1 of your {Celestial Dragons} type Characters or 1 card from your hand: Draw 1 card.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-079_p1_EN.webp",
-    "set": "OP13"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-079_EN.webp"
   },
   {
     "id": "OP13-080",
@@ -2263,6 +2240,29 @@
     "effect": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Rush]. [When Attacking] If you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-080_EN.webp"
+  },
+  {
+    "id": "OP13-079_p1",
+    "name": "Imu",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "card.attribute.?"
+    ],
+    "types": [
+      "?"
+    ],
+    "effect": "Under the rules of this game, you cannot include Events with a cost of 2 or more in your deck and at the start of the game, play up to 1 {Mary Geoise} type Stage card from your deck. [Activate: Main] [Once Per Turn] You may trash 1 of your {Celestial Dragons} type Characters or 1 card from your hand: Draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-079_p1_EN.webp",
+    "set": "OP13"
   },
   {
     "id": "OP13-081",
@@ -2483,6 +2483,29 @@
     "set": "OP13"
   },
   {
+    "id": "OP13-085",
+    "set": "OP13",
+    "name": "Saint Jalmac",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Celestial Dragons"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-085_EN.webp"
+  },
+  {
     "id": "OP13-084_p1",
     "name": "St. Shepherd Ju Peter",
     "rarity": "Alternate Art",
@@ -2529,29 +2552,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-084_p2_EN.webp",
     "set": "OP13"
-  },
-  {
-    "id": "OP13-085",
-    "set": "OP13",
-    "name": "Saint Jalmac",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 2,
-    "power": 4000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Celestial Dragons"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-085_EN.webp"
   },
   {
     "id": "OP13-086",
@@ -2815,29 +2815,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-092_EN.webp"
   },
   {
-    "id": "OP13-093",
-    "set": "OP13",
-    "name": "Morgans",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Journalist"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and trash 2 cards from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-093_EN.webp"
-  },
-  {
     "id": "OP13-094",
     "set": "OP13",
     "name": "York",
@@ -2860,6 +2837,29 @@
     "effect": "[On Play] Up to 1 of your {Celestial Dragons} type Characters gains +2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-094_EN.webp"
+  },
+  {
+    "id": "OP13-093",
+    "set": "OP13",
+    "name": "Morgans",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Journalist"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and trash 2 cards from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-093_EN.webp"
   },
   {
     "id": "OP13-095",
@@ -2951,27 +2951,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-098_EN.webp"
   },
   {
-    "id": "OP13-099",
-    "set": "OP13",
-    "name": "The Empty Throne",
-    "rarity": "Common",
-    "category": "Stage",
-    "colors": [
-      "Black"
-    ],
-    "cost": 7,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Mary Geoise"
-    ],
-    "effect": "[Your Turn] If you have 19 or more cards in your trash, your Leader gains +1000 power. [Activate: Main] You may rest this card and 3 of your DON!! cards: Play up to 1 black {Five Elders} type Character card with a cost equal to or less than the number of DON!! cards on your field from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-099_EN.webp"
-  },
-  {
     "id": "OP13-100",
     "set": "OP13",
     "name": "Jewelry Bonney",
@@ -2996,28 +2975,25 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-100_EN.webp"
   },
   {
-    "id": "OP13-101",
+    "id": "OP13-099",
     "set": "OP13",
-    "name": "Atlas",
-    "rarity": "Uncommon",
-    "category": "Character",
+    "name": "The Empty Throne",
+    "rarity": "Common",
+    "category": "Stage",
     "colors": [
-      "Yellow"
+      "Black"
     ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
+    "cost": 7,
+    "power": null,
+    "counter": null,
     "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Egghead",
-      "Scientist"
+      "Mary Geoise"
     ],
-    "effect": "",
+    "effect": "[Your Turn] If you have 19 or more cards in your trash, your Leader gains +1000 power. [Activate: Main] You may rest this card and 3 of your DON!! cards: Play up to 1 black {Five Elders} type Character card with a cost equal to or less than the number of DON!! cards on your field from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-101_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-099_EN.webp"
   },
   {
     "id": "OP13-100_p1",
@@ -3044,16 +3020,16 @@
     "set": "OP13"
   },
   {
-    "id": "OP13-102",
+    "id": "OP13-101",
     "set": "OP13",
-    "name": "Edison",
+    "name": "Atlas",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 3,
-    "power": 2000,
+    "cost": 5,
+    "power": 6000,
     "counter": 2000,
     "block": 4,
     "attributes": [
@@ -3063,9 +3039,9 @@
       "Egghead",
       "Scientist"
     ],
-    "effect": "[Activate: Main] You may trash this Character: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, draw 1 card. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "[Trigger] Draw 1 card and rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-102_EN.webp"
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-101_EN.webp"
   },
   {
     "id": "OP13-103",
@@ -3091,28 +3067,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-103_EN.webp"
   },
   {
-    "id": "OP13-104",
+    "id": "OP13-102",
     "set": "OP13",
-    "name": "Kouzuki Hiyori",
-    "rarity": "Rare",
+    "name": "Edison",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 4,
-    "power": 0,
-    "counter": 1000,
+    "cost": 3,
+    "power": 2000,
+    "counter": 2000,
     "block": 4,
     "attributes": [
       "Wisdom"
     ],
     "types": [
-      "Land of Wano",
-      "Kouzuki Clan"
+      "Egghead",
+      "Scientist"
     ],
-    "effect": "[Blocker] [On K.O.] You may trash 1 card from your hand: If your Leader is multicolored, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-104_EN.webp"
+    "effect": "[Activate: Main] You may trash this Character: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, draw 1 card. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": "[Trigger] Draw 1 card and rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-102_EN.webp"
   },
   {
     "id": "OP13-105",
@@ -3139,27 +3115,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-105_EN.webp"
   },
   {
-    "id": "OP13-106",
+    "id": "OP13-104",
     "set": "OP13",
-    "name": "Conney",
-    "rarity": "Common",
+    "name": "Kouzuki Hiyori",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 1,
-    "power": 1000,
+    "cost": 4,
+    "power": 0,
     "counter": 1000,
     "block": 4,
     "attributes": [
-      "Special"
+      "Wisdom"
     ],
     "types": [
-      "Bonney Pirates"
+      "Land of Wano",
+      "Kouzuki Clan"
     ],
-    "effect": "[Opponent's Turn] When a",
-    "trigger": "[Trigger] activates, this Character gains [Blocker] during this turn. [Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-106_EN.webp"
+    "effect": "[Blocker] [On K.O.] You may trash 1 card from your hand: If your Leader is multicolored, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-104_EN.webp"
   },
   {
     "id": "OP13-107",
@@ -3184,6 +3161,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-107_EN.webp"
+  },
+  {
+    "id": "OP13-106",
+    "set": "OP13",
+    "name": "Conney",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Bonney Pirates"
+    ],
+    "effect": "[Opponent's Turn] When a",
+    "trigger": "[Trigger] activates, this Character gains [Blocker] during this turn. [Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-106_EN.webp"
   },
   {
     "id": "OP13-108",
@@ -3306,30 +3306,6 @@
     "set": "OP13"
   },
   {
-    "id": "OP13-112",
-    "set": "OP13",
-    "name": "Vegapunk",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Egghead",
-      "Scientist"
-    ],
-    "effect": "If you have a total of 2 or more given DON!! cards, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-112_EN.webp"
-  },
-  {
     "id": "OP13-111",
     "set": "OP13",
     "name": "Pythagoras",
@@ -3354,28 +3330,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-111_EN.webp"
   },
   {
-    "id": "OP13-114",
+    "id": "OP13-112",
     "set": "OP13",
-    "name": "S-Snake",
-    "rarity": "Rare",
+    "name": "Vegapunk",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 4,
-    "power": 5000,
+    "cost": 1,
+    "power": 1000,
     "counter": 1000,
     "block": 4,
     "attributes": [
-      "Special"
+      "Wisdom"
     ],
     "types": [
-      "Seraphim",
-      "Egghead"
+      "Egghead",
+      "Scientist"
     ],
-    "effect": "[On Play]/[When Attacking] You may turn 1 card from the top of your Life cards face-up: Give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "trigger": "[Trigger] You may trash 1 card from your hand: Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-114_EN.webp"
+    "effect": "If you have a total of 2 or more given DON!! cards, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-112_EN.webp"
   },
   {
     "id": "OP13-113",
@@ -3402,9 +3378,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-113_EN.webp"
   },
   {
-    "id": "OP13-114_p1",
+    "id": "OP13-114",
+    "set": "OP13",
     "name": "S-Snake",
-    "rarity": "Alternate Art",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Yellow"
@@ -3422,8 +3399,7 @@
     ],
     "effect": "[On Play]/[When Attacking] You may turn 1 card from the top of your Life cards face-up: Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": "[Trigger] You may trash 1 card from your hand: Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-114_p1_EN.webp",
-    "set": "OP13"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-114_EN.webp"
   },
   {
     "id": "OP13-113_p1",
@@ -3447,6 +3423,30 @@
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a",
     "trigger": "[Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Trigger] Activate this card's [On Play] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-113_p1_EN.webp",
+    "set": "OP13"
+  },
+  {
+    "id": "OP13-114_p1",
+    "name": "S-Snake",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Seraphim",
+      "Egghead"
+    ],
+    "effect": "[On Play]/[When Attacking] You may turn 1 card from the top of your Life cards face-up: Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "trigger": "[Trigger] You may trash 1 card from your hand: Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-114_p1_EN.webp",
     "set": "OP13"
   },
   {
