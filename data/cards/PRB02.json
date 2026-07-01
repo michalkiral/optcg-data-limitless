@@ -169,6 +169,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-002_EN.webp"
   },
   {
+    "id": "PRB02-003",
+    "set": "PRB02",
+    "name": "Lucky.Roux",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 Character card with 6000 power or more from your hand: Draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-003_EN.webp"
+  },
+  {
     "id": "PRB02-002_p1",
     "name": "Trafalgar Law",
     "rarity": "Alternate Art",
@@ -194,10 +217,9 @@
     "set": "PRB02"
   },
   {
-    "id": "PRB02-003",
-    "set": "PRB02",
+    "id": "PRB02-003_p1",
     "name": "Lucky.Roux",
-    "rarity": "Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Red"
@@ -214,7 +236,8 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 Character card with 6000 power or more from your hand: Draw 2 cards.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-003_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-003_p1_EN.webp",
+    "set": "PRB02"
   },
   {
     "id": "PRB02-004",
@@ -239,29 +262,6 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] Set up to 1 of your DON!! cards as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-004_EN.webp"
-  },
-  {
-    "id": "PRB02-003_p1",
-    "name": "Lucky.Roux",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Red-Haired Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 Character card with 6000 power or more from your hand: Draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-003_p1_EN.webp",
-    "set": "PRB02"
   },
   {
     "id": "PRB02-004_p1",
@@ -386,30 +386,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-008_EN.webp"
   },
   {
-    "id": "PRB02-008_p1",
-    "name": "Marco",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Land of Wano",
-      "Former Whitebeard Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-008_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "PRB02-005_p1",
     "name": "Monkey.D.Luffy",
     "rarity": "Alternate Art",
@@ -431,6 +407,30 @@
     "effect": "[Your Turn] [On Play] If your Leader is multicolored and your opponent has 7 or less DON!! cards on their field, your opponent rests 1 of their active DON!! cards at the start of their next Main Phase.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-005_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "PRB02-008_p1",
+    "name": "Marco",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Land of Wano",
+      "Former Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-008_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -1440,30 +1440,6 @@
     "set": "PRB02"
   },
   {
-    "id": "OP06-063_p1",
-    "name": "Vinsmoke Sora",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "The Vinsmoke Family",
-      "Kingdom of GERMA"
-    ],
-    "effect": "[On Play] You may trash 1 card from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 {The Vinsmoke Family} type Character card with 4000 power or less from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-063_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "OP06-073_p1",
     "name": "Shiki",
     "rarity": "Pirate Foil",
@@ -1485,6 +1461,30 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 8 or more DON!! cards on your field, draw 1 card and trash 1 card from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-073_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "OP06-063_p1",
+    "name": "Vinsmoke Sora",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "The Vinsmoke Family",
+      "Kingdom of GERMA"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 {The Vinsmoke Family} type Character card with 4000 power or less from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-063_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -2084,28 +2084,6 @@
     "set": "PRB02"
   },
   {
-    "id": "OP09-079_p1",
-    "name": "Gum-Gum Jump Rope",
-    "rarity": "Pirate Foil",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card.",
-    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-079_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "OP09-078_p1",
     "name": "Gum-Gum Giant",
     "rarity": "Special Card",
@@ -2128,26 +2106,25 @@
     "set": "PRB02"
   },
   {
-    "id": "OP09-084_p1",
-    "name": "Catarina Devon",
+    "id": "OP09-079_p1",
+    "name": "Gum-Gum Jump Rope",
     "rarity": "Pirate Foil",
-    "category": "Character",
+    "category": "Event",
     "colors": [
-      "Black"
+      "Purple"
     ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
+    "cost": 2,
+    "power": null,
+    "counter": null,
     "block": 3,
-    "attributes": [
-      "Special"
-    ],
+    "attributes": [],
     "types": [
-      "Blackbeard Pirates"
+      "The Four Emperors",
+      "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type, this Character gains [Double Attack], [Banish] or [Blocker] until the end of your opponent's next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-084_p1_EN.webp",
+    "effect": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card.",
+    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-079_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -2171,6 +2148,29 @@
     "effect": "This Character cannot be K.O.'d by your opponent's effects. If your Leader has the {Blackbeard Pirates} type, this Character gains +1000 power for every 4 cards in your trash.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-086_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "OP09-084_p1",
+    "name": "Catarina Devon",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type, this Character gains [Double Attack], [Banish] or [Blocker] until the end of your opponent's next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-084_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -2640,6 +2640,29 @@
     "set": "PRB02"
   },
   {
+    "id": "ST13-007_p2",
+    "name": "Sabo",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-007_p2_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "ST13-004_p2",
     "name": "Edward.Newgate",
     "rarity": "Pirate Foil",
@@ -2661,29 +2684,6 @@
     "effect": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-004_p2_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "ST13-007_p2",
-    "name": "Sabo",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Goa Kingdom"
-    ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-007_p2_EN.webp",
     "set": "PRB02"
   },
   {
@@ -2823,27 +2823,6 @@
     "set": "PRB02"
   },
   {
-    "id": "ST14-017_p1",
-    "name": "Thousand Sunny",
-    "rarity": "Pirate Foil",
-    "category": "Stage",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "All of your black {Straw Hat Crew} type Characters gain +1 cost. [On Play] If your Leader has the {Straw Hat Crew} type, draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-017_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "ST14-016_p1",
     "name": "I Have My Crew!!",
     "rarity": "Pirate Foil",
@@ -2862,6 +2841,27 @@
     "effect": "[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.",
     "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-016_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "ST14-017_p1",
+    "name": "Thousand Sunny",
+    "rarity": "Pirate Foil",
+    "category": "Stage",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "All of your black {Straw Hat Crew} type Characters gain +1 cost. [On Play] If your Leader has the {Straw Hat Crew} type, draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST14/ST14-017_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -2987,30 +2987,6 @@
     "set": "PRB02"
   },
   {
-    "id": "ST17-003_p2",
-    "name": "Buggy",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Buggy's Delivery"
-    ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST17/ST17-003_p2_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "ST17-005_p1",
     "name": "Marshall.D.Teach",
     "rarity": "Pirate Foil",
@@ -3032,6 +3008,30 @@
     "effect": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST17/ST17-005_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "ST17-003_p2",
+    "name": "Buggy",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Buggy's Delivery"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST17/ST17-003_p2_EN.webp",
     "set": "PRB02"
   },
   {
@@ -3399,54 +3399,6 @@
     "set": "PRB02"
   },
   {
-    "id": "P-068_p1",
-    "name": "Sanji",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Kingdom of GERMA",
-      "The Vinsmoke Family"
-    ],
-    "effect": "[Activate: Main] You may trash this Character: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-068_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "P-068_p2",
-    "name": "Sanji",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Kingdom of GERMA",
-      "The Vinsmoke Family"
-    ],
-    "effect": "[Activate: Main] You may trash this Character: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-068_p2_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "P-063_p2",
     "name": "Jinbe",
     "rarity": null,
@@ -3513,6 +3465,54 @@
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 1 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-063_p4_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "P-068_p1",
+    "name": "Sanji",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Kingdom of GERMA",
+      "The Vinsmoke Family"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-068_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "P-068_p2",
+    "name": "Sanji",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Kingdom of GERMA",
+      "The Vinsmoke Family"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-068_p2_EN.webp",
     "set": "PRB02"
   },
   {
@@ -3796,52 +3796,6 @@
     "set": "PRB02"
   },
   {
-    "id": "P-081_p2",
-    "name": "Dracule Mihawk",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Cross Guild"
-    ],
-    "effect": "[Activate: Main] You may return this Character to the owner's hand: If you have 3 or more blue {Cross Guild} type Characters, play up to 1 {Cross Guild} type Character card with a cost of 5 from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-081_p2_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "P-081_p3",
-    "name": "Dracule Mihawk",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Cross Guild"
-    ],
-    "effect": "[Activate: Main] You may return this Character to the owner's hand: If you have 3 or more blue {Cross Guild} type Characters, play up to 1 {Cross Guild} type Character card with a cost of 5 from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-081_p3_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "P-079_p2",
     "name": "Lim",
     "rarity": null,
@@ -3888,51 +3842,49 @@
     "set": "PRB02"
   },
   {
-    "id": "P-082_p2",
-    "name": "Crocodile",
+    "id": "P-081_p2",
+    "name": "Dracule Mihawk",
     "rarity": null,
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 5,
-    "power": 7000,
-    "counter": null,
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
     "block": 3,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
-      "Cross Guild",
-      "Former Baroque Works"
+      "Cross Guild"
     ],
-    "effect": "[Your Turn] [On Play] If your Leader has the {Cross Guild} type or a type including \"Baroque Works\", place up to 1 of your opponent's Characters with 2000 power or less at the bottom of the owner's deck.",
+    "effect": "[Activate: Main] You may return this Character to the owner's hand: If you have 3 or more blue {Cross Guild} type Characters, play up to 1 {Cross Guild} type Character card with a cost of 5 from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-082_p2_EN.webp",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-081_p2_EN.webp",
     "set": "PRB02"
   },
   {
-    "id": "P-082_p3",
-    "name": "Crocodile",
+    "id": "P-081_p3",
+    "name": "Dracule Mihawk",
     "rarity": "Pirate Foil",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 5,
-    "power": 7000,
-    "counter": null,
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
     "block": 3,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
-      "Cross Guild",
-      "Former Baroque Works"
+      "Cross Guild"
     ],
-    "effect": "[Your Turn] [On Play] If your Leader has the {Cross Guild} type or a type including \"Baroque Works\", place up to 1 of your opponent's Characters with 2000 power or less at the bottom of the owner's deck.",
+    "effect": "[Activate: Main] You may return this Character to the owner's hand: If you have 3 or more blue {Cross Guild} type Characters, play up to 1 {Cross Guild} type Character card with a cost of 5 from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-082_p3_EN.webp",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-081_p3_EN.webp",
     "set": "PRB02"
   },
   {
@@ -3981,6 +3933,54 @@
     "effect": "[DON!! x1] [When Attacking] You may trash 1 Character card from your hand: Give up to 1 of your opponent's Characters −1000 power during this turn. Then, draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-083_p3_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "P-082_p2",
+    "name": "Crocodile",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effect": "[Your Turn] [On Play] If your Leader has the {Cross Guild} type or a type including \"Baroque Works\", place up to 1 of your opponent's Characters with 2000 power or less at the bottom of the owner's deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-082_p2_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "P-082_p3",
+    "name": "Crocodile",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effect": "[Your Turn] [On Play] If your Leader has the {Cross Guild} type or a type including \"Baroque Works\", place up to 1 of your opponent's Characters with 2000 power or less at the bottom of the owner's deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-082_p3_EN.webp",
     "set": "PRB02"
   },
   {

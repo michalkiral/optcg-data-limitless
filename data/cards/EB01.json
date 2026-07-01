@@ -841,6 +841,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-010_EN.webp"
   },
   {
+    "id": "EB01-011",
+    "set": "EB01",
+    "name": "Mini-Merry",
+    "rarity": "Common",
+    "category": "Stage",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-011_EN.webp"
+  },
+  {
     "id": "EB01-013",
     "set": "EB01",
     "name": "Kouzuki Hiyori",
@@ -863,27 +884,6 @@
     "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-013_EN.webp"
-  },
-  {
-    "id": "EB01-011",
-    "set": "EB01",
-    "name": "Mini-Merry",
-    "rarity": "Common",
-    "category": "Stage",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-011_EN.webp"
   },
   {
     "id": "EB01-014",
@@ -1049,30 +1049,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_EN.webp"
   },
   {
-    "id": "EB01-022_p1",
-    "name": "Inazuma",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down",
-      "Revolutionary Army"
-    ],
-    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
-    "set": "EB01"
-  },
-  {
     "id": "EB01-024",
     "set": "EB01",
     "name": "Hamlet",
@@ -1097,27 +1073,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
   },
   {
-    "id": "EB01-026",
-    "set": "EB01",
-    "name": "Prince Bellett",
-    "rarity": "Common",
+    "id": "EB01-022_p1",
+    "name": "Inazuma",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 2000,
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
     "block": 2,
     "attributes": [
-      "Ranged"
+      "Slash"
     ],
     "types": [
-      "Impel Down"
+      "Impel Down",
+      "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-026_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-025",
@@ -1144,26 +1121,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-025_EN.webp"
   },
   {
-    "id": "EB01-028",
+    "id": "EB01-026",
     "set": "EB01",
-    "name": "Gum-Gum Champion Rifle",
-    "rarity": "Rare",
-    "category": "Event",
+    "name": "Prince Bellett",
+    "rarity": "Common",
+    "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
+    "cost": 2,
+    "power": 2000,
+    "counter": 2000,
     "block": 2,
-    "attributes": [],
-    "types": [
-      "Impel Down",
-      "Straw Hat Crew"
+    "attributes": [
+      "Ranged"
     ],
-    "effect": "[Counter] If your Leader has the {Impel Down} type, up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, your opponent returns 1 of their active Characters to the owner's hand.",
-    "trigger": "[Trigger] Return up to 1 Character with a cost of 3 or less to the bottom of the owner's deck.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-028_EN.webp"
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-026_EN.webp"
   },
   {
     "id": "EB01-027",
@@ -1189,6 +1167,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-027_EN.webp"
   },
   {
+    "id": "EB01-028",
+    "set": "EB01",
+    "name": "Gum-Gum Champion Rifle",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] If your Leader has the {Impel Down} type, up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, your opponent returns 1 of their active Characters to the owner's hand.",
+    "trigger": "[Trigger] Return up to 1 Character with a cost of 3 or less to the bottom of the owner's deck.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-028_EN.webp"
+  },
+  {
     "id": "EB01-027_p1",
     "name": "Mr.1(Daz.Bonez)",
     "rarity": "Alternate Art",
@@ -1212,52 +1212,6 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-029",
-    "set": "EB01",
-    "name": "Sorry. I'm a Goner.",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "East Blue",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
-    "trigger": "[Trigger] Return up to 1 Character with a cost of 8 or less to the owner's hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-029_EN.webp"
-  },
-  {
-    "id": "EB01-031",
-    "set": "EB01",
-    "name": "Kalifa",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Water Seven",
-      "Galley-La Company"
-    ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_EN.webp"
-  },
-  {
     "id": "EB01-030",
     "set": "EB01",
     "name": "Loguetown",
@@ -1279,28 +1233,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-030_EN.webp"
   },
   {
-    "id": "EB01-031_p1",
-    "name": "Kalifa",
-    "rarity": "Alternate Art",
-    "category": "Character",
+    "id": "EB01-029",
+    "set": "EB01",
+    "name": "Sorry. I'm a Goner.",
+    "rarity": "Common",
+    "category": "Event",
     "colors": [
-      "Purple"
+      "Blue"
     ],
-    "cost": 5,
-    "power": 5000,
-    "counter": 1000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Water Seven",
-      "Galley-La Company"
+      "East Blue",
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_p1_EN.webp",
-    "set": "EB01"
+    "effect": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
+    "trigger": "[Trigger] Return up to 1 Character with a cost of 8 or less to the owner's hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-029_EN.webp"
   },
   {
     "id": "EB01-032",
@@ -1327,6 +1279,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-032_EN.webp"
   },
   {
+    "id": "EB01-031",
+    "set": "EB01",
+    "name": "Kalifa",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_EN.webp"
+  },
+  {
     "id": "EB01-033",
     "set": "EB01",
     "name": "Blueno",
@@ -1348,6 +1324,30 @@
     "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, play up to 1 {Water Seven} type Character card with a cost of 5 other than [Blueno] from your hand or trash.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-033_EN.webp"
+  },
+  {
+    "id": "EB01-031_p1",
+    "name": "Kalifa",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-034",
@@ -1419,29 +1419,6 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-037",
-    "set": "EB01",
-    "name": "Mr. 9",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-037_EN.webp"
-  },
-  {
     "id": "EB01-036",
     "set": "EB01",
     "name": "Minochihuahua",
@@ -1488,6 +1465,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-039_EN.webp"
   },
   {
+    "id": "EB01-037",
+    "set": "EB01",
+    "name": "Mr. 9",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-037_EN.webp"
+  },
+  {
     "id": "EB01-041",
     "set": "EB01",
     "name": "Crocus",
@@ -1511,29 +1511,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-041_EN.webp"
   },
   {
-    "id": "EB01-043",
-    "set": "EB01",
-    "name": "Spandine",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 3,
-    "power": 2000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "CP9"
-    ],
-    "effect": "[On Play] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less other than [Spandine] from your trash rested.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-043_EN.webp"
-  },
-  {
     "id": "EB01-042",
     "set": "EB01",
     "name": "Scarlet",
@@ -1555,6 +1532,29 @@
     "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Dressrosa} type Character card with a cost of 3 or less other than [Scarlet] from your hand rested. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-042_EN.webp"
+  },
+  {
+    "id": "EB01-043",
+    "set": "EB01",
+    "name": "Spandine",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "CP9"
+    ],
+    "effect": "[On Play] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less other than [Spandine] from your trash rested.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-043_EN.webp"
   },
   {
     "id": "EB01-044",
@@ -1603,29 +1603,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-045_EN.webp"
   },
   {
-    "id": "EB01-047",
-    "set": "EB01",
-    "name": "Laboon",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 2,
-    "power": 4000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal"
-    ],
-    "effect": "[Once Per Turn] When a Character is K.O.'d, draw 1 card and trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-047_EN.webp"
-  },
-  {
     "id": "EB01-049",
     "set": "EB01",
     "name": "T-Bone",
@@ -1650,25 +1627,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_EN.webp"
   },
   {
-    "id": "EB01-050",
+    "id": "EB01-047",
     "set": "EB01",
-    "name": "...I Want to Live!!",
+    "name": "Laboon",
     "rarity": "Common",
-    "category": "Event",
+    "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 3,
-    "power": null,
+    "cost": 2,
+    "power": 4000,
     "counter": null,
     "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
+    "attributes": [
+      "Strike"
     ],
-    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "types": [
+      "Animal"
+    ],
+    "effect": "[Once Per Turn] When a Character is K.O.'d, draw 1 card and trash 1 card from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-047_EN.webp"
   },
   {
     "id": "EB01-049_p1",
@@ -1693,6 +1672,27 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-050",
+    "set": "EB01",
+    "name": "...I Want to Live!!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
   },
   {
     "id": "EB01-052",

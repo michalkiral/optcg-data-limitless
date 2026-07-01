@@ -234,30 +234,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-051_EN.webp"
   },
   {
-    "id": "OP01-051_p1",
-    "name": "Eustass\"Captain\"Kid",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 8,
-    "power": 8000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Supernovas",
-      "Kid Pirates"
-    ],
-    "effect": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid]. [Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-051_p1_EN.webp",
-    "set": "OP01"
-  },
-  {
     "id": "OP01-047_p1",
     "name": "Trafalgar Law",
     "rarity": "Alternate Art",
@@ -304,6 +280,30 @@
     "effect": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-052_EN.webp"
+  },
+  {
+    "id": "OP01-051_p1",
+    "name": "Eustass\"Captain\"Kid",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 8,
+    "power": 8000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid]. [Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-051_p1_EN.webp",
+    "set": "OP01"
   },
   {
     "id": "OP01-070",
@@ -710,6 +710,30 @@
     "set": "OP01"
   },
   {
+    "id": "OP01-001_p1",
+    "name": "Roronoa Zoro",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-001_p1_EN.webp",
+    "set": "OP01"
+  },
+  {
     "id": "OP01-003",
     "set": "OP01",
     "name": "Monkey.D.Luffy",
@@ -735,28 +759,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-003_EN.webp"
   },
   {
-    "id": "OP01-001_p1",
-    "name": "Roronoa Zoro",
-    "rarity": "Alternate Art",
-    "category": "Leader",
+    "id": "OP01-004",
+    "set": "OP01",
+    "name": "Usopp",
+    "rarity": "Rare",
+    "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
     "block": 1,
     "attributes": [
-      "Slash"
+      "Ranged"
     ],
     "types": [
-      "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+    "effect": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-001_p1_EN.webp",
-    "set": "OP01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-004_EN.webp"
   },
   {
     "id": "OP01-003_p1",
@@ -782,29 +805,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-003_p1_EN.webp",
     "set": "OP01"
-  },
-  {
-    "id": "OP01-004",
-    "set": "OP01",
-    "name": "Usopp",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 2000,
-    "block": 1,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-004_EN.webp"
   },
   {
     "id": "OP01-005",
@@ -925,29 +925,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-009_EN.webp"
   },
   {
-    "id": "OP01-011",
-    "set": "OP01",
-    "name": "Gordon",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 2000,
-    "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "FILM"
-    ],
-    "effect": "[On Play] You may place 1 card from your hand at the bottom of your deck: Draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-011_EN.webp"
-  },
-  {
     "id": "OP01-010",
     "set": "OP01",
     "name": "Komachiyo",
@@ -972,10 +949,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-010_EN.webp"
   },
   {
-    "id": "OP01-013",
+    "id": "OP01-011",
     "set": "OP01",
-    "name": "Sanji",
-    "rarity": "Rare",
+    "name": "Gordon",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Red"
@@ -985,14 +962,14 @@
     "counter": 2000,
     "block": 1,
     "attributes": [
-      "Strike"
+      "Wisdom"
     ],
     "types": [
-      "Straw Hat Crew"
+      "FILM"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+    "effect": "[On Play] You may place 1 card from your hand at the bottom of your deck: Draw 1 card.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-013_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-011_EN.webp"
   },
   {
     "id": "OP01-012",
@@ -1016,6 +993,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-012_EN.webp"
+  },
+  {
+    "id": "OP01-013",
+    "set": "OP01",
+    "name": "Sanji",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-013_EN.webp"
   },
   {
     "id": "OP01-014",
@@ -1183,29 +1183,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-020_EN.webp"
   },
   {
-    "id": "OP01-021",
-    "set": "OP01",
-    "name": "Franky",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x1] This Character can also attack your opponent's active Characters.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-021_EN.webp"
-  },
-  {
     "id": "OP01-022",
     "set": "OP01",
     "name": "Brook",
@@ -1227,6 +1204,29 @@
     "effect": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-022_EN.webp"
+  },
+  {
+    "id": "OP01-021",
+    "set": "OP01",
+    "name": "Franky",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-021_EN.webp"
   },
   {
     "id": "OP01-023",
@@ -1298,28 +1298,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-026_EN.webp"
   },
   {
-    "id": "OP01-027",
-    "set": "OP01",
-    "name": "Round Table",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Supernovas",
-      "Beautiful Pirates"
-    ],
-    "effect": "[Main] Give up to 1 of your opponent's Characters −10000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-027_EN.webp"
-  },
-  {
     "id": "OP01-025_p1",
     "name": "Roronoa Zoro",
     "rarity": "Alternate Art",
@@ -1344,6 +1322,28 @@
     "set": "OP01"
   },
   {
+    "id": "OP01-027",
+    "set": "OP01",
+    "name": "Round Table",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Supernovas",
+      "Beautiful Pirates"
+    ],
+    "effect": "[Main] Give up to 1 of your opponent's Characters −10000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-027_EN.webp"
+  },
+  {
     "id": "OP01-028",
     "set": "OP01",
     "name": "Green Star Rafflesia",
@@ -1363,6 +1363,27 @@
     "effect": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
     "trigger": "[Trigger] Activate this card's [Counter] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-028_EN.webp"
+  },
+  {
+    "id": "OP01-030",
+    "set": "OP01",
+    "name": "In Two Years!! At the Sabaody Archipelago!!",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-030_EN.webp"
   },
   {
     "id": "OP01-031",
@@ -1387,27 +1408,6 @@
     "effect": "[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-031_EN.webp"
-  },
-  {
-    "id": "OP01-030",
-    "set": "OP01",
-    "name": "In Two Years!! At the Sabaody Archipelago!!",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-030_EN.webp"
   },
   {
     "id": "OP01-031_p1",
@@ -1531,30 +1531,6 @@
     "set": "OP01"
   },
   {
-    "id": "OP01-038",
-    "set": "OP01",
-    "name": "Kanjuro",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Land of Wano",
-      "The Akazaya Nine"
-    ],
-    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less. [On K.O.] Your opponent chooses 1 card from your hand; trash that card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-038_EN.webp"
-  },
-  {
     "id": "OP01-037",
     "set": "OP01",
     "name": "Kawamatsu",
@@ -1578,6 +1554,30 @@
     "effect": "",
     "trigger": "[Trigger] Play this card.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-037_EN.webp"
+  },
+  {
+    "id": "OP01-038",
+    "set": "OP01",
+    "name": "Kanjuro",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less. [On K.O.] Your opponent chooses 1 card from your hand; trash that card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-038_EN.webp"
   },
   {
     "id": "OP01-040",
@@ -1721,6 +1721,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-045_EN.webp"
   },
   {
+    "id": "OP01-046",
+    "set": "OP01",
+    "name": "Denjiro",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If your Leader is [Kouzuki Oden], set up to 2 of your DON!! cards as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-046_EN.webp"
+  },
+  {
     "id": "OP01-048",
     "set": "OP01",
     "name": "Nekomamushi",
@@ -1744,30 +1768,6 @@
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-048_EN.webp"
-  },
-  {
-    "id": "OP01-046",
-    "set": "OP01",
-    "name": "Denjiro",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 7000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Land of Wano",
-      "The Akazaya Nine"
-    ],
-    "effect": "[DON!! x1] [When Attacking] If your Leader is [Kouzuki Oden], set up to 2 of your DON!! cards as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-046_EN.webp"
   },
   {
     "id": "OP01-049",
@@ -1842,51 +1842,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-050_EN.webp"
   },
   {
-    "id": "OP01-053",
-    "set": "OP01",
-    "name": "Wire",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": 4000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Kid Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-053_EN.webp"
-  },
-  {
-    "id": "OP01-056",
-    "set": "OP01",
-    "name": "Demon Face",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 6,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Supernovas",
-      "Hawkins Pirates"
-    ],
-    "effect": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 5 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-056_EN.webp"
-  },
-  {
     "id": "OP01-054",
     "set": "OP01",
     "name": "X.Drake",
@@ -1912,6 +1867,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-054_EN.webp"
   },
   {
+    "id": "OP01-053",
+    "set": "OP01",
+    "name": "Wire",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Kid Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-053_EN.webp"
+  },
+  {
     "id": "OP01-057",
     "set": "OP01",
     "name": "Paradise Waterfall",
@@ -1932,6 +1910,28 @@
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your Characters as active.",
     "trigger": "[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-057_EN.webp"
+  },
+  {
+    "id": "OP01-056",
+    "set": "OP01",
+    "name": "Demon Face",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 6,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effect": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 5 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-056_EN.webp"
   },
   {
     "id": "OP01-058",
@@ -2026,6 +2026,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-061_EN.webp"
   },
   {
+    "id": "OP01-060_p1",
+    "name": "Donquixote Doflamingo",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.) : Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-060_p1_EN.webp",
+    "set": "OP01"
+  },
+  {
     "id": "OP01-061_p1",
     "name": "Kaido",
     "rarity": "Alternate Art",
@@ -2076,28 +2100,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-062_EN.webp"
   },
   {
-    "id": "OP01-060_p1",
-    "name": "Donquixote Doflamingo",
-    "rarity": "Alternate Art",
-    "category": "Leader",
+    "id": "OP01-063",
+    "set": "OP01",
+    "name": "Arlong",
+    "rarity": "Uncommon",
+    "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 5,
+    "cost": 4,
     "power": 5000,
-    "counter": null,
+    "counter": 1000,
     "block": 1,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
-      "The Seven Warlords of the Sea",
-      "Donquixote Pirates"
+      "Fish-Man",
+      "Arlong Pirates"
     ],
-    "effect": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.) : Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
+    "effect": "[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-060_p1_EN.webp",
-    "set": "OP01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-063_EN.webp"
   },
   {
     "id": "OP01-062_p1",
@@ -2123,30 +2147,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-062_p1_EN.webp",
     "set": "OP01"
-  },
-  {
-    "id": "OP01-063",
-    "set": "OP01",
-    "name": "Arlong",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Fish-Man",
-      "Arlong Pirates"
-    ],
-    "effect": "[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-063_EN.webp"
   },
   {
     "id": "OP01-064",
@@ -2315,6 +2315,30 @@
     "set": "OP01"
   },
   {
+    "id": "OP01-071",
+    "set": "OP01",
+    "name": "Jinbe",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 2000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-071_EN.webp"
+  },
+  {
     "id": "OP01-069",
     "set": "OP01",
     "name": "Caesar Clown",
@@ -2361,30 +2385,6 @@
     "effect": "[DON!! x1] [Your Turn] This Character gains +1000 power for every card in your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-072_EN.webp"
-  },
-  {
-    "id": "OP01-071",
-    "set": "OP01",
-    "name": "Jinbe",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 2000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Fish-Man",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
-    "trigger": "[Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-071_EN.webp"
   },
   {
     "id": "OP01-074",
@@ -2550,6 +2550,29 @@
     "set": "OP01"
   },
   {
+    "id": "OP01-081",
+    "set": "OP01",
+    "name": "Mocha",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Punk Hazard"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-081_EN.webp"
+  },
+  {
     "id": "OP01-082",
     "set": "OP01",
     "name": "Monet",
@@ -2574,27 +2597,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-082_EN.webp"
   },
   {
-    "id": "OP01-081",
+    "id": "OP01-083",
     "set": "OP01",
-    "name": "Mocha",
-    "rarity": "Common",
+    "name": "Mr.1(Daz.Bonez)",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 3,
-    "power": 5000,
+    "cost": 2,
+    "power": 3000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Strike"
+      "Slash"
     ],
     "types": [
-      "Punk Hazard"
+      "Baroque Works"
     ],
-    "effect": "",
+    "effect": "[DON!! x1] [Your Turn] If your Leader has the {Baroque Works} type, this Character gains +1000 power for every 2 Events in your trash.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-081_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-083_EN.webp"
   },
   {
     "id": "OP01-084",
@@ -2618,29 +2641,6 @@
     "effect": "[DON!! x1] [When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-084_EN.webp"
-  },
-  {
-    "id": "OP01-083",
-    "set": "OP01",
-    "name": "Mr.1(Daz.Bonez)",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[DON!! x1] [Your Turn] If your Leader has the {Baroque Works} type, this Character gains +1000 power for every 2 Events in your trash.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP01/OP01-083_EN.webp"
   },
   {
     "id": "OP01-085",
