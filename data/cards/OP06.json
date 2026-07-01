@@ -322,28 +322,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-073_EN.webp"
   },
   {
-    "id": "OP06-078",
-    "set": "OP06",
-    "name": "GERMA 66",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "The Vinsmoke Family",
-      "GERMA 66"
-    ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" other than [GERMA 66] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Draw 1 card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-078_EN.webp"
-  },
-  {
     "id": "OP06-076",
     "set": "OP06",
     "name": "Hitokiri Kamazo",
@@ -367,6 +345,28 @@
     "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-076_EN.webp"
+  },
+  {
+    "id": "OP06-078",
+    "set": "OP06",
+    "name": "GERMA 66",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "The Vinsmoke Family",
+      "GERMA 66"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" other than [GERMA 66] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Draw 1 card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-078_EN.webp"
   },
   {
     "id": "OP06-107",
@@ -889,6 +889,29 @@
     "set": "OP06"
   },
   {
+    "id": "OP06-003",
+    "set": "OP06",
+    "name": "Emporio.Ivankov",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and play up to 1 {Revolutionary Army} type Character card with 5000 power or less. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-003_EN.webp"
+  },
+  {
     "id": "OP06-023",
     "set": "OP06",
     "name": "Arlong",
@@ -912,29 +935,6 @@
     "effect": "[On Play] You may trash 1 card from your hand: Up to 1 of your opponent's rested Leader cannot attack until the end of your opponent's next turn.",
     "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-023_EN.webp"
-  },
-  {
-    "id": "OP06-003",
-    "set": "OP06",
-    "name": "Emporio.Ivankov",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Revolutionary Army"
-    ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck and play up to 1 {Revolutionary Army} type Character card with 5000 power or less. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-003_EN.webp"
   },
   {
     "id": "OP06-035",
@@ -1483,6 +1483,30 @@
     "set": "OP06"
   },
   {
+    "id": "OP06-004",
+    "set": "OP06",
+    "name": "Baron Omatsuri",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "FILM",
+      "Omatsuri Island"
+    ],
+    "effect": "[On Play] Play up to 1 [Lily Carnation] from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-004_EN.webp"
+  },
+  {
     "id": "OP06-002",
     "set": "OP06",
     "name": "Inazuma",
@@ -1506,28 +1530,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-002_EN.webp"
   },
   {
-    "id": "OP06-004",
+    "id": "OP06-006",
     "set": "OP06",
-    "name": "Baron Omatsuri",
-    "rarity": "Common",
+    "name": "Saga",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
     "block": 2,
     "attributes": [
-      "Ranged"
+      "Slash"
     ],
     "types": [
       "FILM",
-      "Omatsuri Island"
+      "Asuka Island"
     ],
-    "effect": "[On Play] Play up to 1 [Lily Carnation] from your hand.",
+    "effect": "[DON!! x1] [When Attacking] This Character gains +1000 power until the start of your next turn. Then, trash 1 of your {FILM} type Characters at the end of this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-004_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-006_EN.webp"
   },
   {
     "id": "OP06-005",
@@ -1553,30 +1577,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-005_EN.webp"
-  },
-  {
-    "id": "OP06-006",
-    "set": "OP06",
-    "name": "Saga",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "FILM",
-      "Asuka Island"
-    ],
-    "effect": "[DON!! x1] [When Attacking] This Character gains +1000 power until the start of your next turn. Then, trash 1 of your {FILM} type Characters at the end of this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-006_EN.webp"
   },
   {
     "id": "OP06-008",
@@ -1627,30 +1627,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-009_EN.webp"
   },
   {
-    "id": "OP06-010",
-    "set": "OP06",
-    "name": "Douglas Bullet",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "The Pirates Fest"
-    ],
-    "effect": "If your Leader has the {FILM} type, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-010_EN.webp"
-  },
-  {
     "id": "OP06-009_p1",
     "name": "Shuraiya",
     "rarity": "Alternate Art",
@@ -1673,6 +1649,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-009_p1_EN.webp",
     "set": "OP06"
+  },
+  {
+    "id": "OP06-010",
+    "set": "OP06",
+    "name": "Douglas Bullet",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effect": "If your Leader has the {FILM} type, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-010_EN.webp"
   },
   {
     "id": "OP06-011",
@@ -1722,30 +1722,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-012_EN.webp"
   },
   {
-    "id": "OP06-014",
-    "set": "OP06",
-    "name": "Ratchet",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "FILM",
-      "Mecha Island"
-    ],
-    "effect": "[On Your Opponent's Attack] You may trash any number of {FILM} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-014_EN.webp"
-  },
-  {
     "id": "OP06-013",
     "set": "OP06",
     "name": "Monkey.D.Luffy",
@@ -1770,28 +1746,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-013_EN.webp"
   },
   {
-    "id": "OP06-013_p1",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Alternate Art",
+    "id": "OP06-014",
+    "set": "OP06",
+    "name": "Ratchet",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 2,
-    "power": 3000,
+    "cost": 1,
+    "power": 0,
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Strike"
+      "Wisdom"
     ],
     "types": [
       "FILM",
-      "Straw Hat Crew"
+      "Mecha Island"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Activate this card's [On Play] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-013_p1_EN.webp",
-    "set": "OP06"
+    "effect": "[On Your Opponent's Attack] You may trash any number of {FILM} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-014_EN.webp"
   },
   {
     "id": "OP06-015",
@@ -1816,6 +1792,30 @@
     "effect": "[Activate: Main] [Once Per Turn] You may trash 1 of your Characters with 6000 power or more: Play up to 1 {FILM} type Character card with 2000 to 5000 power from your trash rested.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-015_EN.webp"
+  },
+  {
+    "id": "OP06-013_p1",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Activate this card's [On Play] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-013_p1_EN.webp",
+    "set": "OP06"
   },
   {
     "id": "OP06-017",
@@ -1886,28 +1886,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-018_EN.webp"
   },
   {
-    "id": "OP06-019",
-    "set": "OP06",
-    "name": "Blue Dragon Seal Water Stream",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "FILM",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-019_EN.webp"
-  },
-  {
     "id": "OP06-024",
     "set": "OP06",
     "name": "Ikaros Much",
@@ -1932,27 +1910,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-024_EN.webp"
   },
   {
-    "id": "OP06-025",
+    "id": "OP06-019",
     "set": "OP06",
-    "name": "Camie",
-    "rarity": "Rare",
-    "category": "Character",
+    "name": "Blue Dragon Seal Water Stream",
+    "rarity": "Uncommon",
+    "category": "Event",
     "colors": [
-      "Green"
+      "Red"
     ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
+    "cost": 3,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Merfolk"
+      "FILM",
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-025_EN.webp"
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-019_EN.webp"
   },
   {
     "id": "OP06-026",
@@ -1976,6 +1953,29 @@
     "effect": "[On Play] Set up to 1 of your <Slash> attribute Characters with a cost of 4 or less as active. Then, you cannot attack a Leader during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-026_EN.webp"
+  },
+  {
+    "id": "OP06-025",
+    "set": "OP06",
+    "name": "Camie",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Merfolk"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-025_EN.webp"
   },
   {
     "id": "OP06-027",
@@ -2072,30 +2072,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-029_EN.webp"
   },
   {
-    "id": "OP06-031",
-    "set": "OP06",
-    "name": "Hatchan",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Fish-Man",
-      "Former Arlong Pirates"
-    ],
-    "effect": "",
-    "trigger": "[Trigger] Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-031_EN.webp"
-  },
-  {
     "id": "OP06-030",
     "set": "OP06",
     "name": "Dosun",
@@ -2118,6 +2094,30 @@
     "effect": "[When Attacking] If your Leader has the {New Fish-Man Pirates} type, this Character cannot be K.O.'d in battle and gains +2000 power until the start of your next turn. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-030_EN.webp"
+  },
+  {
+    "id": "OP06-031",
+    "set": "OP06",
+    "name": "Hatchan",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Fish-Man",
+      "Former Arlong Pirates"
+    ],
+    "effect": "",
+    "trigger": "[Trigger] Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-031_EN.webp"
   },
   {
     "id": "OP06-032",
@@ -2815,6 +2815,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-082_EN.webp"
   },
   {
+    "id": "OP06-081_p1",
+    "name": "Absalom",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: K.O. up to 1 Character with a cost of 2 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-081_p1_EN.webp",
+    "set": "OP06"
+  },
+  {
     "id": "OP06-083",
     "set": "OP06",
     "name": "Oars",
@@ -2837,29 +2860,6 @@
     "effect": "This Character cannot attack. [Activate: Main] You may K.O. 1 of your {Thriller Bark Pirates} type Characters: This Character's effect is negated during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-083_EN.webp"
-  },
-  {
-    "id": "OP06-081_p1",
-    "name": "Absalom",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: K.O. up to 1 Character with a cost of 2 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-081_p1_EN.webp",
-    "set": "OP06"
   },
   {
     "id": "OP06-084",
@@ -2908,6 +2908,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-085_EN.webp"
   },
   {
+    "id": "OP06-087",
+    "set": "OP06",
+    "name": "Cerberus",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-087_EN.webp"
+  },
+  {
     "id": "OP06-088",
     "set": "OP06",
     "name": "Sai",
@@ -2932,27 +2955,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-088_EN.webp"
   },
   {
-    "id": "OP06-087",
+    "id": "OP06-090",
     "set": "OP06",
-    "name": "Cerberus",
-    "rarity": "Common",
+    "name": "Dr. Hogback",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 2,
-    "power": 2000,
+    "cost": 4,
+    "power": 5000,
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Strike"
+      "Wisdom"
     ],
     "types": [
       "Thriller Bark Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: Add up to 1 {Thriller Bark Pirates} type card other than [Dr. Hogback] from your trash to your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-087_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-090_EN.webp"
   },
   {
     "id": "OP06-089",
@@ -2976,29 +2999,6 @@
     "effect": "[On Play]/[On K.O.] Trash 3 cards from the top of your deck.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-089_EN.webp"
-  },
-  {
-    "id": "OP06-090",
-    "set": "OP06",
-    "name": "Dr. Hogback",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[On Play] You may return 2 cards from your trash to the bottom of your deck in any order: Add up to 1 {Thriller Bark Pirates} type card other than [Dr. Hogback] from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-090_EN.webp"
   },
   {
     "id": "OP06-092",
@@ -3069,27 +3069,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-095_EN.webp"
   },
   {
-    "id": "OP06-096",
-    "set": "OP06",
-    "name": "...Nothing...at All!!!",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] You may add 1 card from the top of your Life cards to your hand: Your Characters with a cost of 7 or less cannot be K.O.'d in battle during this turn.",
-    "trigger": "[Trigger] Activate this card's [Counter] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-096_EN.webp"
-  },
-  {
     "id": "OP06-097",
     "set": "OP06",
     "name": "Negative Hollow",
@@ -3111,25 +3090,25 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-097_EN.webp"
   },
   {
-    "id": "OP06-098",
+    "id": "OP06-096",
     "set": "OP06",
-    "name": "Thriller Bark",
+    "name": "...Nothing...at All!!!",
     "rarity": "Common",
-    "category": "Stage",
+    "category": "Event",
     "colors": [
       "Black"
     ],
-    "cost": 1,
+    "cost": 3,
     "power": null,
     "counter": null,
     "block": 2,
     "attributes": [],
     "types": [
-      "Thriller Bark Pirates"
+      "Straw Hat Crew"
     ],
-    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader has the {Thriller Bark Pirates} type, play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-098_EN.webp"
+    "effect": "[Counter] You may add 1 card from the top of your Life cards to your hand: Your Characters with a cost of 7 or less cannot be K.O.'d in battle during this turn.",
+    "trigger": "[Trigger] Activate this card's [Counter] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-096_EN.webp"
   },
   {
     "id": "OP06-099",
@@ -3155,28 +3134,25 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-099_EN.webp"
   },
   {
-    "id": "OP06-102",
+    "id": "OP06-098",
     "set": "OP06",
-    "name": "Kamakiri",
+    "name": "Thriller Bark",
     "rarity": "Common",
-    "category": "Character",
+    "category": "Stage",
     "colors": [
-      "Yellow"
+      "Black"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Slash"
-    ],
+    "attributes": [],
     "types": [
-      "Sky Island",
-      "Shandian Warrior"
+      "Thriller Bark Pirates"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": "[Trigger] If you have 2 or less Life cards, play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-102_EN.webp"
+    "effect": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader has the {Thriller Bark Pirates} type, play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-098_EN.webp"
   },
   {
     "id": "OP06-103",
@@ -3204,28 +3180,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-103_EN.webp"
   },
   {
-    "id": "OP06-104",
+    "id": "OP06-102",
     "set": "OP06",
-    "name": "Kikunojo",
-    "rarity": "Rare",
+    "name": "Kamakiri",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 4,
-    "power": 6000,
-    "counter": null,
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
     "block": 2,
     "attributes": [
       "Slash"
     ],
     "types": [
-      "Land of Wano",
-      "The Akazaya Nine"
+      "Sky Island",
+      "Shandian Warrior"
     ],
-    "effect": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-104_EN.webp"
+    "effect": "[Activate: Main] [Once Per Turn] You may place 1 Stage with a cost of 1 at the bottom of the owner's deck: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": "[Trigger] If you have 2 or less Life cards, play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-102_EN.webp"
   },
   {
     "id": "OP06-105",
@@ -3252,6 +3228,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-105_EN.webp"
   },
   {
+    "id": "OP06-104",
+    "set": "OP06",
+    "name": "Kikunojo",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[On K.O.] If your opponent has 3 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-104_EN.webp"
+  },
+  {
     "id": "OP06-108",
     "set": "OP06",
     "name": "Tenguyama Hitetsu",
@@ -3274,30 +3274,6 @@
     "effect": "",
     "trigger": "[Trigger] Up to 1 of your {Land of Wano} type Leader or Character cards gains +2000 power during this turn.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-108_EN.webp"
-  },
-  {
-    "id": "OP06-109",
-    "set": "OP06",
-    "name": "Denjiro",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Land of Wano",
-      "The Akazaya Nine"
-    ],
-    "effect": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
-    "trigger": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-109_EN.webp"
   },
   {
     "id": "OP06-111",
@@ -3324,17 +3300,17 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-111_EN.webp"
   },
   {
-    "id": "OP06-112",
+    "id": "OP06-109",
     "set": "OP06",
-    "name": "Raizo",
-    "rarity": "Common",
+    "name": "Denjiro",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
     "block": 2,
     "attributes": [
       "Slash"
@@ -3343,9 +3319,9 @@
       "Land of Wano",
       "The Akazaya Nine"
     ],
-    "effect": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
+    "effect": "[DON!! x2] If your opponent has 3 or less Life cards, this Character cannot be K.O.'d by effects.",
     "trigger": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-112_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-109_EN.webp"
   },
   {
     "id": "OP06-113",
@@ -3370,6 +3346,30 @@
     "effect": "If you have a {Shandian Warrior} type Character other than [Raki], this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-113_EN.webp"
+  },
+  {
+    "id": "OP06-112",
+    "set": "OP06",
+    "name": "Raizo",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ],
+    "effect": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
+    "trigger": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-112_EN.webp"
   },
   {
     "id": "OP06-116",
