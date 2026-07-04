@@ -427,6 +427,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-112_EN.webp"
   },
   {
+    "id": "OP10-112_p1",
+    "name": "Eustass\"Captain\"Kid",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Supernovas",
+      "Kid Pirates"
+    ],
+    "effect": "[On Play] You may rest this Character: Trash up to 1 card from the top of your opponent's Life cards. [End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-112_p1_EN.webp",
+    "set": "OP10"
+  },
+  {
     "id": "OP10-114",
     "set": "OP10",
     "name": "X.Drake",
@@ -450,30 +474,6 @@
     "effect": "[Activate: Main] You may rest this Character: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-114_EN.webp"
-  },
-  {
-    "id": "OP10-112_p1",
-    "name": "Eustass\"Captain\"Kid",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 8,
-    "power": 9000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Supernovas",
-      "Kid Pirates"
-    ],
-    "effect": "[On Play] You may rest this Character: Trash up to 1 card from the top of your opponent's Life cards. [End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-112_p1_EN.webp",
-    "set": "OP10"
   },
   {
     "id": "OP10-119",
@@ -818,6 +818,30 @@
     "set": "OP10"
   },
   {
+    "id": "OP10-005",
+    "set": "OP10",
+    "name": "Sanji",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Punk Hazard",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Your Turn] This Character gains +3000 power. [On K.O.] Draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-005_EN.webp"
+  },
+  {
     "id": "OP10-004",
     "set": "OP10",
     "name": "Vergo",
@@ -841,30 +865,6 @@
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Punk Hazard} type card other than [Vergo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-004_EN.webp"
-  },
-  {
-    "id": "OP10-005",
-    "set": "OP10",
-    "name": "Sanji",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 3000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Punk Hazard",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Your Turn] This Character gains +3000 power. [On K.O.] Draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-005_EN.webp"
   },
   {
     "id": "OP10-006",
@@ -938,29 +938,6 @@
     "set": "OP10"
   },
   {
-    "id": "OP10-008",
-    "set": "OP10",
-    "name": "Scotch",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": 1000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Punk Hazard"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you don't have [Rock], play up to 1 [Rock] from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-008_EN.webp"
-  },
-  {
     "id": "OP10-009",
     "set": "OP10",
     "name": "Smiley",
@@ -985,28 +962,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-009_EN.webp"
   },
   {
-    "id": "OP10-010",
+    "id": "OP10-008",
     "set": "OP10",
-    "name": "Chadros.Higelyges (Brownbeard)",
+    "name": "Scotch",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 3,
-    "power": 5000,
-    "counter": null,
+    "cost": 2,
+    "power": 1000,
+    "counter": 1000,
     "block": 3,
     "attributes": [
-      "Slash"
+      "Ranged"
     ],
     "types": [
-      "Punk Hazard",
-      "Brownbeard Pirates"
+      "Punk Hazard"
     ],
-    "effect": "[When Attacking] If you have 1 or less Characters with 6000 power or more, this Character gains +1000 power during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you don't have [Rock], play up to 1 [Rock] from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-010_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-008_EN.webp"
   },
   {
     "id": "OP10-012",
@@ -1031,6 +1007,30 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-012_EN.webp"
+  },
+  {
+    "id": "OP10-010",
+    "set": "OP10",
+    "name": "Chadros.Higelyges (Brownbeard)",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Punk Hazard",
+      "Brownbeard Pirates"
+    ],
+    "effect": "[When Attacking] If you have 1 or less Characters with 6000 power or more, this Character gains +1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-010_EN.webp"
   },
   {
     "id": "OP10-013",
@@ -1082,29 +1082,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-014_EN.webp"
   },
   {
-    "id": "OP10-015",
-    "set": "OP10",
-    "name": "Mocha",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 3000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Punk Hazard"
-    ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-015_EN.webp"
-  },
-  {
     "id": "OP10-016",
     "set": "OP10",
     "name": "Monet",
@@ -1129,27 +1106,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-016_EN.webp"
   },
   {
-    "id": "OP10-017",
+    "id": "OP10-015",
     "set": "OP10",
-    "name": "Rock",
-    "rarity": "Common",
+    "name": "Mocha",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 2,
+    "cost": 3,
     "power": 3000,
-    "counter": 1000,
+    "counter": 2000,
     "block": 3,
     "attributes": [
-      "Ranged"
+      "Strike"
     ],
     "types": [
       "Punk Hazard"
     ],
-    "effect": "[On Play] If you don't have [Scotch], play up to 1 [Scotch] from your hand.",
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-017_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-015_EN.webp"
   },
   {
     "id": "OP10-016_p1",
@@ -1174,6 +1151,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-016_p1_EN.webp",
     "set": "OP10"
+  },
+  {
+    "id": "OP10-017",
+    "set": "OP10",
+    "name": "Rock",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Punk Hazard"
+    ],
+    "effect": "[On Play] If you don't have [Scotch], play up to 1 [Scotch] from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-017_EN.webp"
   },
   {
     "id": "OP10-019",
@@ -1821,6 +1821,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-044_EN.webp"
   },
   {
+    "id": "OP10-047",
+    "set": "OP10",
+    "name": "Koala",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "[When Attacking] You may return 1 of your {Revolutionary Army} type Characters with a cost of 3 or more to the owner's hand: This Character gains +3000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-047_EN.webp"
+  },
+  {
     "id": "OP10-042_p1",
     "name": "Usopp",
     "rarity": "Alternate Art",
@@ -1846,28 +1870,28 @@
     "set": "OP10"
   },
   {
-    "id": "OP10-047",
+    "id": "OP10-049",
     "set": "OP10",
-    "name": "Koala",
-    "rarity": "Uncommon",
+    "name": "Sabo",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
     "block": 3,
     "attributes": [
-      "Strike"
+      "Special"
     ],
     "types": [
       "Dressrosa",
       "Revolutionary Army"
     ],
-    "effect": "[When Attacking] You may return 1 of your {Revolutionary Army} type Characters with a cost of 3 or more to the owner's hand: This Character gains +3000 power during this turn.",
+    "effect": "If your Character with a base cost of 7 or less other than [Sabo] would be removed from the field by your opponent's effect, you may return this Character to the owner's hand instead.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-047_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-049_EN.webp"
   },
   {
     "id": "OP10-048",
@@ -1892,30 +1916,6 @@
     "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards: Return up to 1 of your opponent's Characters with a cost of 1 or less to the owner's hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-048_EN.webp"
-  },
-  {
-    "id": "OP10-049",
-    "set": "OP10",
-    "name": "Sabo",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa",
-      "Revolutionary Army"
-    ],
-    "effect": "If your Character with a base cost of 7 or less other than [Sabo] would be removed from the field by your opponent's effect, you may return this Character to the owner's hand instead.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-049_EN.webp"
   },
   {
     "id": "OP10-050",
@@ -1968,30 +1968,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-051_EN.webp"
   },
   {
-    "id": "OP10-052",
-    "set": "OP10",
-    "name": "Bartolomeo",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa",
-      "Barto Club"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-052_EN.webp"
-  },
-  {
     "id": "OP10-053",
     "set": "OP10",
     "name": "Bian",
@@ -2014,6 +1990,30 @@
     "effect": "If you have a {The Tontattas} type Character other than [Bian], this Character gains [Blocker].",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-053_EN.webp"
+  },
+  {
+    "id": "OP10-052",
+    "set": "OP10",
+    "name": "Bartolomeo",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Dressrosa",
+      "Barto Club"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-052_EN.webp"
   },
   {
     "id": "OP10-054",
@@ -2062,30 +2062,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-055_EN.webp"
   },
   {
-    "id": "OP10-056",
-    "set": "OP10",
-    "name": "Mansherry",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 0,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Tontattas",
-      "Dressrosa"
-    ],
-    "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards, and return 1 of your {Dressrosa} type Characters with a cost of 4 or more to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-056_EN.webp"
-  },
-  {
     "id": "OP10-057",
     "set": "OP10",
     "name": "Leo",
@@ -2108,6 +2084,30 @@
     "effect": "[On Play] You may rest your Leader or 1 of your Stage cards: If your Leader is [Usopp], look at 5 cards from the top of your deck; reveal up to 2 {Dressrosa} type cards other than [Leo] and add them to your hand. Then, place the rest at the bottom of your deck in any order, and trash 1 card from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-057_EN.webp"
+  },
+  {
+    "id": "OP10-056",
+    "set": "OP10",
+    "name": "Mansherry",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 0,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Tontattas",
+      "Dressrosa"
+    ],
+    "effect": "[On Play] You may rest 1 of your {Dressrosa} type Leader or Stage cards, and return 1 of your {Dressrosa} type Characters with a cost of 4 or more to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-056_EN.webp"
   },
   {
     "id": "OP10-058",
