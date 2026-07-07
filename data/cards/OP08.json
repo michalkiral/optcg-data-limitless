@@ -140,6 +140,28 @@
     "set": "OP08"
   },
   {
+    "id": "OP08-076",
+    "set": "OP08",
+    "name": "It's to Die For...",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-076_EN.webp"
+  },
+  {
     "id": "OP08-074_p1",
     "name": "Black Maria",
     "rarity": "Alternate Art",
@@ -161,28 +183,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-074_p1_EN.webp",
     "set": "OP08"
-  },
-  {
-    "id": "OP08-076",
-    "set": "OP08",
-    "name": "It's to Die For...",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Big Mom Pirates"
-    ],
-    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-076_EN.webp"
   },
   {
     "id": "OP08-087",
@@ -353,30 +353,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-001_EN.webp"
   },
   {
-    "id": "OP08-002",
-    "set": "OP08",
-    "name": "Marco",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Red",
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-002_EN.webp"
-  },
-  {
     "id": "OP08-001_p1",
     "name": "Tony Tony.Chopper",
     "rarity": "Alternate Art",
@@ -401,6 +377,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-001_p1_EN.webp",
     "set": "OP08"
+  },
+  {
+    "id": "OP08-002",
+    "set": "OP08",
+    "name": "Marco",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Red",
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-002_EN.webp"
   },
   {
     "id": "OP08-021",
@@ -450,30 +450,6 @@
     "set": "OP08"
   },
   {
-    "id": "OP08-057",
-    "set": "OP08",
-    "name": "King",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Purple",
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Choose one: • If you have 5 or less cards in your hand, draw 1 card. • Give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-057_EN.webp"
-  },
-  {
     "id": "OP08-021_p1",
     "name": "Carrot",
     "rarity": "Alternate Art",
@@ -497,9 +473,10 @@
     "set": "OP08"
   },
   {
-    "id": "OP08-057_p1",
+    "id": "OP08-057",
+    "set": "OP08",
     "name": "King",
-    "rarity": "Alternate Art",
+    "rarity": "Leader",
     "category": "Leader",
     "colors": [
       "Purple",
@@ -517,8 +494,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Choose one: • If you have 5 or less cards in your hand, draw 1 card. • Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-057_p1_EN.webp",
-    "set": "OP08"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-057_EN.webp"
   },
   {
     "id": "OP08-058",
@@ -545,29 +521,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-058_EN.webp"
   },
   {
-    "id": "OP08-098",
-    "set": "OP08",
-    "name": "Kalgara",
-    "rarity": "Leader",
+    "id": "OP08-057_p1",
+    "name": "King",
+    "rarity": "Alternate Art",
     "category": "Leader",
     "colors": [
-      "Yellow"
+      "Purple",
+      "Black"
     ],
-    "cost": 5,
+    "cost": 4,
     "power": 5000,
     "counter": null,
     "block": 2,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
-      "Jaya",
-      "Sky Island",
-      "Shandian Warrior"
+      "Animal Kingdom Pirates"
     ],
-    "effect": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+    "effect": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Choose one: • If you have 5 or less cards in your hand, draw 1 card. • Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-098_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-057_p1_EN.webp",
+    "set": "OP08"
   },
   {
     "id": "OP08-058_p1",
@@ -592,6 +567,31 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-058_p1_EN.webp",
     "set": "OP08"
+  },
+  {
+    "id": "OP08-098",
+    "set": "OP08",
+    "name": "Kalgara",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Jaya",
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-098_EN.webp"
   },
   {
     "id": "OP08-098_p1",
@@ -877,6 +877,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-007_EN.webp"
   },
   {
+    "id": "OP08-008",
+    "set": "OP08",
+    "name": "Dalton",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn. [DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-008_EN.webp"
+  },
+  {
     "id": "OP08-007_p1",
     "name": "Tony Tony.Chopper",
     "rarity": "Alternate Art",
@@ -900,29 +923,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-007_p1_EN.webp",
     "set": "OP08"
-  },
-  {
-    "id": "OP08-008",
-    "set": "OP08",
-    "name": "Dalton",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Drum Kingdom"
-    ],
-    "effect": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn. [DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-008_EN.webp"
   },
   {
     "id": "OP08-009",
@@ -972,30 +972,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-010_EN.webp"
   },
   {
-    "id": "OP08-012",
-    "set": "OP08",
-    "name": "Lapins",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 3000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal",
-      "Drum Kingdom"
-    ],
-    "effect": "[DON!! x2] [When Attacking] If your Leader has the {Drum Kingdom} type, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-012_EN.webp"
-  },
-  {
     "id": "OP08-011",
     "set": "OP08",
     "name": "Musshuru",
@@ -1020,27 +996,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-011_EN.webp"
   },
   {
-    "id": "OP08-014",
+    "id": "OP08-012",
     "set": "OP08",
-    "name": "Wapol",
-    "rarity": "Rare",
+    "name": "Lapins",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 6,
-    "power": 6000,
+    "cost": 3,
+    "power": 3000,
     "counter": 1000,
     "block": 2,
     "attributes": [
       "Strike"
     ],
     "types": [
+      "Animal",
       "Drum Kingdom"
     ],
-    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, this Character gains +2000 power until the end of your opponent's next turn.",
+    "effect": "[DON!! x2] [When Attacking] If your Leader has the {Drum Kingdom} type, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-014_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-012_EN.webp"
   },
   {
     "id": "OP08-013",
@@ -1067,27 +1044,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-013_EN.webp"
   },
   {
-    "id": "OP08-016",
+    "id": "OP08-014",
     "set": "OP08",
-    "name": "Dr.Hiriluk",
+    "name": "Wapol",
     "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 3,
-    "power": 0,
-    "counter": 2000,
+    "cost": 6,
+    "power": 6000,
+    "counter": 1000,
     "block": 2,
     "attributes": [
-      "Wisdom"
+      "Strike"
     ],
     "types": [
       "Drum Kingdom"
     ],
-    "effect": "[Activate: Main] You may rest this Character: If your Leader is [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Characters gain +2000 power during this turn.",
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, this Character gains +2000 power until the end of your opponent's next turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-016_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-014_EN.webp"
   },
   {
     "id": "OP08-015",
@@ -1111,6 +1088,29 @@
     "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-015_EN.webp"
+  },
+  {
+    "id": "OP08-016",
+    "set": "OP08",
+    "name": "Dr.Hiriluk",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 0,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If your Leader is [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Characters gain +2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-016_EN.webp"
   },
   {
     "id": "OP08-015_p1",
@@ -1180,27 +1180,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-018_EN.webp"
   },
   {
-    "id": "OP08-019",
-    "set": "OP08",
-    "name": "Munch-Munch Mutation",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Drum Kingdom"
-    ],
-    "effect": "[Main]/[Counter] Give up to 1 of your opponent's Characters −3000 power during this turn. Then, up to 1 of your Characters gains +3000 power during this turn.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-019_EN.webp"
-  },
-  {
     "id": "OP08-020",
     "set": "OP08",
     "name": "Drum Kingdom",
@@ -1220,6 +1199,27 @@
     "effect": "[Opponent's Turn] All of your {Drum Kingdom} type Characters gain +1000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-020_EN.webp"
+  },
+  {
+    "id": "OP08-019",
+    "set": "OP08",
+    "name": "Munch-Munch Mutation",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Drum Kingdom"
+    ],
+    "effect": "[Main]/[Counter] Give up to 1 of your opponent's Characters −3000 power during this turn. Then, up to 1 of your Characters gains +3000 power during this turn.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-019_EN.webp"
   },
   {
     "id": "OP08-022",
@@ -1269,29 +1269,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-024_EN.webp"
   },
   {
-    "id": "OP08-025",
-    "set": "OP08",
-    "name": "Shishilian",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Minks"
-    ],
-    "effect": "[On Play] Up to 1 of your opponent's rested Characters with a cost of 3 or less will not become active in your opponent's next Refresh Phase.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-025_EN.webp"
-  },
-  {
     "id": "OP08-026",
     "set": "OP08",
     "name": "Giovanni",
@@ -1313,6 +1290,29 @@
     "effect": "[DON!! x1] [When Attacking] Up to 1 of your opponent's rested Characters with a cost of 1 or less will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-026_EN.webp"
+  },
+  {
+    "id": "OP08-025",
+    "set": "OP08",
+    "name": "Shishilian",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's rested Characters with a cost of 3 or less will not become active in your opponent's next Refresh Phase.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-025_EN.webp"
   },
   {
     "id": "OP08-027",
@@ -1386,29 +1386,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-029_EN.webp"
   },
   {
-    "id": "OP08-031",
-    "set": "OP08",
-    "name": "Miyagi",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 3,
-    "power": 1000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Minks"
-    ],
-    "effect": "[On Play] Set up to 1 of your {Minks} type Characters with a cost of 2 or less as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-031_EN.webp"
-  },
-  {
     "id": "OP08-030",
     "set": "OP08",
     "name": "Pedro",
@@ -1430,6 +1407,29 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Choose one: • Rest up to 1 of your opponent's DON!! cards. • K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-030_EN.webp"
+  },
+  {
+    "id": "OP08-031",
+    "set": "OP08",
+    "name": "Miyagi",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] Set up to 1 of your {Minks} type Characters with a cost of 2 or less as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-031_EN.webp"
   },
   {
     "id": "OP08-030_p1",
@@ -1955,27 +1955,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-053_EN.webp"
   },
   {
-    "id": "OP08-054",
-    "set": "OP08",
-    "name": "You Can't Take Our King This Early in the Game.",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 3 or less. Then, place the rest at the top or bottom of your deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-054_EN.webp"
-  },
-  {
     "id": "OP08-055",
     "set": "OP08",
     "name": "Phoenix Brand",
@@ -1997,15 +1976,15 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-055_EN.webp"
   },
   {
-    "id": "OP08-056",
+    "id": "OP08-054",
     "set": "OP08",
-    "name": "Moby Dick",
+    "name": "You Can't Take Our King This Early in the Game.",
     "rarity": "Common",
-    "category": "Stage",
+    "category": "Event",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
+    "cost": 3,
     "power": null,
     "counter": null,
     "block": 2,
@@ -2013,9 +1992,9 @@
     "types": [
       "Whitebeard Pirates"
     ],
-    "effect": "[Your Turn] [Once Per Turn] When your Character with a type including \"Whitebeard Pirates\" is removed from the field by an effect, draw 1 card. Then, place 1 card from your hand at the top or bottom of your deck.",
-    "trigger": "[Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-056_EN.webp"
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 3 or less. Then, place the rest at the top or bottom of your deck.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-054_EN.webp"
   },
   {
     "id": "OP08-059",
@@ -2040,6 +2019,27 @@
     "effect": "[Activate: Main] You may trash this Character: If your Leader has the {Animal Kingdom Pirates} type and you have 10 DON!! cards on your field, play up to 1 [King] with a cost of 7 or less from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-059_EN.webp"
+  },
+  {
+    "id": "OP08-056",
+    "set": "OP08",
+    "name": "Moby Dick",
+    "rarity": "Common",
+    "category": "Stage",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When your Character with a type including \"Whitebeard Pirates\" is removed from the field by an effect, draw 1 card. Then, place 1 card from your hand at the top or bottom of your deck.",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-056_EN.webp"
   },
   {
     "id": "OP08-060",
@@ -2457,6 +2457,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-079_EN.webp"
   },
   {
+    "id": "OP08-080",
+    "set": "OP08",
+    "name": "Queen",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-080_EN.webp"
+  },
+  {
     "id": "OP08-079_p1",
     "name": "Kaido",
     "rarity": "Alternate Art",
@@ -2479,29 +2502,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-079_p1_EN.webp",
     "set": "OP08"
-  },
-  {
-    "id": "OP08-080",
-    "set": "OP08",
-    "name": "Queen",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-080_EN.webp"
   },
   {
     "id": "OP08-080_p1",
@@ -2527,29 +2527,6 @@
     "set": "OP08"
   },
   {
-    "id": "OP08-081",
-    "set": "OP08",
-    "name": "Guernica",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "CP0"
-    ],
-    "effect": "[When Attacking] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 0.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-081_EN.webp"
-  },
-  {
     "id": "OP08-082",
     "set": "OP08",
     "name": "Sasaki",
@@ -2571,6 +2548,29 @@
     "effect": "[Activate: Main] Rest 1 of your DON!! cards and you may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-082_EN.webp"
+  },
+  {
+    "id": "OP08-081",
+    "set": "OP08",
+    "name": "Guernica",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "CP0"
+    ],
+    "effect": "[When Attacking] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-081_EN.webp"
   },
   {
     "id": "OP08-083",
@@ -2691,6 +2691,30 @@
     "set": "OP08"
   },
   {
+    "id": "OP08-089",
+    "set": "OP08",
+    "name": "Basil Hawkins",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Animal Kingdom Pirates",
+      "Hawkins Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-089_EN.webp"
+  },
+  {
     "id": "OP08-088",
     "set": "OP08",
     "name": "Duval",
@@ -2714,28 +2738,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-088_EN.webp"
   },
   {
-    "id": "OP08-089",
+    "id": "OP08-091",
     "set": "OP08",
-    "name": "Basil Hawkins",
-    "rarity": "Common",
+    "name": "Who's.Who",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 7,
-    "power": 9000,
-    "counter": 1000,
+    "cost": 5,
+    "power": 5000,
+    "counter": 2000,
     "block": 2,
     "attributes": [
       "Slash"
     ],
     "types": [
       "Animal Kingdom Pirates",
-      "Hawkins Pirates"
+      "Former CP9"
     ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-089_EN.webp"
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-091_EN.webp"
   },
   {
     "id": "OP08-090",
@@ -2783,30 +2807,6 @@
     "effect": "[On Play] Play up to 1 [Ulti] with a cost of 4 or less from your trash.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-092_EN.webp"
-  },
-  {
-    "id": "OP08-091",
-    "set": "OP08",
-    "name": "Who's.Who",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Animal Kingdom Pirates",
-      "Former CP9"
-    ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-091_EN.webp"
   },
   {
     "id": "OP08-093",
@@ -2944,29 +2944,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-100_EN.webp"
   },
   {
-    "id": "OP08-102",
-    "set": "OP08",
-    "name": "Charlotte Opera",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 6,
-    "power": 6000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Big Mom Pirates"
-    ],
-    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than your number of Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-102_EN.webp"
-  },
-  {
     "id": "OP08-101",
     "set": "OP08",
     "name": "Charlotte Angel",
@@ -2990,27 +2967,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-101_EN.webp"
   },
   {
-    "id": "OP08-104",
+    "id": "OP08-102",
     "set": "OP08",
-    "name": "Charlotte Poire",
-    "rarity": "Common",
+    "name": "Charlotte Opera",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 1,
-    "power": 2000,
+    "cost": 6,
+    "power": 6000,
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Wisdom"
+      "Special"
     ],
     "types": [
       "Big Mom Pirates"
     ],
-    "effect": "",
-    "trigger": "[Trigger] You may trash 1 card from your hand: Play this card. Then, draw 1 card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-104_EN.webp"
+    "effect": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than your number of Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-102_EN.webp"
   },
   {
     "id": "OP08-103",
@@ -3036,9 +3013,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-103_EN.webp"
   },
   {
-    "id": "OP08-107",
+    "id": "OP08-104",
     "set": "OP08",
-    "name": "Nitro",
+    "name": "Charlotte Poire",
     "rarity": "Common",
     "category": "Character",
     "colors": [
@@ -3049,15 +3026,14 @@
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Special"
+      "Wisdom"
     ],
     "types": [
-      "Big Mom Pirates",
-      "Homies"
+      "Big Mom Pirates"
     ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-107_EN.webp"
+    "effect": "",
+    "trigger": "[Trigger] You may trash 1 card from your hand: Play this card. Then, draw 1 card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-104_EN.webp"
   },
   {
     "id": "OP08-105",
@@ -3084,6 +3060,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-105_EN.webp"
   },
   {
+    "id": "OP08-107",
+    "set": "OP08",
+    "name": "Nitro",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-107_EN.webp"
+  },
+  {
     "id": "OP08-108",
     "set": "OP08",
     "name": "Mont Blanc Cricket",
@@ -3108,30 +3108,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-108_EN.webp"
   },
   {
-    "id": "OP08-109",
-    "set": "OP08",
-    "name": "Mont Blanc Noland",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Jaya",
-      "Botanist"
-    ],
-    "effect": "[On Play] If your Leader has the {Shandian Warrior} type and you have a [Kalgara] Character, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-109_EN.webp"
-  },
-  {
     "id": "OP08-105_p1",
     "name": "Jewelry Bonney",
     "rarity": "Alternate Art",
@@ -3154,6 +3130,30 @@
     "trigger": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-105_p1_EN.webp",
     "set": "OP08"
+  },
+  {
+    "id": "OP08-109",
+    "set": "OP08",
+    "name": "Mont Blanc Noland",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Jaya",
+      "Botanist"
+    ],
+    "effect": "[On Play] If your Leader has the {Shandian Warrior} type and you have a [Kalgara] Character, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP08/OP08-109_EN.webp"
   },
   {
     "id": "OP08-110",

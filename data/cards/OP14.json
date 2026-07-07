@@ -263,30 +263,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-007_EN.webp"
   },
   {
-    "id": "OP14-008",
-    "set": "OP14",
-    "name": "Scratchmen Apoo",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Supernovas",
-      "On-Air Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-008_EN.webp"
-  },
-  {
     "id": "OP14-009",
     "set": "OP14",
     "name": "Trafalgar Law",
@@ -312,28 +288,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-009_EN.webp"
   },
   {
-    "id": "OP14-010",
+    "id": "OP14-008",
     "set": "OP14",
-    "name": "Basil Hawkins",
-    "rarity": "Uncommon",
+    "name": "Scratchmen Apoo",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 1,
-    "power": 2000,
+    "cost": 3,
+    "power": 5000,
     "counter": 1000,
     "block": 4,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
       "Supernovas",
-      "Hawkins Pirates"
+      "On-Air Pirates"
     ],
-    "effect": "[On K.O.] Look at 5 cards from the top of your deck; play up to 1 {Supernovas} type Character card with 2000 power or less other than [Basil Hawkins]. Then, place the rest at the bottom of your deck in any order.",
+    "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-010_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-008_EN.webp"
   },
   {
     "id": "OP14-009_p1",
@@ -359,6 +335,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-009_p1_EN.webp",
     "set": "OP14"
+  },
+  {
+    "id": "OP14-010",
+    "set": "OP14",
+    "name": "Basil Hawkins",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effect": "[On K.O.] Look at 5 cards from the top of your deck; play up to 1 {Supernovas} type Character card with 2000 power or less other than [Basil Hawkins]. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-010_EN.webp"
   },
   {
     "id": "OP14-011",
@@ -578,29 +578,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-017_EN.webp"
   },
   {
-    "id": "OP14-018",
-    "set": "OP14",
-    "name": "Time for the Counterattack",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Supernovas",
-      "Heart Pirates"
-    ],
-    "effect": "[Counter] If there is a Character with 8000 power or more, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "[Trigger] Play up to 1 red Character card with 2000 power or less from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-018_EN.webp"
-  },
-  {
     "id": "OP14-019",
     "set": "OP14",
     "name": "I Have a Plan to Take Down One of the Four Emperors!!",
@@ -624,27 +601,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-019_EN.webp"
   },
   {
-    "id": "OP14-020",
+    "id": "OP14-018",
     "set": "OP14",
-    "name": "Dracule Mihawk",
-    "rarity": "Leader",
-    "category": "Leader",
+    "name": "Time for the Counterattack",
+    "rarity": "Rare",
+    "category": "Event",
     "colors": [
-      "Green"
+      "Red"
     ],
-    "cost": 5,
-    "power": 5000,
+    "cost": 1,
+    "power": null,
     "counter": null,
     "block": 4,
-    "attributes": [
-      "Slash"
-    ],
+    "attributes": [],
     "types": [
-      "The Seven Warlords of the Sea"
+      "The Seven Warlords of the Sea",
+      "Supernovas",
+      "Heart Pirates"
     ],
-    "effect": "If your opponent's Leader has the <Slash> attribute, this Leader gains +1000 power. [Activate: Main] [Once Per Turn] You may rest 1 of your cards: If there is a Character with a cost of 5 or more, set up to 3 of your DON!! cards as active. Then, you cannot play Character cards during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-020_EN.webp"
+    "effect": "[Counter] If there is a Character with 8000 power or more, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "trigger": "[Trigger] Play up to 1 red Character card with 2000 power or less from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-018_EN.webp"
   },
   {
     "id": "OP14-021",
@@ -669,6 +646,29 @@
     "effect": "[Your Turn] When this Character becomes rested, you may add 1 card from the top of your Life cards to your hand. If you do, up to 1 of your opponent's rested Characters or Stages will not become active in your opponent's next Refresh Phase.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-021_EN.webp"
+  },
+  {
+    "id": "OP14-020",
+    "set": "OP14",
+    "name": "Dracule Mihawk",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "If your opponent's Leader has the <Slash> attribute, this Leader gains +1000 power. [Activate: Main] [Once Per Turn] You may rest 1 of your cards: If there is a Character with a cost of 5 or more, set up to 3 of your DON!! cards as active. Then, you cannot play Character cards during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-020_EN.webp"
   },
   {
     "id": "OP14-020_p1",
@@ -862,6 +862,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-028_EN.webp"
   },
   {
+    "id": "OP14-030",
+    "set": "OP14",
+    "name": "Chaka & Pell",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Alabasta"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-030_EN.webp"
+  },
+  {
     "id": "OP14-027_p1",
     "name": "Shanks",
     "rarity": "Alternate Art",
@@ -887,27 +910,28 @@
     "set": "OP14"
   },
   {
-    "id": "OP14-030",
+    "id": "OP14-032",
     "set": "OP14",
-    "name": "Chaka & Pell",
-    "rarity": "Common",
+    "name": "Humandrill",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 6,
-    "power": 7000,
+    "cost": 3,
+    "power": 4000,
     "counter": 2000,
     "block": 4,
     "attributes": [
       "Slash"
     ],
     "types": [
-      "Alabasta"
+      "Animal",
+      "Muggy Kingdom"
     ],
-    "effect": "",
+    "effect": "[Your Turn] When this Character becomes rested, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-030_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-032_EN.webp"
   },
   {
     "id": "OP14-031",
@@ -932,30 +956,6 @@
     "effect": "[Blocker] [On Play] Rest up to 2 of your opponent's Characters with a cost of 8 or less. Then, set up to 5 of your DON!! cards as active at the end of this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-031_EN.webp"
-  },
-  {
-    "id": "OP14-032",
-    "set": "OP14",
-    "name": "Humandrill",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Animal",
-      "Muggy Kingdom"
-    ],
-    "effect": "[Your Turn] When this Character becomes rested, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-032_EN.webp"
   },
   {
     "id": "OP14-033",
@@ -1006,6 +1006,30 @@
     "set": "OP14"
   },
   {
+    "id": "OP14-033_p1",
+    "name": "Perona",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Muggy Kingdom",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase. [On K.O.] You may rest 1 of your cards: Play up to 1 green Character card with a cost of 5 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-033_p1_EN.webp",
+    "set": "OP14"
+  },
+  {
     "id": "OP14-034",
     "set": "OP14",
     "name": "Monkey.D.Luffy",
@@ -1029,30 +1053,6 @@
     "effect": "[Your Turn] All of your green {Straw Hat Crew} type Characters with a base cost of 4 or more gain +1000 power. [Once Per Turn] If your {Straw Hat Crew} type Character would be K.O.'d by your opponent's effect, you may rest 1 of your Characters instead.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-034_EN.webp"
-  },
-  {
-    "id": "OP14-033_p1",
-    "name": "Perona",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Muggy Kingdom",
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase. [On K.O.] You may rest 1 of your cards: Play up to 1 green Character card with a cost of 5 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-033_p1_EN.webp",
-    "set": "OP14"
   },
   {
     "id": "OP14-035",
@@ -1361,6 +1361,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-044_EN.webp"
   },
   {
+    "id": "OP14-046",
+    "set": "OP14",
+    "name": "Koala",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 0,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Foolshout Island"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Up to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards gains +2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-046_EN.webp"
+  },
+  {
     "id": "OP14-045",
     "set": "OP14",
     "name": "Kuroobi",
@@ -1383,29 +1406,6 @@
     "effect": "When a card is trashed from your hand by an effect, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.) [On K.O.] Draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-045_EN.webp"
-  },
-  {
-    "id": "OP14-046",
-    "set": "OP14",
-    "name": "Koala",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 0,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Foolshout Island"
-    ],
-    "effect": "[Activate: Main] You may trash this Character: Up to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards gains +2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-046_EN.webp"
   },
   {
     "id": "OP14-047",
@@ -1455,6 +1455,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-048_EN.webp"
   },
   {
+    "id": "OP14-050",
+    "set": "OP14",
+    "name": "Chew",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Fish-Man",
+      "The Sun Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Fish-Man} type, draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-050_EN.webp"
+  },
+  {
     "id": "OP14-049",
     "set": "OP14",
     "name": "Jinbe",
@@ -1478,30 +1502,6 @@
     "effect": "When a card is trashed from your hand by an effect, this Character gains [Rush] during this turn. [On Play] You may rest 2 of your DON!! cards: Draw 2 cards and return up to 1 Character with a cost of 7 or less to the owner's hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-049_EN.webp"
-  },
-  {
-    "id": "OP14-050",
-    "set": "OP14",
-    "name": "Chew",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": 3000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Fish-Man",
-      "The Sun Pirates"
-    ],
-    "effect": "[On Play] If your Leader has the {Fish-Man} type, draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-050_EN.webp"
   },
   {
     "id": "OP14-049_p1",
@@ -1553,29 +1553,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-051_EN.webp"
   },
   {
-    "id": "OP14-052",
-    "set": "OP14",
-    "name": "Hannyabal",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down"
-    ],
-    "effect": "[Blocker] [On Play] You may trash 3 cards from your hand: Play up to 1 {Impel Down} type Character card with a cost of 6 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-052_EN.webp"
-  },
-  {
     "id": "OP14-053",
     "set": "OP14",
     "name": "Vista",
@@ -1597,6 +1574,29 @@
     "effect": "[Blocker] [Opponent's Turn] If you have 7 or less cards in your hand, this Character's base power becomes the same as your Leader's base power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-053_EN.webp"
+  },
+  {
+    "id": "OP14-052",
+    "set": "OP14",
+    "name": "Hannyabal",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Blocker] [On Play] You may trash 3 cards from your hand: Play up to 1 {Impel Down} type Character card with a cost of 6 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-052_EN.webp"
   },
   {
     "id": "OP14-054",
@@ -1647,6 +1647,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-055_EN.webp"
   },
   {
+    "id": "OP14-057",
+    "set": "OP14",
+    "name": "Don't Worry!! I'm Here!!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ],
+    "effect": "[Main] All of your {Fish-Man} or {Merfolk} type Leader and Character cards gain +1000 power during this turn.",
+    "trigger": "[Trigger] Draw 2 cards.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-057_EN.webp"
+  },
+  {
     "id": "OP14-056",
     "set": "OP14",
     "name": "Wadatsumi",
@@ -1671,15 +1694,15 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-056_EN.webp"
   },
   {
-    "id": "OP14-057",
+    "id": "OP14-059",
     "set": "OP14",
-    "name": "Don't Worry!! I'm Here!!",
-    "rarity": "Common",
+    "name": "Please Take Me with You!! I Can Be of Great Help to You!!",
+    "rarity": "Uncommon",
     "category": "Event",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
+    "cost": 1,
     "power": null,
     "counter": null,
     "block": 4,
@@ -1689,9 +1712,9 @@
       "The Seven Warlords of the Sea",
       "The Sun Pirates"
     ],
-    "effect": "[Main] All of your {Fish-Man} or {Merfolk} type Leader and Character cards gain +1000 power during this turn.",
-    "trigger": "[Trigger] Draw 2 cards.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-057_EN.webp"
+    "effect": "[Main] If your Leader is [Jinbe] and you have 2 or less cards in your hand, draw 2 cards.",
+    "trigger": "[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-059_EN.webp"
   },
   {
     "id": "OP14-058",
@@ -1715,29 +1738,6 @@
     "effect": "[Main] You may rest 3 of your DON!! cards: Play up to 1 {Fish-Man} type Character card with a cost of 3 or less from your hand. Then, return up to 1 Character with 6000 base power to the owner's hand. [Counter] Draw 1 card and your Leader gains +3000 power during this battle.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-058_EN.webp"
-  },
-  {
-    "id": "OP14-059",
-    "set": "OP14",
-    "name": "Please Take Me with You!! I Can Be of Great Help to You!!",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Fish-Man",
-      "The Seven Warlords of the Sea",
-      "The Sun Pirates"
-    ],
-    "effect": "[Main] If your Leader is [Jinbe] and you have 2 or less cards in your hand, draw 2 cards.",
-    "trigger": "[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-059_EN.webp"
   },
   {
     "id": "OP14-060",
@@ -2093,29 +2093,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-071_EN.webp"
   },
   {
-    "id": "OP14-073",
-    "set": "OP14",
-    "name": "Machvise",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Donquixote Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-073_EN.webp"
-  },
-  {
     "id": "OP14-072",
     "set": "OP14",
     "name": "Baby 5",
@@ -2139,17 +2116,17 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-072_EN.webp"
   },
   {
-    "id": "OP14-075",
+    "id": "OP14-073",
     "set": "OP14",
-    "name": "Lao.G",
+    "name": "Machvise",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
+    "cost": 6,
+    "power": 7000,
+    "counter": 2000,
     "block": 4,
     "attributes": [
       "Strike"
@@ -2157,9 +2134,9 @@
     "types": [
       "Donquixote Pirates"
     ],
-    "effect": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-075_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-073_EN.webp"
   },
   {
     "id": "OP14-074",
@@ -2184,6 +2161,29 @@
     "effect": "[On Play] If your Leader has the {Donquixote Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active. [On K.O.] Draw 2 cards and trash 1 card from your hand. Then, add up to 2 DON!! cards from your DON!! deck and rest them.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-074_EN.webp"
+  },
+  {
+    "id": "OP14-075",
+    "set": "OP14",
+    "name": "Lao.G",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-075_EN.webp"
   },
   {
     "id": "OP14-076",
@@ -2465,29 +2465,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-086_EN.webp"
   },
   {
-    "id": "OP14-087",
-    "set": "OP14",
-    "name": "Miss.Valentine(Mikita)",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[On Play] If your Leader's type includes \"Baroque Works\", look at 4 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" other than [Miss.Valentine (Mikita) ] and add it to your hand. Then, trash the rest.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-087_EN.webp"
-  },
-  {
     "id": "OP14-088",
     "set": "OP14",
     "name": "Miss.MerryChristmas(Drophy)",
@@ -2509,6 +2486,29 @@
     "effect": "[On K.O.] If your Leader's type includes \"Baroque Works\", draw 1 card and K.O. up to 1 of your opponent's Stages with a cost of 1.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-088_EN.webp"
+  },
+  {
+    "id": "OP14-087",
+    "set": "OP14",
+    "name": "Miss.Valentine(Mikita)",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Baroque Works\", look at 4 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" other than [Miss.Valentine (Mikita) ] and add it to your hand. Then, trash the rest.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-087_EN.webp"
   },
   {
     "id": "OP14-089",
@@ -2535,6 +2535,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-089_EN.webp"
   },
   {
+    "id": "OP14-091",
+    "set": "OP14",
+    "name": "Mr.2.Bon.Kurei(Bentham)",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[On K.O.] Play up to 1 Character card with a type including \"Baroque Works\" and a cost of 5 or less other than [Mr.2.Bon.Kurei (Bentham) ] from your hand or trash.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-091_EN.webp"
+  },
+  {
     "id": "OP14-090",
     "set": "OP14",
     "name": "Mr.1(Daz.Bonez)",
@@ -2556,6 +2579,29 @@
     "effect": "If there is a Character with a cost of 0 or with a cost of 8 or more, this Character can attack Characters on the turn in which it is played. [On Play] Rest up to 1 of your opponent's Characters with a cost of 0.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-090_EN.webp"
+  },
+  {
+    "id": "OP14-091_p1",
+    "name": "Mr.2.Bon.Kurei(Bentham)",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[On K.O.] Play up to 1 Character card with a type including \"Baroque Works\" and a cost of 5 or less other than [Mr.2.Bon.Kurei (Bentham) ] from your hand or trash.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-091_p1_EN.webp",
+    "set": "OP14"
   },
   {
     "id": "OP14-090_p1",
@@ -2581,29 +2627,6 @@
     "set": "OP14"
   },
   {
-    "id": "OP14-091",
-    "set": "OP14",
-    "name": "Mr.2.Bon.Kurei(Bentham)",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[On K.O.] Play up to 1 Character card with a type including \"Baroque Works\" and a cost of 5 or less other than [Mr.2.Bon.Kurei (Bentham) ] from your hand or trash.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-091_EN.webp"
-  },
-  {
     "id": "OP14-092",
     "set": "OP14",
     "name": "Mr.3(Galdino)",
@@ -2625,29 +2648,6 @@
     "effect": "[Opponent's Turn] [Once Per Turn] If this Character would be K.O.'d, you may place 3 cards from your trash at the bottom of your deck in any order instead.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-092_EN.webp"
-  },
-  {
-    "id": "OP14-091_p1",
-    "name": "Mr.2.Bon.Kurei(Bentham)",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[On K.O.] Play up to 1 Character card with a type including \"Baroque Works\" and a cost of 5 or less other than [Mr.2.Bon.Kurei (Bentham) ] from your hand or trash.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-091_p1_EN.webp",
-    "set": "OP14"
   },
   {
     "id": "OP14-093",
@@ -2719,28 +2719,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-095_EN.webp"
   },
   {
-    "id": "OP14-096",
-    "set": "OP14",
-    "name": "Ground Death",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Baroque Works"
-    ],
-    "effect": "[Main] You may rest 2 of your DON!! cards: Negate the effect of up to 1 of your opponent's Characters with a cost of 5 or less during this turn. [Counter] If you have 10 or more cards in your trash, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-096_EN.webp"
-  },
-  {
     "id": "OP14-097",
     "set": "OP14",
     "name": "Hurry Up and Make Me the Pirate King!",
@@ -2763,9 +2741,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-097_EN.webp"
   },
   {
-    "id": "OP14-096_p1",
+    "id": "OP14-096",
+    "set": "OP14",
     "name": "Ground Death",
-    "rarity": "Alternate Art",
+    "rarity": "Rare",
     "category": "Event",
     "colors": [
       "Black"
@@ -2781,8 +2760,7 @@
     ],
     "effect": "[Main] You may rest 2 of your DON!! cards: Negate the effect of up to 1 of your opponent's Characters with a cost of 5 or less during this turn. [Counter] If you have 10 or more cards in your trash, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-096_p1_EN.webp",
-    "set": "OP14"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-096_EN.webp"
   },
   {
     "id": "OP14-098",
@@ -2807,10 +2785,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-098_EN.webp"
   },
   {
-    "id": "OP14-099",
-    "set": "OP14",
-    "name": "Disappointed?",
-    "rarity": "Uncommon",
+    "id": "OP14-096_p1",
+    "name": "Ground Death",
+    "rarity": "Alternate Art",
     "category": "Event",
     "colors": [
       "Black"
@@ -2824,9 +2801,10 @@
       "The Seven Warlords of the Sea",
       "Baroque Works"
     ],
-    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" other than [Disappointed?] and add it to your hand. Then, trash the rest.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-099_EN.webp"
+    "effect": "[Main] You may rest 2 of your DON!! cards: Negate the effect of up to 1 of your opponent's Characters with a cost of 5 or less during this turn. [Counter] If you have 10 or more cards in your trash, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-096_p1_EN.webp",
+    "set": "OP14"
   },
   {
     "id": "OP14-100",
@@ -2850,6 +2828,28 @@
     "effect": "[On K.O.] Look at 3 cards from the top of your deck; reveal up to 1 {Thriller Bark Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-100_EN.webp"
+  },
+  {
+    "id": "OP14-099",
+    "set": "OP14",
+    "name": "Disappointed?",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Baroque Works"
+    ],
+    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" other than [Disappointed?] and add it to your hand. Then, trash the rest.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-099_EN.webp"
   },
   {
     "id": "OP14-101",
@@ -3111,29 +3111,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-110_EN.webp"
   },
   {
-    "id": "OP14-111",
-    "set": "OP14",
-    "name": "Perona",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[On Play]/[On K.O.] Up to 1 of your opponent's Characters with a cost of 6 or less cannot attack until the end of your opponent's next End Phase.",
-    "trigger": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-111_EN.webp"
-  },
-  {
     "id": "OP14-112",
     "set": "OP14",
     "name": "Boa Hancock",
@@ -3156,6 +3133,29 @@
     "effect": "[On Play] If your Leader has the {The Seven Warlords of the Sea} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 card from the top of your opponent's Life cards to the owner's hand.",
     "trigger": "[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-112_EN.webp"
+  },
+  {
+    "id": "OP14-111",
+    "set": "OP14",
+    "name": "Perona",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play]/[On K.O.] Up to 1 of your opponent's Characters with a cost of 6 or less cannot attack until the end of your opponent's next End Phase.",
+    "trigger": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-111_EN.webp"
   },
   {
     "id": "OP14-111_p1",
@@ -3202,52 +3202,6 @@
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Amazon Lily} or {Kuja Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and trash 1 card from your hand.",
     "trigger": "[Trigger] If your Leader has the {Kuja Pirates} type, play this card.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-113_EN.webp"
-  },
-  {
-    "id": "OP14-114",
-    "set": "OP14",
-    "name": "Ran",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Kuja Pirates"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your {Kuja Pirates} type Leader or Character cards.",
-    "trigger": "[Trigger] If your Leader has the {Kuja Pirates} type, play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-114_EN.webp"
-  },
-  {
-    "id": "OP14-115",
-    "set": "OP14",
-    "name": "Rindo",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Kuja Pirates"
-    ],
-    "effect": "[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards. Then, you take 1 damage.",
-    "trigger": "[Trigger] If your Leader has the {Kuja Pirates} type, play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-115_EN.webp"
   },
   {
     "id": "OP14-112_p1",
@@ -3298,6 +3252,29 @@
     "set": "OP14"
   },
   {
+    "id": "OP14-114",
+    "set": "OP14",
+    "name": "Ran",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Kuja Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your {Kuja Pirates} type Leader or Character cards.",
+    "trigger": "[Trigger] If your Leader has the {Kuja Pirates} type, play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-114_EN.webp"
+  },
+  {
     "id": "OP14-116",
     "set": "OP14",
     "name": "Salamander",
@@ -3319,6 +3296,51 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-116_EN.webp"
   },
   {
+    "id": "OP14-115",
+    "set": "OP14",
+    "name": "Rindo",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Kuja Pirates"
+    ],
+    "effect": "[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards. Then, you take 1 damage.",
+    "trigger": "[Trigger] If your Leader has the {Kuja Pirates} type, play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-115_EN.webp"
+  },
+  {
+    "id": "OP14-118",
+    "set": "OP14",
+    "name": "You'll Frighten Me... ♡",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[Counter] If you have 2 or less Life cards, up to 1 of your opponent's active Characters cannot attack during this turn.",
+    "trigger": "[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-118_EN.webp"
+  },
+  {
     "id": "OP14-117",
     "set": "OP14",
     "name": "Brick Bat",
@@ -3338,6 +3360,28 @@
     "effect": "[Counter] Up to 1 of your {Thriller Bark Pirates} type Leader or Character cards gains +3000 power during this battle.",
     "trigger": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-117_EN.webp"
+  },
+  {
+    "id": "OP14-118_p1",
+    "name": "You'll Frighten Me... ♡",
+    "rarity": "Alternate Art",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[Counter] If you have 2 or less Life cards, up to 1 of your opponent's active Characters cannot attack during this turn.",
+    "trigger": "[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-118_p1_EN.webp",
+    "set": "OP14"
   },
   {
     "id": "OP14-119",
@@ -3363,50 +3407,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-119_EN.webp"
   },
   {
-    "id": "OP14-118",
-    "set": "OP14",
-    "name": "You'll Frighten Me... ♡",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Kuja Pirates"
-    ],
-    "effect": "[Counter] If you have 2 or less Life cards, up to 1 of your opponent's active Characters cannot attack during this turn.",
-    "trigger": "[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-118_EN.webp"
-  },
-  {
-    "id": "OP14-118_p1",
-    "name": "You'll Frighten Me... ♡",
-    "rarity": "Alternate Art",
-    "category": "Event",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Kuja Pirates"
-    ],
-    "effect": "[Counter] If you have 2 or less Life cards, up to 1 of your opponent's active Characters cannot attack during this turn.",
-    "trigger": "[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-118_p1_EN.webp",
-    "set": "OP14"
-  },
-  {
     "id": "OP14-120",
     "set": "OP14",
     "name": "Crocodile",
@@ -3429,6 +3429,30 @@
     "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 9 or less cannot attack until the end of your opponent's next End Phase. Then, if your opponent has a Character with a cost of 0 or with a cost of 8 or more, draw 1 card. [On K.O.] You may trash 1 card from your hand: Play this Character card from your trash.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-120_EN.webp"
+  },
+  {
+    "id": "OP14-120_p1",
+    "name": "Crocodile",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Baroque Works"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 9 or less cannot attack until the end of your opponent's next End Phase. Then, if your opponent has a Character with a cost of 0 or with a cost of 8 or more, draw 1 card. [On K.O.] You may trash 1 card from your hand: Play this Character card from your trash.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-120_p1_EN.webp",
+    "set": "OP14"
   },
   {
     "id": "OP14-119_p1",
@@ -3477,27 +3501,27 @@
     "set": "OP14"
   },
   {
-    "id": "OP14-120_p1",
-    "name": "Crocodile",
-    "rarity": "Alternate Art",
+    "id": "OP12-030_p2",
+    "name": "Dracule Mihawk",
+    "rarity": "Special Card",
     "category": "Character",
     "colors": [
-      "Black"
+      "Green"
     ],
     "cost": 8,
-    "power": 10000,
+    "power": 8000,
     "counter": null,
-    "block": 4,
+    "block": 3,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
-      "The Seven Warlords of the Sea",
-      "Baroque Works"
+      "Muggy Kingdom",
+      "The Seven Warlords of the Sea"
     ],
-    "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 9 or less cannot attack until the end of your opponent's next End Phase. Then, if your opponent has a Character with a cost of 0 or with a cost of 8 or more, draw 1 card. [On K.O.] You may trash 1 card from your hand: Play this Character card from your trash.",
+    "effect": "[Blocker] [On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-120_p1_EN.webp",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-030_p2_EN.webp",
     "set": "OP14"
   },
   {
@@ -3523,30 +3547,6 @@
     "effect": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] If your opponent has 2 or less Life cards, this Character gains +2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-003_p3_EN.webp",
-    "set": "OP14"
-  },
-  {
-    "id": "OP12-030_p2",
-    "name": "Dracule Mihawk",
-    "rarity": "Special Card",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 8,
-    "power": 8000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Muggy Kingdom",
-      "The Seven Warlords of the Sea"
-    ],
-    "effect": "[Blocker] [On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-030_p2_EN.webp",
     "set": "OP14"
   },
   {
@@ -3785,29 +3785,6 @@
     "set": "OP14"
   },
   {
-    "id": "EB04-013_p1",
-    "name": "Carrot",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 8,
-    "power": 9000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Minks"
-    ],
-    "effect": "[On Play] If your Leader has the {Minks} type, set up to 2 of your {Minks} type Characters and your Leader as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-013_p1_EN.webp",
-    "set": "OP14"
-  },
-  {
     "id": "EB04-014",
     "set": "OP14",
     "name": "Kozuki Sukiyaki",
@@ -3830,6 +3807,29 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your {Land of Wano} type Leader.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-014_EN.webp"
+  },
+  {
+    "id": "EB04-013_p1",
+    "name": "Carrot",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] If your Leader has the {Minks} type, set up to 2 of your {Minks} type Characters and your Leader as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-013_p1_EN.webp",
+    "set": "OP14"
   },
   {
     "id": "EB04-015",
@@ -3973,29 +3973,6 @@
     "set": "OP14"
   },
   {
-    "id": "EB04-020",
-    "set": "OP14",
-    "name": "Shark Brick Fist",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Fish-Man",
-      "Fish-Man Island",
-      "The Sun Pirates"
-    ],
-    "effect": "[Counter] Up to 1 of your {Fish-Man} type Leader or Character cards gains +3000 power during this battle. Then, set up to 1 of your {Fish-Man} type Characters as active.",
-    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-020_EN.webp"
-  },
-  {
     "id": "EB04-021",
     "set": "OP14",
     "name": "Igaram",
@@ -4017,6 +3994,29 @@
     "effect": "[On Play] If your Leader is [Nefeltari Vivi], draw 2 cards and trash 1 card from your hand. [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-021_EN.webp"
+  },
+  {
+    "id": "EB04-020",
+    "set": "OP14",
+    "name": "Shark Brick Fist",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Fish-Man",
+      "Fish-Man Island",
+      "The Sun Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your {Fish-Man} type Leader or Character cards gains +3000 power during this battle. Then, set up to 1 of your {Fish-Man} type Characters as active.",
+    "trigger": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-020_EN.webp"
   },
   {
     "id": "EB04-022",
