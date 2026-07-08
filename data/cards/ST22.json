@@ -215,6 +215,29 @@
     "set": "ST22"
   },
   {
+    "id": "ST22-006",
+    "set": "ST22",
+    "name": "Jozu",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-006_EN.webp"
+  },
+  {
     "id": "ST22-005_p1",
     "name": "Kouzuki Oden",
     "rarity": "Super Rare",
@@ -238,29 +261,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-005_p1_EN.webp",
     "set": "ST22"
-  },
-  {
-    "id": "ST22-006",
-    "set": "ST22",
-    "name": "Jozu",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 7,
-    "power": 8000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards and trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-006_EN.webp"
   },
   {
     "id": "ST22-006_p1",
@@ -355,29 +355,6 @@
     "set": "ST22"
   },
   {
-    "id": "ST22-008_p1",
-    "name": "Decalvan Brothers",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 4000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Whitebeard Pirates Allies"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-008_p1_EN.webp",
-    "set": "ST22"
-  },
-  {
     "id": "ST22-009",
     "set": "ST22",
     "name": "Vista",
@@ -399,6 +376,29 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-009_EN.webp"
+  },
+  {
+    "id": "ST22-008_p1",
+    "name": "Decalvan Brothers",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-008_p1_EN.webp",
+    "set": "ST22"
   },
   {
     "id": "ST22-010",
@@ -678,27 +678,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-015_EN.webp"
   },
   {
-    "id": "ST22-016",
-    "set": "ST22",
-    "name": "Take That Back!! Take Back What You Said!!",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Counter] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "[Trigger] Draw 1 card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-016_EN.webp"
-  },
-  {
     "id": "ST22-017",
     "set": "ST22",
     "name": "Fire Fist",
@@ -718,5 +697,26 @@
     "effect": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card. Then, place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
     "trigger": "[Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-017_EN.webp"
+  },
+  {
+    "id": "ST22-016",
+    "set": "ST22",
+    "name": "Take That Back!! Take Back What You Said!!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Counter] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "trigger": "[Trigger] Draw 1 card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-016_EN.webp"
   }
 ]
