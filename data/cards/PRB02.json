@@ -241,6 +241,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-004_EN.webp"
   },
   {
+    "id": "PRB02-003_p1",
+    "name": "Lucky.Roux",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 Character card with 6000 power or more from your hand: Draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-003_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "PRB02-004_p1",
     "name": "Jewelry Bonney",
     "rarity": "Alternate Art",
@@ -265,27 +288,28 @@
     "set": "PRB02"
   },
   {
-    "id": "PRB02-003_p1",
-    "name": "Lucky.Roux",
-    "rarity": "Alternate Art",
+    "id": "PRB02-005",
+    "set": "PRB02",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
-      "Red"
+      "Green"
     ],
     "cost": 4,
-    "power": 2000,
+    "power": 5000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Ranged"
+      "Strike"
     ],
     "types": [
-      "Red-Haired Pirates"
+      "Supernovas",
+      "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 Character card with 6000 power or more from your hand: Draw 2 cards.",
+    "effect": "[Your Turn] [On Play] If your Leader is multicolored and your opponent has 7 or less DON!! cards on their field, your opponent rests 1 of their active DON!! cards at the start of their next Main Phase.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-003_p1_EN.webp",
-    "set": "PRB02"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-005_EN.webp"
   },
   {
     "id": "PRB02-007",
@@ -311,30 +335,6 @@
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card other than [Jinbe] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [When Attacking] Place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-007_EN.webp"
-  },
-  {
-    "id": "PRB02-005",
-    "set": "PRB02",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Your Turn] [On Play] If your Leader is multicolored and your opponent has 7 or less DON!! cards on their field, your opponent rests 1 of their active DON!! cards at the start of their next Main Phase.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-005_EN.webp"
   },
   {
     "id": "PRB02-007_p1",
@@ -410,30 +410,6 @@
     "set": "PRB02"
   },
   {
-    "id": "PRB02-009",
-    "set": "PRB02",
-    "name": "Mr.3(Galdino)",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 1000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Cross Guild",
-      "Former Baroque Works"
-    ],
-    "effect": "This effect can be activated when this Character is rested by your opponent's effect. You may trash this Character and draw 2 cards. [Blocker]",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-009_EN.webp"
-  },
-  {
     "id": "PRB02-005_p1",
     "name": "Monkey.D.Luffy",
     "rarity": "Alternate Art",
@@ -456,6 +432,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-005_p1_EN.webp",
     "set": "PRB02"
+  },
+  {
+    "id": "PRB02-009",
+    "set": "PRB02",
+    "name": "Mr.3(Galdino)",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 1000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effect": "This effect can be activated when this Character is rested by your opponent's effect. You may trash this Character and draw 2 cards. [Blocker]",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-009_EN.webp"
   },
   {
     "id": "PRB02-009_p1",
@@ -552,29 +552,6 @@
     "set": "PRB02"
   },
   {
-    "id": "PRB02-012",
-    "set": "PRB02",
-    "name": "Nami",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-012_EN.webp"
-  },
-  {
     "id": "PRB02-011_p1",
     "name": "Donquixote Doflamingo",
     "rarity": "Alternate Art",
@@ -597,6 +574,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-011_p1_EN.webp",
     "set": "PRB02"
+  },
+  {
+    "id": "PRB02-012",
+    "set": "PRB02",
+    "name": "Nami",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-012_EN.webp"
   },
   {
     "id": "PRB02-013",
@@ -1017,6 +1017,28 @@
     "set": "PRB02"
   },
   {
+    "id": "OP04-016_p1",
+    "name": "Bad Manners Kick Course",
+    "rarity": "Alternate Art",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 0,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Alabasta",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "trigger": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-016_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "OP04-077_p1",
     "name": "Ideo",
     "rarity": "Pirate Foil",
@@ -1037,28 +1059,6 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-077_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "OP04-016_p1",
-    "name": "Bad Manners Kick Course",
-    "rarity": "Alternate Art",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 0,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Alabasta",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "trigger": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-016_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -1556,29 +1556,6 @@
     "set": "PRB02"
   },
   {
-    "id": "OP07-014_p1",
-    "name": "Moda",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Lulucia Kingdom"
-    ],
-    "effect": "[Your Turn] [On Play] Up to 1 of your [Portgas.D.Ace] cards gains +2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP07/OP07-014_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "OP06-119_p3",
     "name": "Sanji",
     "rarity": "Manga Art",
@@ -1599,6 +1576,29 @@
     "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-119_p3_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "OP07-014_p1",
+    "name": "Moda",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Lulucia Kingdom"
+    ],
+    "effect": "[Your Turn] [On Play] Up to 1 of your [Portgas.D.Ace] cards gains +2000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP07/OP07-014_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -1878,6 +1878,28 @@
     "set": "PRB02"
   },
   {
+    "id": "OP09-020_p1",
+    "name": "Come On!! We'll Fight You!!",
+    "rarity": "Special Card",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Draw 1 card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-020_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "OP09-014_p1",
     "name": "Limejuice",
     "rarity": "Pirate Foil",
@@ -1921,28 +1943,6 @@
     "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-014_p2_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "OP09-020_p1",
-    "name": "Come On!! We'll Fight You!!",
-    "rarity": "Special Card",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Red-Haired Pirates} type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Draw 1 card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP09/OP09-020_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -2237,28 +2237,6 @@
     "set": "PRB02"
   },
   {
-    "id": "OP10-018_p1",
-    "name": "Ten-Layer Igloo",
-    "rarity": "Pirate Foil",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Punk Hazard",
-      "Donquixote Pirates"
-    ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
-    "trigger": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-018_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "OP10-011_p1",
     "name": "Tony Tony.Chopper",
     "rarity": "Alternate Art",
@@ -2280,6 +2258,28 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Opponent's Turn] This Character gains +2000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-011_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "OP10-018_p1",
+    "name": "Ten-Layer Igloo",
+    "rarity": "Pirate Foil",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "Punk Hazard",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "trigger": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-018_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -3516,6 +3516,52 @@
     "set": "PRB02"
   },
   {
+    "id": "P-070_p2",
+    "name": "Carrot",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Minks"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-070_p2_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "P-070_p3",
+    "name": "Carrot",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Minks"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-070_p3_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "P-069_p2",
     "name": "Koala",
     "rarity": null,
@@ -3562,49 +3608,49 @@
     "set": "PRB02"
   },
   {
-    "id": "P-070_p2",
-    "name": "Carrot",
-    "rarity": null,
+    "id": "P-074_p1",
+    "name": "Portgas.D.Ace",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
-      "Green"
+      "Blue"
     ],
-    "cost": 2,
-    "power": 2000,
+    "cost": 3,
+    "power": 4000,
     "counter": 1000,
     "block": 2,
     "attributes": [
       "Special"
     ],
     "types": [
-      "Minks"
+      "Whitebeard Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "[Activate: Main] You may return this Character to the owner's hand: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-070_p2_EN.webp",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-074_p1_EN.webp",
     "set": "PRB02"
   },
   {
-    "id": "P-070_p3",
-    "name": "Carrot",
+    "id": "P-074_p2",
+    "name": "Portgas.D.Ace",
     "rarity": "Pirate Foil",
     "category": "Character",
     "colors": [
-      "Green"
+      "Blue"
     ],
-    "cost": 2,
-    "power": 2000,
+    "cost": 3,
+    "power": 4000,
     "counter": 1000,
     "block": 2,
     "attributes": [
       "Special"
     ],
     "types": [
-      "Minks"
+      "Whitebeard Pirates"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "[Activate: Main] You may return this Character to the owner's hand: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-070_p3_EN.webp",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-074_p2_EN.webp",
     "set": "PRB02"
   },
   {
@@ -3653,52 +3699,6 @@
     "effect": "[Activate: Main] [Once Per Turn] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +1000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-073_p2_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "P-074_p1",
-    "name": "Portgas.D.Ace",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Activate: Main] You may return this Character to the owner's hand: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-074_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "P-074_p2",
-    "name": "Portgas.D.Ace",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Activate: Main] You may return this Character to the owner's hand: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-074_p2_EN.webp",
     "set": "PRB02"
   },
   {
