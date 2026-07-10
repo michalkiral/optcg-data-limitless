@@ -325,6 +325,27 @@
     "set": "EB01"
   },
   {
+    "id": "EB01-060",
+    "set": "EB01",
+    "name": "Did Someone Say...Kami?",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Sky Island"
+    ],
+    "effect": "[Main] Play up to 1 [Enel] with a cost of 7 or less from your hand or trash. Then, trash cards from the top of your Life cards until you have 1 Life card.",
+    "trigger": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-060_EN.webp"
+  },
+  {
     "id": "EB01-057",
     "set": "EB01",
     "name": "Shirahoshi",
@@ -348,25 +369,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-057_EN.webp"
   },
   {
-    "id": "EB01-060",
+    "id": "EB01-061",
     "set": "EB01",
-    "name": "Did Someone Say...Kami?",
-    "rarity": "Common",
-    "category": "Event",
+    "name": "Mr.2.Bon.Kurei(Bentham)",
+    "rarity": "Secret Rare",
+    "category": "Character",
     "colors": [
-      "Yellow"
+      "Purple"
     ],
     "cost": 4,
-    "power": null,
-    "counter": null,
+    "power": 1000,
+    "counter": 1000,
     "block": 2,
-    "attributes": [],
-    "types": [
-      "Sky Island"
+    "attributes": [
+      "Special"
     ],
-    "effect": "[Main] Play up to 1 [Enel] with a cost of 7 or less from your hand or trash. Then, trash cards from the top of your Life cards until you have 1 Life card.",
-    "trigger": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-060_EN.webp"
+    "types": [
+      "Former Baroque Works"
+    ],
+    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-061_EN.webp"
   },
   {
     "id": "EB01-057_p1",
@@ -390,29 +413,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-057_p1_EN.webp",
     "set": "EB01"
-  },
-  {
-    "id": "EB01-061",
-    "set": "EB01",
-    "name": "Mr.2.Bon.Kurei(Bentham)",
-    "rarity": "Secret Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 1000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Former Baroque Works"
-    ],
-    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-061_EN.webp"
   },
   {
     "id": "EB01-061_p1",
@@ -463,30 +463,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-001_EN.webp"
   },
   {
-    "id": "EB01-021",
-    "set": "EB01",
-    "name": "Hannyabal",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Blue",
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down"
-    ],
-    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_EN.webp"
-  },
-  {
     "id": "EB01-001_p1",
     "name": "Kouzuki Oden",
     "rarity": "Alternate Art",
@@ -510,6 +486,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-001_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-021",
+    "set": "EB01",
+    "name": "Hannyabal",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Blue",
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_EN.webp"
   },
   {
     "id": "EB01-040",
@@ -862,30 +862,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-011_EN.webp"
   },
   {
-    "id": "EB01-014",
-    "set": "EB01",
-    "name": "Sanji",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x1] [Your Turn] This Character gains +1000 power for every 3 of your rested DON!! cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-014_EN.webp"
-  },
-  {
     "id": "EB01-013",
     "set": "EB01",
     "name": "Kouzuki Hiyori",
@@ -908,6 +884,30 @@
     "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-013_EN.webp"
+  },
+  {
+    "id": "EB01-014",
+    "set": "EB01",
+    "name": "Sanji",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [Your Turn] This Character gains +1000 power for every 3 of your rested DON!! cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-014_EN.webp"
   },
   {
     "id": "EB01-013_p1",
@@ -1025,30 +1025,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-020_EN.webp"
   },
   {
-    "id": "EB01-022",
-    "set": "EB01",
-    "name": "Inazuma",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down",
-      "Revolutionary Army"
-    ],
-    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_EN.webp"
-  },
-  {
     "id": "EB01-024",
     "set": "EB01",
     "name": "Hamlet",
@@ -1071,6 +1047,30 @@
     "effect": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
+  },
+  {
+    "id": "EB01-022",
+    "set": "EB01",
+    "name": "Inazuma",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_EN.webp"
   },
   {
     "id": "EB01-025",
@@ -1121,29 +1121,6 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-027",
-    "set": "EB01",
-    "name": "Mr.1(Daz.Bonez)",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash. [On Play] Draw 2 cards and trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-027_EN.webp"
-  },
-  {
     "id": "EB01-026",
     "set": "EB01",
     "name": "Prince Bellett",
@@ -1167,9 +1144,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-026_EN.webp"
   },
   {
-    "id": "EB01-027_p1",
+    "id": "EB01-027",
+    "set": "EB01",
     "name": "Mr.1(Daz.Bonez)",
-    "rarity": "Alternate Art",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Blue"
@@ -1186,8 +1164,7 @@
     ],
     "effect": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash. [On Play] Draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-027_p1_EN.webp",
-    "set": "EB01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-027_EN.webp"
   },
   {
     "id": "EB01-028",
@@ -1210,6 +1187,29 @@
     "effect": "[Counter] If your Leader has the {Impel Down} type, up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, your opponent returns 1 of their active Characters to the owner's hand.",
     "trigger": "[Trigger] Return up to 1 Character with a cost of 3 or less to the bottom of the owner's deck.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-028_EN.webp"
+  },
+  {
+    "id": "EB01-027_p1",
+    "name": "Mr.1(Daz.Bonez)",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash. [On Play] Draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-027_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-029",
@@ -1350,6 +1350,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-033_EN.webp"
   },
   {
+    "id": "EB01-034",
+    "set": "EB01",
+    "name": "Ms. Wednesday",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_EN.webp"
+  },
+  {
     "id": "EB01-035",
     "set": "EB01",
     "name": "Ms. Monday",
@@ -1373,10 +1396,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-035_EN.webp"
   },
   {
-    "id": "EB01-034",
-    "set": "EB01",
+    "id": "EB01-034_p1",
     "name": "Ms. Wednesday",
-    "rarity": "Super Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Purple"
@@ -1393,7 +1415,8 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-036",
@@ -1418,29 +1441,6 @@
     "effect": "[Rush] (This card can attack on the turn in which it is played.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-036_EN.webp"
-  },
-  {
-    "id": "EB01-034_p1",
-    "name": "Ms. Wednesday",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_p1_EN.webp",
-    "set": "EB01"
   },
   {
     "id": "EB01-037",
@@ -1534,29 +1534,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-042_EN.webp"
   },
   {
-    "id": "EB01-044",
-    "set": "EB01",
-    "name": "Funkfreed",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "CP9"
-    ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Spandam] Characters gains +3000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-044_EN.webp"
-  },
-  {
     "id": "EB01-043",
     "set": "EB01",
     "name": "Spandine",
@@ -1578,6 +1555,29 @@
     "effect": "[On Play] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less other than [Spandine] from your trash rested.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-043_EN.webp"
+  },
+  {
+    "id": "EB01-044",
+    "set": "EB01",
+    "name": "Funkfreed",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your [Spandam] Characters gains +3000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-044_EN.webp"
   },
   {
     "id": "EB01-045",
