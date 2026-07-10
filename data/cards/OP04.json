@@ -1794,29 +1794,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-043_EN.webp"
   },
   {
-    "id": "OP04-046",
-    "set": "OP04",
-    "name": "Queen",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "[On Play] If your Leader has the {Animal Kingdom Pirates} type, look at 7 cards from the top of your deck; reveal a total of up to 2 [Plague Rounds] or [Ice Oni] cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-046_EN.webp"
-  },
-  {
     "id": "OP04-045",
     "set": "OP04",
     "name": "King",
@@ -1840,17 +1817,17 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-045_EN.webp"
   },
   {
-    "id": "OP04-048",
+    "id": "OP04-046",
     "set": "OP04",
-    "name": "Sasaki",
+    "name": "Queen",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 2000,
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
     "block": 1,
     "attributes": [
       "Strike"
@@ -1858,9 +1835,9 @@
     "types": [
       "Animal Kingdom Pirates"
     ],
-    "effect": "[On Play] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
+    "effect": "[On Play] If your Leader has the {Animal Kingdom Pirates} type, look at 7 cards from the top of your deck; reveal a total of up to 2 [Plague Rounds] or [Ice Oni] cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-048_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-046_EN.webp"
   },
   {
     "id": "OP04-047",
@@ -1887,27 +1864,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-047_EN.webp"
   },
   {
-    "id": "OP04-050",
+    "id": "OP04-048",
     "set": "OP04",
-    "name": "Hanger",
-    "rarity": "Common",
+    "name": "Sasaki",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
-    "power": 0,
-    "counter": 1000,
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
     "block": 1,
     "attributes": [
-      "Wisdom"
+      "Strike"
     ],
     "types": [
-      "East Blue"
+      "Animal Kingdom Pirates"
     ],
-    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Character: Draw 1 card.",
+    "effect": "[On Play] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-050_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-048_EN.webp"
   },
   {
     "id": "OP04-049",
@@ -1931,6 +1908,29 @@
     "effect": "[On K.O.] Draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-049_EN.webp"
+  },
+  {
+    "id": "OP04-050",
+    "set": "OP04",
+    "name": "Hanger",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 0,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "East Blue"
+    ],
+    "effect": "[Activate: Main] You may trash 1 card from your hand and rest this Character: Draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-050_EN.webp"
   },
   {
     "id": "OP04-051",
@@ -2538,6 +2538,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-074_EN.webp"
   },
   {
+    "id": "OP04-075",
+    "set": "OP04",
+    "name": "Nez-Palm Cannon",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 1,
+    "attributes": [],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-075_EN.webp"
+  },
+  {
     "id": "OP04-076",
     "set": "OP04",
     "name": "Weakness...Is an Unforgivable Sin.",
@@ -2558,27 +2579,6 @@
     "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-076_EN.webp"
-  },
-  {
-    "id": "OP04-075",
-    "set": "OP04",
-    "name": "Nez-Palm Cannon",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 1,
-    "attributes": [],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-075_EN.webp"
   },
   {
     "id": "OP04-078",
@@ -2676,29 +2676,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-081_EN.webp"
   },
   {
-    "id": "OP04-084",
-    "set": "OP04",
-    "name": "Stussy",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "CP0"
-    ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck and play up to 1 Character card with a type including \"CP\" other than [Stussy] and a cost of 2 or less. Then, trash the rest.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-084_EN.webp"
-  },
-  {
     "id": "OP04-082",
     "set": "OP04",
     "name": "Kyros",
@@ -2722,27 +2699,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-082_EN.webp"
   },
   {
-    "id": "OP04-085",
+    "id": "OP04-084",
     "set": "OP04",
-    "name": "Suleiman",
-    "rarity": "Uncommon",
+    "name": "Stussy",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
+    "cost": 2,
+    "power": 3000,
+    "counter": null,
     "block": 1,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
-      "Dressrosa"
+      "CP0"
     ],
-    "effect": "[On Play]/[When Attacking] If your Leader has the {Dressrosa} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, trash 1 card from the top of your deck.",
+    "effect": "[On Play] Look at 3 cards from the top of your deck and play up to 1 Character card with a type including \"CP\" other than [Stussy] and a cost of 2 or less. Then, trash the rest.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-085_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-084_EN.webp"
   },
   {
     "id": "OP04-082_p1",
@@ -2768,28 +2745,27 @@
     "set": "OP04"
   },
   {
-    "id": "OP04-087",
+    "id": "OP04-085",
     "set": "OP04",
-    "name": "Trafalgar Law",
-    "rarity": "Common",
+    "name": "Suleiman",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 5,
-    "power": 7000,
+    "cost": 3,
+    "power": 4000,
     "counter": 1000,
     "block": 1,
     "attributes": [
       "Slash"
     ],
     "types": [
-      "Dressrosa",
-      "Heart Pirates"
+      "Dressrosa"
     ],
-    "effect": "",
+    "effect": "[On Play]/[When Attacking] If your Leader has the {Dressrosa} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, trash 1 card from the top of your deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-087_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-085_EN.webp"
   },
   {
     "id": "OP04-086",
@@ -2814,6 +2790,30 @@
     "effect": "[DON!! x1] When this Character battles and K.O.'s your opponent's Character, draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-086_EN.webp"
+  },
+  {
+    "id": "OP04-087",
+    "set": "OP04",
+    "name": "Trafalgar Law",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Dressrosa",
+      "Heart Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP04/OP04-087_EN.webp"
   },
   {
     "id": "OP04-088",
