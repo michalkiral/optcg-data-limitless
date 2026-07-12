@@ -23,29 +23,6 @@
     "set": "ST33"
   },
   {
-    "id": "ST33-001",
-    "set": "ST33",
-    "name": "Koby",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 2,
-    "power": 1000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 card from your hand: Draw 1 card.",
-    "trigger": null,
-    "image": null
-  },
-  {
     "id": "ST33-002",
     "set": "ST33",
     "name": "Sakazuki",
@@ -69,25 +46,25 @@
     "image": null
   },
   {
-    "id": "ST33-003",
+    "id": "ST33-001",
     "set": "ST33",
-    "name": "Smoker",
+    "name": "Koby",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Blue"
     ],
     "cost": 2,
-    "power": 3000,
-    "counter": 2000,
+    "power": 1000,
+    "counter": 1000,
     "block": 5,
     "attributes": [
-      "Special"
+      "Strike"
     ],
     "types": [
       "Navy"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Place up to 2 of your opponent's Characters with a cost of 2 or less at the bottom of the owner's deck.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 card from your hand: Draw 1 card.",
     "trigger": null,
     "image": null
   },
@@ -111,6 +88,29 @@
       "Navy"
     ],
     "effect": "During the turn in which a card in your hand is trashed by an effect, give this card in your hand −3 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": null
+  },
+  {
+    "id": "ST33-003",
+    "set": "ST33",
+    "name": "Smoker",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: Place up to 2 of your opponent's Characters with a cost of 2 or less at the bottom of the owner's deck.",
     "trigger": null,
     "image": null
   },

@@ -1126,28 +1126,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-038_EN.webp"
   },
   {
-    "id": "OP16-039",
-    "set": "OP16",
-    "name": "Gum-Gum Twin Jet Pistol",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 5,
-    "attributes": [],
-    "types": [
-      "Impel Down",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] Up to 1 of your [Monkey.D.Luffy] cards gains [Double Attack] during this turn. Then, if your Leader has the {Impel Down} type, rest up to 2 of your opponent's Characters with a cost of 3 or less.",
-    "trigger": "[Trigger] Rest your opponent's Leader.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-039_EN.webp"
-  },
-  {
     "id": "OP16-040",
     "set": "OP16",
     "name": "Gum-Gum Hammer Rifle",
@@ -1168,6 +1146,28 @@
     "effect": "[Main] If you have [Monkey.D.Luffy] and [Mr.3 (Galdino) ], up to 1 of your opponent's rested Characters with a cost of 6 or less will not become active in your opponent's next Refresh Phase. [Counter] Your Leader gains +3000 power during this battle.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-040_EN.webp"
+  },
+  {
+    "id": "OP16-039",
+    "set": "OP16",
+    "name": "Gum-Gum Twin Jet Pistol",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 5,
+    "attributes": [],
+    "types": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Up to 1 of your [Monkey.D.Luffy] cards gains [Double Attack] during this turn. Then, if your Leader has the {Impel Down} type, rest up to 2 of your opponent's Characters with a cost of 3 or less.",
+    "trigger": "[Trigger] Rest your opponent's Leader.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-039_EN.webp"
   },
   {
     "id": "OP16-041",
@@ -1410,6 +1410,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-049_EN.webp"
   },
   {
+    "id": "OP16-050",
+    "set": "OP16",
+    "name": "Miss Olive",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[Blocker] [On Play] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Draw 2 cards and trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-050_EN.webp"
+  },
+  {
     "id": "OP16-048_p1",
     "name": "Buggy",
     "rarity": "Alternate Art",
@@ -1432,29 +1455,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-048_p1_EN.webp",
     "set": "OP16"
-  },
-  {
-    "id": "OP16-050",
-    "set": "OP16",
-    "name": "Miss Olive",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Impel Down"
-    ],
-    "effect": "[Blocker] [On Play] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Draw 2 cards and trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-050_EN.webp"
   },
   {
     "id": "OP16-051",
@@ -2182,6 +2182,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-074_EN.webp"
   },
   {
+    "id": "OP16-075",
+    "set": "OP16",
+    "name": "Monkey.D.Garp",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] If your Leader has the {Navy} type, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-075_EN.webp"
+  },
+  {
     "id": "OP16-073_p1",
     "name": "Borsalino",
     "rarity": "Alternate Art",
@@ -2230,27 +2253,26 @@
     "set": "OP16"
   },
   {
-    "id": "OP16-075",
+    "id": "OP16-076",
     "set": "OP16",
-    "name": "Monkey.D.Garp",
-    "rarity": "Common",
-    "category": "Character",
+    "name": "The Three Admirals!!",
+    "rarity": "Uncommon",
+    "category": "Event",
     "colors": [
       "Purple"
     ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 5,
-    "attributes": [
-      "Strike"
-    ],
+    "attributes": [],
     "types": [
+      "Admiral",
       "Navy"
     ],
-    "effect": "[On Play] If your Leader has the {Navy} type, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
+    "effect": "[Main] You may rest 3 of your DON!! cards: Up to 3 of your {Admiral} type Characters gain +2000 power during this turn. [Counter] If you have an {Admiral} type Character, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-075_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-076_EN.webp"
   },
   {
     "id": "OP16-077",
@@ -2272,28 +2294,6 @@
     "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 2 {Navy} type cards, add them to your hand and place the rest at the bottom of your deck in any order. Then, trash 1 card from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-077_EN.webp"
-  },
-  {
-    "id": "OP16-076",
-    "set": "OP16",
-    "name": "The Three Admirals!!",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 5,
-    "attributes": [],
-    "types": [
-      "Admiral",
-      "Navy"
-    ],
-    "effect": "[Main] You may rest 3 of your DON!! cards: Up to 3 of your {Admiral} type Characters gain +2000 power during this turn. [Counter] If you have an {Admiral} type Character, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-076_EN.webp"
   },
   {
     "id": "OP16-078",
@@ -2340,29 +2340,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_EN.webp"
   },
   {
-    "id": "OP16-079_p1",
-    "name": "Yamato",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Black"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "When a {Land of Wano} type Character card is played from your trash, that Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_p1_EN.webp",
-    "set": "OP16"
-  },
-  {
     "id": "OP16-080",
     "set": "OP16",
     "name": "Marshall.D.Teach",
@@ -2386,6 +2363,29 @@
     "effect": "[Opponent's Turn] All of your Characters gain +1 cost. [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card with a",
     "trigger": "[Trigger] from your hand: Change the target of that attack to this Leader or to one of your {Blackbeard Pirates} type Character cards.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-080_EN.webp"
+  },
+  {
+    "id": "OP16-079_p1",
+    "name": "Yamato",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "When a {Land of Wano} type Character card is played from your trash, that Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_p1_EN.webp",
+    "set": "OP16"
   },
   {
     "id": "OP16-080_p1",
@@ -2436,30 +2436,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-081_EN.webp"
   },
   {
-    "id": "OP16-083",
-    "set": "OP16",
-    "name": "Kouzuki Oden",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Land of Wano",
-      "Kouzuki Clan"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 Character card with a cost of 8 or more from your hand: Draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-083_EN.webp"
-  },
-  {
     "id": "OP16-082",
     "set": "OP16",
     "name": "Kin'emon",
@@ -2484,17 +2460,17 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-082_EN.webp"
   },
   {
-    "id": "OP16-084",
+    "id": "OP16-083",
     "set": "OP16",
-    "name": "Kouzuki Momonosuke",
-    "rarity": "Uncommon",
+    "name": "Kouzuki Oden",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Black"
     ],
     "cost": 5,
-    "power": 0,
-    "counter": 2000,
+    "power": 6000,
+    "counter": 1000,
     "block": 5,
     "attributes": [
       "Slash"
@@ -2503,9 +2479,9 @@
       "Land of Wano",
       "Kouzuki Clan"
     ],
-    "effect": "[Activate: Main] You may trash this Character with a cost of 20 or more: If you have 9 or more DON!! cards on your field, play up to 1 [Kouzuki Momonosuke] with a cost of 9 from your trash.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 Character card with a cost of 8 or more from your hand: Draw 2 cards.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-084_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-083_EN.webp"
   },
   {
     "id": "OP16-082_p1",
@@ -2530,6 +2506,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-082_p1_EN.webp",
     "set": "OP16"
+  },
+  {
+    "id": "OP16-084",
+    "set": "OP16",
+    "name": "Kouzuki Momonosuke",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 0,
+    "counter": 2000,
+    "block": 5,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Activate: Main] You may trash this Character with a cost of 20 or more: If you have 9 or more DON!! cards on your field, play up to 1 [Kouzuki Momonosuke] with a cost of 9 from your trash.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-084_EN.webp"
   },
   {
     "id": "OP16-085",
@@ -2627,29 +2627,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-087_EN.webp"
   },
   {
-    "id": "OP16-089",
-    "set": "OP16",
-    "name": "Dracule Mihawk",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 6,
-    "power": 8000,
-    "counter": null,
-    "block": 5,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "The Seven Warlords of the Sea"
-    ],
-    "effect": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −4 cost during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-089_EN.webp"
-  },
-  {
     "id": "OP16-088",
     "set": "OP16",
     "name": "Shimotsuki Ushimaru",
@@ -2671,6 +2648,29 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-088_EN.webp"
+  },
+  {
+    "id": "OP16-089",
+    "set": "OP16",
+    "name": "Dracule Mihawk",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": null,
+    "block": 5,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-089_EN.webp"
   },
   {
     "id": "OP16-090",
@@ -2818,29 +2818,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-095_EN.webp"
   },
   {
-    "id": "OP16-097",
-    "set": "OP16",
-    "name": "Yamato",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 8,
-    "power": 8000,
-    "counter": null,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "[On Play] Add up to 1 {Land of Wano} type Character card with a cost of 6 or less from your trash to your hand. Then, play up to 1 Character card with a cost of 2 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-097_EN.webp"
-  },
-  {
     "id": "OP16-096",
     "set": "OP16",
     "name": "Yamato",
@@ -2862,6 +2839,29 @@
     "effect": "[Unblockable] (This card cannot be blocked.) [On K.O.] Play up to 1 [Yamato] with a cost of 6 or less from your trash.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-096_EN.webp"
+  },
+  {
+    "id": "OP16-097",
+    "set": "OP16",
+    "name": "Yamato",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 8,
+    "power": 8000,
+    "counter": null,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[On Play] Add up to 1 {Land of Wano} type Character card with a cost of 6 or less from your trash to your hand. Then, play up to 1 Character card with a cost of 2 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-097_EN.webp"
   },
   {
     "id": "OP16-098",
