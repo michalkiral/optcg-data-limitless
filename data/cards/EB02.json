@@ -471,29 +471,6 @@
     "set": "EB02"
   },
   {
-    "id": "EB02-012",
-    "set": "EB02",
-    "name": "Gaimon",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "East Blue"
-    ],
-    "effect": "If you have a [Sarfunkel], this Character gains [Blocker].",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-012_EN.webp"
-  },
-  {
     "id": "EB02-010_p1",
     "name": "Monkey.D.Luffy",
     "rarity": "Alternate Art",
@@ -518,27 +495,27 @@
     "set": "EB02"
   },
   {
-    "id": "EB02-013",
+    "id": "EB02-012",
     "set": "EB02",
-    "name": "Carrot",
+    "name": "Gaimon",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Green"
     ],
     "cost": 1,
-    "power": 0,
-    "counter": 2000,
+    "power": 1000,
+    "counter": 1000,
     "block": 3,
     "attributes": [
-      "Special"
+      "Wisdom"
     ],
     "types": [
-      "Minks"
+      "East Blue"
     ],
-    "effect": "[On Play] If you have 3 or more DON!! cards on your field, look at 7 cards from the top of your deck; reveal up to 1 [Zou] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Zou] from your hand.",
+    "effect": "If you have a [Sarfunkel], this Character gains [Blocker].",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-013_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-012_EN.webp"
   },
   {
     "id": "EB02-014",
@@ -564,28 +541,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-014_EN.webp"
   },
   {
-    "id": "EB02-015",
+    "id": "EB02-013",
     "set": "EB02",
-    "name": "Jewelry Bonney",
-    "rarity": "Super Rare",
+    "name": "Carrot",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 7,
-    "power": 7000,
-    "counter": 1000,
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
     "block": 3,
     "attributes": [
       "Special"
     ],
     "types": [
-      "Supernovas",
-      "Bonney Pirates"
+      "Minks"
     ],
-    "effect": "[On Play] Up to 1 of your opponent's rested Characters will not become active in your opponent's next Refresh Phase. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+    "effect": "[On Play] If you have 3 or more DON!! cards on your field, look at 7 cards from the top of your deck; reveal up to 1 [Zou] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Zou] from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-015_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-013_EN.webp"
   },
   {
     "id": "EB02-016",
@@ -612,9 +588,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-016_EN.webp"
   },
   {
-    "id": "EB02-015_p1",
+    "id": "EB02-015",
+    "set": "EB02",
     "name": "Jewelry Bonney",
-    "rarity": "Alternate Art",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Green"
@@ -632,8 +609,7 @@
     ],
     "effect": "[On Play] Up to 1 of your opponent's rested Characters will not become active in your opponent's next Refresh Phase. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-015_p1_EN.webp",
-    "set": "EB02"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-015_EN.webp"
   },
   {
     "id": "EB02-017",
@@ -658,6 +634,30 @@
     "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-017_EN.webp"
+  },
+  {
+    "id": "EB02-015_p1",
+    "name": "Jewelry Bonney",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's rested Characters will not become active in your opponent's next Refresh Phase. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-015_p1_EN.webp",
+    "set": "EB02"
   },
   {
     "id": "EB02-018",
@@ -708,6 +708,27 @@
     "set": "EB02"
   },
   {
+    "id": "EB02-020",
+    "set": "EB02",
+    "name": "We Are!",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "Music"
+    ],
+    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 4 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-020_EN.webp"
+  },
+  {
     "id": "EB02-019",
     "set": "EB02",
     "name": "Roronoa Zoro",
@@ -730,27 +751,6 @@
     "effect": "If your opponent has 2 or more Characters, this Character can attack Characters on the turn in which it is played. [On Play] If your Leader has the {Straw Hat Crew} type, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-019_EN.webp"
-  },
-  {
-    "id": "EB02-020",
-    "set": "EB02",
-    "name": "We Are!",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Music"
-    ],
-    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 4 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-020_EN.webp"
   },
   {
     "id": "EB02-021",
@@ -799,30 +799,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-022_EN.webp"
   },
   {
-    "id": "EB02-023",
-    "set": "EB02",
-    "name": "Crocodile",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Baroque Works"
-    ],
-    "effect": "[Your Turn] [Once Per Turn] When your opponent's Character is returned to the owner's hand by your effect, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-023_EN.webp"
-  },
-  {
     "id": "EB02-022_p1",
     "name": "Usopp",
     "rarity": "Alternate Art",
@@ -845,6 +821,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-022_p1_EN.webp",
     "set": "EB02"
+  },
+  {
+    "id": "EB02-023",
+    "set": "EB02",
+    "name": "Crocodile",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Baroque Works"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When your opponent's Character is returned to the owner's hand by your effect, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-023_EN.webp"
   },
   {
     "id": "EB02-024",

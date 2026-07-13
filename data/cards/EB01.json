@@ -281,6 +281,27 @@
     "set": "EB01"
   },
   {
+    "id": "EB01-051",
+    "set": "EB01",
+    "name": "Finger Pistol",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-051_EN.webp"
+  },
+  {
     "id": "EB01-048_p1",
     "name": "Laboon",
     "rarity": "Alternate Art",
@@ -302,27 +323,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-048_p1_EN.webp",
     "set": "EB01"
-  },
-  {
-    "id": "EB01-051",
-    "set": "EB01",
-    "name": "Finger Pistol",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "CP9"
-    ],
-    "effect": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-051_EN.webp"
   },
   {
     "id": "EB01-057",
@@ -512,30 +512,6 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-040",
-    "set": "EB01",
-    "name": "Kyros",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Black",
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-040_EN.webp"
-  },
-  {
     "id": "EB01-021_p1",
     "name": "Hannyabal",
     "rarity": "Alternate Art",
@@ -558,6 +534,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-040",
+    "set": "EB01",
+    "name": "Kyros",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Black",
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Dressrosa"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-040_EN.webp"
   },
   {
     "id": "EB01-040_p1",
@@ -981,28 +981,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-017_EN.webp"
   },
   {
-    "id": "EB01-020",
-    "set": "EB01",
-    "name": "Chambres",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Supernovas",
-      "Heart Pirates"
-    ],
-    "effect": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-020_EN.webp"
-  },
-  {
     "id": "EB01-019",
     "set": "EB01",
     "name": "Off-White",
@@ -1025,28 +1003,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-019_EN.webp"
   },
   {
-    "id": "EB01-024",
+    "id": "EB01-020",
     "set": "EB01",
-    "name": "Hamlet",
+    "name": "Chambres",
     "rarity": "Common",
-    "category": "Character",
+    "category": "Event",
     "colors": [
-      "Blue"
+      "Green"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Slash"
-    ],
+    "attributes": [],
     "types": [
-      "Animal Kingdom Pirates",
-      "SMILE"
+      "Supernovas",
+      "Heart Pirates"
     ],
-    "effect": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
+    "effect": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-020_EN.webp"
   },
   {
     "id": "EB01-022",
@@ -1073,16 +1049,16 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_EN.webp"
   },
   {
-    "id": "EB01-025",
+    "id": "EB01-024",
     "set": "EB01",
-    "name": "Fourtricks",
+    "name": "Hamlet",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Blue"
     ],
     "cost": 3,
-    "power": 5000,
+    "power": 4000,
     "counter": 1000,
     "block": 2,
     "attributes": [
@@ -1092,9 +1068,9 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "",
+    "effect": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-025_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
   },
   {
     "id": "EB01-022_p1",
@@ -1119,6 +1095,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-025",
+    "set": "EB01",
+    "name": "Fourtricks",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-025_EN.webp"
   },
   {
     "id": "EB01-026",
@@ -1303,29 +1303,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-032_EN.webp"
   },
   {
-    "id": "EB01-033",
-    "set": "EB01",
-    "name": "Blueno",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Water Seven"
-    ],
-    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, play up to 1 {Water Seven} type Character card with a cost of 5 other than [Blueno] from your hand or trash.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-033_EN.webp"
-  },
-  {
     "id": "EB01-031_p1",
     "name": "Kalifa",
     "rarity": "Alternate Art",
@@ -1348,6 +1325,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-031_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-033",
+    "set": "EB01",
+    "name": "Blueno",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Water Seven"
+    ],
+    "effect": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader has the {Water Seven} type, play up to 1 {Water Seven} type Character card with a cost of 5 other than [Blueno] from your hand or trash.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-033_EN.webp"
   },
   {
     "id": "EB01-034",
@@ -1396,6 +1396,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-035_EN.webp"
   },
   {
+    "id": "EB01-034_p1",
+    "name": "Ms. Wednesday",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_p1_EN.webp",
+    "set": "EB01"
+  },
+  {
     "id": "EB01-036",
     "set": "EB01",
     "name": "Minochihuahua",
@@ -1420,9 +1443,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-036_EN.webp"
   },
   {
-    "id": "EB01-034_p1",
-    "name": "Ms. Wednesday",
-    "rarity": "Alternate Art",
+    "id": "EB01-037",
+    "set": "EB01",
+    "name": "Mr. 9",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Purple"
@@ -1432,15 +1456,14 @@
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Slash"
+      "Strike"
     ],
     "types": [
       "Baroque Works"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_p1_EN.webp",
-    "set": "EB01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-037_EN.webp"
   },
   {
     "id": "EB01-039",
@@ -1463,29 +1486,6 @@
     "effect": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : K.O. up to 1 of your opponent's Characters with a cost of 8 or less.",
     "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-039_EN.webp"
-  },
-  {
-    "id": "EB01-037",
-    "set": "EB01",
-    "name": "Mr. 9",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-037_EN.webp"
   },
   {
     "id": "EB01-041",
@@ -1650,27 +1650,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_EN.webp"
   },
   {
-    "id": "EB01-050",
-    "set": "EB01",
-    "name": "...I Want to Live!!",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
-  },
-  {
     "id": "EB01-049_p1",
     "name": "T-Bone",
     "rarity": "Alternate Art",
@@ -1693,6 +1672,27 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-050",
+    "set": "EB01",
+    "name": "...I Want to Live!!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
   },
   {
     "id": "EB01-052",

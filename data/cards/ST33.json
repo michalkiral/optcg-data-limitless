@@ -23,29 +23,6 @@
     "set": "ST33"
   },
   {
-    "id": "ST33-002",
-    "set": "ST33",
-    "name": "Sakazuki",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[When Attacking] You may trash 1 card from your hand: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand. [On K.O.] Play up to 1 {Navy} type Character card with a cost of 4 or less from your hand.",
-    "trigger": null,
-    "image": null
-  },
-  {
     "id": "ST33-001",
     "set": "ST33",
     "name": "Koby",
@@ -69,17 +46,17 @@
     "image": null
   },
   {
-    "id": "ST33-004",
+    "id": "ST33-002",
     "set": "ST33",
-    "name": "Borsalino",
-    "rarity": "Super Rare",
+    "name": "Sakazuki",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 6,
-    "power": 6000,
-    "counter": 2000,
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
     "block": 5,
     "attributes": [
       "Special"
@@ -87,7 +64,7 @@
     "types": [
       "Navy"
     ],
-    "effect": "During the turn in which a card in your hand is trashed by an effect, give this card in your hand −3 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "effect": "[When Attacking] You may trash 1 card from your hand: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand. [On K.O.] Play up to 1 {Navy} type Character card with a cost of 4 or less from your hand.",
     "trigger": null,
     "image": null
   },
@@ -111,6 +88,29 @@
       "Navy"
     ],
     "effect": "[On Play] You may trash 1 card from your hand: Place up to 2 of your opponent's Characters with a cost of 2 or less at the bottom of the owner's deck.",
+    "trigger": null,
+    "image": null
+  },
+  {
+    "id": "ST33-004",
+    "set": "ST33",
+    "name": "Borsalino",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 2000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "During the turn in which a card in your hand is trashed by an effect, give this card in your hand −3 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": null
   },
