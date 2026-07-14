@@ -119,6 +119,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-003_EN.webp"
   },
   {
+    "id": "ST02-006",
+    "set": "ST02",
+    "name": "Koby",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-006_EN.webp"
+  },
+  {
     "id": "ST02-005",
     "set": "ST02",
     "name": "Killer",
@@ -143,27 +166,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-005_EN.webp"
   },
   {
-    "id": "ST02-006",
+    "id": "ST02-009",
     "set": "ST02",
-    "name": "Koby",
-    "rarity": "Common",
+    "name": "Trafalgar Law",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 4,
+    "cost": 5,
     "power": 6000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Strike"
+      "Slash"
     ],
     "types": [
-      "Navy"
+      "Supernovas",
+      "Heart Pirates"
     ],
-    "effect": "",
+    "effect": "[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-006_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-009_EN.webp"
   },
   {
     "id": "ST02-008",
@@ -188,30 +212,6 @@
     "effect": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-008_EN.webp"
-  },
-  {
-    "id": "ST02-009",
-    "set": "ST02",
-    "name": "Trafalgar Law",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Supernovas",
-      "Heart Pirates"
-    ],
-    "effect": "[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-009_EN.webp"
   },
   {
     "id": "ST02-010",
@@ -261,30 +261,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-011_EN.webp"
   },
   {
-    "id": "ST02-012",
-    "set": "ST02",
-    "name": "Bepo",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 3000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Minks",
-      "Heart Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-012_EN.webp"
-  },
-  {
     "id": "ST02-013",
     "set": "ST02",
     "name": "Eustass\"Captain\"Kid",
@@ -307,6 +283,30 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this card as active.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-013_EN.webp"
+  },
+  {
+    "id": "ST02-012",
+    "set": "ST02",
+    "name": "Bepo",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Minks",
+      "Heart Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST02/ST02-012_EN.webp"
   },
   {
     "id": "ST02-014",
