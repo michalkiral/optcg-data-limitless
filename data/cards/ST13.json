@@ -94,29 +94,6 @@
     "set": "ST13"
   },
   {
-    "id": "ST13-010",
-    "set": "ST13",
-    "name": "Portgas.D.Ace",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Goa Kingdom"
-    ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-010_EN.webp"
-  },
-  {
     "id": "ST13-014",
     "set": "ST13",
     "name": "Monkey.D.Luffy",
@@ -140,8 +117,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-014_EN.webp"
   },
   {
-    "id": "ST13-014_p1",
-    "name": "Monkey.D.Luffy",
+    "id": "ST13-010",
+    "set": "ST13",
+    "name": "Portgas.D.Ace",
     "rarity": "Common",
     "category": "Character",
     "colors": [
@@ -157,10 +135,9 @@
     "types": [
       "Goa Kingdom"
     ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-014_p1_EN.webp",
-    "set": "ST13"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-010_EN.webp"
   },
   {
     "id": "ST13-010_p1",
@@ -183,6 +160,29 @@
     "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-010_p1_EN.webp",
+    "set": "ST13"
+  },
+  {
+    "id": "ST13-014_p1",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-014_p1_EN.webp",
     "set": "ST13"
   },
   {
@@ -773,6 +773,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-017_EN.webp"
   },
   {
+    "id": "ST13-018",
+    "set": "ST13",
+    "name": "Gum-Gum Jet Spear",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Punk Hazard",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 0 Life cards, draw 1 card.",
+    "trigger": "[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-018_EN.webp"
+  },
+  {
     "id": "ST13-015_p1",
     "name": "Monkey.D.Luffy",
     "rarity": "Super Rare",
@@ -795,27 +817,5 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-015_p1_EN.webp",
     "set": "ST13"
-  },
-  {
-    "id": "ST13-018",
-    "set": "ST13",
-    "name": "Gum-Gum Jet Spear",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Punk Hazard",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 0 Life cards, draw 1 card.",
-    "trigger": "[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-018_EN.webp"
   }
 ]
