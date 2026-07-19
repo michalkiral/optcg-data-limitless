@@ -51,6 +51,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-002_EN.webp"
   },
   {
+    "id": "ST30-002_p1",
+    "name": "Inazuma",
+    "rarity": "Full Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 Character card with 6000 power and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-002_p1_EN.webp",
+    "set": "ST30"
+  },
+  {
     "id": "ST30-001_p1",
     "name": "Luffy & Ace",
     "rarity": "Leader",
@@ -78,28 +102,28 @@
     "set": "ST30"
   },
   {
-    "id": "ST30-002_p1",
-    "name": "Inazuma",
-    "rarity": "Full Art",
+    "id": "ST30-003",
+    "set": "ST30",
+    "name": "Edward.Newgate",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 1,
-    "power": 2000,
+    "cost": 8,
+    "power": 6000,
     "counter": 1000,
     "block": 5,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
-      "Impel Down",
-      "Revolutionary Army"
+      "The Four Emperors",
+      "Whitebeard Pirates"
     ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 Character card with 6000 power and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "effect": "[Your Turn] All of your Characters with 6000 base power gain +1000 power.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-002_p1_EN.webp",
-    "set": "ST30"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-003_EN.webp"
   },
   {
     "id": "ST30-004",
@@ -126,10 +150,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-004_EN.webp"
   },
   {
-    "id": "ST30-003",
-    "set": "ST30",
+    "id": "ST30-003_p1",
     "name": "Edward.Newgate",
-    "rarity": "Common",
+    "rarity": "Full Art",
     "category": "Character",
     "colors": [
       "Red"
@@ -147,7 +170,8 @@
     ],
     "effect": "[Your Turn] All of your Characters with 6000 base power gain +1000 power.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-003_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-003_p1_EN.webp",
+    "set": "ST30"
   },
   {
     "id": "ST30-004_p1",
@@ -171,30 +195,6 @@
     "effect": "[On Play] You may reveal 2 Character cards with 6000 power from your hand: Draw 3 cards and trash 2 cards from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-004_p1_EN.webp",
-    "set": "ST30"
-  },
-  {
-    "id": "ST30-003_p1",
-    "name": "Edward.Newgate",
-    "rarity": "Full Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 8,
-    "power": 6000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Four Emperors",
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Your Turn] All of your Characters with 6000 base power gain +1000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-003_p1_EN.webp",
     "set": "ST30"
   },
   {
@@ -294,29 +294,6 @@
     "set": "ST30"
   },
   {
-    "id": "ST30-008",
-    "set": "ST30",
-    "name": "Marco",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 Character card with 6000 power from your hand: Play this Character card from your trash rested.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-008_EN.webp"
-  },
-  {
     "id": "ST30-007",
     "set": "ST30",
     "name": "Portgas.D.Ace",
@@ -340,9 +317,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-007_EN.webp"
   },
   {
-    "id": "ST30-008_p1",
+    "id": "ST30-008",
+    "set": "ST30",
     "name": "Marco",
-    "rarity": "Full Art",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Red"
@@ -359,8 +337,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 Character card with 6000 power from your hand: Play this Character card from your trash rested.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-008_p1_EN.webp",
-    "set": "ST30"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-008_EN.webp"
   },
   {
     "id": "ST30-007_p1",
@@ -383,6 +360,29 @@
     "effect": "[On Play] You may rest 1 of your DON!! cards: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-007_p1_EN.webp",
+    "set": "ST30"
+  },
+  {
+    "id": "ST30-008_p1",
+    "name": "Marco",
+    "rarity": "Full Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 Character card with 6000 power from your hand: Play this Character card from your trash rested.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-008_p1_EN.webp",
     "set": "ST30"
   },
   {
@@ -482,30 +482,6 @@
     "set": "ST30"
   },
   {
-    "id": "ST30-011",
-    "set": "ST30",
-    "name": "Buggy",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": 1000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down",
-      "Buggy Pirates"
-    ],
-    "effect": "If your Character with 6000 base power would be removed from the field by your opponent's effect, you may rest this Character instead. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-011_EN.webp"
-  },
-  {
     "id": "ST30-012",
     "set": "ST30",
     "name": "Monkey.D.Luffy",
@@ -530,9 +506,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-012_EN.webp"
   },
   {
-    "id": "ST30-011_p1",
+    "id": "ST30-011",
+    "set": "ST30",
     "name": "Buggy",
-    "rarity": "Full Art",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Green"
@@ -550,8 +527,7 @@
     ],
     "effect": "If your Character with 6000 base power would be removed from the field by your opponent's effect, you may rest this Character instead. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-011_p1_EN.webp",
-    "set": "ST30"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-011_EN.webp"
   },
   {
     "id": "ST30-012_p1",
@@ -578,28 +554,28 @@
     "set": "ST30"
   },
   {
-    "id": "ST30-013",
-    "set": "ST30",
-    "name": "Mr.2.Bon.Kurei(Bentham)",
-    "rarity": "Common",
+    "id": "ST30-011_p1",
+    "name": "Buggy",
+    "rarity": "Full Art",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 4,
-    "power": 6000,
+    "cost": 2,
+    "power": 1000,
     "counter": 1000,
     "block": 5,
     "attributes": [
-      "Strike"
+      "Slash"
     ],
     "types": [
       "Impel Down",
-      "Former Baroque Works"
+      "Buggy Pirates"
     ],
-    "effect": "",
+    "effect": "If your Character with 6000 base power would be removed from the field by your opponent's effect, you may rest this Character instead. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-013_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-011_p1_EN.webp",
+    "set": "ST30"
   },
   {
     "id": "ST30-014",
@@ -626,9 +602,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-014_EN.webp"
   },
   {
-    "id": "ST30-013_p1",
+    "id": "ST30-013",
+    "set": "ST30",
     "name": "Mr.2.Bon.Kurei(Bentham)",
-    "rarity": "Full Art",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Green"
@@ -646,8 +623,7 @@
     ],
     "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-013_p1_EN.webp",
-    "set": "ST30"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-013_EN.webp"
   },
   {
     "id": "ST30-014_p1",
@@ -671,6 +647,30 @@
     "effect": "[Activate: Main] You may rest this Character: Give up to 2 of your Characters with 6000 base power up to 2 rested DON!! cards each.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-014_p1_EN.webp",
+    "set": "ST30"
+  },
+  {
+    "id": "ST30-013_p1",
+    "name": "Mr.2.Bon.Kurei(Bentham)",
+    "rarity": "Full Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Impel Down",
+      "Former Baroque Works"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-013_p1_EN.webp",
     "set": "ST30"
   },
   {
@@ -717,27 +717,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-016_EN.webp"
   },
   {
-    "id": "ST30-015_p1",
-    "name": "The Name of This Era Is \"Whitebeard\"!!",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 5,
-    "attributes": [],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Counter] If you have 2 or more Characters with 6000 base power, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-015_p1_EN.webp",
-    "set": "ST30"
-  },
-  {
     "id": "ST30-016_p1",
     "name": "Can You Still Fight, Luffy?! Of Course!!",
     "rarity": "Common",
@@ -757,6 +736,27 @@
     "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, if you have [Portgas.D.Ace] and [Monkey.D.Luffy] Characters with 6000 base power, draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-016_p1_EN.webp",
+    "set": "ST30"
+  },
+  {
+    "id": "ST30-015_p1",
+    "name": "The Name of This Era Is \"Whitebeard\"!!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 5,
+    "attributes": [],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Counter] If you have 2 or more Characters with 6000 base power, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST30/ST30-015_p1_EN.webp",
     "set": "ST30"
   },
   {

@@ -1853,6 +1853,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-064_EN.webp"
   },
   {
+    "id": "OP16-065",
+    "set": "OP16",
+    "name": "Sakazuki",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "block": null,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Admiral",
+      "Navy"
+    ],
+    "effect": "[On Play] DON!! −1: Give up to 1 of your opponent's Characters −6000 power until the end of your opponent's next End Phase. [Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: If your Leader has the {Navy} type, add up to 2 DON!! cards from your DON!! deck and set them as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-065_EN.webp"
+  },
+  {
     "id": "OP16-063_p1",
     "name": "Kuzan",
     "rarity": "Alternate Art",
@@ -1901,30 +1925,6 @@
     "set": "OP16"
   },
   {
-    "id": "OP16-065",
-    "set": "OP16",
-    "name": "Sakazuki",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 7,
-    "power": 8000,
-    "counter": null,
-    "block": null,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Admiral",
-      "Navy"
-    ],
-    "effect": "[On Play] DON!! −1: Give up to 1 of your opponent's Characters −6000 power until the end of your opponent's next End Phase. [Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: If your Leader has the {Navy} type, add up to 2 DON!! cards from your DON!! deck and set them as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-065_EN.webp"
-  },
-  {
     "id": "OP16-066",
     "set": "OP16",
     "name": "Sengoku",
@@ -1946,6 +1946,29 @@
     "effect": "[On Play] If your Leader has the {Navy} type, add up to 2 DON!! cards from your DON!! deck and rest them. Then, draw 2 cards and trash 2 cards from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-066_EN.webp"
+  },
+  {
+    "id": "OP16-067",
+    "set": "OP16",
+    "name": "Tsuru",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "block": 5,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card, add it to your hand and place the rest at the bottom of your deck in any order. Then, trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-067_EN.webp"
   },
   {
     "id": "OP16-065_p1",
@@ -1996,52 +2019,6 @@
     "set": "OP16"
   },
   {
-    "id": "OP16-067",
-    "set": "OP16",
-    "name": "Tsuru",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 2000,
-    "block": 5,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card, add it to your hand and place the rest at the bottom of your deck in any order. Then, trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-067_EN.webp"
-  },
-  {
-    "id": "OP16-068",
-    "set": "OP16",
-    "name": "Trafalgar Law",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 3000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Donquixote Pirates"
-    ],
-    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [When Attacking] If your Leader has the {Donquixote Pirates} type, this Character gains +3000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-068_EN.webp"
-  },
-  {
     "id": "OP16-069",
     "set": "OP16",
     "name": "Donquixote Doflamingo",
@@ -2065,27 +2042,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-069_EN.webp"
   },
   {
-    "id": "OP16-071",
+    "id": "OP16-068",
     "set": "OP16",
-    "name": "Benevolent King of the Waves",
+    "name": "Trafalgar Law",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 3,
-    "power": 5000,
-    "counter": null,
+    "cost": 4,
+    "power": 3000,
+    "counter": 1000,
     "block": 5,
     "attributes": [
-      "Strike"
+      "Wisdom"
     ],
     "types": [
-      "Navy"
+      "Donquixote Pirates"
     ],
-    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it. [On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [When Attacking] If your Leader has the {Donquixote Pirates} type, this Character gains +3000 power during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-071_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-068_EN.webp"
   },
   {
     "id": "OP16-070",
@@ -2112,28 +2089,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-070_EN.webp"
   },
   {
-    "id": "OP16-073",
+    "id": "OP16-071",
     "set": "OP16",
-    "name": "Borsalino",
-    "rarity": "Rare",
+    "name": "Benevolent King of the Waves",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 7,
-    "power": 8000,
+    "cost": 3,
+    "power": 5000,
     "counter": null,
-    "block": null,
+    "block": 5,
     "attributes": [
-      "Special"
+      "Strike"
     ],
     "types": [
-      "Admiral",
       "Navy"
     ],
-    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it. [End of Your Turn] DON!! −2: Set this Character as active. Then, this Character gains [Blocker] until the end of your opponent's next End Phase.",
+    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it. [On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-073_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-071_EN.webp"
   },
   {
     "id": "OP16-072",
@@ -2159,6 +2135,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-072_EN.webp"
   },
   {
+    "id": "OP16-073",
+    "set": "OP16",
+    "name": "Borsalino",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "block": null,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Admiral",
+      "Navy"
+    ],
+    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it. [End of Your Turn] DON!! −2: Set this Character as active. Then, this Character gains [Blocker] until the end of your opponent's next End Phase.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-073_EN.webp"
+  },
+  {
     "id": "OP16-074",
     "set": "OP16",
     "name": "Magellan",
@@ -2180,6 +2180,29 @@
     "effect": "[On Play] If your Leader has the {Impel Down} type, your opponent returns 1 DON!! card from their field to their DON!! deck. [On K.O.] Your opponent returns 4 DON!! cards from their field to their DON!! deck.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-074_EN.webp"
+  },
+  {
+    "id": "OP16-075",
+    "set": "OP16",
+    "name": "Monkey.D.Garp",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] If your Leader has the {Navy} type, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-075_EN.webp"
   },
   {
     "id": "OP16-073_p1",
@@ -2228,29 +2251,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-073_p2_EN.webp",
     "set": "OP16"
-  },
-  {
-    "id": "OP16-075",
-    "set": "OP16",
-    "name": "Monkey.D.Garp",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[On Play] If your Leader has the {Navy} type, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-075_EN.webp"
   },
   {
     "id": "OP16-076",
@@ -2340,6 +2340,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_EN.webp"
   },
   {
+    "id": "OP16-079_p1",
+    "name": "Yamato",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "When a {Land of Wano} type Character card is played from your trash, that Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_p1_EN.webp",
+    "set": "OP16"
+  },
+  {
     "id": "OP16-080",
     "set": "OP16",
     "name": "Marshall.D.Teach",
@@ -2365,27 +2388,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-080_EN.webp"
   },
   {
-    "id": "OP16-079_p1",
-    "name": "Yamato",
-    "rarity": "Alternate Art",
-    "category": "Leader",
+    "id": "OP16-081",
+    "set": "OP16",
+    "name": "Otama",
+    "rarity": "Common",
+    "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
+    "cost": 2,
+    "power": 0,
+    "counter": 2000,
     "block": 5,
     "attributes": [
-      "Strike"
+      "Special"
     ],
     "types": [
       "Land of Wano"
     ],
-    "effect": "When a {Land of Wano} type Character card is played from your trash, that Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "effect": "[Activate: Main] You may rest this Character: If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_p1_EN.webp",
-    "set": "OP16"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-081_EN.webp"
   },
   {
     "id": "OP16-080_p1",
@@ -2411,29 +2434,6 @@
     "trigger": "[Trigger] from your hand: Change the target of that attack to this Leader or to one of your {Blackbeard Pirates} type Character cards.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-080_p1_EN.webp",
     "set": "OP16"
-  },
-  {
-    "id": "OP16-081",
-    "set": "OP16",
-    "name": "Otama",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 2,
-    "power": 0,
-    "counter": 2000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "[Activate: Main] You may rest this Character: If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-081_EN.webp"
   },
   {
     "id": "OP16-082",
@@ -2532,30 +2532,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-084_EN.webp"
   },
   {
-    "id": "OP16-085",
-    "set": "OP16",
-    "name": "Kouzuki Momonosuke",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 9,
-    "power": 6000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Land of Wano",
-      "Kouzuki Clan"
-    ],
-    "effect": "[Blocker] [On Play] Play up to 1 {Land of Wano} type Character card with a cost of 6 or less other than [Kouzuki Momonosuke] from your trash.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-085_EN.webp"
-  },
-  {
     "id": "OP16-086",
     "set": "OP16",
     "name": "Sanji",
@@ -2578,6 +2554,30 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-086_EN.webp"
+  },
+  {
+    "id": "OP16-085",
+    "set": "OP16",
+    "name": "Kouzuki Momonosuke",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 9,
+    "power": 6000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Blocker] [On Play] Play up to 1 {Land of Wano} type Character card with a cost of 6 or less other than [Kouzuki Momonosuke] from your trash.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-085_EN.webp"
   },
   {
     "id": "OP16-085_p1",
@@ -2770,30 +2770,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-093_EN.webp"
   },
   {
-    "id": "OP16-094",
-    "set": "OP16",
-    "name": "Portgas.D.Ace",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Land of Wano",
-      "Spade Pirates"
-    ],
-    "effect": "[On K.O.] Your opponent trashes 2 cards from their hand. [Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your {Land of Wano} type Leader or Character cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-094_EN.webp"
-  },
-  {
     "id": "OP16-095",
     "set": "OP16",
     "name": "Monkey.D.Luffy",
@@ -2816,6 +2792,30 @@
     "effect": "[On Play] Up to 1 of your black {Land of Wano} type Characters gains [Unblockable] during this turn. (This card cannot be blocked.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-095_EN.webp"
+  },
+  {
+    "id": "OP16-094",
+    "set": "OP16",
+    "name": "Portgas.D.Ace",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Land of Wano",
+      "Spade Pirates"
+    ],
+    "effect": "[On K.O.] Your opponent trashes 2 cards from their hand. [Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your {Land of Wano} type Leader or Character cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-094_EN.webp"
   },
   {
     "id": "OP16-096",
@@ -3140,29 +3140,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-108_EN.webp"
   },
   {
-    "id": "OP16-109",
-    "set": "OP16",
-    "name": "Doc Q",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 2000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Blackbeard Pirates"
-    ],
-    "effect": "[On K.O.] If your Leader has the {Blackbeard Pirates} type, draw 1 card and K.O. up to 2 of your opponent's Characters with a cost of 1 or less.",
-    "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-109_EN.webp"
-  },
-  {
     "id": "OP16-108_p1",
     "name": "Shiryu",
     "rarity": "Alternate Art",
@@ -3185,6 +3162,29 @@
     "trigger": "[Trigger] Draw 2 cards.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-108_p1_EN.webp",
     "set": "OP16"
+  },
+  {
+    "id": "OP16-109",
+    "set": "OP16",
+    "name": "Doc Q",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[On K.O.] If your Leader has the {Blackbeard Pirates} type, draw 1 card and K.O. up to 2 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-109_EN.webp"
   },
   {
     "id": "OP16-110",
@@ -3280,6 +3280,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-113_EN.webp"
   },
   {
+    "id": "OP16-115",
+    "set": "OP16",
+    "name": "Black Vortex",
+    "rarity": "Uncommon",
+    "category": "Event",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 5,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Main] If your Leader has the {Blackbeard Pirates} type, add up to 1 card with a",
+    "trigger": "[Trigger] other than [Black Vortex] from your trash to your hand. [Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-115_EN.webp"
+  },
+  {
     "id": "OP16-114",
     "set": "OP16",
     "name": "Laffitte",
@@ -3301,28 +3323,6 @@
     "effect": "[On K.O.] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-114_EN.webp"
-  },
-  {
-    "id": "OP16-115",
-    "set": "OP16",
-    "name": "Black Vortex",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 5,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Blackbeard Pirates"
-    ],
-    "effect": "[Main] If your Leader has the {Blackbeard Pirates} type, add up to 1 card with a",
-    "trigger": "[Trigger] other than [Black Vortex] from your trash to your hand. [Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-115_EN.webp"
   },
   {
     "id": "OP16-116",
@@ -3414,6 +3414,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-118_EN.webp"
   },
   {
+    "id": "OP16-118_p1",
+    "name": "Portgas.D.Ace",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "The counter of all of your Character cards with 8000 power in your hand becomes +2000. [On Play]/[On K.O.] Look at 5 cards from the top of your deck; reveal up to 1 [Monkey.D.Luffy] or up to 1 card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-118_p1_EN.webp",
+    "set": "OP16"
+  },
+  {
     "id": "OP16-119",
     "set": "OP16",
     "name": "Marshall.D.Teach",
@@ -3436,29 +3459,6 @@
     "effect": "[On Play] Look at 3 cards from the top of your deck; add up to 1 card to the top of your Life cards. Then, place the rest at the bottom of your deck in any order.",
     "trigger": "[Trigger] Negate the effect of up to 1 of your opponent's Characters during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-119_EN.webp"
-  },
-  {
-    "id": "OP16-118_p1",
-    "name": "Portgas.D.Ace",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "The counter of all of your Character cards with 8000 power in your hand becomes +2000. [On Play]/[On K.O.] Look at 5 cards from the top of your deck; reveal up to 1 [Monkey.D.Luffy] or up to 1 card with a type including \"Whitebeard Pirates\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-118_p1_EN.webp",
-    "set": "OP16"
   },
   {
     "id": "OP16-119_p1",

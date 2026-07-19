@@ -263,29 +263,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-004_EN.webp"
   },
   {
-    "id": "EB02-006",
-    "set": "EB02",
-    "name": "Yamato",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Land of Wano} type or is [Portgas.D.Ace], give up to 1 rested DON!! card to 1 of your Leader. Then, this Character gains [Rush] during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-006_EN.webp"
-  },
-  {
     "id": "EB02-005",
     "set": "EB02",
     "name": "Fake Straw Hat Crew",
@@ -307,6 +284,29 @@
     "effect": "[Your Turn] This Character gains +2000 power. [Opponent's Turn] Give this Character −2000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-005_EN.webp"
+  },
+  {
+    "id": "EB02-006",
+    "set": "EB02",
+    "name": "Yamato",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the {Land of Wano} type or is [Portgas.D.Ace], give up to 1 rested DON!! card to 1 of your Leader. Then, this Character gains [Rush] during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-006_EN.webp"
   },
   {
     "id": "EB02-007",
@@ -775,30 +775,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-021_EN.webp"
   },
   {
-    "id": "EB02-023",
-    "set": "EB02",
-    "name": "Crocodile",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Baroque Works"
-    ],
-    "effect": "[Your Turn] [Once Per Turn] When your opponent's Character is returned to the owner's hand by your effect, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-023_EN.webp"
-  },
-  {
     "id": "EB02-022",
     "set": "EB02",
     "name": "Usopp",
@@ -823,9 +799,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-022_EN.webp"
   },
   {
-    "id": "EB02-024",
+    "id": "EB02-023",
     "set": "EB02",
-    "name": "Sogeking",
+    "name": "Crocodile",
     "rarity": "Common",
     "category": "Character",
     "colors": [
@@ -836,14 +812,15 @@
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Ranged"
+      "Special"
     ],
     "types": [
-      "Sniper Island"
+      "The Seven Warlords of the Sea",
+      "Baroque Works"
     ],
-    "effect": "Also treat this card's name as [Usopp] according to the rules. [On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order. Then, return up to 1 Character with a cost of 1 or less to the owner's hand.",
+    "effect": "[Your Turn] [Once Per Turn] When your opponent's Character is returned to the owner's hand by your effect, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-024_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-023_EN.webp"
   },
   {
     "id": "EB02-022_p1",
@@ -870,27 +847,27 @@
     "set": "EB02"
   },
   {
-    "id": "EB02-026",
+    "id": "EB02-024",
     "set": "EB02",
-    "name": "Nefeltari Vivi",
-    "rarity": "Super Rare",
+    "name": "Sogeking",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 3,
-    "power": 2000,
+    "cost": 4,
+    "power": 5000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Slash"
+      "Ranged"
     ],
     "types": [
-      "Alabasta"
+      "Sniper Island"
     ],
-    "effect": "[On Play] If your Leader is multicolored and you have 5 or less cards in your hand, draw 2 cards.",
+    "effect": "Also treat this card's name as [Usopp] according to the rules. [On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order. Then, return up to 1 Character with a cost of 1 or less to the owner's hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-026_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-024_EN.webp"
   },
   {
     "id": "EB02-025",
@@ -917,6 +894,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-025_EN.webp"
   },
   {
+    "id": "EB02-026",
+    "set": "EB02",
+    "name": "Nefeltari Vivi",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Alabasta"
+    ],
+    "effect": "[On Play] If your Leader is multicolored and you have 5 or less cards in your hand, draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-026_EN.webp"
+  },
+  {
     "id": "EB02-027",
     "set": "EB02",
     "name": "Vista",
@@ -938,29 +938,6 @@
     "effect": "[On Play] Place up to 1 of your opponent's Characters with 1000 power or less at the bottom of the owner's deck.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-027_EN.webp"
-  },
-  {
-    "id": "EB02-026_p1",
-    "name": "Nefeltari Vivi",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Alabasta"
-    ],
-    "effect": "[On Play] If your Leader is multicolored and you have 5 or less cards in your hand, draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-026_p1_EN.webp",
-    "set": "EB02"
   },
   {
     "id": "EB02-029",
@@ -985,6 +962,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-029_EN.webp"
+  },
+  {
+    "id": "EB02-026_p1",
+    "name": "Nefeltari Vivi",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Alabasta"
+    ],
+    "effect": "[On Play] If your Leader is multicolored and you have 5 or less cards in your hand, draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB02/EB02-026_p1_EN.webp",
+    "set": "EB02"
   },
   {
     "id": "EB02-030",
