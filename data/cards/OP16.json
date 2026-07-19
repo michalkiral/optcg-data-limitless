@@ -1032,30 +1032,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-035_EN.webp"
   },
   {
-    "id": "OP16-036",
-    "set": "OP16",
-    "name": "Mr.2.Bon.Kurei(Bentham)",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 1000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Impel Down",
-      "Former Baroque Works"
-    ],
-    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less. [When Attacking] This Character's base power becomes the same as your opponent's Leader during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-036_EN.webp"
-  },
-  {
     "id": "OP16-034_p1",
     "name": "Monkey.D.Luffy",
     "rarity": "Alternate Art",
@@ -1080,26 +1056,28 @@
     "set": "OP16"
   },
   {
-    "id": "OP16-038",
+    "id": "OP16-036",
     "set": "OP16",
-    "name": "Let's Go!! To the Navy Headquarters!!",
-    "rarity": "Rare",
-    "category": "Event",
+    "name": "Mr.2.Bon.Kurei(Bentham)",
+    "rarity": "Common",
+    "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
+    "cost": 4,
+    "power": 1000,
+    "counter": 1000,
     "block": 5,
-    "attributes": [],
+    "attributes": [
+      "Strike"
+    ],
     "types": [
       "Impel Down",
-      "Straw Hat Crew"
+      "Former Baroque Works"
     ],
-    "effect": "[Main] You may rest 6 of your DON!! cards: If you have 5 {Impel Down} type Characters with different card names, set your Leader and all of your Characters as active. [Counter] Your Leader gains +3000 power during this battle.",
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less. [When Attacking] This Character's base power becomes the same as your opponent's Leader during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-038_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-036_EN.webp"
   },
   {
     "id": "OP16-037",
@@ -1124,6 +1102,28 @@
     "effect": "[On Play] If your Leader has the {Impel Down} type, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-037_EN.webp"
+  },
+  {
+    "id": "OP16-038",
+    "set": "OP16",
+    "name": "Let's Go!! To the Navy Headquarters!!",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 5,
+    "attributes": [],
+    "types": [
+      "Impel Down",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] You may rest 6 of your DON!! cards: If you have 5 {Impel Down} type Characters with different card names, set your Leader and all of your Characters as active. [Counter] Your Leader gains +3000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-038_EN.webp"
   },
   {
     "id": "OP16-039",
@@ -1853,30 +1853,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-064_EN.webp"
   },
   {
-    "id": "OP16-065",
-    "set": "OP16",
-    "name": "Sakazuki",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 7,
-    "power": 8000,
-    "counter": null,
-    "block": null,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Admiral",
-      "Navy"
-    ],
-    "effect": "[On Play] DON!! −1: Give up to 1 of your opponent's Characters −6000 power until the end of your opponent's next End Phase. [Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: If your Leader has the {Navy} type, add up to 2 DON!! cards from your DON!! deck and set them as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-065_EN.webp"
-  },
-  {
     "id": "OP16-063_p1",
     "name": "Kuzan",
     "rarity": "Alternate Art",
@@ -1923,6 +1899,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-063_p2_EN.webp",
     "set": "OP16"
+  },
+  {
+    "id": "OP16-065",
+    "set": "OP16",
+    "name": "Sakazuki",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "block": null,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Admiral",
+      "Navy"
+    ],
+    "effect": "[On Play] DON!! −1: Give up to 1 of your opponent's Characters −6000 power until the end of your opponent's next End Phase. [Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: If your Leader has the {Navy} type, add up to 2 DON!! cards from your DON!! deck and set them as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-065_EN.webp"
   },
   {
     "id": "OP16-066",
@@ -2065,6 +2065,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-069_EN.webp"
   },
   {
+    "id": "OP16-071",
+    "set": "OP16",
+    "name": "Benevolent King of the Waves",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it. [On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-071_EN.webp"
+  },
+  {
     "id": "OP16-070",
     "set": "OP16",
     "name": "Donquixote Rosinante",
@@ -2087,29 +2110,6 @@
     "effect": "[Blocker] [On Play] You may rest 2 of your DON!! cards: If your Leader has the {Navy} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-070_EN.webp"
-  },
-  {
-    "id": "OP16-071",
-    "set": "OP16",
-    "name": "Benevolent King of the Waves",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": null,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it. [On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-071_EN.webp"
   },
   {
     "id": "OP16-073",
@@ -2182,29 +2182,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-074_EN.webp"
   },
   {
-    "id": "OP16-075",
-    "set": "OP16",
-    "name": "Monkey.D.Garp",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[On Play] If your Leader has the {Navy} type, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-075_EN.webp"
-  },
-  {
     "id": "OP16-073_p1",
     "name": "Borsalino",
     "rarity": "Alternate Art",
@@ -2251,6 +2228,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-073_p2_EN.webp",
     "set": "OP16"
+  },
+  {
+    "id": "OP16-075",
+    "set": "OP16",
+    "name": "Monkey.D.Garp",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] If your Leader has the {Navy} type, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-075_EN.webp"
   },
   {
     "id": "OP16-076",
@@ -2722,30 +2722,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-091_EN.webp"
   },
   {
-    "id": "OP16-093",
-    "set": "OP16",
-    "name": "Bartholomew Kuma",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Revolutionary Army"
-    ],
-    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-093_EN.webp"
-  },
-  {
     "id": "OP16-092",
     "set": "OP16",
     "name": "Nico Robin",
@@ -2768,6 +2744,30 @@
     "effect": "[On Play] You may trash 1 Character card with a cost of 8 or more from your hand: Draw 2 cards.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-092_EN.webp"
+  },
+  {
+    "id": "OP16-093",
+    "set": "OP16",
+    "name": "Bartholomew Kuma",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-093_EN.webp"
   },
   {
     "id": "OP16-094",
@@ -2864,27 +2864,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-097_EN.webp"
   },
   {
-    "id": "OP16-099",
-    "set": "OP16",
-    "name": "I've Come Here... To Cut Those Chains!!!",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 5,
-    "attributes": [],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "[Main] You may rest 6 of your DON!! cards: Trash 5 cards from the top of your deck. Then, play up to 1 {Land of Wano} type Character card with a cost of 6 or less from your trash. [Counter] Your Leader gains +3000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-099_EN.webp"
-  },
-  {
     "id": "OP16-098",
     "set": "OP16",
     "name": "Yamato",
@@ -2908,10 +2887,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-098_EN.webp"
   },
   {
-    "id": "OP16-100",
+    "id": "OP16-099",
     "set": "OP16",
-    "name": "Hallowed Glacier Slash",
-    "rarity": "Common",
+    "name": "I've Come Here... To Cut Those Chains!!!",
+    "rarity": "Uncommon",
     "category": "Event",
     "colors": [
       "Black"
@@ -2924,9 +2903,9 @@
     "types": [
       "Land of Wano"
     ],
-    "effect": "[Main] You may rest 2 of your DON!! cards: If your opponent's Character has been K.O.'d during this turn, set your Leader [Yamato] as active. [Counter] Your Leader gains +3000 power during this battle.",
+    "effect": "[Main] You may rest 6 of your DON!! cards: Trash 5 cards from the top of your deck. Then, play up to 1 {Land of Wano} type Character card with a cost of 6 or less from your trash. [Counter] Your Leader gains +3000 power during this battle.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-100_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-099_EN.webp"
   },
   {
     "id": "OP16-098_p1",
@@ -2950,6 +2929,27 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-098_p1_EN.webp",
     "set": "OP16"
+  },
+  {
+    "id": "OP16-100",
+    "set": "OP16",
+    "name": "Hallowed Glacier Slash",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 5,
+    "attributes": [],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[Main] You may rest 2 of your DON!! cards: If your opponent's Character has been K.O.'d during this turn, set your Leader [Yamato] as active. [Counter] Your Leader gains +3000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-100_EN.webp"
   },
   {
     "id": "OP16-101",
