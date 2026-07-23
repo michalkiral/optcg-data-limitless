@@ -212,6 +212,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-005_EN.webp"
   },
   {
+    "id": "ST21-006",
+    "set": "ST21",
+    "name": "Stussy",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Egghead"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-006_EN.webp"
+  },
+  {
     "id": "ST21-005_p1",
     "name": "Jinbe",
     "rarity": "Full Art",
@@ -236,10 +259,9 @@
     "set": "ST21"
   },
   {
-    "id": "ST21-006",
-    "set": "ST21",
+    "id": "ST21-006_p1",
     "name": "Stussy",
-    "rarity": "Common",
+    "rarity": "Full Art",
     "category": "Character",
     "colors": [
       "Red"
@@ -256,7 +278,8 @@
     ],
     "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-006_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-006_p1_EN.webp",
+    "set": "ST21"
   },
   {
     "id": "ST21-007",
@@ -283,27 +306,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-007_EN.webp"
   },
   {
-    "id": "ST21-006_p1",
-    "name": "Stussy",
-    "rarity": "Full Art",
+    "id": "ST21-008",
+    "set": "ST21",
+    "name": "Tony Tony.Chopper",
+    "rarity": "Common",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 3,
-    "power": 5000,
+    "cost": 4,
+    "power": 6000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Special"
+      "Wisdom"
     ],
     "types": [
-      "Egghead"
+      "Animal",
+      "Straw Hat Crew"
     ],
     "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-006_p1_EN.webp",
-    "set": "ST21"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-008_EN.webp"
   },
   {
     "id": "ST21-007_p1",
@@ -330,10 +354,9 @@
     "set": "ST21"
   },
   {
-    "id": "ST21-008",
-    "set": "ST21",
+    "id": "ST21-008_p1",
     "name": "Tony Tony.Chopper",
-    "rarity": "Common",
+    "rarity": "Full Art",
     "category": "Character",
     "colors": [
       "Red"
@@ -351,7 +374,8 @@
     ],
     "effect": "",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-008_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-008_p1_EN.webp",
+    "set": "ST21"
   },
   {
     "id": "ST21-009",
@@ -375,30 +399,6 @@
     "effect": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-009_EN.webp"
-  },
-  {
-    "id": "ST21-008_p1",
-    "name": "Tony Tony.Chopper",
-    "rarity": "Full Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Animal",
-      "Straw Hat Crew"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-008_p1_EN.webp",
-    "set": "ST21"
   },
   {
     "id": "ST21-010",
@@ -447,29 +447,6 @@
     "set": "ST21"
   },
   {
-    "id": "ST21-011",
-    "set": "ST21",
-    "name": "Franky",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-011_EN.webp"
-  },
-  {
     "id": "ST21-010_p1",
     "name": "Nico Robin",
     "rarity": "Full Art",
@@ -491,6 +468,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-010_p1_EN.webp",
     "set": "ST21"
+  },
+  {
+    "id": "ST21-011",
+    "set": "ST21",
+    "name": "Franky",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-011_EN.webp"
   },
   {
     "id": "ST21-012",
@@ -681,6 +681,28 @@
     "set": "ST21"
   },
   {
+    "id": "ST21-016",
+    "set": "ST21",
+    "name": "Gum-Gum Dawn Whip",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "The Four Emperors",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-016_EN.webp"
+  },
+  {
     "id": "ST21-015_p1",
     "name": "Roronoa Zoro",
     "rarity": "Full Art",
@@ -702,28 +724,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-015_p1_EN.webp",
     "set": "ST21"
-  },
-  {
-    "id": "ST21-016",
-    "set": "ST21",
-    "name": "Gum-Gum Dawn Whip",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "The Four Emperors",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-016_EN.webp"
   },
   {
     "id": "ST21-017",
