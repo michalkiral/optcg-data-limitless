@@ -261,6 +261,29 @@
     "set": "OP12"
   },
   {
+    "id": "OP12-003",
+    "set": "OP12",
+    "name": "Crocus",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Former Roger Pirates"
+    ],
+    "effect": "[On K.O.] You may reveal 2 Events from your hand: Play up to 1 red Character card with 3000 power or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-003_EN.webp"
+  },
+  {
     "id": "OP12-004",
     "set": "OP12",
     "name": "Kouzuki Oden",
@@ -284,29 +307,6 @@
     "effect": "[Activate: Main] [Once Per Turn] You may reveal 2 Events from your hand: This Character gains +2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-004_EN.webp"
-  },
-  {
-    "id": "OP12-003",
-    "set": "OP12",
-    "name": "Crocus",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Former Roger Pirates"
-    ],
-    "effect": "[On K.O.] You may reveal 2 Events from your hand: Play up to 1 red Character card with 3000 power or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-003_EN.webp"
   },
   {
     "id": "OP12-005",
@@ -636,27 +636,6 @@
     "set": "OP12"
   },
   {
-    "id": "OP12-019",
-    "set": "OP12",
-    "name": "Color of Arms Haki",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 0,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "Former Roger Pirates"
-    ],
-    "effect": "[Main] You may give 1 active DON!! card to 1 of your [Silvers Rayleigh]: Up to 1 of your Leader or Character cards gains +1000 power during this turn. [Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-019_EN.webp"
-  },
-  {
     "id": "OP12-018",
     "set": "OP12",
     "name": "Color of the Supreme King Haki",
@@ -676,6 +655,27 @@
     "effect": "[Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle. Then, you may rest 1 of your DON!! cards. If you do, give your opponent's Leader and all of their Characters −1000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-018_EN.webp"
+  },
+  {
+    "id": "OP12-019",
+    "set": "OP12",
+    "name": "Color of Arms Haki",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 0,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "Former Roger Pirates"
+    ],
+    "effect": "[Main] You may give 1 active DON!! card to 1 of your [Silvers Rayleigh]: Up to 1 of your Leader or Character cards gains +1000 power during this turn. [Counter] Up to 1 of your Characters or [Silvers Rayleigh] gains +2000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-019_EN.webp"
   },
   {
     "id": "OP12-020",
@@ -799,30 +799,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-024_EN.webp"
   },
   {
-    "id": "OP12-020_p1",
-    "name": "Roronoa Zoro",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x3] [Activate: Main] [Once Per Turn] If this Leader battles your opponent's Character during this turn, set this Leader as active. Then, this Leader cannot attack your opponent's Characters with a base cost of 7 or less during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-020_p1_EN.webp",
-    "set": "OP12"
-  },
-  {
     "id": "OP12-025",
     "set": "OP12",
     "name": "Kin'emon",
@@ -845,6 +821,30 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-025_EN.webp"
+  },
+  {
+    "id": "OP12-020_p1",
+    "name": "Roronoa Zoro",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x3] [Activate: Main] [Once Per Turn] If this Leader battles your opponent's Character during this turn, set this Leader as active. Then, this Leader cannot attack your opponent's Characters with a base cost of 7 or less during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-020_p1_EN.webp",
+    "set": "OP12"
   },
   {
     "id": "OP12-026",
@@ -1409,6 +1409,29 @@
     "set": "OP12"
   },
   {
+    "id": "OP12-045",
+    "set": "OP12",
+    "name": "Jango",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-045_EN.webp"
+  },
+  {
     "id": "OP12-046",
     "set": "OP12",
     "name": "Zephyr(Navy)",
@@ -1433,27 +1456,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-046_EN.webp"
   },
   {
-    "id": "OP12-045",
+    "id": "OP12-047",
     "set": "OP12",
-    "name": "Jango",
-    "rarity": "Common",
+    "name": "Sengoku",
+    "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 6,
-    "power": 8000,
+    "cost": 3,
+    "power": 3000,
     "counter": 1000,
     "block": 3,
     "attributes": [
-      "Slash"
+      "Wisdom"
     ],
     "types": [
       "Navy"
     ],
-    "effect": "",
+    "effect": "[On Play] You may trash 1 card from your hand: Look at 5 cards from the top of your deck; reveal up to 2 {Navy} type cards other than [Sengoku] and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-045_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-047_EN.webp"
   },
   {
     "id": "OP12-048",
@@ -1477,29 +1500,6 @@
     "effect": "[Opponent's Turn] If your blue {Navy} type Character would be removed from the field by your opponent's effect, you may rest this Character and trash 1 card from your hand instead.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-048_EN.webp"
-  },
-  {
-    "id": "OP12-047",
-    "set": "OP12",
-    "name": "Sengoku",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 3,
-    "power": 3000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[On Play] You may trash 1 card from your hand: Look at 5 cards from the top of your deck; reveal up to 2 {Navy} type cards other than [Sengoku] and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-047_EN.webp"
   },
   {
     "id": "OP12-049",
@@ -1620,30 +1620,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-053_EN.webp"
   },
   {
-    "id": "OP12-055",
-    "set": "OP12",
-    "name": "Mohji & Cabaji",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Slash",
-      "Wisdom"
-    ],
-    "types": [
-      "Cross Guild"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-055_EN.webp"
-  },
-  {
     "id": "OP12-054",
     "set": "OP12",
     "name": "Marshall.D.Teach",
@@ -1666,6 +1642,30 @@
     "effect": "[On Play] If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 1 or less other than this Character to the owner's hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-054_EN.webp"
+  },
+  {
+    "id": "OP12-055",
+    "set": "OP12",
+    "name": "Mohji & Cabaji",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Slash",
+      "Wisdom"
+    ],
+    "types": [
+      "Cross Guild"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-055_EN.webp"
   },
   {
     "id": "OP12-056",
@@ -1942,30 +1942,6 @@
     "set": "OP12"
   },
   {
-    "id": "OP12-065",
-    "set": "OP12",
-    "name": "Emporio.Ivankov",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Impel Down",
-      "Revolutionary Army"
-    ],
-    "effect": "If you have 4 or more Events in your trash, this Character gains [Blocker]. [On K.O.] Add up to 1 Event from your trash to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-065_EN.webp"
-  },
-  {
     "id": "OP12-064",
     "set": "OP12",
     "name": "Vergo",
@@ -1989,6 +1965,30 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-064_EN.webp"
+  },
+  {
+    "id": "OP12-065",
+    "set": "OP12",
+    "name": "Emporio.Ivankov",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "If you have 4 or more Events in your trash, this Character gains [Blocker]. [On K.O.] Add up to 1 Event from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-065_EN.webp"
   },
   {
     "id": "OP12-066",
@@ -2252,6 +2252,29 @@
     "set": "OP12"
   },
   {
+    "id": "OP12-075",
+    "set": "OP12",
+    "name": "Ms. All Sunday",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, your opponent may add 1 DON!! card from their DON!! deck and set it as active.",
+    "trigger": "[Trigger] DON!! −1: Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-075_EN.webp"
+  },
+  {
     "id": "OP12-076",
     "set": "OP12",
     "name": "Monet",
@@ -2274,29 +2297,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-076_EN.webp"
-  },
-  {
-    "id": "OP12-075",
-    "set": "OP12",
-    "name": "Ms. All Sunday",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, your opponent may add 1 DON!! card from their DON!! deck and set it as active.",
-    "trigger": "[Trigger] DON!! −1: Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-075_EN.webp"
   },
   {
     "id": "OP12-077",
@@ -2408,6 +2408,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-081_EN.webp"
   },
   {
+    "id": "OP12-082",
+    "set": "OP12",
+    "name": "Issho",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Dressrosa",
+      "Navy"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-082_EN.webp"
+  },
+  {
     "id": "OP12-081_p1",
     "name": "Koala",
     "rarity": "Alternate Art",
@@ -2431,30 +2455,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-081_p1_EN.webp",
     "set": "OP12"
-  },
-  {
-    "id": "OP12-082",
-    "set": "OP12",
-    "name": "Issho",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 8,
-    "power": 10000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Dressrosa",
-      "Navy"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-082_EN.webp"
   },
   {
     "id": "OP12-083",
@@ -2810,28 +2810,6 @@
     "set": "OP12"
   },
   {
-    "id": "OP12-096",
-    "set": "OP12",
-    "name": "Ursa Shock",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": null,
-    "counter": null,
-    "block": 3,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Revolutionary Army"
-    ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 4 or less. If you have a Character with a cost of 8 or more, you may select your opponent's Character with a cost of 6 or less instead.",
-    "trigger": "[Trigger] Draw 1 card and trash 1 card from the top of your deck.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-096_EN.webp"
-  },
-  {
     "id": "OP12-095",
     "set": "OP12",
     "name": "Lindbergh",
@@ -2854,6 +2832,28 @@
     "effect": "If your Leader has the {Revolutionary Army} type, this Character gains +4 cost. [On Play] Draw 1 card and trash 1 card from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-095_EN.webp"
+  },
+  {
+    "id": "OP12-096",
+    "set": "OP12",
+    "name": "Ursa Shock",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Revolutionary Army"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 4 or less. If you have a Character with a cost of 8 or more, you may select your opponent's Character with a cost of 6 or less instead.",
+    "trigger": "[Trigger] Draw 1 card and trash 1 card from the top of your deck.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-096_EN.webp"
   },
   {
     "id": "OP12-097",
