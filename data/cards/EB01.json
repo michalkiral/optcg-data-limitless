@@ -463,6 +463,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-001_EN.webp"
   },
   {
+    "id": "EB01-021",
+    "set": "EB01",
+    "name": "Hannyabal",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Blue",
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_EN.webp"
+  },
+  {
     "id": "EB01-001_p1",
     "name": "Kouzuki Oden",
     "rarity": "Alternate Art",
@@ -486,30 +510,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-001_p1_EN.webp",
     "set": "EB01"
-  },
-  {
-    "id": "EB01-021",
-    "set": "EB01",
-    "name": "Hannyabal",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Blue",
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down"
-    ],
-    "effect": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_EN.webp"
   },
   {
     "id": "EB01-040",
@@ -1049,30 +1049,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_EN.webp"
   },
   {
-    "id": "EB01-022_p1",
-    "name": "Inazuma",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down",
-      "Revolutionary Army"
-    ],
-    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
-    "set": "EB01"
-  },
-  {
     "id": "EB01-024",
     "set": "EB01",
     "name": "Hamlet",
@@ -1097,27 +1073,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
   },
   {
-    "id": "EB01-026",
-    "set": "EB01",
-    "name": "Prince Bellett",
-    "rarity": "Common",
+    "id": "EB01-022_p1",
+    "name": "Inazuma",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 2000,
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
     "block": 2,
     "attributes": [
-      "Ranged"
+      "Slash"
     ],
     "types": [
-      "Impel Down"
+      "Impel Down",
+      "Revolutionary Army"
     ],
-    "effect": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "effect": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-026_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-025",
@@ -1142,6 +1119,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-025_EN.webp"
+  },
+  {
+    "id": "EB01-026",
+    "set": "EB01",
+    "name": "Prince Bellett",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Impel Down"
+    ],
+    "effect": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-026_EN.webp"
   },
   {
     "id": "EB01-027",
@@ -1373,29 +1373,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_EN.webp"
   },
   {
-    "id": "EB01-035",
-    "set": "EB01",
-    "name": "Ms. Monday",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 3,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "trigger": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-035_EN.webp"
-  },
-  {
     "id": "EB01-034_p1",
     "name": "Ms. Wednesday",
     "rarity": "Alternate Art",
@@ -1417,6 +1394,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-034_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-035",
+    "set": "EB01",
+    "name": "Ms. Monday",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "trigger": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-035_EN.webp"
   },
   {
     "id": "EB01-036",

@@ -1627,30 +1627,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-009_EN.webp"
   },
   {
-    "id": "OP06-010",
-    "set": "OP06",
-    "name": "Douglas Bullet",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "FILM",
-      "The Pirates Fest"
-    ],
-    "effect": "If your Leader has the {FILM} type, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-010_EN.webp"
-  },
-  {
     "id": "OP06-009_p1",
     "name": "Shuraiya",
     "rarity": "Alternate Art",
@@ -1675,27 +1651,28 @@
     "set": "OP06"
   },
   {
-    "id": "OP06-011",
+    "id": "OP06-010",
     "set": "OP06",
-    "name": "Tot Musica",
+    "name": "Douglas Bullet",
     "rarity": "Rare",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 5,
-    "power": 6000,
+    "cost": 6,
+    "power": 7000,
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Special"
+      "Strike"
     ],
     "types": [
-      "FILM"
+      "FILM",
+      "The Pirates Fest"
     ],
-    "effect": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Uta] cards: This Character gains +5000 power during this turn.",
+    "effect": "If your Leader has the {FILM} type, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-011_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-010_EN.webp"
   },
   {
     "id": "OP06-012",
@@ -1720,6 +1697,29 @@
     "effect": "If your opponent has a Leader or Character with a base power of 6000 or more, this Character cannot be K.O.'d in battle.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-012_EN.webp"
+  },
+  {
+    "id": "OP06-011",
+    "set": "OP06",
+    "name": "Tot Musica",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "FILM"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Uta] cards: This Character gains +5000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-011_EN.webp"
   },
   {
     "id": "OP06-013",
@@ -1886,28 +1886,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-018_EN.webp"
   },
   {
-    "id": "OP06-019",
-    "set": "OP06",
-    "name": "Blue Dragon Seal Water Stream",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "FILM",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
-    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-019_EN.webp"
-  },
-  {
     "id": "OP06-024",
     "set": "OP06",
     "name": "Ikaros Much",
@@ -1932,27 +1910,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-024_EN.webp"
   },
   {
-    "id": "OP06-025",
+    "id": "OP06-019",
     "set": "OP06",
-    "name": "Camie",
-    "rarity": "Rare",
-    "category": "Character",
+    "name": "Blue Dragon Seal Water Stream",
+    "rarity": "Uncommon",
+    "category": "Event",
     "colors": [
-      "Green"
+      "Red"
     ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
+    "cost": 3,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
+    "attributes": [],
     "types": [
-      "Merfolk"
+      "FILM",
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-025_EN.webp"
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-019_EN.webp"
   },
   {
     "id": "OP06-026",
@@ -1976,6 +1953,29 @@
     "effect": "[On Play] Set up to 1 of your <Slash> attribute Characters with a cost of 4 or less as active. Then, you cannot attack a Leader during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-026_EN.webp"
+  },
+  {
+    "id": "OP06-025",
+    "set": "OP06",
+    "name": "Camie",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Merfolk"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-025_EN.webp"
   },
   {
     "id": "OP06-027",
@@ -2025,29 +2025,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-028_EN.webp"
   },
   {
-    "id": "OP06-025_p1",
-    "name": "Camie",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Merfolk"
-    ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-025_p1_EN.webp",
-    "set": "OP06"
-  },
-  {
     "id": "OP06-029",
     "set": "OP06",
     "name": "Daruma",
@@ -2070,6 +2047,29 @@
     "effect": "[DON!! x1] [When Attacking] [Once Per Turn] If your Leader has the {New Fish-Man Pirates} type, set this Character as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-029_EN.webp"
+  },
+  {
+    "id": "OP06-025_p1",
+    "name": "Camie",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Merfolk"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Fish-Man} or {Merfolk} type card other than [Camie] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-025_p1_EN.webp",
+    "set": "OP06"
   },
   {
     "id": "OP06-030",
@@ -2168,29 +2168,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-033_EN.webp"
   },
   {
-    "id": "OP06-034",
-    "set": "OP06",
-    "name": "Hyouzou",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Fish-Man"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 4 or less and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-034_EN.webp"
-  },
-  {
     "id": "OP06-037",
     "set": "OP06",
     "name": "Wadatsumi",
@@ -2213,6 +2190,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-037_EN.webp"
+  },
+  {
+    "id": "OP06-034",
+    "set": "OP06",
+    "name": "Hyouzou",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Fish-Man"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 4 or less and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-034_EN.webp"
   },
   {
     "id": "OP06-039",
@@ -2394,29 +2394,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-048_EN.webp"
   },
   {
-    "id": "OP06-051",
-    "set": "OP06",
-    "name": "Tsuru",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 4000,
-    "counter": 2000,
-    "block": 2,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[On Play] You may trash 2 cards from your hand: Your opponent returns 1 of their Characters to the owner's hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-051_EN.webp"
-  },
-  {
     "id": "OP06-052",
     "set": "OP06",
     "name": "Tokikake",
@@ -2438,6 +2415,29 @@
     "effect": "[DON!! x1] If you have 4 or less cards in your hand, this Character cannot be K.O.'d in battle.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-052_EN.webp"
+  },
+  {
+    "id": "OP06-051",
+    "set": "OP06",
+    "name": "Tsuru",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 5,
+    "power": 4000,
+    "counter": 2000,
+    "block": 2,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 2 cards from your hand: Your opponent returns 1 of their Characters to the owner's hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP06/OP06-051_EN.webp"
   },
   {
     "id": "OP06-053",
