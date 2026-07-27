@@ -24,30 +24,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-001_EN.webp"
   },
   {
-    "id": "EB03-002",
-    "set": "EB03",
-    "name": "Ain",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "FILM",
-      "Neo Navy"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-002_EN.webp"
-  },
-  {
     "id": "EB03-001_p1",
     "name": "Nefeltari Vivi",
     "rarity": "Alternate Art",
@@ -70,6 +46,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-001_p1_EN.webp",
     "set": "EB03"
+  },
+  {
+    "id": "EB03-002",
+    "set": "EB03",
+    "name": "Ain",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "FILM",
+      "Neo Navy"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-002_EN.webp"
   },
   {
     "id": "EB03-003",
@@ -142,6 +142,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-005_EN.webp"
   },
   {
+    "id": "EB03-006",
+    "set": "EB03",
+    "name": "Nami",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Alabasta",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] You may give your active Leader −5000 power during this turn: Draw 1 card. [Activate: Main] [Once Per Turn] If your Leader has the {Alabasta} type, give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-006_EN.webp"
+  },
+  {
     "id": "EB03-003_p1",
     "name": "Uta",
     "rarity": "Alternate Art",
@@ -186,30 +210,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-003_p2_EN.webp",
     "set": "EB03"
-  },
-  {
-    "id": "EB03-006",
-    "set": "EB03",
-    "name": "Nami",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 7000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Alabasta",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] You may give your active Leader −5000 power during this turn: Draw 1 card. [Activate: Main] [Once Per Turn] If your Leader has the {Alabasta} type, give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-006_EN.webp"
   },
   {
     "id": "EB03-007",
@@ -563,27 +563,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-019_EN.webp"
   },
   {
-    "id": "EB03-020",
-    "set": "EB03",
-    "name": "There You Are, Sore Loser!",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "FILM"
-    ],
-    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or more {FILM} type Characters, that card gains an additional +2000 power during this battle.",
-    "trigger": "[Trigger] Set up to 1 of your Characters as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-020_EN.webp"
-  },
-  {
     "id": "EB03-018_p1",
     "name": "Tashigi",
     "rarity": "Alternate Art",
@@ -628,6 +607,27 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-018_p2_EN.webp",
     "set": "EB03"
+  },
+  {
+    "id": "EB03-020",
+    "set": "EB03",
+    "name": "There You Are, Sore Loser!",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "FILM"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or more {FILM} type Characters, that card gains an additional +2000 power during this battle.",
+    "trigger": "[Trigger] Set up to 1 of your Characters as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-020_EN.webp"
   },
   {
     "id": "EB03-021",
@@ -954,29 +954,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-029_EN.webp"
   },
   {
-    "id": "EB03-030",
-    "set": "EB03",
-    "name": "Viola",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-030_EN.webp"
-  },
-  {
     "id": "EB03-031",
     "set": "EB03",
     "name": "Vinsmoke Reiju",
@@ -999,6 +976,29 @@
     "effect": "[Your Turn] [On Play] DON!! −1: If your Leader is [Sanji], activate the [Main] effect of up to 1 Event card with a cost of 7 or less in your trash.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-031_EN.webp"
+  },
+  {
+    "id": "EB03-030",
+    "set": "EB03",
+    "name": "Viola",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Dressrosa"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-030_EN.webp"
   },
   {
     "id": "EB03-032",
@@ -1278,30 +1278,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-040_EN.webp"
   },
   {
-    "id": "EB03-041",
-    "set": "EB03",
-    "name": "Kujyaku",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 6000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Navy",
-      "SWORD"
-    ],
-    "effect": "[Opponent's Turn] All of your {SWORD} type Characters with a cost of 6 or less gain +2000 power. [On Play] You may trash 1 {Navy} type card from your hand: Draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-041_EN.webp"
-  },
-  {
     "id": "EB03-042",
     "set": "EB03",
     "name": "Koala",
@@ -1326,6 +1302,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-042_EN.webp"
   },
   {
+    "id": "EB03-041",
+    "set": "EB03",
+    "name": "Kujyaku",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Navy",
+      "SWORD"
+    ],
+    "effect": "[Opponent's Turn] All of your {SWORD} type Characters with a cost of 6 or less gain +2000 power. [On Play] You may trash 1 {Navy} type card from your hand: Draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-041_EN.webp"
+  },
+  {
     "id": "EB03-041_p1",
     "name": "Kujyaku",
     "rarity": "Alternate Art",
@@ -1348,29 +1348,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-041_p1_EN.webp",
     "set": "EB03"
-  },
-  {
-    "id": "EB03-043",
-    "set": "EB03",
-    "name": "Stussy",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 7,
-    "power": 7000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "CP0"
-    ],
-    "effect": "[Blocker] [On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-043_EN.webp"
   },
   {
     "id": "EB03-042_p1",
@@ -1419,6 +1396,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-042_p2_EN.webp",
     "set": "EB03"
+  },
+  {
+    "id": "EB03-043",
+    "set": "EB03",
+    "name": "Stussy",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "CP0"
+    ],
+    "effect": "[Blocker] [On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-043_EN.webp"
   },
   {
     "id": "EB03-044",
@@ -1606,29 +1606,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-049_EN.webp"
   },
   {
-    "id": "EB03-050",
-    "set": "EB03",
-    "name": "Conis",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 0,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Sky Island"
-    ],
-    "effect": "[On Play] Up to 1 of your {Sky Island} type Characters gains [Double Attack] during this turn. (This card deals 2 damage.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-050_EN.webp"
-  },
-  {
     "id": "EB03-051",
     "set": "EB03",
     "name": "Charlotte Smoothie",
@@ -1650,6 +1627,29 @@
     "effect": "[On Play] If you have a face-up Life card, K.O. up to 1 of your opponent's Characters with a cost of 2 or less. Then, turn all of your Life cards face-down.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-051_EN.webp"
+  },
+  {
+    "id": "EB03-050",
+    "set": "EB03",
+    "name": "Conis",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 0,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Sky Island"
+    ],
+    "effect": "[On Play] Up to 1 of your {Sky Island} type Characters gains [Double Attack] during this turn. (This card deals 2 damage.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-050_EN.webp"
   },
   {
     "id": "EB03-052",
@@ -1814,29 +1814,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-056_EN.webp"
   },
   {
-    "id": "EB03-057",
-    "set": "EB03",
-    "name": "Yamato",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "[On Play] Give up to 3 rested DON!! cards to your {Land of Wano} type Leader. [On K.O.] Trash up to 1 card from the top of your opponent's Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-057_EN.webp"
-  },
-  {
     "id": "EB03-055_p1",
     "name": "Nico Robin",
     "rarity": "Alternate Art",
@@ -1881,6 +1858,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-055_p2_EN.webp",
     "set": "EB03"
+  },
+  {
+    "id": "EB03-057",
+    "set": "EB03",
+    "name": "Yamato",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[On Play] Give up to 3 rested DON!! cards to your {Land of Wano} type Leader. [On K.O.] Trash up to 1 card from the top of your opponent's Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB03/EB03-057_EN.webp"
   },
   {
     "id": "EB03-058",
