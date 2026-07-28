@@ -281,6 +281,27 @@
     "set": "EB01"
   },
   {
+    "id": "EB01-051",
+    "set": "EB01",
+    "name": "Finger Pistol",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "CP9"
+    ],
+    "effect": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-051_EN.webp"
+  },
+  {
     "id": "EB01-048_p1",
     "name": "Laboon",
     "rarity": "Alternate Art",
@@ -302,27 +323,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-048_p1_EN.webp",
     "set": "EB01"
-  },
-  {
-    "id": "EB01-051",
-    "set": "EB01",
-    "name": "Finger Pistol",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "CP9"
-    ],
-    "effect": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-051_EN.webp"
   },
   {
     "id": "EB01-057",
@@ -512,30 +512,6 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-040",
-    "set": "EB01",
-    "name": "Kyros",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Black",
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 2,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Dressrosa"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-040_EN.webp"
-  },
-  {
     "id": "EB01-021_p1",
     "name": "Hannyabal",
     "rarity": "Alternate Art",
@@ -558,6 +534,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-021_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-040",
+    "set": "EB01",
+    "name": "Kyros",
+    "rarity": "Leader",
+    "category": "Leader",
+    "colors": [
+      "Black",
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Dressrosa"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-040_EN.webp"
   },
   {
     "id": "EB01-040_p1",
@@ -1167,28 +1167,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-027_EN.webp"
   },
   {
-    "id": "EB01-028",
-    "set": "EB01",
-    "name": "Gum-Gum Champion Rifle",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Impel Down",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] If your Leader has the {Impel Down} type, up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, your opponent returns 1 of their active Characters to the owner's hand.",
-    "trigger": "[Trigger] Return up to 1 Character with a cost of 3 or less to the bottom of the owner's deck.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-028_EN.webp"
-  },
-  {
     "id": "EB01-027_p1",
     "name": "Mr.1(Daz.Bonez)",
     "rarity": "Alternate Art",
@@ -1212,10 +1190,10 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-029",
+    "id": "EB01-028",
     "set": "EB01",
-    "name": "Sorry. I'm a Goner.",
-    "rarity": "Common",
+    "name": "Gum-Gum Champion Rifle",
+    "rarity": "Rare",
     "category": "Event",
     "colors": [
       "Blue"
@@ -1226,12 +1204,12 @@
     "block": 2,
     "attributes": [],
     "types": [
-      "East Blue",
+      "Impel Down",
       "Straw Hat Crew"
     ],
-    "effect": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
-    "trigger": "[Trigger] Return up to 1 Character with a cost of 8 or less to the owner's hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-029_EN.webp"
+    "effect": "[Counter] If your Leader has the {Impel Down} type, up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, your opponent returns 1 of their active Characters to the owner's hand.",
+    "trigger": "[Trigger] Return up to 1 Character with a cost of 3 or less to the bottom of the owner's deck.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-028_EN.webp"
   },
   {
     "id": "EB01-030",
@@ -1253,6 +1231,28 @@
     "effect": "[Activate: Main] You may place this card and 1 card from your hand at the bottom of your deck in any order: Draw 2 cards.",
     "trigger": "[Trigger] Play this card.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-030_EN.webp"
+  },
+  {
+    "id": "EB01-029",
+    "set": "EB01",
+    "name": "Sorry. I'm a Goner.",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "East Blue",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
+    "trigger": "[Trigger] Return up to 1 Character with a cost of 8 or less to the owner's hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-029_EN.webp"
   },
   {
     "id": "EB01-031",
@@ -1488,29 +1488,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-039_EN.webp"
   },
   {
-    "id": "EB01-041",
-    "set": "EB01",
-    "name": "Crocus",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 6,
-    "power": 8000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Former Roger Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-041_EN.webp"
-  },
-  {
     "id": "EB01-042",
     "set": "EB01",
     "name": "Scarlet",
@@ -1532,6 +1509,29 @@
     "effect": "[Activate: Main] You may trash this Character: Play up to 1 {Dressrosa} type Character card with a cost of 3 or less other than [Scarlet] from your hand rested. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-042_EN.webp"
+  },
+  {
+    "id": "EB01-041",
+    "set": "EB01",
+    "name": "Crocus",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Former Roger Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-041_EN.webp"
   },
   {
     "id": "EB01-043",
@@ -1650,27 +1650,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-049_EN.webp"
   },
   {
-    "id": "EB01-050",
-    "set": "EB01",
-    "name": "...I Want to Live!!",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 3,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
-  },
-  {
     "id": "EB01-049_p1",
     "name": "T-Bone",
     "rarity": "Alternate Art",
@@ -1695,27 +1674,25 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-052",
+    "id": "EB01-050",
     "set": "EB01",
-    "name": "Viola",
-    "rarity": "Super Rare",
-    "category": "Character",
+    "name": "...I Want to Live!!",
+    "rarity": "Common",
+    "category": "Event",
     "colors": [
-      "Yellow"
+      "Black"
     ],
-    "cost": 2,
-    "power": 0,
-    "counter": 1000,
+    "cost": 3,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Special"
-    ],
+    "attributes": [],
     "types": [
-      "Dressrosa"
+      "Straw Hat Crew"
     ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
+    "effect": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-050_EN.webp"
   },
   {
     "id": "EB01-053",
@@ -1741,9 +1718,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-053_EN.webp"
   },
   {
-    "id": "EB01-052_p1",
+    "id": "EB01-052",
+    "set": "EB01",
     "name": "Viola",
-    "rarity": "Alternate Art",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Yellow"
@@ -1760,8 +1738,7 @@
     ],
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_p1_EN.webp",
-    "set": "EB01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_EN.webp"
   },
   {
     "id": "EB01-054",
@@ -1787,27 +1764,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-054_EN.webp"
   },
   {
-    "id": "EB01-058",
-    "set": "EB01",
-    "name": "Mont Blanc Cricket",
-    "rarity": "Common",
+    "id": "EB01-052_p1",
+    "name": "Viola",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
     "cost": 2,
-    "power": 3000,
+    "power": 0,
     "counter": 1000,
     "block": 2,
     "attributes": [
-      "Strike"
+      "Special"
     ],
     "types": [
-      "Monkey Mountain Alliance"
+      "Dressrosa"
     ],
-    "effect": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-058_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-052_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-055",
@@ -1831,6 +1808,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-055_EN.webp"
+  },
+  {
+    "id": "EB01-058",
+    "set": "EB01",
+    "name": "Mont Blanc Cricket",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Monkey Mountain Alliance"
+    ],
+    "effect": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-058_EN.webp"
   },
   {
     "id": "EB01-059",

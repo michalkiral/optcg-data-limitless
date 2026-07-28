@@ -1,29 +1,5 @@
 [
   {
-    "id": "ST22-001",
-    "set": "ST22",
-    "name": "Ace & Newgate",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Four Emperors",
-      "Whitebeard Pirates"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-001_EN.webp"
-  },
-  {
     "id": "ST22-002",
     "set": "ST22",
     "name": "Izo",
@@ -48,7 +24,8 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-002_EN.webp"
   },
   {
-    "id": "ST22-001_p1",
+    "id": "ST22-001",
+    "set": "ST22",
     "name": "Ace & Newgate",
     "rarity": "Leader",
     "category": "Leader",
@@ -68,8 +45,7 @@
     ],
     "effect": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-001_p1_EN.webp",
-    "set": "ST22"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-001_EN.webp"
   },
   {
     "id": "ST22-002_p1",
@@ -96,16 +72,15 @@
     "set": "ST22"
   },
   {
-    "id": "ST22-003",
-    "set": "ST22",
-    "name": "Edward.Newgate",
-    "rarity": "Common",
-    "category": "Character",
+    "id": "ST22-001_p1",
+    "name": "Ace & Newgate",
+    "rarity": "Leader",
+    "category": "Leader",
     "colors": [
       "Blue"
     ],
-    "cost": 9,
-    "power": 10000,
+    "cost": 5,
+    "power": 5000,
     "counter": null,
     "block": 3,
     "attributes": [
@@ -115,9 +90,10 @@
       "The Four Emperors",
       "Whitebeard Pirates"
     ],
-    "effect": "[Double Attack] (This card deals 2 damage.) [On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards.",
+    "effect": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-003_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-001_p1_EN.webp",
+    "set": "ST22"
   },
   {
     "id": "ST22-004",
@@ -141,6 +117,30 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-004_EN.webp"
+  },
+  {
+    "id": "ST22-003",
+    "set": "ST22",
+    "name": "Edward.Newgate",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Double Attack] (This card deals 2 damage.) [On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST22/ST22-003_EN.webp"
   },
   {
     "id": "ST22-004_p1",
