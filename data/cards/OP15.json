@@ -49,6 +49,31 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-001_EN.webp"
   },
   {
+    "id": "OP15-001_p1",
+    "name": "Krieg",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Red",
+      "Green"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "East Blue",
+      "Krieg Pirates"
+    ],
+    "effect": "[DON!! x1] [Opponent's Turn] If the only Characters on your field are {East Blue} type Characters, give all of your opponent's Characters −2000 power. [Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters that has 2 or more DON!! cards given.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-001_p1_EN.webp",
+    "set": "OP15"
+  },
+  {
     "id": "OP15-002",
     "set": "OP15",
     "name": "Lucy",
@@ -74,29 +99,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-002_EN.webp"
   },
   {
-    "id": "OP15-001_p1",
-    "name": "Krieg",
-    "rarity": "Alternate Art",
-    "category": "Leader",
+    "id": "OP15-003",
+    "set": "OP15",
+    "name": "Alvida",
+    "rarity": "Rare",
+    "category": "Character",
     "colors": [
-      "Red",
-      "Green"
+      "Red"
     ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
     "block": 4,
     "attributes": [
-      "Slash"
+      "Strike"
     ],
     "types": [
       "East Blue",
-      "Krieg Pirates"
+      "Alvida Pirates"
     ],
-    "effect": "[DON!! x1] [Opponent's Turn] If the only Characters on your field are {East Blue} type Characters, give all of your opponent's Characters −2000 power. [Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters that has 2 or more DON!! cards given.",
+    "effect": "If this Character would be K.O.'d, you may trash 1 Character card with a power of 6000 or less from your hand instead. [Activate: Main] [Once Per Turn] You may give 1 of your opponent's rested DON!! cards to 1 of your opponent's Characters: Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-001_p1_EN.webp",
-    "set": "OP15"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-003_EN.webp"
   },
   {
     "id": "OP15-002_p1",
@@ -124,10 +148,9 @@
     "set": "OP15"
   },
   {
-    "id": "OP15-003",
-    "set": "OP15",
+    "id": "OP15-003_p1",
     "name": "Alvida",
-    "rarity": "Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Red"
@@ -145,7 +168,8 @@
     ],
     "effect": "If this Character would be K.O.'d, you may trash 1 Character card with a power of 6000 or less from your hand instead. [Activate: Main] [Once Per Turn] You may give 1 of your opponent's rested DON!! cards to 1 of your opponent's Characters: Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-003_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-003_p1_EN.webp",
+    "set": "OP15"
   },
   {
     "id": "OP15-004",
@@ -170,30 +194,6 @@
     "effect": "[On Play] If your Leader has 0 power or less, give up to 1 of your opponent's Characters −3000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-004_EN.webp"
-  },
-  {
-    "id": "OP15-003_p1",
-    "name": "Alvida",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "East Blue",
-      "Alvida Pirates"
-    ],
-    "effect": "If this Character would be K.O.'d, you may trash 1 Character card with a power of 6000 or less from your hand instead. [Activate: Main] [Once Per Turn] You may give 1 of your opponent's rested DON!! cards to 1 of your opponent's Characters: Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-003_p1_EN.webp",
-    "set": "OP15"
   },
   {
     "id": "OP15-005",
@@ -388,30 +388,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-010_EN.webp"
   },
   {
-    "id": "OP15-012",
-    "set": "OP15",
-    "name": "Buggy",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "East Blue",
-      "Buggy Pirates"
-    ],
-    "effect": "[When Attacking] Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters. [On K.O.] Draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-012_EN.webp"
-  },
-  {
     "id": "OP15-011",
     "set": "OP15",
     "name": "Pearl",
@@ -458,6 +434,30 @@
     "effect": "If your Leader has 0 power or less, give this card in your hand −2 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-013_EN.webp"
+  },
+  {
+    "id": "OP15-012",
+    "set": "OP15",
+    "name": "Buggy",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "East Blue",
+      "Buggy Pirates"
+    ],
+    "effect": "[When Attacking] Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters. [On K.O.] Draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-012_EN.webp"
   },
   {
     "id": "OP15-014",
@@ -531,30 +531,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-016_EN.webp"
   },
   {
-    "id": "OP15-018",
-    "set": "OP15",
-    "name": "Mohji",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "East Blue",
-      "Buggy Pirates"
-    ],
-    "effect": "[When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less with a DON!! card given.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-018_EN.webp"
-  },
-  {
     "id": "OP15-017",
     "set": "OP15",
     "name": "Morgan",
@@ -577,6 +553,30 @@
     "effect": "[Blocker] [Activate: Main] [Once Per Turn] You may give 1 of your opponent's rested DON!! cards to 1 of your opponent's Characters: Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-017_EN.webp"
+  },
+  {
+    "id": "OP15-018",
+    "set": "OP15",
+    "name": "Mohji",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "East Blue",
+      "Buggy Pirates"
+    ],
+    "effect": "[When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less with a DON!! card given.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-018_EN.webp"
   },
   {
     "id": "OP15-019",
@@ -813,30 +813,6 @@
     "set": "OP15"
   },
   {
-    "id": "OP15-028",
-    "set": "OP15",
-    "name": "Meowban Brothers",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "East Blue",
-      "Black Cat Pirates"
-    ],
-    "effect": "[On Play] If your Leader has the {East Blue} type, give up to 1 DON!! card from your opponent's cost area to 1 of your opponent's Characters.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-028_EN.webp"
-  },
-  {
     "id": "OP15-027",
     "set": "OP15",
     "name": "Dracule Mihawk",
@@ -861,28 +837,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-027_EN.webp"
   },
   {
-    "id": "OP15-030",
+    "id": "OP15-028",
     "set": "OP15",
-    "name": "Hyouzou",
+    "name": "Meowban Brothers",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 5,
-    "power": 6000,
+    "cost": 1,
+    "power": 2000,
     "counter": 2000,
     "block": 4,
     "attributes": [
       "Slash"
     ],
     "types": [
-      "Merfolk",
-      "Fish-Man Island"
+      "East Blue",
+      "Black Cat Pirates"
     ],
-    "effect": "",
+    "effect": "[On Play] If your Leader has the {East Blue} type, give up to 1 DON!! card from your opponent's cost area to 1 of your opponent's Characters.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-030_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-028_EN.webp"
   },
   {
     "id": "OP15-029",
@@ -907,6 +883,30 @@
     "effect": "[On Play] Up to 1 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-029_EN.webp"
+  },
+  {
+    "id": "OP15-030",
+    "set": "OP15",
+    "name": "Hyouzou",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Merfolk",
+      "Fish-Man Island"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-030_EN.webp"
   },
   {
     "id": "OP15-031",
@@ -1027,29 +1027,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-034_EN.webp"
   },
   {
-    "id": "OP15-035",
-    "set": "OP15",
-    "name": "Laboon",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal"
-    ],
-    "effect": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may rest 2 of your cards instead.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-035_EN.webp"
-  },
-  {
     "id": "OP15-036",
     "set": "OP15",
     "name": "Ryuma",
@@ -1072,6 +1049,29 @@
     "effect": "[On Play]/[When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-036_EN.webp"
+  },
+  {
+    "id": "OP15-035",
+    "set": "OP15",
+    "name": "Laboon",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Animal"
+    ],
+    "effect": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may rest 2 of your cards instead.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-035_EN.webp"
   },
   {
     "id": "OP15-037",
@@ -1331,30 +1331,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-046_EN.webp"
   },
   {
-    "id": "OP15-046_p1",
-    "name": "Sabo",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 7,
-    "power": 9000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa",
-      "Revolutionary Army"
-    ],
-    "effect": "[Blocker] [On Play] If your Leader has the {Dressrosa} type, activate up to 1 {Dressrosa} type Event from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-046_p1_EN.webp",
-    "set": "OP15"
-  },
-  {
     "id": "OP15-047",
     "set": "OP15",
     "name": "Sanji",
@@ -1377,6 +1353,30 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Up to 1 of your Characters gains [Unblockable] during this turn. (This card cannot be blocked.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-047_EN.webp"
+  },
+  {
+    "id": "OP15-046_p1",
+    "name": "Sabo",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "[Blocker] [On Play] If your Leader has the {Dressrosa} type, activate up to 1 {Dressrosa} type Event from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-046_p1_EN.webp",
+    "set": "OP15"
   },
   {
     "id": "OP15-047_p1",
@@ -1476,30 +1476,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-050_EN.webp"
   },
   {
-    "id": "OP15-052",
-    "set": "OP15",
-    "name": "Leo",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "The Tontattas",
-      "Dressrosa"
-    ],
-    "effect": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may place 1 of your Characters at the bottom of the owner's deck instead.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-052_EN.webp"
-  },
-  {
     "id": "OP15-051",
     "set": "OP15",
     "name": "Monkey.D.Luffy",
@@ -1524,26 +1500,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-051_EN.webp"
   },
   {
-    "id": "OP15-054",
+    "id": "OP15-052",
     "set": "OP15",
-    "name": "And No One Else Can Have It! It's Our Memento of Him",
-    "rarity": "Common",
-    "category": "Event",
+    "name": "Leo",
+    "rarity": "Uncommon",
+    "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 4,
-    "power": null,
-    "counter": null,
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
     "block": 4,
-    "attributes": [],
-    "types": [
-      "Dressrosa",
-      "Revolutionary Army"
+    "attributes": [
+      "Strike"
     ],
-    "effect": "[Main] If your Leader is [Lucy], choose one: • Draw 2 cards and trash 1 card from your hand. Then, play up to 1 {Dressrosa} type Character card with a cost of 4 or less from your hand. • Return up to 1 Stage to the owner's hand.",
+    "types": [
+      "The Tontattas",
+      "Dressrosa"
+    ],
+    "effect": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may place 1 of your Characters at the bottom of the owner's deck instead.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-054_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-052_EN.webp"
   },
   {
     "id": "OP15-053",
@@ -1569,26 +1547,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-053_EN.webp"
   },
   {
-    "id": "OP15-055",
+    "id": "OP15-054",
     "set": "OP15",
-    "name": "Go Ahead and Use 'Em, Mr. Luffy!!!",
-    "rarity": "Rare",
+    "name": "And No One Else Can Have It! It's Our Memento of Him",
+    "rarity": "Common",
     "category": "Event",
     "colors": [
       "Blue"
     ],
-    "cost": 3,
+    "cost": 4,
     "power": null,
     "counter": null,
     "block": 4,
     "attributes": [],
     "types": [
       "Dressrosa",
-      "Barto Club"
+      "Revolutionary Army"
     ],
-    "effect": "[Main] Choose one: • Draw 2 cards. • Up to 1 of your {Dressrosa} type Characters gains [Blocker] until the end of your opponent's next End Phase.",
+    "effect": "[Main] If your Leader is [Lucy], choose one: • Draw 2 cards and trash 1 card from your hand. Then, play up to 1 {Dressrosa} type Character card with a cost of 4 or less from your hand. • Return up to 1 Stage to the owner's hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-055_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-054_EN.webp"
   },
   {
     "id": "OP15-053_p1",
@@ -1612,6 +1590,28 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-053_p1_EN.webp",
     "set": "OP15"
+  },
+  {
+    "id": "OP15-055",
+    "set": "OP15",
+    "name": "Go Ahead and Use 'Em, Mr. Luffy!!!",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Dressrosa",
+      "Barto Club"
+    ],
+    "effect": "[Main] Choose one: • Draw 2 cards. • Up to 1 of your {Dressrosa} type Characters gains [Blocker] until the end of your opponent's next End Phase.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-055_EN.webp"
   },
   {
     "id": "OP15-056",
@@ -2034,6 +2034,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-070_EN.webp"
   },
   {
+    "id": "OP15-072",
+    "set": "OP15",
+    "name": "Hotori",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Sky Island"
+    ],
+    "effect": "[Activate: Main] DON!! −2, You may rest this Character: If you have [Kotori] and [Satori], give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-072_EN.webp"
+  },
+  {
     "id": "OP15-071",
     "set": "OP15",
     "name": "Holly",
@@ -2058,27 +2081,25 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-071_EN.webp"
   },
   {
-    "id": "OP15-072",
+    "id": "OP15-074",
     "set": "OP15",
-    "name": "Hotori",
-    "rarity": "Common",
-    "category": "Character",
+    "name": "Varie",
+    "rarity": "Uncommon",
+    "category": "Event",
     "colors": [
       "Purple"
     ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
+    "cost": 0,
+    "power": null,
+    "counter": null,
     "block": 4,
-    "attributes": [
-      "Special"
-    ],
+    "attributes": [],
     "types": [
       "Sky Island"
     ],
-    "effect": "[Activate: Main] DON!! −2, You may rest this Character: If you have [Kotori] and [Satori], give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "effect": "[Main] DON!! −1: If your Leader is [Enel], draw 1 card. Then, up to 1 of your Characters gains +2 cost until the end of your opponent's next End Phase. [Counter] Up to 1 of your [Enel] cards gains +2000 power during this battle.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-072_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-074_EN.webp"
   },
   {
     "id": "OP15-073",
@@ -2102,27 +2123,6 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Play up to 1 [Heavenly Warriors] with a cost of 1 or up to 1 {Vassals} type Character card with a cost of 1 from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-073_EN.webp"
-  },
-  {
-    "id": "OP15-074",
-    "set": "OP15",
-    "name": "Varie",
-    "rarity": "Uncommon",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 0,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Sky Island"
-    ],
-    "effect": "[Main] DON!! −1: If your Leader is [Enel], draw 1 card. Then, up to 1 of your Characters gains +2 cost until the end of your opponent's next End Phase. [Counter] Up to 1 of your [Enel] cards gains +2000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-074_EN.webp"
   },
   {
     "id": "OP15-075",
@@ -2209,50 +2209,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-078_EN.webp"
   },
   {
-    "id": "OP15-077_p1",
-    "name": "Lightning Dragon",
-    "rarity": "Alternate Art",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 0,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Sky Island"
-    ],
-    "effect": "[Main] DON!! −1: Draw 1 card. Then, up to 1 of your opponent's rested Characters with 6000 power or less will not become active in your opponent's next Refresh Phase.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-077_p1_EN.webp",
-    "set": "OP15"
-  },
-  {
-    "id": "OP15-079",
-    "set": "OP15",
-    "name": "Absalom",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Thriller Bark Pirates"
-    ],
-    "effect": "[On K.O.] Add up to 1 {Thriller Bark Pirates} type card from your trash to your hand.",
-    "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-079_EN.webp"
-  },
-  {
     "id": "OP15-078_p1",
     "name": "Mamaragan",
     "rarity": "Alternate Art",
@@ -2271,6 +2227,27 @@
     "effect": "[Main] DON!! −2: Draw 1 card. Then, rest up to 1 of your opponent's Characters with 5000 power or less. [Counter] Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, if you have 6 or less DON!! cards on your field, draw 1 card.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-078_p1_EN.webp",
+    "set": "OP15"
+  },
+  {
+    "id": "OP15-077_p1",
+    "name": "Lightning Dragon",
+    "rarity": "Alternate Art",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 0,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Sky Island"
+    ],
+    "effect": "[Main] DON!! −1: Draw 1 card. Then, up to 1 of your opponent's rested Characters with 6000 power or less will not become active in your opponent's next Refresh Phase.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-077_p1_EN.webp",
     "set": "OP15"
   },
   {
@@ -2298,6 +2275,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-080_EN.webp"
   },
   {
+    "id": "OP15-079",
+    "set": "OP15",
+    "name": "Absalom",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On K.O.] Add up to 1 {Thriller Bark Pirates} type card from your trash to your hand.",
+    "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-079_EN.webp"
+  },
+  {
     "id": "OP15-081",
     "set": "OP15",
     "name": "Sanji",
@@ -2319,6 +2319,29 @@
     "effect": "[On Play] If your Leader has the {Straw Hat Crew} type, trash 5 cards from the top of your deck.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-081_EN.webp"
+  },
+  {
+    "id": "OP15-082",
+    "set": "OP15",
+    "name": "Charlotte Lola",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Rolling Pirates"
+    ],
+    "effect": "[On Play] Trash 3 cards from the top of your deck. [On K.O.] Add up to 1 of your Character cards with a cost of 8 or less from your trash to your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-082_EN.webp"
   },
   {
     "id": "OP15-083",
@@ -2344,27 +2367,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-083_EN.webp"
   },
   {
-    "id": "OP15-082",
+    "id": "OP15-084",
     "set": "OP15",
-    "name": "Charlotte Lola",
+    "name": "Dr. Hogback",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 4,
-    "power": 5000,
+    "cost": 1,
+    "power": 2000,
     "counter": 1000,
     "block": 4,
     "attributes": [
-      "Slash"
+      "Wisdom"
     ],
     "types": [
-      "Rolling Pirates"
+      "Thriller Bark Pirates"
     ],
-    "effect": "[On Play] Trash 3 cards from the top of your deck. [On K.O.] Add up to 1 of your Character cards with a cost of 8 or less from your trash to your hand.",
+    "effect": "[On Play] If your Leader has the {Thriller Bark Pirates} type, trash 5 cards from the top of your deck. [On K.O.] If you have 6 or less cards in your hand, draw 1 card.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-082_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-084_EN.webp"
   },
   {
     "id": "OP15-085",
@@ -2391,27 +2414,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-085_EN.webp"
   },
   {
-    "id": "OP15-084",
+    "id": "OP15-086",
     "set": "OP15",
-    "name": "Dr. Hogback",
-    "rarity": "Common",
+    "name": "Nami",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
+    "cost": 8,
+    "power": 6000,
+    "counter": null,
     "block": 4,
     "attributes": [
-      "Wisdom"
+      "Special"
     ],
     "types": [
-      "Thriller Bark Pirates"
+      "Straw Hat Crew"
     ],
-    "effect": "[On Play] If your Leader has the {Thriller Bark Pirates} type, trash 5 cards from the top of your deck. [On K.O.] If you have 6 or less cards in your hand, draw 1 card.",
+    "effect": "[On Play] If your Leader has the {Straw Hat Crew} type, play up to 1 {Straw Hat Crew} type Character with a cost of 7 or less from your trash. The Character played with this effect gains [Rush] during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-084_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-086_EN.webp"
   },
   {
     "id": "OP15-087",
@@ -2437,10 +2460,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-087_EN.webp"
   },
   {
-    "id": "OP15-086",
-    "set": "OP15",
+    "id": "OP15-086_p1",
     "name": "Nami",
-    "rarity": "Super Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Black"
@@ -2457,7 +2479,8 @@
     ],
     "effect": "[On Play] If your Leader has the {Straw Hat Crew} type, play up to 1 {Straw Hat Crew} type Character with a cost of 7 or less from your trash. The Character played with this effect gains [Rush] during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-086_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-086_p1_EN.webp",
+    "set": "OP15"
   },
   {
     "id": "OP15-088",
@@ -2481,29 +2504,6 @@
     "effect": "This Character gains +6 cost. [On Play] You may trash 3 cards from the top of your deck: Play up to 1 {Straw Hat Crew} type Character card with a cost of 2 or less from your trash.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-088_EN.webp"
-  },
-  {
-    "id": "OP15-086_p1",
-    "name": "Nami",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 8,
-    "power": 6000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] If your Leader has the {Straw Hat Crew} type, play up to 1 {Straw Hat Crew} type Character with a cost of 7 or less from your trash. The Character played with this effect gains [Rush] during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-086_p1_EN.webp",
-    "set": "OP15"
   },
   {
     "id": "OP15-089",
@@ -2621,29 +2621,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-093_EN.webp"
   },
   {
-    "id": "OP15-092_p1",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 7,
-    "power": 7000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "Apply each of the following effects based on the number of cards in your trash: • If there are 10 or more cards, this Character's base power becomes 9000 and it gains +10 cost. • If you have 20 or more cards, during your opponent's turn, your Leader's base power becomes 7000. • If you have 30 or more cards, this Character gains +1000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-092_p1_EN.webp",
-    "set": "OP15"
-  },
-  {
     "id": "OP15-094",
     "set": "OP15",
     "name": "Roronoa Zoro",
@@ -2665,6 +2642,29 @@
     "effect": "If your {Straw Hat Crew} type Character other than this Character would be removed from the field by your opponent's effect, you may trash this Character instead. [Blocker]",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-094_EN.webp"
+  },
+  {
+    "id": "OP15-092_p1",
+    "name": "Monkey.D.Luffy",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "Apply each of the following effects based on the number of cards in your trash: • If there are 10 or more cards, this Character's base power becomes 9000 and it gains +10 cost. • If you have 20 or more cards, during your opponent's turn, your Leader's base power becomes 7000. • If you have 30 or more cards, this Character gains +1000 power.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-092_p1_EN.webp",
+    "set": "OP15"
   },
   {
     "id": "OP15-095",
@@ -2852,29 +2852,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-101_EN.webp"
   },
   {
-    "id": "OP15-102",
-    "set": "OP15",
-    "name": "Gan.Fall",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 4,
-    "power": 4000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Sky Island"
-    ],
-    "effect": "If you have a {Sky Island} type Character with 7000 power or more, give this card in your hand −3 cost. [On Play] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-102_EN.webp"
-  },
-  {
     "id": "OP15-103",
     "set": "OP15",
     "name": "Genbo",
@@ -2897,6 +2874,29 @@
     "effect": "",
     "trigger": "[Trigger] Draw 1 card. Then, if you have 2 or less Life cards, play this card.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-103_EN.webp"
+  },
+  {
+    "id": "OP15-102",
+    "set": "OP15",
+    "name": "Gan.Fall",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Sky Island"
+    ],
+    "effect": "If you have a {Sky Island} type Character with 7000 power or more, give this card in your hand −3 cost. [On Play] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-102_EN.webp"
   },
   {
     "id": "OP15-104",
@@ -2946,30 +2946,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-105_EN.webp"
   },
   {
-    "id": "OP15-106",
-    "set": "OP15",
-    "name": "Octoballoon",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 0,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Animal",
-      "Sky Island"
-    ],
-    "effect": "",
-    "trigger": "[Trigger] Draw 1 card. Then, play up to 1 yellow Character or Stage card with a cost of 2 or less from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-106_EN.webp"
-  },
-  {
     "id": "OP15-107",
     "set": "OP15",
     "name": "Tony Tony.Chopper",
@@ -2993,6 +2969,30 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-107_EN.webp"
+  },
+  {
+    "id": "OP15-106",
+    "set": "OP15",
+    "name": "Octoballoon",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 0,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Animal",
+      "Sky Island"
+    ],
+    "effect": "",
+    "trigger": "[Trigger] Draw 1 card. Then, play up to 1 yellow Character or Stage card with a cost of 2 or less from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP15/OP15-106_EN.webp"
   },
   {
     "id": "OP15-108",
@@ -3630,6 +3630,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-002_EN.webp"
   },
   {
+    "id": "EB04-002_p1",
+    "name": "Jewelry Bonney",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Egghead",
+      "Bonney Pirates"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Egghead} or {Straw Hat Crew} type card other than [Jewelry Bonney] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-002_p1_EN.webp",
+    "set": "OP15"
+  },
+  {
     "id": "EB04-001_p1",
     "name": "Jewelry Bonney",
     "rarity": "Alternate Art",
@@ -3652,30 +3676,6 @@
     "effect": "[Opponent's Turn] If you have 1 or less Life cards, this Leader gains +2000 power. [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1000 power during this turn. Then, if you have 2 or more Life cards, you may add 1 card from the top of your Life cards to your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-001_p1_EN.webp",
-    "set": "OP15"
-  },
-  {
-    "id": "EB04-002_p1",
-    "name": "Jewelry Bonney",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Egghead",
-      "Bonney Pirates"
-    ],
-    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Egghead} or {Straw Hat Crew} type card other than [Jewelry Bonney] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-002_p1_EN.webp",
     "set": "OP15"
   },
   {
@@ -3824,28 +3824,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-007_EN.webp"
   },
   {
-    "id": "EB04-008",
-    "set": "OP15",
-    "name": "Distorted Future",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 4,
-    "attributes": [],
-    "types": [
-      "Egghead",
-      "Bonney Pirates"
-    ],
-    "effect": "[Main] If you have 2 or less Life cards, give up to 1 of your opponent's Characters −3000 power during this turn. [Counter] Your Leader gains +3000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-008_EN.webp"
-  },
-  {
     "id": "EB04-007_p1",
     "name": "Roronoa Zoro",
     "rarity": "Alternate Art",
@@ -3868,6 +3846,28 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-007_p1_EN.webp",
     "set": "OP15"
+  },
+  {
+    "id": "EB04-008",
+    "set": "OP15",
+    "name": "Distorted Future",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 4,
+    "attributes": [],
+    "types": [
+      "Egghead",
+      "Bonney Pirates"
+    ],
+    "effect": "[Main] If you have 2 or less Life cards, give up to 1 of your opponent's Characters −3000 power during this turn. [Counter] Your Leader gains +3000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-008_EN.webp"
   },
   {
     "id": "EB04-009",
@@ -4007,6 +4007,29 @@
     "set": "OP15"
   },
   {
+    "id": "EB04-045",
+    "set": "OP15",
+    "name": "Ginny",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: If there are 2 or more Characters with a cost of 8 or more, up to 1 of your {Revolutionary Army} type Leader or Character cards gains +1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-045_EN.webp"
+  },
+  {
     "id": "EB04-044_p1",
     "name": "Koby",
     "rarity": "Alternate Art",
@@ -4053,29 +4076,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-044_p2_EN.webp",
     "set": "OP15"
-  },
-  {
-    "id": "EB04-045",
-    "set": "OP15",
-    "name": "Ginny",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Revolutionary Army"
-    ],
-    "effect": "[Activate: Main] You may rest this Character: If there are 2 or more Characters with a cost of 8 or more, up to 1 of your {Revolutionary Army} type Leader or Character cards gains +1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-045_EN.webp"
   },
   {
     "id": "EB04-046",
@@ -4217,6 +4217,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-050_EN.webp"
   },
   {
+    "id": "EB04-051",
+    "set": "OP15",
+    "name": "Emet",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 8,
+    "power": 7000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Egghead"
+    ],
+    "effect": "This Character cannot attack unless there is a Character with 12000 base power or more.",
+    "trigger": "[Trigger] Give all of your opponent's Characters −3000 power during this turn. Then, if you have 0 Life cards, play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-051_EN.webp"
+  },
+  {
     "id": "EB04-052",
     "set": "OP15",
     "name": "Sanji",
@@ -4239,29 +4262,6 @@
     "effect": "[When Attacking] This Character's base power becomes the same as your opponent's Leader during this turn. [On K.O.] If you have 2 or less Life cards, play up to 1 yellow Character card with 6000 power or less from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-052_EN.webp"
-  },
-  {
-    "id": "EB04-051",
-    "set": "OP15",
-    "name": "Emet",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 8,
-    "power": 7000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Egghead"
-    ],
-    "effect": "This Character cannot attack unless there is a Character with 12000 base power or more.",
-    "trigger": "[Trigger] Give all of your opponent's Characters −3000 power during this turn. Then, if you have 0 Life cards, play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-051_EN.webp"
   },
   {
     "id": "EB04-053",
@@ -4312,31 +4312,6 @@
     "set": "OP15"
   },
   {
-    "id": "EB04-056",
-    "set": "OP15",
-    "name": "Pacifista",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": 1000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Biological Weapon",
-      "Egghead",
-      "Navy"
-    ],
-    "effect": "If you have [Jewelry Bonney] and you have 0 Life cards, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-056_EN.webp"
-  },
-  {
     "id": "EB04-055",
     "set": "OP15",
     "name": "Bartholomew Kuma",
@@ -4385,6 +4360,31 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-057_EN.webp"
   },
   {
+    "id": "EB04-056",
+    "set": "OP15",
+    "name": "Pacifista",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Biological Weapon",
+      "Egghead",
+      "Navy"
+    ],
+    "effect": "If you have [Jewelry Bonney] and you have 0 Life cards, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-056_EN.webp"
+  },
+  {
     "id": "EB04-058",
     "set": "OP15",
     "name": "Borsalino",
@@ -4407,30 +4407,6 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 2 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-058_EN.webp"
-  },
-  {
-    "id": "EB04-058_p1",
-    "name": "Borsalino",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Egghead",
-      "Navy"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 2 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-058_p1_EN.webp",
-    "set": "OP15"
   },
   {
     "id": "EB04-059",
@@ -4477,6 +4453,30 @@
     "effect": "[Main] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 {Egghead} type Character card from your hand to the top of your Life cards face-up. Then, give up to 1 of your opponent's Characters −1000 power during this turn.",
     "trigger": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-060_EN.webp"
+  },
+  {
+    "id": "EB04-058_p1",
+    "name": "Borsalino",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Egghead",
+      "Navy"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 2 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-058_p1_EN.webp",
+    "set": "OP15"
   },
   {
     "id": "EB04-061",
