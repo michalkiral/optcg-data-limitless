@@ -697,30 +697,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-023_EN.webp"
   },
   {
-    "id": "OP16-024",
-    "set": "OP16",
-    "name": "Inazuma",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 2,
-    "power": 1000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Impel Down",
-      "Revolutionary Army"
-    ],
-    "effect": "When this Character is K.O.'d by your opponent's effect, rest up to 1 of your opponent's Characters. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-024_EN.webp"
-  },
-  {
     "id": "OP16-025",
     "set": "OP16",
     "name": "Bunkov",
@@ -744,28 +720,28 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-025_EN.webp"
   },
   {
-    "id": "OP16-026",
+    "id": "OP16-024",
     "set": "OP16",
-    "name": "Emporio.Ivankov",
-    "rarity": "Super Rare",
+    "name": "Inazuma",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 4,
-    "power": 4000,
+    "cost": 2,
+    "power": 1000,
     "counter": 1000,
     "block": 5,
     "attributes": [
-      "Special"
+      "Slash"
     ],
     "types": [
       "Impel Down",
       "Revolutionary Army"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Impel Down} type card, add it to your hand and place the rest at the bottom of your deck in any order. Then, play up to 1 Character card with a cost of 2 or less from your hand.",
+    "effect": "When this Character is K.O.'d by your opponent's effect, rest up to 1 of your opponent's Characters. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-026_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-024_EN.webp"
   },
   {
     "id": "OP16-027",
@@ -791,6 +767,30 @@
     "effect": "[DON!! x1] This Character gains +2000 power.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-027_EN.webp"
+  },
+  {
+    "id": "OP16-026",
+    "set": "OP16",
+    "name": "Emporio.Ivankov",
+    "rarity": "Super Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Impel Down",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Impel Down} type card, add it to your hand and place the rest at the bottom of your deck in any order. Then, play up to 1 Character card with a cost of 2 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-026_EN.webp"
   },
   {
     "id": "OP16-026_p1",
@@ -1783,29 +1783,6 @@
     "set": "OP16"
   },
   {
-    "id": "OP16-062",
-    "set": "OP16",
-    "name": "Younger Brother Marine",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 5,
-    "power": 6000,
-    "counter": 2000,
-    "block": 5,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Navy"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-062_EN.webp"
-  },
-  {
     "id": "OP16-063",
     "set": "OP16",
     "name": "Kuzan",
@@ -1828,6 +1805,29 @@
     "effect": "[On Play] Add up to 2 DON!! cards from your DON!! deck and rest them. [Activate: Main] [Once Per Turn] DON!! −1: Up to 1 of your opponent's Characters cannot activate [Blocker] during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-063_EN.webp"
+  },
+  {
+    "id": "OP16-062",
+    "set": "OP16",
+    "name": "Younger Brother Marine",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "block": 5,
+    "attributes": [
+      "Ranged"
+    ],
+    "types": [
+      "Navy"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-062_EN.webp"
   },
   {
     "id": "OP16-064",
@@ -2253,6 +2253,27 @@
     "set": "OP16"
   },
   {
+    "id": "OP16-077",
+    "set": "OP16",
+    "name": "\"Buddha\" Sengoku",
+    "rarity": "Rare",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 5,
+    "attributes": [],
+    "types": [
+      "Navy"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 2 {Navy} type cards, add them to your hand and place the rest at the bottom of your deck in any order. Then, trash 1 card from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-077_EN.webp"
+  },
+  {
     "id": "OP16-076",
     "set": "OP16",
     "name": "The Three Admirals!!",
@@ -2273,27 +2294,6 @@
     "effect": "[Main] You may rest 3 of your DON!! cards: Up to 3 of your {Admiral} type Characters gain +2000 power during this turn. [Counter] If you have an {Admiral} type Character, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-076_EN.webp"
-  },
-  {
-    "id": "OP16-077",
-    "set": "OP16",
-    "name": "\"Buddha\" Sengoku",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 5,
-    "attributes": [],
-    "types": [
-      "Navy"
-    ],
-    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 2 {Navy} type cards, add them to your hand and place the rest at the bottom of your deck in any order. Then, trash 1 card from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-077_EN.webp"
   },
   {
     "id": "OP16-078",
@@ -2340,6 +2340,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_EN.webp"
   },
   {
+    "id": "OP16-079_p1",
+    "name": "Yamato",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Black"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "block": 5,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "When a {Land of Wano} type Character card is played from your trash, that Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_p1_EN.webp",
+    "set": "OP16"
+  },
+  {
     "id": "OP16-080",
     "set": "OP16",
     "name": "Marshall.D.Teach",
@@ -2363,29 +2386,6 @@
     "effect": "[Opponent's Turn] All of your Characters gain +1 cost. [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card with a",
     "trigger": "[Trigger] from your hand: Change the target of that attack to this Leader or to one of your {Blackbeard Pirates} type Character cards.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-080_EN.webp"
-  },
-  {
-    "id": "OP16-079_p1",
-    "name": "Yamato",
-    "rarity": "Alternate Art",
-    "category": "Leader",
-    "colors": [
-      "Black"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": null,
-    "block": 5,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "When a {Land of Wano} type Character card is played from your trash, that Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-079_p1_EN.webp",
-    "set": "OP16"
   },
   {
     "id": "OP16-080_p1",
@@ -2908,6 +2908,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-099_EN.webp"
   },
   {
+    "id": "OP16-100",
+    "set": "OP16",
+    "name": "Hallowed Glacier Slash",
+    "rarity": "Common",
+    "category": "Event",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 5,
+    "attributes": [],
+    "types": [
+      "Land of Wano"
+    ],
+    "effect": "[Main] You may rest 2 of your DON!! cards: If your opponent's Character has been K.O.'d during this turn, set your Leader [Yamato] as active. [Counter] Your Leader gains +3000 power during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-100_EN.webp"
+  },
+  {
     "id": "OP16-098_p1",
     "name": "Yamato",
     "rarity": "Alternate Art",
@@ -2929,27 +2950,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-098_p1_EN.webp",
     "set": "OP16"
-  },
-  {
-    "id": "OP16-100",
-    "set": "OP16",
-    "name": "Hallowed Glacier Slash",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 5,
-    "attributes": [],
-    "types": [
-      "Land of Wano"
-    ],
-    "effect": "[Main] You may rest 2 of your DON!! cards: If your opponent's Character has been K.O.'d during this turn, set your Leader [Yamato] as active. [Counter] Your Leader gains +3000 power during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-100_EN.webp"
   },
   {
     "id": "OP16-101",
@@ -2997,29 +2997,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-102_EN.webp"
   },
   {
-    "id": "OP16-103",
-    "set": "OP16",
-    "name": "Van Augur",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 5,
-    "attributes": [
-      "Ranged"
-    ],
-    "types": [
-      "Blackbeard Pirates"
-    ],
-    "effect": "[Opponent's Turn] [On K.O.] If your Leader has the {Blackbeard Pirates} type, draw 1 card and give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-103_EN.webp"
-  },
-  {
     "id": "OP16-104",
     "set": "OP16",
     "name": "Catarina Devon",
@@ -3044,28 +3021,27 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-104_EN.webp"
   },
   {
-    "id": "OP16-105",
+    "id": "OP16-103",
     "set": "OP16",
-    "name": "Gecko Moria",
-    "rarity": "Common",
+    "name": "Van Augur",
+    "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Yellow"
     ],
-    "cost": 6,
-    "power": 7000,
+    "cost": 1,
+    "power": 2000,
     "counter": 1000,
     "block": 5,
     "attributes": [
-      "Special"
+      "Ranged"
     ],
     "types": [
-      "The Seven Warlords of the Sea",
-      "Thriller Bark Pirates"
+      "Blackbeard Pirates"
     ],
-    "effect": "",
-    "trigger": "[Trigger] If you have 1 or less Life cards, play up to 1 [Absalom], up to 1 [Dr. Hogback], and up to 1 [Perona], with a cost of 4 or less from your trash.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-105_EN.webp"
+    "effect": "[Opponent's Turn] [On K.O.] If your Leader has the {Blackbeard Pirates} type, draw 1 card and give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-103_EN.webp"
   },
   {
     "id": "OP16-106",
@@ -3091,6 +3067,30 @@
     "effect": "[On K.O.] If your Leader has the {Blackbeard Pirates} type, draw 1 card, then up to 1 of your Leader or Character cards' base power becomes 7000 during this turn.",
     "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-106_EN.webp"
+  },
+  {
+    "id": "OP16-105",
+    "set": "OP16",
+    "name": "Gecko Moria",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "",
+    "trigger": "[Trigger] If you have 1 or less Life cards, play up to 1 [Absalom], up to 1 [Dr. Hogback], and up to 1 [Perona], with a cost of 4 or less from your trash.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-105_EN.webp"
   },
   {
     "id": "OP16-107",
@@ -3140,29 +3140,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-108_EN.webp"
   },
   {
-    "id": "OP16-109",
-    "set": "OP16",
-    "name": "Doc Q",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 2000,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Blackbeard Pirates"
-    ],
-    "effect": "[On K.O.] If your Leader has the {Blackbeard Pirates} type, draw 1 card and K.O. up to 2 of your opponent's Characters with a cost of 1 or less.",
-    "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-109_EN.webp"
-  },
-  {
     "id": "OP16-108_p1",
     "name": "Shiryu",
     "rarity": "Alternate Art",
@@ -3185,6 +3162,29 @@
     "trigger": "[Trigger] Draw 2 cards.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-108_p1_EN.webp",
     "set": "OP16"
+  },
+  {
+    "id": "OP16-109",
+    "set": "OP16",
+    "name": "Doc Q",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[On K.O.] If your Leader has the {Blackbeard Pirates} type, draw 1 card and K.O. up to 2 of your opponent's Characters with a cost of 1 or less.",
+    "trigger": "[Trigger] Activate this card's [On K.O.] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-109_EN.webp"
   },
   {
     "id": "OP16-110",
@@ -3325,28 +3325,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-115_EN.webp"
   },
   {
-    "id": "OP16-116",
-    "set": "OP16",
-    "name": "Zehahahahaha!",
-    "rarity": "Rare",
-    "category": "Event",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 8,
-    "power": null,
-    "counter": null,
-    "block": 5,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Blackbeard Pirates"
-    ],
-    "effect": "[Main] If you have 10 DON!! cards on your field, play up to 1 [Marshall.D.Teach] from your hand. Then, add up to 1 card from the top of your opponent's Life cards to the owner's hand.",
-    "trigger": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-116_EN.webp"
-  },
-  {
     "id": "OP16-117",
     "set": "OP16",
     "name": "Black Hole",
@@ -3369,9 +3347,10 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-117_EN.webp"
   },
   {
-    "id": "OP16-116_p1",
+    "id": "OP16-116",
+    "set": "OP16",
     "name": "Zehahahahaha!",
-    "rarity": "Alternate Art",
+    "rarity": "Rare",
     "category": "Event",
     "colors": [
       "Yellow"
@@ -3387,8 +3366,7 @@
     ],
     "effect": "[Main] If you have 10 DON!! cards on your field, play up to 1 [Marshall.D.Teach] from your hand. Then, add up to 1 card from the top of your opponent's Life cards to the owner's hand.",
     "trigger": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-116_p1_EN.webp",
-    "set": "OP16"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-116_EN.webp"
   },
   {
     "id": "OP16-118",
@@ -3414,28 +3392,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-118_EN.webp"
   },
   {
-    "id": "OP16-119",
-    "set": "OP16",
-    "name": "Marshall.D.Teach",
-    "rarity": "Secret Rare",
-    "category": "Character",
+    "id": "OP16-116_p1",
+    "name": "Zehahahahaha!",
+    "rarity": "Alternate Art",
+    "category": "Event",
     "colors": [
       "Yellow"
     ],
     "cost": 8,
-    "power": 10000,
+    "power": null,
     "counter": null,
     "block": 5,
-    "attributes": [
-      "Special"
-    ],
+    "attributes": [],
     "types": [
       "The Seven Warlords of the Sea",
       "Blackbeard Pirates"
     ],
-    "effect": "[On Play] Look at 3 cards from the top of your deck; add up to 1 card to the top of your Life cards. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Negate the effect of up to 1 of your opponent's Characters during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-119_EN.webp"
+    "effect": "[Main] If you have 10 DON!! cards on your field, play up to 1 [Marshall.D.Teach] from your hand. Then, add up to 1 card from the top of your opponent's Life cards to the owner's hand.",
+    "trigger": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-116_p1_EN.webp",
+    "set": "OP16"
   },
   {
     "id": "OP16-118_p1",
@@ -3459,6 +3435,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-118_p1_EN.webp",
     "set": "OP16"
+  },
+  {
+    "id": "OP16-119",
+    "set": "OP16",
+    "name": "Marshall.D.Teach",
+    "rarity": "Secret Rare",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": null,
+    "block": 5,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck; add up to 1 card to the top of your Life cards. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Negate the effect of up to 1 of your opponent's Characters during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP16/OP16-119_EN.webp"
   },
   {
     "id": "OP16-119_p1",
