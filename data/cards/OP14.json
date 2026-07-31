@@ -94,30 +94,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-001_EN.webp"
   },
   {
-    "id": "OP14-002",
-    "set": "OP14",
-    "name": "Urouge",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 3,
-    "power": 2000,
-    "counter": 1000,
-    "block": 4,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Supernovas",
-      "Fallen Monk Pirates"
-    ],
-    "effect": "[When Attacking] If this Character has 5000 power or more, draw 1 card and K.O. up to 1 of your opponent's Characters with 3000 base power or less.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-002_EN.webp"
-  },
-  {
     "id": "OP14-001_p1",
     "name": "Trafalgar Law",
     "rarity": "Alternate Art",
@@ -141,6 +117,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-001_p1_EN.webp",
     "set": "OP14"
+  },
+  {
+    "id": "OP14-002",
+    "set": "OP14",
+    "name": "Urouge",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Supernovas",
+      "Fallen Monk Pirates"
+    ],
+    "effect": "[When Attacking] If this Character has 5000 power or more, draw 1 card and K.O. up to 1 of your opponent's Characters with 3000 base power or less.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-002_EN.webp"
   },
   {
     "id": "OP14-003",
@@ -287,6 +287,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-008_EN.webp"
   },
   {
+    "id": "OP14-010",
+    "set": "OP14",
+    "name": "Basil Hawkins",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effect": "[On K.O.] Look at 5 cards from the top of your deck; play up to 1 {Supernovas} type Character card with 2000 power or less other than [Basil Hawkins]. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-010_EN.webp"
+  },
+  {
     "id": "OP14-009",
     "set": "OP14",
     "name": "Trafalgar Law",
@@ -312,28 +336,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-009_EN.webp"
   },
   {
-    "id": "OP14-010",
+    "id": "OP14-011",
     "set": "OP14",
-    "name": "Basil Hawkins",
+    "name": "Bartolomeo",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Red"
     ],
-    "cost": 1,
+    "cost": 2,
     "power": 2000,
-    "counter": 1000,
+    "counter": 2000,
     "block": 4,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
+      "Dressrosa",
       "Supernovas",
-      "Hawkins Pirates"
+      "Barto Club"
     ],
-    "effect": "[On K.O.] Look at 5 cards from the top of your deck; play up to 1 {Supernovas} type Character card with 2000 power or less other than [Basil Hawkins]. Then, place the rest at the bottom of your deck in any order.",
+    "effect": "[DON!! x2] This Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-010_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-011_EN.webp"
   },
   {
     "id": "OP14-009_p1",
@@ -359,31 +384,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-009_p1_EN.webp",
     "set": "OP14"
-  },
-  {
-    "id": "OP14-011",
-    "set": "OP14",
-    "name": "Bartolomeo",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 2000,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Dressrosa",
-      "Supernovas",
-      "Barto Club"
-    ],
-    "effect": "[DON!! x2] This Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-011_EN.webp"
   },
   {
     "id": "OP14-012",
@@ -506,6 +506,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-015_EN.webp"
   },
   {
+    "id": "OP14-015_p1",
+    "name": "Roronoa Zoro",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-015_p1_EN.webp",
+    "set": "OP14"
+  },
+  {
     "id": "OP14-016",
     "set": "OP14",
     "name": "X.Drake",
@@ -529,30 +553,6 @@
     "effect": "[Opponent's Turn] [Once Per Turn] If your {Supernovas} type Character would be removed from the field by your opponent's effect, you may give your Leader −2000 power during this turn instead. [DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-016_EN.webp"
-  },
-  {
-    "id": "OP14-015_p1",
-    "name": "Roronoa Zoro",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 7,
-    "power": 8000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP14/OP14-015_p1_EN.webp",
-    "set": "OP14"
   },
   {
     "id": "OP14-018",
@@ -3501,30 +3501,6 @@
     "set": "OP14"
   },
   {
-    "id": "OP12-030_p2",
-    "name": "Dracule Mihawk",
-    "rarity": "Special Card",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 8,
-    "power": 8000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Muggy Kingdom",
-      "The Seven Warlords of the Sea"
-    ],
-    "effect": "[Blocker] [On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-030_p2_EN.webp",
-    "set": "OP14"
-  },
-  {
     "id": "EB01-003_p3",
     "name": "Kid & Killer",
     "rarity": "Special Card",
@@ -3547,6 +3523,30 @@
     "effect": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] If your opponent has 2 or less Life cards, this Character gains +2000 power during this turn.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-003_p3_EN.webp",
+    "set": "OP14"
+  },
+  {
+    "id": "OP12-030_p2",
+    "name": "Dracule Mihawk",
+    "rarity": "Special Card",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 8,
+    "power": 8000,
+    "counter": null,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Muggy Kingdom",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Blocker] [On Play] Set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 7 or more during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-030_p2_EN.webp",
     "set": "OP14"
   },
   {
@@ -4274,6 +4274,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-030_EN.webp"
   },
   {
+    "id": "EB04-031",
+    "set": "OP14",
+    "name": "King",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "block": 4,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Lunarian",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "If this Character would be K.O.'d, you may return 1 DON!! card from your field to your DON!! deck instead. [Activate: Main] [Once Per Turn] If your Leader has the {Animal Kingdom Pirates} type and you have no other [King] Characters, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-031_EN.webp"
+  },
+  {
     "id": "EB04-032",
     "set": "OP14",
     "name": "Queen",
@@ -4297,10 +4321,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-032_EN.webp"
   },
   {
-    "id": "EB04-031",
-    "set": "OP14",
+    "id": "EB04-031_p1",
     "name": "King",
-    "rarity": "Rare",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Purple"
@@ -4318,7 +4341,8 @@
     ],
     "effect": "If this Character would be K.O.'d, you may return 1 DON!! card from your field to your DON!! deck instead. [Activate: Main] [Once Per Turn] If your Leader has the {Animal Kingdom Pirates} type and you have no other [King] Characters, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-031_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-031_p1_EN.webp",
+    "set": "OP14"
   },
   {
     "id": "EB04-033",
@@ -4344,30 +4368,6 @@
     "effect": "[On Play] DON!! −1: If you have 3 or more {Foxy Pirates} type Characters, K.O. up to 1 of your opponent's Characters with 6000 base power or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-033_EN.webp"
-  },
-  {
-    "id": "EB04-031_p1",
-    "name": "King",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 6,
-    "power": 7000,
-    "counter": null,
-    "block": 4,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Lunarian",
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "If this Character would be K.O.'d, you may return 1 DON!! card from your field to your DON!! deck instead. [Activate: Main] [Once Per Turn] If your Leader has the {Animal Kingdom Pirates} type and you have no other [King] Characters, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB04/EB04-031_p1_EN.webp",
-    "set": "OP14"
   },
   {
     "id": "EB04-034",
