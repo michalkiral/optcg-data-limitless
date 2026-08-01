@@ -48,6 +48,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST24/ST24-001_EN.webp"
   },
   {
+    "id": "ST24-003",
+    "set": "ST24",
+    "name": "Basil Hawkins",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST24/ST24-003_EN.webp"
+  },
+  {
     "id": "ST24-002",
     "set": "ST24",
     "name": "Kid & Killer",
@@ -73,16 +97,16 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST24/ST24-002_EN.webp"
   },
   {
-    "id": "ST24-003",
+    "id": "ST24-005",
     "set": "ST24",
-    "name": "Basil Hawkins",
+    "name": "X.Drake",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 4,
-    "power": 4000,
+    "cost": 5,
+    "power": 5000,
     "counter": 2000,
     "block": 3,
     "attributes": [
@@ -90,11 +114,12 @@
     ],
     "types": [
       "Supernovas",
-      "Hawkins Pirates"
+      "Navy",
+      "Drake Pirates"
     ],
-    "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "effect": "[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST24/ST24-003_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST24/ST24-005_EN.webp"
   },
   {
     "id": "ST24-004",
@@ -121,31 +146,6 @@
     "effect": "[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST24/ST24-004_EN.webp"
-  },
-  {
-    "id": "ST24-005",
-    "set": "ST24",
-    "name": "X.Drake",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 5,
-    "power": 5000,
-    "counter": 2000,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Supernovas",
-      "Navy",
-      "Drake Pirates"
-    ],
-    "effect": "[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST24/ST24-005_EN.webp"
   },
   {
     "id": "OP07-021_r1",

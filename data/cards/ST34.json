@@ -23,6 +23,29 @@
     "set": "ST34"
   },
   {
+    "id": "ST34-002",
+    "set": "ST34",
+    "name": "Charlotte Cracker",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 5,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "trigger": null,
+    "image": null
+  },
+  {
     "id": "ST34-001",
     "set": "ST34",
     "name": "Charlotte Katakuri",
@@ -69,25 +92,26 @@
     "image": null
   },
   {
-    "id": "ST34-002",
+    "id": "ST34-004",
     "set": "ST34",
-    "name": "Charlotte Cracker",
-    "rarity": "Common",
+    "name": "Charlotte Linlin",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
     "block": 5,
     "attributes": [
-      "Slash"
+      "Special"
     ],
     "types": [
+      "The Four Emperors",
       "Big Mom Pirates"
     ],
-    "effect": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "effect": "[On Play] DON!! −4, you may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, up to 1 of your opponent's Characters' base power becomes 0 during this turn.",
     "trigger": null,
     "image": null
   },
@@ -112,30 +136,6 @@
       "Big Mom Pirates"
     ],
     "effect": "[When Attacking] DON!! −1: K.O. up to 1 of your opponent's Characters with 2000 base power or less.",
-    "trigger": null,
-    "image": null
-  },
-  {
-    "id": "ST34-004",
-    "set": "ST34",
-    "name": "Charlotte Linlin",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 10,
-    "power": 12000,
-    "counter": null,
-    "block": 5,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Four Emperors",
-      "Big Mom Pirates"
-    ],
-    "effect": "[On Play] DON!! −4, you may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, up to 1 of your opponent's Characters' base power becomes 0 during this turn.",
     "trigger": null,
     "image": null
   }

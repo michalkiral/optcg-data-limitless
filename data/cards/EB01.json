@@ -212,29 +212,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-038_EN.webp"
   },
   {
-    "id": "EB01-048",
-    "set": "EB01",
-    "name": "Laboon",
-    "rarity": "Super Rare",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Animal"
-    ],
-    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-048_EN.webp"
-  },
-  {
     "id": "EB01-046",
     "set": "EB01",
     "name": "Brook",
@@ -281,9 +258,10 @@
     "set": "EB01"
   },
   {
-    "id": "EB01-048_p1",
+    "id": "EB01-048",
+    "set": "EB01",
     "name": "Laboon",
-    "rarity": "Alternate Art",
+    "rarity": "Super Rare",
     "category": "Character",
     "colors": [
       "Black"
@@ -300,8 +278,7 @@
     ],
     "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-048_p1_EN.webp",
-    "set": "EB01"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-048_EN.webp"
   },
   {
     "id": "EB01-051",
@@ -323,6 +300,29 @@
     "effect": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": "[Trigger] Activate this card's [Main] effect.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-051_EN.webp"
+  },
+  {
+    "id": "EB01-048_p1",
+    "name": "Laboon",
+    "rarity": "Alternate Art",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Animal"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-048_p1_EN.webp",
+    "set": "EB01"
   },
   {
     "id": "EB01-057",
@@ -819,27 +819,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-008_EN.webp"
   },
   {
-    "id": "EB01-011",
-    "set": "EB01",
-    "name": "Mini-Merry",
-    "rarity": "Common",
-    "category": "Stage",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-011_EN.webp"
-  },
-  {
     "id": "EB01-010",
     "set": "EB01",
     "name": "There's No Way You Could Defeat Me!!",
@@ -860,6 +839,27 @@
     "effect": "[Counter] K.O. up to 1 of your opponent's Characters with 6000 base power or less.",
     "trigger": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 base power or less.",
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-010_EN.webp"
+  },
+  {
+    "id": "EB01-011",
+    "set": "EB01",
+    "name": "Mini-Merry",
+    "rarity": "Common",
+    "category": "Stage",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-011_EN.webp"
   },
   {
     "id": "EB01-013",
@@ -981,28 +981,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-017_EN.webp"
   },
   {
-    "id": "EB01-020",
-    "set": "EB01",
-    "name": "Chambres",
-    "rarity": "Common",
-    "category": "Event",
-    "colors": [
-      "Green"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Supernovas",
-      "Heart Pirates"
-    ],
-    "effect": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
-    "trigger": "[Trigger] Activate this card's [Main] effect.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-020_EN.webp"
-  },
-  {
     "id": "EB01-019",
     "set": "EB01",
     "name": "Off-White",
@@ -1025,28 +1003,26 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-019_EN.webp"
   },
   {
-    "id": "EB01-024",
+    "id": "EB01-020",
     "set": "EB01",
-    "name": "Hamlet",
+    "name": "Chambres",
     "rarity": "Common",
-    "category": "Character",
+    "category": "Event",
     "colors": [
-      "Blue"
+      "Green"
     ],
-    "cost": 3,
-    "power": 4000,
-    "counter": 1000,
+    "cost": 1,
+    "power": null,
+    "counter": null,
     "block": 2,
-    "attributes": [
-      "Slash"
-    ],
+    "attributes": [],
     "types": [
-      "Animal Kingdom Pirates",
-      "SMILE"
+      "Supernovas",
+      "Heart Pirates"
     ],
-    "effect": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
+    "effect": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
+    "trigger": "[Trigger] Activate this card's [Main] effect.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-020_EN.webp"
   },
   {
     "id": "EB01-022",
@@ -1073,16 +1049,16 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_EN.webp"
   },
   {
-    "id": "EB01-025",
+    "id": "EB01-024",
     "set": "EB01",
-    "name": "Fourtricks",
+    "name": "Hamlet",
     "rarity": "Common",
     "category": "Character",
     "colors": [
       "Blue"
     ],
     "cost": 3,
-    "power": 5000,
+    "power": 4000,
     "counter": 1000,
     "block": 2,
     "attributes": [
@@ -1092,9 +1068,9 @@
       "Animal Kingdom Pirates",
       "SMILE"
     ],
-    "effect": "",
+    "effect": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-025_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-024_EN.webp"
   },
   {
     "id": "EB01-022_p1",
@@ -1119,6 +1095,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-022_p1_EN.webp",
     "set": "EB01"
+  },
+  {
+    "id": "EB01-025",
+    "set": "EB01",
+    "name": "Fourtricks",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Animal Kingdom Pirates",
+      "SMILE"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-025_EN.webp"
   },
   {
     "id": "EB01-026",
