@@ -69,29 +69,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-004_EN.webp"
   },
   {
-    "id": "OP02-015",
-    "set": "OP02",
-    "name": "Makino",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 1,
-    "power": 0,
-    "counter": 2000,
-    "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Windmill Village"
-    ],
-    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-015_EN.webp"
-  },
-  {
     "id": "OP02-004_p1",
     "name": "Edward.Newgate",
     "rarity": "Alternate Art",
@@ -114,6 +91,29 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-004_p1_EN.webp",
     "set": "OP02"
+  },
+  {
+    "id": "OP02-015",
+    "set": "OP02",
+    "name": "Makino",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 1,
+    "power": 0,
+    "counter": 2000,
+    "block": 1,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Windmill Village"
+    ],
+    "effect": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-015_EN.webp"
   },
   {
     "id": "OP02-018",
@@ -714,29 +714,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-006_EN.webp"
   },
   {
-    "id": "OP02-007",
-    "set": "OP02",
-    "name": "Thatch",
-    "rarity": "Common",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 6,
-    "power": 8000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Wisdom"
-    ],
-    "types": [
-      "Whitebeard Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-007_EN.webp"
-  },
-  {
     "id": "OP02-008",
     "set": "OP02",
     "name": "Jozu",
@@ -758,6 +735,29 @@
     "effect": "[DON!! x1] If you have 2 or less Life cards and your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush]. (This card can attack on the turn in which it is played.)",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-008_EN.webp"
+  },
+  {
+    "id": "OP02-007",
+    "set": "OP02",
+    "name": "Thatch",
+    "rarity": "Common",
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-007_EN.webp"
   },
   {
     "id": "OP02-009",
@@ -1124,30 +1124,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-025_EN.webp"
   },
   {
-    "id": "OP02-026",
-    "set": "OP02",
-    "name": "Sanji",
-    "rarity": "Leader",
-    "category": "Leader",
-    "colors": [
-      "Green",
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-026_EN.webp"
-  },
-  {
     "id": "OP02-025_p1",
     "name": "Kin'emon",
     "rarity": "Alternate Art",
@@ -1172,9 +1148,10 @@
     "set": "OP02"
   },
   {
-    "id": "OP02-026_p1",
+    "id": "OP02-026",
+    "set": "OP02",
     "name": "Sanji",
-    "rarity": "Alternate Art",
+    "rarity": "Leader",
     "category": "Leader",
     "colors": [
       "Green",
@@ -1192,8 +1169,7 @@
     ],
     "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-026_p1_EN.webp",
-    "set": "OP02"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-026_EN.webp"
   },
   {
     "id": "OP02-027",
@@ -1219,6 +1195,30 @@
     "effect": "If all of your DON!! cards are rested, this Character cannot be removed from the field by your opponent's effects.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-027_EN.webp"
+  },
+  {
+    "id": "OP02-026_p1",
+    "name": "Sanji",
+    "rarity": "Alternate Art",
+    "category": "Leader",
+    "colors": [
+      "Green",
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-026_p1_EN.webp",
+    "set": "OP02"
   },
   {
     "id": "OP02-028",
@@ -1316,30 +1316,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-031_EN.webp"
   },
   {
-    "id": "OP02-030_p1",
-    "name": "Kouzuki Oden",
-    "rarity": "Alternate Art",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 8,
-    "power": 8000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Land of Wano",
-      "Kouzuki Clan"
-    ],
-    "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) : Set this Character as active. [On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-030_p1_EN.webp",
-    "set": "OP02"
-  },
-  {
     "id": "OP02-031_p1",
     "name": "Kouzuki Toki",
     "rarity": "Full Art",
@@ -1364,27 +1340,28 @@
     "set": "OP02"
   },
   {
-    "id": "OP02-032",
-    "set": "OP02",
-    "name": "Shishilian",
-    "rarity": "Uncommon",
+    "id": "OP02-030_p1",
+    "name": "Kouzuki Oden",
+    "rarity": "Alternate Art",
     "category": "Character",
     "colors": [
       "Green"
     ],
-    "cost": 2,
-    "power": 3000,
-    "counter": 1000,
+    "cost": 8,
+    "power": 8000,
+    "counter": null,
     "block": 1,
     "attributes": [
       "Slash"
     ],
     "types": [
-      "Minks"
+      "Land of Wano",
+      "Kouzuki Clan"
     ],
-    "effect": "[On Play] ② (You may rest the specified number of DON!! cards in your cost area.) : Set up to 1 of your {Minks} type Characters with a cost of 5 or less as active.",
+    "effect": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) : Set this Character as active. [On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-032_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-030_p1_EN.webp",
+    "set": "OP02"
   },
   {
     "id": "OP02-033",
@@ -1410,6 +1387,29 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-033_EN.webp"
+  },
+  {
+    "id": "OP02-032",
+    "set": "OP02",
+    "name": "Shishilian",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Minks"
+    ],
+    "effect": "[On Play] ② (You may rest the specified number of DON!! cards in your cost area.) : Set up to 1 of your {Minks} type Characters with a cost of 5 or less as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-032_EN.webp"
   },
   {
     "id": "OP02-034",
@@ -1583,30 +1583,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-039_EN.webp"
   },
   {
-    "id": "OP02-040",
-    "set": "OP02",
-    "name": "Brook",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Green"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "FILM",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 3 or less from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-040_EN.webp"
-  },
-  {
     "id": "OP02-041",
     "set": "OP02",
     "name": "Monkey.D.Luffy",
@@ -1630,6 +1606,30 @@
     "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 4 or less from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-041_EN.webp"
+  },
+  {
+    "id": "OP02-040",
+    "set": "OP02",
+    "name": "Brook",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Play up to 1 {FILM} or {Straw Hat Crew} type Character card with a cost of 3 or less from your hand.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-040_EN.webp"
   },
   {
     "id": "OP02-042",
@@ -2030,6 +2030,30 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-055_EN.webp"
   },
   {
+    "id": "OP02-057",
+    "set": "OP02",
+    "name": "Bartholomew Kuma",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-057_EN.webp"
+  },
+  {
     "id": "OP02-056",
     "set": "OP02",
     "name": "Donquixote Doflamingo",
@@ -2078,28 +2102,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-058_EN.webp"
   },
   {
-    "id": "OP02-057",
+    "id": "OP02-059",
     "set": "OP02",
-    "name": "Bartholomew Kuma",
+    "name": "Boa Hancock",
     "rarity": "Uncommon",
     "category": "Character",
     "colors": [
       "Blue"
     ],
-    "cost": 3,
-    "power": 3000,
+    "cost": 4,
+    "power": 5000,
     "counter": 1000,
     "block": 1,
     "attributes": [
-      "Strike"
+      "Special"
     ],
     "types": [
+      "Impel Down",
       "The Seven Warlords of the Sea",
-      "Revolutionary Army"
+      "Kuja Pirates"
     ],
-    "effect": "[On Play] Look at 2 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
+    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-057_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-059_EN.webp"
   },
   {
     "id": "OP02-058_p1",
@@ -2126,31 +2151,6 @@
     "set": "OP02"
   },
   {
-    "id": "OP02-059",
-    "set": "OP02",
-    "name": "Boa Hancock",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Impel Down",
-      "The Seven Warlords of the Sea",
-      "Kuja Pirates"
-    ],
-    "effect": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-059_EN.webp"
-  },
-  {
     "id": "OP02-060",
     "set": "OP02",
     "name": "Mohji",
@@ -2172,30 +2172,6 @@
     "effect": "",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-060_EN.webp"
-  },
-  {
-    "id": "OP02-061",
-    "set": "OP02",
-    "name": "Morley",
-    "rarity": "Uncommon",
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Giant",
-      "Revolutionary Army"
-    ],
-    "effect": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-061_EN.webp"
   },
   {
     "id": "OP02-059_p1",
@@ -2221,6 +2197,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-059_p1_EN.webp",
     "set": "OP02"
+  },
+  {
+    "id": "OP02-061",
+    "set": "OP02",
+    "name": "Morley",
+    "rarity": "Uncommon",
+    "category": "Character",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Giant",
+      "Revolutionary Army"
+    ],
+    "effect": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP02/OP02-061_EN.webp"
   },
   {
     "id": "OP02-062",
