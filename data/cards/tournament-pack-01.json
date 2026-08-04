@@ -1,5 +1,29 @@
 [
   {
+    "id": "P-007",
+    "set": "tournament-pack-01",
+    "name": "Monkey.D.Luffy",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Red"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "block": 1,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Leaders or Characters.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-007_EN.webp"
+  },
+  {
     "id": "P-006",
     "set": "tournament-pack-01",
     "name": "Monkey.D.Luffy",
@@ -24,10 +48,9 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-006_EN.webp"
   },
   {
-    "id": "P-007",
-    "set": "tournament-pack-01",
+    "id": "P-007_p1",
     "name": "Monkey.D.Luffy",
-    "rarity": null,
+    "rarity": "Winner Version",
     "category": "Character",
     "colors": [
       "Red"
@@ -45,7 +68,8 @@
     ],
     "effect": "[DON!! x1] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Leaders or Characters.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-007_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-007_p1_EN.webp",
+    "set": "tournament-pack-01"
   },
   {
     "id": "P-006_p1",
@@ -95,30 +119,6 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-008_EN.webp"
   },
   {
-    "id": "P-007_p1",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Winner Version",
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 4,
-    "power": 5000,
-    "counter": 1000,
-    "block": 1,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[DON!! x1] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Leaders or Characters.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-007_p1_EN.webp",
-    "set": "tournament-pack-01"
-  },
-  {
     "id": "P-009",
     "set": "tournament-pack-01",
     "name": "Trafalgar Law",
@@ -166,30 +166,6 @@
     "set": "tournament-pack-01"
   },
   {
-    "id": "P-010",
-    "set": "tournament-pack-01",
-    "name": "Kaido",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 8,
-    "power": 9000,
-    "counter": null,
-    "block": 1,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "The Four Emperors",
-      "Animal Kingdom Pirates"
-    ],
-    "effect": "[End of Your Turn] Add 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-010_EN.webp"
-  },
-  {
     "id": "P-009_p1",
     "name": "Trafalgar Law",
     "rarity": "Winner Version",
@@ -212,6 +188,30 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-009_p1_EN.webp",
     "set": "tournament-pack-01"
+  },
+  {
+    "id": "P-010",
+    "set": "tournament-pack-01",
+    "name": "Kaido",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "block": 1,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "The Four Emperors",
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[End of Your Turn] Add 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-010_EN.webp"
   },
   {
     "id": "P-010_p1",
