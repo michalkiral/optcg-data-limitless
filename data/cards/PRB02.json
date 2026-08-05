@@ -1671,28 +1671,6 @@
     "set": "PRB02"
   },
   {
-    "id": "OP07-056_p1",
-    "name": "Slave Arrow",
-    "rarity": "Pirate Foil",
-    "category": "Event",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Kuja Pirates"
-    ],
-    "effect": "[Counter] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "trigger": "[Trigger] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP07/OP07-056_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
     "id": "OP07-040_p1",
     "name": "Crocodile",
     "rarity": "Pirate Foil",
@@ -1738,6 +1716,28 @@
     "effect": "[On Play] ① (You may rest the specified number of DON!! cards in your cost area.) : Return up to 1 Character with a cost of 2 or less to the owner's hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP07/OP07-040_p2_EN.webp",
+    "set": "PRB02"
+  },
+  {
+    "id": "OP07-056_p1",
+    "name": "Slave Arrow",
+    "rarity": "Pirate Foil",
+    "category": "Event",
+    "colors": [
+      "Blue"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Kuja Pirates"
+    ],
+    "effect": "[Counter] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "trigger": "[Trigger] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP07/OP07-056_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -2640,6 +2640,29 @@
     "set": "PRB02"
   },
   {
+    "id": "ST13-007_p2",
+    "name": "Sabo",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 2,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-007_p2_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "ST13-004_p2",
     "name": "Edward.Newgate",
     "rarity": "Pirate Foil",
@@ -2661,29 +2684,6 @@
     "effect": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-004_p2_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "ST13-007_p2",
-    "name": "Sabo",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
-    "block": 2,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Goa Kingdom"
-    ],
-    "effect": "[Activate: Main] You may trash this Character: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST13/ST13-007_p2_EN.webp",
     "set": "PRB02"
   },
   {
@@ -3242,6 +3242,27 @@
     "set": "PRB02"
   },
   {
+    "id": "EB01-038_p1",
+    "name": "Oh Come My Way",
+    "rarity": "Pirate Foil",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "block": 2,
+    "attributes": [],
+    "types": [
+      "Baroque Works"
+    ],
+    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", select 1 of your Characters. Change the attack target to the selected Character.",
+    "trigger": "[Trigger] DON!! −1: Draw 2 cards.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-038_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "EB01-015_p4",
     "name": "Scratchmen Apoo",
     "rarity": "Alternate Art",
@@ -3263,27 +3284,6 @@
     "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-015_p4_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "EB01-038_p1",
-    "name": "Oh Come My Way",
-    "rarity": "Pirate Foil",
-    "category": "Event",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 1,
-    "power": null,
-    "counter": null,
-    "block": 2,
-    "attributes": [],
-    "types": [
-      "Baroque Works"
-    ],
-    "effect": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : If your Leader's type includes \"Baroque Works\", select 1 of your Characters. Change the attack target to the selected Character.",
-    "trigger": "[Trigger] DON!! −1: Draw 2 cards.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/EB01/EB01-038_p1_EN.webp",
     "set": "PRB02"
   },
   {
