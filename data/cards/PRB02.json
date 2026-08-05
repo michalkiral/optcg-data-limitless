@@ -552,6 +552,29 @@
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-011_EN.webp"
   },
   {
+    "id": "PRB02-012",
+    "set": "PRB02",
+    "name": "Nami",
+    "rarity": "Rare",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "trigger": "[Trigger] Play this card.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-012_EN.webp"
+  },
+  {
     "id": "PRB02-011_p1",
     "name": "Donquixote Doflamingo",
     "rarity": "Alternate Art",
@@ -574,29 +597,6 @@
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-011_p1_EN.webp",
     "set": "PRB02"
-  },
-  {
-    "id": "PRB02-012",
-    "set": "PRB02",
-    "name": "Nami",
-    "rarity": "Rare",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 2,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": "[Trigger] Play this card.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-012_EN.webp"
   },
   {
     "id": "PRB02-013",
@@ -2283,6 +2283,28 @@
     "set": "PRB02"
   },
   {
+    "id": "OP10-079_p1",
+    "name": "God Thread",
+    "rarity": "Pirate Foil",
+    "category": "Event",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": null,
+    "block": 3,
+    "attributes": [],
+    "types": [
+      "The Seven Warlords of the Sea",
+      "Donquixote Pirates"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-079_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "OP10-095_p1",
     "name": "Roronoa Zoro",
     "rarity": "Alternate Art",
@@ -2308,25 +2330,28 @@
     "set": "PRB02"
   },
   {
-    "id": "OP10-079_p1",
-    "name": "God Thread",
+    "id": "OP10-105_p1",
+    "name": "Cavendish",
     "rarity": "Pirate Foil",
-    "category": "Event",
+    "category": "Character",
     "colors": [
-      "Purple"
+      "Yellow"
     ],
-    "cost": 5,
-    "power": null,
-    "counter": null,
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
     "block": 3,
-    "attributes": [],
-    "types": [
-      "The Seven Warlords of the Sea",
-      "Donquixote Pirates"
+    "attributes": [
+      "Slash"
     ],
-    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "trigger": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-079_p1_EN.webp",
+    "types": [
+      "Dressrosa",
+      "Supernovas",
+      "Beautiful Pirates"
+    ],
+    "effect": "",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-105_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -2351,31 +2376,6 @@
     "effect": "If you have a yellow {Supernovas} type Character other than [Scratchmen Apoo], this Character gains [Blocker].",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-108_p1_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "OP10-105_p1",
-    "name": "Cavendish",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 6,
-    "power": 8000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "Dressrosa",
-      "Supernovas",
-      "Beautiful Pirates"
-    ],
-    "effect": "",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-105_p1_EN.webp",
     "set": "PRB02"
   },
   {
@@ -3035,6 +3035,29 @@
     "set": "PRB02"
   },
   {
+    "id": "ST18-002_p1",
+    "name": "O-Nami",
+    "rarity": "Pirate Foil",
+    "category": "Character",
+    "colors": [
+      "Purple"
+    ],
+    "cost": 4,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Special"
+    ],
+    "types": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 8 or more DON!! cards on your field, trash 1 card from your hand and draw 2 cards.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST18/ST18-002_p1_EN.webp",
+    "set": "PRB02"
+  },
+  {
     "id": "ST18-001_p2",
     "name": "Uso-Hachi",
     "rarity": "Pirate Foil",
@@ -3078,29 +3101,6 @@
     "effect": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST18/ST18-001_p3_EN.webp",
-    "set": "PRB02"
-  },
-  {
-    "id": "ST18-002_p1",
-    "name": "O-Nami",
-    "rarity": "Pirate Foil",
-    "category": "Character",
-    "colors": [
-      "Purple"
-    ],
-    "cost": 4,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Special"
-    ],
-    "types": [
-      "Straw Hat Crew"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 8 or more DON!! cards on your field, trash 1 card from your hand and draw 2 cards.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST18/ST18-002_p1_EN.webp",
     "set": "PRB02"
   },
   {
