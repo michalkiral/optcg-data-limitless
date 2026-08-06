@@ -43,6 +43,21 @@ const cmUrl = (href) => {
 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Codepoint order, not localeCompare: the output has to be identical on every
+// machine and every ICU version.
+const strAsc = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
+
+// Emit maps in a fixed key order. The crawl assembles them in whatever order it
+// happened to fetch (concurrency 2, so it varies per run), and JSON preserves
+// insertion order — which meant identical data produced a whole-file diff twice
+// a day, and defeated writeIfChanged below.
+const sortedKeys = (obj) =>
+  Object.fromEntries(
+    Object.keys(obj)
+      .sort(strAsc)
+      .map((key) => [key, obj[key]]),
+  );
+
 const MONTHS = { Jan: "01", Feb: "02", Mar: "03", Apr: "04", May: "05", Jun: "06", Jul: "07", Aug: "08", Sep: "09", Oct: "10", Nov: "11", Dec: "12" };
 function parseDate(s) {
   const m = (s || "").trim().match(/(\d{1,2})\s+([A-Za-z]{3})\s+(\d{2})/);
@@ -264,7 +279,7 @@ function writeOutputs(byId, products, membersByKey) {
     }
   }
   for (const arr of listedBy.values())
-    arr.sort((a, b) => rank(a) - rank(b) || (a < b ? -1 : a > b ? 1 : 0));
+    arr.sort((a, b) => rank(a) - rank(b) || strAsc(a, b));
 
   // Canonical set per existing id: its debut, else its image folder.
   for (const c of Object.values(byId)) {
@@ -282,6 +297,7 @@ function writeOutputs(byId, products, membersByKey) {
   }
   const bySet = {};
   for (const c of Object.values(byId)) (bySet[c.set] ??= []).push(c);
+  for (const cards of Object.values(bySet)) cards.sort((a, b) => strAsc(a.id, b.id));
 
   rmSync(join(OUT, "cards"), { recursive: true, force: true });
   mkdirSync(join(OUT, "cards"), { recursive: true });
@@ -304,12 +320,12 @@ function writeOutputs(byId, products, membersByKey) {
   }
   // Sets with cards but no Limitless product (e.g. bare promos "P").
   const covered = new Set(packs.map((p) => p.code));
-  for (const [set, cards] of Object.entries(bySet)) {
+  for (const [set, cards] of Object.entries(sortedKeys(bySet))) {
     if (covered.has(set)) continue;
     writeFileSync(join(OUT, "cards", `${set}.json`), `${JSON.stringify(cards, null, 2)}\n`);
     packs.push({ code: set, name: set, category: "Other", releaseDate: null, cardCount: cards.length, listedCount: null, slug: null });
   }
-  writeFileSync(join(OUT, "index", "cards_by_id.json"), `${JSON.stringify(byId)}\n`);
+  writeFileSync(join(OUT, "index", "cards_by_id.json"), `${JSON.stringify(sortedKeys(byId))}\n`);
   writeFileSync(join(OUT, "packs.json"), `${JSON.stringify(packs, null, 2)}\n`);
   return packs.length;
 }
@@ -393,14 +409,17 @@ function buildPriceOutputs(prices) {
       ...(p.cm ? { cm: p.cm } : {}),
     };
   }
-  const historyChanged = writeIfChanged(path, JSON.stringify(history));
+  const historyChanged = writeIfChanged(
+    path,
+    JSON.stringify({ ...history, cards: sortedKeys(history.cards) }),
+  );
   const summaryChanged = writeIfChanged(
     join(OUT, "prices", "summary.json"),
     JSON.stringify({
       updatedAt: today,
       source: "limitlesstcg.com",
       cardCount: Object.keys(cards).length,
-      cards,
+      cards: sortedKeys(cards),
     }),
   );
   if (!historyChanged && !summaryChanged) {

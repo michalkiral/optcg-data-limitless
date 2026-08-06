@@ -36,6 +36,16 @@ jobs:
       - name: Crawl Limitless (catalog + prices)
         run: node scripts/build.mjs
 
+      - name: Unit tests
+        run: npm test
+
+      # A Bandai outage or a layout change must not throw away a finished
+      # 30-minute crawl: build-formats already exits non-zero without writing,
+      # leaving the last good formats.json in place.
+      - name: Refresh formats.json (ban list + rotation cutoff)
+        continue-on-error: true
+        run: node scripts/build-formats.mjs
+
       - name: Commit if changed
         id: commit
         run: |
@@ -73,6 +83,6 @@ jobs:
             fi
             echo "CDN still stale (attempt $attempt)"
           done
-          for f in index/cards_by_id.json prices/summary.json prices/history.json products.json; do
+          for f in index/cards_by_id.json prices/summary.json prices/history.json products.json formats.json; do
             purge "data/$f"
           done
