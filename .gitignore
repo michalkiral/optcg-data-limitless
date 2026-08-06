@@ -1,3 +1,6 @@
 node_modules/
 *.log
 *.html
+# ...except the saved copies of pages the parsers are tested against. Without
+# these the unit tests cannot run on a fresh clone or in CI.
+!scripts/fixtures/*.html

@@ -6,7 +6,8 @@
   "description": "Static, versioned JSON catalog of One Piece Card Game cards AND prices, scraped from Limitless TCG in one crawl and served over jsDelivr. Single source — card ids and prices come from the same place, so nothing needs mapping.",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "taxonomy": "node scripts/build.mjs --taxonomy"
+    "taxonomy": "node scripts/build.mjs --taxonomy",
+    "test": "node --test \"scripts/*.test.mjs\""
   },
   "license": "MIT"
 }
