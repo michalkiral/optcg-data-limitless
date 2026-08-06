@@ -1,26 +1,50 @@
 [
   {
-    "id": "PRB02-006_p3",
-    "name": "Roronoa Zoro",
+    "id": "OP10-111_p4",
+    "name": "Monkey.D.Luffy",
     "rarity": "Full Art",
     "category": "Character",
     "colors": [
-      "Green"
+      "Yellow"
     ],
-    "cost": 4,
-    "power": 4000,
-    "counter": 2000,
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
     "block": 3,
     "attributes": [
-      "Slash"
+      "Strike"
     ],
     "types": [
       "Supernovas",
       "Straw Hat Crew"
     ],
-    "effect": "[Opponent's Turn] If this Character would be rested by your opponent's Character's effect, you may rest 1 of your other Characters instead. [Blocker]",
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-006_p3_EN.webp",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-111_p4_EN.webp",
+    "set": "welcome-pack-2026-1"
+  },
+  {
+    "id": "OP12-086_p2",
+    "name": "Koala",
+    "rarity": "Full Art",
+    "category": "Character",
+    "colors": [
+      "Black"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "block": 3,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Dressrosa",
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Koala] or up to 1 [Nico Robin] and add it to your hand. Then, trash the rest.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-086_p2_EN.webp",
     "set": "welcome-pack-2026-1"
   },
   {
@@ -44,6 +68,30 @@
     "effect": "[On Play] If you have 3 or less Life cards, draw 2 cards and trash 1 card from your hand.",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP13/OP13-043_p1_EN.webp",
+    "set": "welcome-pack-2026-1"
+  },
+  {
+    "id": "PRB02-006_p3",
+    "name": "Roronoa Zoro",
+    "rarity": "Full Art",
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "block": 3,
+    "attributes": [
+      "Slash"
+    ],
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Opponent's Turn] If this Character would be rested by your opponent's Character's effect, you may rest 1 of your other Characters instead. [Blocker]",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/PRB02/PRB02-006_p3_EN.webp",
     "set": "welcome-pack-2026-1"
   },
   {
@@ -90,54 +138,6 @@
     "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
     "trigger": null,
     "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/ST21/ST21-003_p3_EN.webp",
-    "set": "welcome-pack-2026-1"
-  },
-  {
-    "id": "OP12-086_p2",
-    "name": "Koala",
-    "rarity": "Full Art",
-    "category": "Character",
-    "colors": [
-      "Black"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Dressrosa",
-      "Revolutionary Army"
-    ],
-    "effect": "[On Play] If your Leader has the {Revolutionary Army} type, look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card other than [Koala] or up to 1 [Nico Robin] and add it to your hand. Then, trash the rest.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP12/OP12-086_p2_EN.webp",
-    "set": "welcome-pack-2026-1"
-  },
-  {
-    "id": "OP10-111_p4",
-    "name": "Monkey.D.Luffy",
-    "rarity": "Full Art",
-    "category": "Character",
-    "colors": [
-      "Yellow"
-    ],
-    "cost": 1,
-    "power": 2000,
-    "counter": 1000,
-    "block": 3,
-    "attributes": [
-      "Strike"
-    ],
-    "types": [
-      "Supernovas",
-      "Straw Hat Crew"
-    ],
-    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/OP10/OP10-111_p4_EN.webp",
     "set": "welcome-pack-2026-1"
   }
 ]
