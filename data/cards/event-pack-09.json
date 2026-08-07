@@ -1,98 +1,98 @@
 [
   {
-    "id": "P-097",
+    "id": "P-040",
     "set": "event-pack-09",
-    "name": "Shanks",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Red"
-    ],
-    "cost": 10,
-    "power": 12000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "The Four Emperors",
-      "Red-Haired Pirates"
-    ],
-    "effect": "[On Play]/[When Attacking] Your opponent cannot activate [Blocker] during this turn.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-097_EN.webp"
-  },
-  {
-    "id": "P-098",
-    "set": "event-pack-09",
-    "name": "Buggy",
-    "rarity": null,
-    "category": "Character",
-    "colors": [
-      "Blue"
-    ],
-    "cost": 10,
-    "power": 12000,
-    "counter": null,
-    "block": 3,
-    "attributes": [
-      "Slash"
-    ],
-    "types": [
-      "The Four Emperors",
-      "Cross Guild"
-    ],
-    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
-    "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-098_EN.webp"
-  },
-  {
-    "id": "P-099",
-    "set": "event-pack-09",
-    "name": "Monkey.D.Luffy",
+    "name": "Kaido",
     "rarity": null,
     "category": "Character",
     "colors": [
       "Purple"
     ],
-    "cost": 10,
-    "power": 12000,
+    "cost": 8,
+    "power": 10000,
     "counter": null,
-    "block": 3,
+    "block": 2,
     "attributes": [
       "Strike"
     ],
     "types": [
       "The Four Emperors",
-      "Straw Hat Crew"
+      "Animal Kingdom Pirates"
     ],
-    "effect": "[When Attacking] DON!! −10 (You may return the specified number of DON!! cards from your field to your DON!! deck.) : Set this Character as active.",
+    "effect": "If your opponent has 10 DON!! cards on their field, this Character cannot be K.O.'d.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-099_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-040_EN.webp"
   },
   {
-    "id": "P-100",
+    "id": "P-108",
     "set": "event-pack-09",
-    "name": "Marshall.D.Teach",
+    "name": "Monkey.D.Luffy",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Green"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Strike"
+    ],
+    "types": [
+      "Supernovas",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Set up to 2 of your DON!! cards as active.",
+    "trigger": null,
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-108_EN.webp"
+  },
+  {
+    "id": "P-116",
+    "set": "event-pack-09",
+    "name": "Nico Robin",
     "rarity": null,
     "category": "Character",
     "colors": [
       "Black"
     ],
-    "cost": 10,
-    "power": 12000,
-    "counter": null,
-    "block": 3,
+    "cost": 2,
+    "power": 1000,
+    "counter": 1000,
+    "block": 4,
     "attributes": [
-      "Special"
+      "Strike"
     ],
     "types": [
-      "The Four Emperors",
-      "Blackbeard Pirates"
+      "Straw Hat Crew",
+      "Former Baroque Works"
     ],
-    "effect": "[When Attacking] Negate the effects of your opponent's Leader and all of their Characters during this turn.",
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If you have 7 or more cards in your trash, draw 1 card and trash 1 card from your hand.",
     "trigger": null,
-    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-100_EN.webp"
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-116_EN.webp"
+  },
+  {
+    "id": "P-118",
+    "set": "event-pack-09",
+    "name": "Lilith",
+    "rarity": null,
+    "category": "Character",
+    "colors": [
+      "Yellow"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 1000,
+    "block": 4,
+    "attributes": [
+      "Wisdom"
+    ],
+    "types": [
+      "Egghead",
+      "Scientist"
+    ],
+    "effect": "[On Play] If your Leader has the {Egghead} type, play up to 1 {Egghead} type Character card or Character card with a",
+    "trigger": "[Trigger], with a cost of 5 or less from your hand.",
+    "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/one-piece/P/P-118_EN.webp"
   }
 ]
